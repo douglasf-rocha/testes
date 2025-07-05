@@ -16,7 +16,7 @@ mc=MissionCheck
 
 
 ------------------------------------------------------------
--- °×ÒøÖ®³Ç:·ş×°µêÄáÈøÆÅÆÅ
+-- ç™½é“¶ä¹‹åŸ:æœè£…åº—å°¼è¨å©†å©†
 ------------------------------------------------------------
 
 function BT_NpcSale001()
@@ -73,7 +73,7 @@ end
 
 -------------------------------------------------------------------
 --								--
---		°×Òø³Ç£¨±ÈÌØ£©		--
+--		ç™½é“¶åŸï¼ˆæ¯”ç‰¹ï¼‰		--
 --		219533,270323				--
 -------------------------------------------------------------------
 
@@ -106,7 +106,7 @@ function r_talk86()
 	TriggerAction( 2, JumpPage, 3 )
 	TriggerFailure( 2, JumpPage, 4 )
 
-	--Talk(2, "Peter: Hey wait! Are you interested in swordsmanship? Hmm¡­you seems suitable to learn some sword fighting. It'll be a pity if you did not become a Swordsman!")
+	--Talk(2, "Peter: Hey wait! Are you interested in swordsmanship? Hmmâ€¦you seems suitable to learn some sword fighting. It'll be a pity if you did not become a Swordsman!")
 	--Text(2, "Ok, I will advance to become a Swordsman", MultiTrigger, GetMultiTrigger(), 2)
 	--Text(2, "No, it is good enough for now.", CloseTalk)
 
@@ -115,7 +115,7 @@ function r_talk86()
 	--Talk(4, "Peter: Want to become a Swordsman? Only male Newbies at Level 10 with 1 Courage Certificate are eligible. Registration fee is 1000G.")
 
 	--InitTrigger()
-	---------------½£Ê¿
+	---------------å‰‘å£«
 	--TriggerCondition( 1, LvCheck, ">", 9 )
 	--TriggerCondition( 1, IsCategory, 1 )
 	--TriggerCondition( 1, PfEqual, 0 )
@@ -169,11 +169,11 @@ end
 
 -------------------------------------------------------------------
 --								--
---		°×Òø³Ç£¨Ìú½³¡ª¡ªĞ¡½ğ½ğ£©		--
+--		ç™½é“¶åŸï¼ˆé“åŒ â€”â€”å°é‡‘é‡‘ï¼‰		--
 --		219533,270323				--
 -------------------------------------------------------------------
 function r_trade01 ()
-	--ÂòÂô¶«Î÷¶Ô»°
+	--ä¹°å–ä¸œè¥¿å¯¹è¯
 	Talk( 1, "Goldie: Hi, I sell all sorts of weapons! Take a look!" )
 	Text( 1, "Trade", BuyPage)
 	Text( 1, "Repair", OpenRepair)
@@ -278,7 +278,7 @@ function r_trade01 ()
 	--Text( 4, "Deathsoul Mask", JumpPage,7)
 
 
-	--InitTrigger() --¶Ò»»¹í¹ÖÃæ¾ß
+	--InitTrigger() --å…‘æ¢é¬¼æ€ªé¢å…·
 	--TriggerCondition( 1, HasItem, 4358, 30 )
 	--TriggerCondition( 1, HasItem, 3909, 2 )
 	--TriggerCondition(1, HasLeaveBagGrid, 1)
@@ -290,7 +290,7 @@ function r_trade01 ()
 	--Talk(5, "Goldie: Snowdoll Mask requires 30 Blue Snowballs to mold.")
 	--Text( 5, "Confirm to make",MultiTrigger, GetMultiTrigger(), 1) 
 
-	--InitTrigger() --¶Ò»»Ãæ¾ß
+	--InitTrigger() --å…‘æ¢é¢å…·
 	--TriggerCondition( 1, HasItem, 4809, 30 )
 	--TriggerCondition( 1, HasItem, 3909, 2 )
 	--TriggerCondition(1, HasLeaveBagGrid, 1)
@@ -302,7 +302,7 @@ function r_trade01 ()
 	--Talk(6, "Goldie: Pumpkin Mask requires 30 Pumpkin Heads")
 	--Text( 6, "Confirm to make",MultiTrigger, GetMultiTrigger(), 1) 
 	
-	--InitTrigger() --¶Ò»»Ãæ¾ß
+	--InitTrigger() --å…‘æ¢é¢å…·
 	--TriggerCondition( 1, HasItem, 2419, 20 )
 	--TriggerCondition( 1, HasItem, 3909, 2 )
 	--TriggerCondition(1, HasLeaveBagGrid, 1)
@@ -328,7 +328,7 @@ function r_trade01 ()
 
 
 end
------------------------------------------------------------------Ğ¡½ğ½ğÌú½³½áÊø----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------å°é‡‘é‡‘é“åŒ ç»“æŸ----------------------------------------------------------------------------------------------
 
 
 
@@ -336,7 +336,7 @@ end
 ------------------------------------------------------------------
 --								--
 --								--
-------------------------°×Òø³ÇÃØÊéË¹¿ËÌØ---------------------------
+------------------------ç™½é“¶åŸç§˜ä¹¦æ–¯å…‹ç‰¹---------------------------
 --			221925,274925				--
 --								--
 ------------------------------------------------------------------
@@ -387,7 +387,7 @@ function r_talk01 ()
 
 	Start( GetMultiTrigger(), 1 )
 
-----------------×¢²áÈÎÎñ
+----------------æ³¨å†Œä»»åŠ¡
 
 	AddNpcMission ( 203 )
 	AddNpcMission ( 204 )
@@ -413,15 +413,15 @@ function r_talk01 ()
 
 	MisListPage(8)
 end 
----------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NPC ¡¶Ë¹¿ËÌØ¡·½áÊøÁË!
+---------------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<NPC ã€Šæ–¯å…‹ç‰¹ã€‹ç»“æŸäº†!
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÀÏÄÌÄÌ]				--
+--		ç™½é“¶åŸ[è€å¥¶å¥¶]				--
 --							--
 --		227725,276925				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk02 ()
 
 	
@@ -430,8 +430,8 @@ function r_talk02 ()
 	--Text( 1, "Redeem 10 Seeds of Love", JumpPage, 3)
 	--Text( 1, "Redeem 100 Seeds of Love", JumpPage, 4)
 	--Text( 1, "Redeem 1000 Seeds of Love", JumpPage, 5)
---	Text( 1, "Ê¹ÓÃ"Ğ·Ãç"ºÍ"³¬¼¶Ğ·ÓÃ¼¤ËØ"¶Ò»»Ğ·Íõ", JumpPage, 6)
---	Text( 1, "Ê¹ÓÃÄÍ¾ÃÖµÎª"0"µÄĞ·Ãç¶Ò»»Ğ·Íõ", JumpPage, 7)
+--	Text( 1, "ä½¿ç”¨"èŸ¹è‹—"å’Œ"è¶…çº§èŸ¹ç”¨æ¿€ç´ "å…‘æ¢èŸ¹ç‹", JumpPage, 6)
+--	Text( 1, "ä½¿ç”¨è€ä¹…å€¼ä¸º"0"çš„èŸ¹è‹—å…‘æ¢èŸ¹ç‹", JumpPage, 7)
 	Text( 1, "Exchange Lantern", JumpPage, 7 )
 	Text( 1, "Leave", CloseTalk)
 	
@@ -448,19 +448,19 @@ function r_talk02 ()
 	Talk( 5, "Granny: 1000 Seeds of Love can be used to exchange for 1 Pass to Abandon 4")
 	Text(5,"Confirm to exchange",  GetChaName_24, 1)
 	
-	Talk(6,"ÀÏÄÌÄÌ£º÷Ò÷ÑÊ¢ÑçÖ®Ğ·Íõ´ó²Í£¬ĞèÒªÄúÊÖÀïµÄ1¸ö¡°Ğ·Ãç¡±ºÍÉÌ³ÇÖĞ¹ºÂòµÄ1¸ö¡°³¬¼¶Ğ·ÓÃ¼¤ËØ¡±¡£µ±ÄêÏíÓşÕû¸öº£µÁ½çµÄ´óº£µÁÍõÂŞÉ­£¬ÔøÒòÆ·¹ı´Ë²Ë¶ø¾­Ñé±ëÔö¡£Ç×°®µÄÅóÓÑ£¡ÈÃÎÒÃÇ¹²Í¬ÆÚ´ıÆæ¼£µÄ½µÁÙ£¡")	
-	InitTrigger()                                                   --------1¸öĞ·Íõ
-	TriggerCondition(1, HasItem, 0058, 1)               ---------Ğ·Ãç
-	TriggerCondition(1, HasItem, 0060, 1)               ---------Ğ·Éş
+	Talk(6,"è€å¥¶å¥¶ï¼šé¥•é¤®ç››å®´ä¹‹èŸ¹ç‹å¤§é¤ï¼Œéœ€è¦æ‚¨æ‰‹é‡Œçš„1ä¸ªâ€œèŸ¹è‹—â€å’Œå•†åŸä¸­è´­ä¹°çš„1ä¸ªâ€œè¶…çº§èŸ¹ç”¨æ¿€ç´ â€ã€‚å½“å¹´äº«èª‰æ•´ä¸ªæµ·ç›—ç•Œçš„å¤§æµ·ç›—ç‹ç½—æ£®ï¼Œæ›¾å› å“è¿‡æ­¤èœè€Œç»éªŒå½ªå¢ã€‚äº²çˆ±çš„æœ‹å‹ï¼è®©æˆ‘ä»¬å…±åŒæœŸå¾…å¥‡è¿¹çš„é™ä¸´ï¼")	
+	InitTrigger()                                                   --------1ä¸ªèŸ¹ç‹
+	TriggerCondition(1, HasItem, 0058, 1)               ---------èŸ¹è‹—
+	TriggerCondition(1, HasItem, 0060, 1)               ---------èŸ¹ç»³
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerCondition(1, KitbagLock, 0 )
 	TriggerAction(1, TakeItem, 0058, 1)
 	TriggerAction(1, TakeItem, 0060, 1)
-	TriggerAction(1, GiveItem, 0059, 1, 4)              ----------Ğ·Íõ
+	TriggerAction(1, GiveItem, 0059, 1, 4)              ----------èŸ¹ç‹
 	TriggerFailure(1, JumpPage, 8)
-	Text(6,"ÏíÓÃĞ·Íõ´ó²Í", MultiTrigger, GetMultiTrigger(), 1) 
+	Text(6,"äº«ç”¨èŸ¹ç‹å¤§é¤", MultiTrigger, GetMultiTrigger(), 1) 
 
-InitTrigger() --¶Ô»»µÆÁı
+InitTrigger() --å¯¹æ¢ç¯ç¬¼
 	TriggerCondition( 1, HasItem, 3904, 15 )
 	TriggerCondition( 1, HasItem, 3911, 15 )
 	TriggerCondition( 1, HasItem, 4450, 1 )
@@ -474,18 +474,18 @@ InitTrigger() --¶Ô»»µÆÁı
 	Talk( 7, "Bingo: Give me 15 pieces of Red Paper, 15 sticks of Bamboo Stick and 1 Strange Candle to exchange for a Lantern.")
 	Text( 7, "Confirm trade",MultiTrigger, GetMultiTrigger(), 1) 
 
---[[	Talk(7,"ÀÏÄÌÄÌ£º³ÖÖ®ÒÔºãµÄÄÍÁ¦ÊÇ³É¹¦µÄ¹Ø¼ü£¡Çë°ÑÔÚÄú±³°üÀ¸µÚ2¸ñÅàÓıÁË5ÌìµÄĞ·Ãç¸øÎÒ°É£¡µ±Ğ·ÃçµÄÄÍ¾ÃÖµ»¯ÕûÎª0£¬ÏíÓşÕû¸ö¼ÓÄÉ´óÂ½µÄĞ·ÍõÃûëÈ±ãºá¿Õ³öÊÀÁË£¡ÈÃÎÒÃÇÒ»ÆğµÈ´ıÕâÎ´ÖªµÄ¾ªÏ²£¡")
-	InitTrigger()                                                   --------1¸öĞ·Íõ
-	TriggerCondition(1, HasItem, 0058, 1)               ---------Ğ·Ãç 
+--[[	Talk(7,"è€å¥¶å¥¶ï¼šæŒä¹‹ä»¥æ’çš„è€åŠ›æ˜¯æˆåŠŸçš„å…³é”®ï¼è¯·æŠŠåœ¨æ‚¨èƒŒåŒ…æ ç¬¬2æ ¼åŸ¹è‚²äº†5å¤©çš„èŸ¹è‹—ç»™æˆ‘å§ï¼å½“èŸ¹è‹—çš„è€ä¹…å€¼åŒ–æ•´ä¸º0ï¼Œäº«èª‰æ•´ä¸ªåŠ çº³å¤§é™†çš„èŸ¹ç‹åè‚´ä¾¿æ¨ªç©ºå‡ºä¸–äº†ï¼è®©æˆ‘ä»¬ä¸€èµ·ç­‰å¾…è¿™æœªçŸ¥çš„æƒŠå–œï¼")
+	InitTrigger()                                                   --------1ä¸ªèŸ¹ç‹
+	TriggerCondition(1, HasItem, 0058, 1)               ---------èŸ¹è‹— 
 	TriggerCondition(1, crablife)
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerCondition( 1, KitbagLock, 0 )
 	TriggerAction(1, TakeItem, 0058, 1)
-	TriggerAction(1, GiveItem, 0059, 1, 4)              ----------Ğ·Íõ
+	TriggerAction(1, GiveItem, 0059, 1, 4)              ----------èŸ¹ç‹
 	TriggerFailure(1, JumpPage, 9)
-	Text(7, "ÏíÓÃĞ·Íõ´ó²Í", MultiTrigger, GetMultiTrigger(), 1) ]]--
+	Text(7, "äº«ç”¨èŸ¹ç‹å¤§é¤", MultiTrigger, GetMultiTrigger(), 1) ]]--
 
-	Talk(8, "ÇëÈ·±£ÄúÉíÉÏÓĞĞ·ÃçºÍÉÌ³ÇÀï¹ºÂòµÄ¡°³¬¼¶Ğ·ÓÃ¼¤ËØ¡±à¸£¡")
+	Talk(8, "è¯·ç¡®ä¿æ‚¨èº«ä¸Šæœ‰èŸ¹è‹—å’Œå•†åŸé‡Œè´­ä¹°çš„â€œè¶…çº§èŸ¹ç”¨æ¿€ç´ â€å–”ï¼")
 
 	Talk( 9, "Bingo: You do not seem to have enough of Red Paper, Bamboo Stick or Strange Candle!")
 		
@@ -504,11 +504,11 @@ InitTrigger() --¶Ô»»µÆÁı
 	AddNpcMission(	388	)
 	--AddNpcMission( 906 )
 
------------------ÀÏÄÌÄÌ¡¤±´µÙ---------½ğÅ£
+-----------------è€å¥¶å¥¶Â·è´è’‚---------é‡‘ç‰›
 	AddNpcMission	(5631)
 	AddNpcMission	(5632)
 
--------------------ÀÏÄÌÄÌ¡¤±´µÙ---------½ğÇïÊ®ÔÂ¹úÇì»î¶¯
+-------------------è€å¥¶å¥¶Â·è´è’‚---------é‡‘ç§‹åæœˆå›½åº†æ´»åŠ¨
 --	AddNpcMission  (5865)
 --	AddNpcMission  (5866)
 --	AddNpcMission  (5867)
@@ -516,7 +516,7 @@ InitTrigger() --¶Ô»»µÆÁı
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÀÏÄÌÄÌ½áÊø
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è€å¥¶å¥¶ç»“æŸ
 
 
 
@@ -524,7 +524,7 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[Ò©²İÉÌÈË¡ª¡ªµÛÄ·]			--
+--		ç™½é“¶åŸ[è¯è‰å•†äººâ€”â€”å¸å§†]			--
 --							--
 --		224575,277025				--
 ----------------------------------------------------------
@@ -541,7 +541,7 @@ function r_talk03 ()
 	--Text( 4, "Sell items!", SalePage )
 	Text( 4, "Decoct Recovery Potion", JumpPage, 5)
 
----------------ÖÆ×÷¸Ê²İÒ©Ë®
+---------------åˆ¶ä½œç”˜è‰è¯æ°´
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3129, 10 )
@@ -554,7 +554,7 @@ function r_talk03 ()
 	TriggerFailure( 1, JumpPage, 7 )
 	Talk( 5, "Ditto: You need to have medicine when you are sick! What do you need?" )
 	Text( 5, "Decoct Liquorice Potion", MultiTrigger, GetMultiTrigger(), 1 )
-	--------------ÅÚÖÆĞÑÉñ»¨²è
+	--------------ç‚®åˆ¶é†’ç¥èŠ±èŒ¶
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3130, 10 )
@@ -566,7 +566,7 @@ function r_talk03 ()
 	TriggerAction( 1, JumpPage, 6 )
 	TriggerFailure( 1, JumpPage, 8 )
 	Text( 5, "Brew Energetic Tea", MultiTrigger, GetMultiTrigger(), 1 )
-	-------------------ºÏ³ÉÃØÖÆÆæÒì¸à
+	-------------------åˆæˆç§˜åˆ¶å¥‡å¼‚è†
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3131, 10 )
@@ -578,7 +578,7 @@ function r_talk03 ()
 	TriggerAction( 1, JumpPage, 6 )
 	TriggerFailure( 1, JumpPage, 9 )
 	Text( 5, "Decoct Special Ointment", MultiTrigger, GetMultiTrigger(), 1 )
-	-------------------Õô¿¾±ùÑ¿ËÖ
+	-------------------è’¸çƒ¤å†°èŠ½é…¥
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3132, 10 )
@@ -616,10 +616,10 @@ function r_talk03 ()
 
 
 
---ÕâÀïĞ´ÈÎÎñµÄ¼ì²â
+--è¿™é‡Œå†™ä»»åŠ¡çš„æ£€æµ‹
 
 
------------³¬¹ı9¼¶¸æËßÍæ¼Ò¿ÉÒÔ×ªÖ°
+-----------è¶…è¿‡9çº§å‘Šè¯‰ç©å®¶å¯ä»¥è½¬èŒ
 	--InitTrigger()
 	--TriggerCondition( 1, LvCheck, ">", 8 )
 	--TriggerCondition( 1, LvCheck, "<", 10 )
@@ -628,7 +628,7 @@ function r_talk03 ()
 
 	--Start( GetMultiTrigger(), 1 )
 
----------------------×¢²áÈÎÎñ
+---------------------æ³¨å†Œä»»åŠ¡
 	MisListPage(1)
 
 	AddNpcMission ( 707 )
@@ -659,22 +659,22 @@ function r_talk03 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ò©²İÉÌÈË¡ª¡ªµÕÄ¸½áÊø
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è¯è‰å•†äººâ€”â€”å«¡æ¯ç»“æŸ
 
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[»¤Ê¿Ğ¡½ã¡ª¡ªá°á°]			--
+--		ç™½é“¶åŸ[æŠ¤å£«å°å§â€”â€”å²šå²š]			--
 --							--
 --		224575,277025				--
 ----------------------------------------------------------
 
----------------¼ÓÑª»Ö¸´µÄÅĞ¶¨
+---------------åŠ è¡€æ¢å¤çš„åˆ¤å®š
 
 
-----------------ÆÕÍ¨¶Ô»°¿ªÊ¼
+----------------æ™®é€šå¯¹è¯å¼€å§‹
 function r_talk04 ()
 
 	InitTrigger()
@@ -701,9 +701,9 @@ function r_talk04 ()
 	Text( 1, "Heal", MultiTrigger,GetMultiTrigger(),2)
 	--Text( 1, "Build Ship", JumpPage, 10)
 
-	Talk( 2, "Gina: Sorry, healing requires 200G. You do not have enough¡­" )
+	Talk( 2, "Gina: Sorry, healing requires 200G. You do not have enoughâ€¦" )
 
-	Talk( 3, "Gina: Sorry! Healing requires 50G¡­You do not have enough¡­" )
+	Talk( 3, "Gina: Sorry! Healing requires 50Gâ€¦You do not have enoughâ€¦" )
 
 	Talk( 4, "I do not have any letter. I guess you got the wrong person" )
 
@@ -750,7 +750,7 @@ function r_talk04 ()
 
 	MisListPage(6)
 	
-	-----ÌúÈËÁùÏî
+	-----é“äººå…­é¡¹
 	AddNpcMission ( 6117 )
 	AddNpcMission ( 6118 )
 	AddNpcMission ( 6119 )
@@ -758,25 +758,25 @@ function r_talk04 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤Ê¿Ğ¡½ã¡ª¡ªá°á°         ½áÊø¿©
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å£«å°å§â€”â€”å²šå²š         ç»“æŸå’¯
 
 
 
 ----------------------------------------------------------
 ----							--
 --							--
---		°×Òø³Ç[¾Æ°ÉÅ® - µÙÄÈ]			--
+--		ç™½é“¶åŸ[é…’å§å¥³ - è’‚å¨œ]			--
 --							--
 --		225325,278875				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk05 ()
 
 	Talk( 1, "Donna: Hi, I am Donna. Are you a sailor? Have you been to the legendary Galley Isle? Tell me the stories if you have." )
 	Text( 1, "Buy Wine", BuyPage )
 	Text(1, "regarding fame",JumpPage,4)
 	--Text(1, "Royal Pirate Reputation Redemption",JumpPage,7)
-	--Text( 1, "ºÃÃûÊ¤=ºÃ»Ø±¨", JumpPage, 9)
+	--Text( 1, "å¥½åèƒœ=å¥½å›æŠ¥", JumpPage, 9)
 
 	InitTrade()
 	Other(	3916	)
@@ -889,7 +889,7 @@ function r_talk05 ()
 
 	Talk(8,"Welcome to the Royal Pirates! Work harder to achieve your aim!")
 
---	Talk( 9, "ÄúºÃ£¬ÎÒÃÇÕâÀïÖ»ÏòÓĞÃûÍûµÄÈË¿ª·Å¡£Ö»ÓĞÄúÓĞ×ã¹»µÄÃûÉù£¬Äú¿ÉÒÔÔÚÕâÀï»»µ½ËùÓĞÄúÏëÒªµÄ¶«Î÷£¬²»¹ıÍ¬Ê±ÎÒÃÇÒ²»á¿Û³ıÄúµÄÒ»²¿·Ö¾«ÁéÓ²±Ò×÷ÎªÊÖĞø·ÑÅ¶¡£")
+--	Talk( 9, "æ‚¨å¥½ï¼Œæˆ‘ä»¬è¿™é‡Œåªå‘æœ‰åæœ›çš„äººå¼€æ”¾ã€‚åªæœ‰æ‚¨æœ‰è¶³å¤Ÿçš„åå£°ï¼Œæ‚¨å¯ä»¥åœ¨è¿™é‡Œæ¢åˆ°æ‰€æœ‰æ‚¨æƒ³è¦çš„ä¸œè¥¿ï¼Œä¸è¿‡åŒæ—¶æˆ‘ä»¬ä¹Ÿä¼šæ‰£é™¤æ‚¨çš„ä¸€éƒ¨åˆ†ç²¾çµç¡¬å¸ä½œä¸ºæ‰‹ç»­è´¹å“¦ã€‚")
 --	
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,5 )
@@ -901,7 +901,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 1024,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"¸ß¼¶³äµçµç³Ø: ĞèÒªÃûÉù5£¬¾«ÁéÓ²±Ò5¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"é«˜çº§å……ç”µç”µæ± : éœ€è¦åå£°5ï¼Œç²¾çµç¡¬å¸5ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,10 )
@@ -913,7 +913,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 0456,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"Ç¿»¯¾§Ê¯: ĞèÒªÃûÉù10£¬¾«ÁéÓ²±Ò10¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"å¼ºåŒ–æ™¶çŸ³: éœ€è¦åå£°10ï¼Œç²¾çµç¡¬å¸10ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,20 )
@@ -925,7 +925,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 0455,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"Ç¿»¯¾íÖá: ĞèÒªÃûÉù20£¬¾«ÁéÓ²±Ò20¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"å¼ºåŒ–å·è½´: éœ€è¦åå£°20ï¼Œç²¾çµç¡¬å¸20ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,30 )
@@ -937,7 +937,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 0453,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"ÈÛºÏ¾íÖá: ĞèÒªÃûÉù30£¬¾«ÁéÓ²±Ò30¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"ç†”åˆå·è½´: éœ€è¦åå£°30ï¼Œç²¾çµç¡¬å¸30ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,50 )
@@ -949,7 +949,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 0332,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"´º·ç»úÆ±: ĞèÒªÃûÉù50£¬¾«ÁéÓ²±Ò50¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"æ˜¥é£æœºç¥¨: éœ€è¦åå£°50ï¼Œç²¾çµç¡¬å¸50ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,80 )
@@ -961,7 +961,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 0583,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"Çïµº»úÆ±: ĞèÒªÃûÉù80£¬¾«ÁéÓ²±Ò80¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"ç§‹å²›æœºç¥¨: éœ€è¦åå£°80ï¼Œç²¾çµç¡¬å¸80ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,120 )
@@ -973,11 +973,11 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 3094,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(9,"Å¬Á¦Ôö·ùÆ÷: ĞèÒªÃûÉù120£¬¾«ÁéÓ²±Ò120¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(9,"åŠªåŠ›å¢å¹…å™¨: éœ€è¦åå£°120ï¼Œç²¾çµç¡¬å¸120ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	Text(9,"Next Page", JumpPage , 12)
 --
---	Talk(12, "ÄúºÃ£¬ÎÒÃÇÕâÀïÖ»ÏòÓĞÃûÍûµÄÈË¿ª·Å¡£Ö»ÓĞÄúÓĞ×ã¹»µÄÃûÉù£¬Äú¿ÉÒÔÔÚÕâÀï»»µ½ËùÓĞÄúÏëÒªµÄ¶«Î÷£¬²»¹ıÍ¬Ê±ÎÒÃÇÒ²»á¿Û³ıÄúµÄÒ»²¿·Ö¾«ÁéÓ²±Ò×÷ÎªÊÖĞø·ÑÅ¶¡£")
+--	Talk(12, "æ‚¨å¥½ï¼Œæˆ‘ä»¬è¿™é‡Œåªå‘æœ‰åæœ›çš„äººå¼€æ”¾ã€‚åªæœ‰æ‚¨æœ‰è¶³å¤Ÿçš„åå£°ï¼Œæ‚¨å¯ä»¥åœ¨è¿™é‡Œæ¢åˆ°æ‰€æœ‰æ‚¨æƒ³è¦çš„ä¸œè¥¿ï¼Œä¸è¿‡åŒæ—¶æˆ‘ä»¬ä¹Ÿä¼šæ‰£é™¤æ‚¨çš„ä¸€éƒ¨åˆ†ç²¾çµç¡¬å¸ä½œä¸ºæ‰‹ç»­è´¹å“¦ã€‚")
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,150 )
@@ -989,7 +989,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 1095,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(12,"99±¬Õ¨°ü: ĞèÒªÃûÉù150£¬¾«ÁéÓ²±Ò150¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(12,"99çˆ†ç‚¸åŒ…: éœ€è¦åå£°150ï¼Œç²¾çµç¡¬å¸150ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,200 )
@@ -1001,7 +1001,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 2844,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(12,"µØÓü4²ã»úÆ±: ĞèÒªÃûÉù200£¬¾«ÁéÓ²±Ò200¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(12,"åœ°ç‹±4å±‚æœºç¥¨: éœ€è¦åå£°200ï¼Œç²¾çµç¡¬å¸200ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,300 )
@@ -1013,7 +1013,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 3336,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(12,"ÉñËã²İ: ĞèÒªÃûÉù300£¬¾«ÁéÓ²±Ò300¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(12,"ç¥ç®—è‰: éœ€è¦åå£°300ï¼Œç²¾çµç¡¬å¸300ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,1000 )
@@ -1025,7 +1025,7 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 3088,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(12,"28¸ñ±³°ü: ĞèÒªÃûÉù1000£¬¾«ÁéÓ²±Ò1000¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(12,"28æ ¼èƒŒåŒ…: éœ€è¦åå£°1000ï¼Œç²¾çµç¡¬å¸1000ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	InitTrigger()
 --	TriggerCondition( 1, HasCredit,4700 )
@@ -1037,13 +1037,13 @@ function r_talk05 ()
 --	TriggerAction( 1, GiveItem, 1028,1,4 )
 --	TriggerAction( 1, JumpPage,10 )
 --	TriggerFailure( 1, JumpPage, 11)
---	Text(12,"Ä¦Á¦·ûÊ¯: ĞèÒªÃûÉù4700£¬¾«ÁéÓ²±Ò4700¸ö" ,MultiTrigger,GetMultiTrigger(),1)
+--	Text(12,"æ‘©åŠ›ç¬¦çŸ³: éœ€è¦åå£°4700ï¼Œç²¾çµç¡¬å¸4700ä¸ª" ,MultiTrigger,GetMultiTrigger(),1)
 --
 --	Text(12, "Go back a page", JumpPage , 9 )
 --
---	Talk( 10, "Ğ»Ğ»»İ¹Ë£¬»¶Ó­ÔÙ´Î¹âÁÙ")
+--	Talk( 10, "è°¢è°¢æƒ é¡¾ï¼Œæ¬¢è¿å†æ¬¡å…‰ä¸´")
 --
---	Talk( 11, "Çë±£Ö¤ÄúµÄ±³°üÁôÓĞ¿Õ¸ñ,Í¬Ê±´¦ÓÚÎ´Ëø¶¨µÄ×´Ì¬,Òª²»¾ÍÊÇÄúµÄÉùÍû²»¹»»òÕß¾«ÁéÓ²±Ò²»¹»¶àÅ¶.....",CloseTalk)
+--	Talk( 11, "è¯·ä¿è¯æ‚¨çš„èƒŒåŒ…ç•™æœ‰ç©ºæ ¼,åŒæ—¶å¤„äºæœªé”å®šçš„çŠ¶æ€,è¦ä¸å°±æ˜¯æ‚¨çš„å£°æœ›ä¸å¤Ÿæˆ–è€…ç²¾çµç¡¬å¸ä¸å¤Ÿå¤šå“¦.....",CloseTalk)
 
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 255 )
@@ -1066,18 +1066,18 @@ function r_talk05 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾Æ°ÉÅ® - µÙÄÈ½áÊø
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é…’å§å¥³ - è’‚å¨œç»“æŸ
 
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[Ğ¡É½³µ]				--
+--		ç™½é“¶åŸ[å°å±±è½¦]				--
 --							--
 --		219350,273050				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk06 ()
 	
 	
@@ -1201,7 +1201,7 @@ function r_talk06 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ğ¡É½³µ½áÊø
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å°å±±è½¦ç»“æŸ
 
 
 
@@ -1211,11 +1211,11 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÔÓ»õÉÌÈË - ¼ªÆÕÁ¢]			--
+--		ç™½é“¶åŸ[æ‚è´§å•†äºº - å‰æ™®ç«‹]			--
 --							--
 --		225075,277025				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk07 ()
 
 	Talk( 1, "Jimberry: Hi, welcome! How can I help you?" )
@@ -1266,7 +1266,7 @@ function r_talk07 ()
 	Other(	4604	)
 	Other(	3296	)
 	Other(	3299	)
-	--baby--Éú»î¼¼ÄÜÊéLv1
+	--baby--ç”Ÿæ´»æŠ€èƒ½ä¹¦Lv1
 	Other(	2679	)
 	Other(	2689	)
 	Other(	2699	)
@@ -1375,17 +1375,17 @@ function r_talk07 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÔÓ»õÉÌÈË - ¼ªÆÕÁ¢½áÊø
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‚è´§å•†äºº - å‰æ™®ç«‹ç»“æŸ
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[¾ÓÃñ¡¤Âê¸ñÀöÌØ]			--
+--		ç™½é“¶åŸ[å±…æ°‘Â·ç›æ ¼ä¸½ç‰¹]			--
 --							--
 --		227459,277722				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk08 ()
 
 	Talk( 1, "Margaret: You...Hahaha...Hello. Yesterday on television...Hahaha...Did you watch it. Hohoho...Its so funny! Hahaha..." )
@@ -1460,18 +1460,18 @@ function r_talk08 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾ÓÃñ¡¤Âê¸ñÀöÌØ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å±…æ°‘Â·ç›æ ¼ä¸½ç‰¹
 
 
 ----------------------------------------------------------
 --							--
 --							--
 
-	--°×Òø³Ç[ÂÃµêÀÏ°å¡¤ÂêÀ­ÒÀÀ¼]		--
+	--ç™½é“¶åŸ[æ—…åº—è€æ¿Â·ç›æ‹‰ä¾å…°]		--
 --							--
 --		221150,278125				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk09 ()
 	
 	
@@ -1482,7 +1482,7 @@ function r_talk09 ()
 	--Text(1, "Cook Christmas meal", JumpPage, 13)
 	
 	
----------------------Åëµ÷ÃÀÎ¶µÄ»ğ¼¦Èâ
+---------------------çƒ¹è°ƒç¾å‘³çš„ç«é¸¡è‚‰
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2886, 10 )
 	TriggerCondition( 1, HasMoney, 10000 )
@@ -1501,7 +1501,7 @@ function r_talk09 ()
 	Text(13, "Cook Christmas Meal the First Time",  JumpPage, 15)
 	Text(13, "Cook Christmas Meal the Second time",  JumpPage, 16)
 	Text(13, "Cook Christmas Meal the Third time", JumpPage, 17)
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, NoRecord, 815 )
 	TriggerCondition( 1, HasItem, 2895, 10 )
@@ -1515,12 +1515,12 @@ function r_talk09 ()
 	TriggerAction( 1, SetRecord, 815 )
 	TriggerAction( 1, JumpPage, 11 )
 	TriggerFailure( 1, JumpPage, 14 )
-	Talk( 15, "It¡¯s not easy to cook Christmas meal, I need 10 pieces of turkey meat , a Christmas Rose,and 10000 coins. A Christmas Rose can be found in the Item Mall and I will only cook the meal for each person 3 times at most.")
+	Talk( 15, "Itâ€™s not easy to cook Christmas meal, I need 10 pieces of turkey meat , a Christmas Rose,and 10000 coins. A Christmas Rose can be found in the Item Mall and I will only cook the meal for each person 3 times at most.")
 	Text( 15, "Confirm and Cook",  MultiTrigger, GetMultiTrigger(), 1)
 
 	
 
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 815 )
 	TriggerCondition( 1, NoRecord, 816 )
@@ -1538,7 +1538,7 @@ function r_talk09 ()
 	Talk(16, "Want me to cook again? I need 10 pieces of turkey meat, a Christmas Rose and 1,000,000 coin.  A Christmas Rose can be found in the Item Mall and I will only cook the meal for each person 3 times at most.")
 	Text( 16, "Confirm and Cook",  MultiTrigger, GetMultiTrigger(), 1)
 
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 816 )
 	TriggerCondition( 1, NoRecord, 817 )
@@ -1555,11 +1555,11 @@ function r_talk09 ()
 	TriggerFailure( 1, JumpPage,19 )
 	Talk(17, "Want me to cook again? I need 10 pieces of turkey meat, a Christmas Rose and 10,000,000 coin.  A Christmas Rose can be found in the Item Mall and I will only cook the meal for each person 3 times at most.")
 	Text( 17, "Confirm and Cook",  MultiTrigger, GetMultiTrigger(), 1)
-	Talk( 14, "Marriam: It seems you don¡¯t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your first time to let me cook Christmas meal? I will only do it 3 times. ")
-	Talk( 18, "Marriam: It seems you don¡¯t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your second time to let me cook Christmas meal? I will only do it 3 times. ")
-	Talk( 19, " It seems you don¡¯t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your third time to let me cook Christmas meal? I will only do it 3 times. ")
-	Talk( 12, " It seems you don¡¯t have enough items and money. You also need to make sure there is one available slot in your backpack.")
-------------------µ÷ÅäºìÉ«È¾·¢¼Á
+	Talk( 14, "Marriam: It seems you donâ€™t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your first time to let me cook Christmas meal? I will only do it 3 times. ")
+	Talk( 18, "Marriam: It seems you donâ€™t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your second time to let me cook Christmas meal? I will only do it 3 times. ")
+	Talk( 19, " It seems you donâ€™t have enough items and money. You also need to make sure there is one available slot in your backpack. Is this your third time to let me cook Christmas meal? I will only do it 3 times. ")
+	Talk( 12, " It seems you donâ€™t have enough items and money. You also need to make sure there is one available slot in your backpack.")
+------------------è°ƒé…çº¢è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1787, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -1574,7 +1574,7 @@ function r_talk09 ()
 	TriggerFailure( 1, JumpPage, 4 )
 	Talk( 2, "Marriam: Keeping the same color of hairdo will make you a boring person. I can decoct colored hair dyes for you if you wish." )
 	Text( 2, "Decoct Red Colorant", MultiTrigger, GetMultiTrigger(), 1)
----------------------µ÷Åä³ÈÉ«È¾·¢¼Á
+---------------------è°ƒé…æ©™è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1788, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -1588,7 +1588,7 @@ function r_talk09 ()
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 5 )
 	Text( 2, "Decoct Orange Colorant", MultiTrigger, GetMultiTrigger(), 1)
----------------------µ÷ÅäºÚÉ«È¾·¢¼Á
+---------------------è°ƒé…é»‘è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 4606, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -1602,7 +1602,7 @@ function r_talk09 ()
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 8 )
 	Text( 2, "Decoct Black Colorant", MultiTrigger, GetMultiTrigger(), 1)
----------------------µ÷ÅäºÖÉ«È¾·¢¼Á
+---------------------è°ƒé…è¤è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 4608, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -1637,15 +1637,15 @@ function r_talk09 ()
 
 	AddNpcMission	(1029)
 	AddNpcMission	(1192)
-	------------¶şÔÂ-----------ÇéÎªºÎÎï-----------Çã³ÇÖ®Áµ------------ĞÒÔËÖíÖí----------ÆßÖí¿ªÌ©
-	--AddNpcMission	(5505)   		--7Öí¿ªÌ©
-	--AddNpcMission	(5506)		--ĞÒÔËÖíÖí
-	--AddNpcMission	(5508)			--Çã³ÇÖ®Áµ
-	--AddNpcMission	(5509)			--Çã³ÇÖ®Áµ
-	AddNpcMission	(5536)		--Çã³ÇÖ®Áµ
+	------------äºŒæœˆ-----------æƒ…ä¸ºä½•ç‰©-----------å€¾åŸä¹‹æ‹------------å¹¸è¿çŒªçŒª----------ä¸ƒçŒªå¼€æ³°
+	--AddNpcMission	(5505)   		--7çŒªå¼€æ³°
+	--AddNpcMission	(5506)		--å¹¸è¿çŒªçŒª
+	--AddNpcMission	(5508)			--å€¾åŸä¹‹æ‹
+	--AddNpcMission	(5509)			--å€¾åŸä¹‹æ‹
+	AddNpcMission	(5536)		--å€¾åŸä¹‹æ‹
 
 end 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂÃµêÀÏ°å¡¤ÂêÀ­ÒÀÀ¼
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ—…åº—è€æ¿Â·ç›æ‹‰ä¾å…°
 
 
 
@@ -1653,15 +1653,15 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[·ğÄ·]				--
+--		ç™½é“¶åŸ[ä½›å§†]				--
 --							--
 --		222629,272668				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk11 ()
 	
 	
-	Talk( 1, "Forbei: I have a riddle for you, what is 1 plus 1? Hoho, its 2! Isn't it funny? No? Let me change another¡­Wait! Don't go!" )
+	Talk( 1, "Forbei: I have a riddle for you, what is 1 plus 1? Hoho, its 2! Isn't it funny? No? Let me change anotherâ€¦Wait! Don't go!" )
 
 	--Text( 1, "Ties up Dumpling", JumpPage,2)
 
@@ -1670,7 +1670,7 @@ function r_talk11 ()
 	--Text( 2, "Bean Paste Dumpling", JumpPage,4)
 	--Text( 2, "Sticky Rice Dumpling", JumpPage,5)
 
-	InitTrigger() --¶Ò»»µ°»ÆôÕ
+	InitTrigger() --å…‘æ¢è›‹é»„ç²½
 	TriggerCondition( 1, HasItem, 3037, 1 )
 	TriggerCondition( 1, HasItem, 3040, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -1682,7 +1682,7 @@ function r_talk11 ()
 	Talk(3, "Forbei: 1 Egg Yolk Dumpling String + 1 Warm Dumpling=1 Egg yolk dumpling. Egg yolk dumpling can raise defense by 60 points in 10 minutes.")
 	Text( 3, "Comfirm",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¶Ò»»¶¹É³ôÕ
+	InitTrigger() --å…‘æ¢è±†æ²™ç²½
 	TriggerCondition( 1, HasItem, 3037, 1 )
 	TriggerCondition( 1, HasItem, 3041, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -1694,7 +1694,7 @@ function r_talk11 ()
 	Talk(4, "Forbei: 1 red bean dumpling string + 1 warm dumpling=1 red bean dumpling. Red bean dumpling can greatly increase walking speed in 15 minutes.")
 	Text( 4, "Comfirm",MultiTrigger, GetMultiTrigger(), 1) 
 	
-	InitTrigger() --¶Ò»»Å´Ã×ôÕ
+	InitTrigger() --å…‘æ¢ç³¯ç±³ç²½
 	TriggerCondition( 1, HasItem, 3037, 1 )
 	TriggerCondition( 1, HasItem, 3042, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -1710,23 +1710,23 @@ function r_talk11 ()
 	AddNpcMission	(1009)
 	AddNpcMission	(1173)
 
-	-----ÌúÈËÁùÏî
+	-----é“äººå…­é¡¹
 	AddNpcMission ( 6123 )
 	AddNpcMission ( 6124 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<·ğÄ·
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ä½›å§†
 
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[Ë®ÊÖ¡¤º£ÔÆ]			--
+--		ç™½é“¶åŸ[æ°´æ‰‹Â·æµ·äº‘]			--
 --							--
 --		235013,284694				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk12 ()
 	
 	
@@ -1755,15 +1755,15 @@ function r_talk12 ()
 
 
 --	Talk( 3, "Who are you? I do not know you!")
---	Talk( 4, "Good? Let¡¯s continue.")
---	Talk( 5, "No satisfied? Let¡¯s change another for you to kill")
+--	Talk( 4, "Good? Letâ€™s continue.")
+--	Talk( 5, "No satisfied? Letâ€™s change another for you to kill")
 
 	AddNpcMission	(1039)
 	AddNpcMission	(1202)
 	AddNpcMission	(80)
 	AddNpcMission	(81)
 	AddNpcMission	(79)
-	----------------¼ªÄáË¹-º£ÔÆ---01
+	----------------å‰å°¼æ–¯-æµ·äº‘---01
 	AddNpcMission	(5510)
 	--AddNpcMission ( 6061 )
 	--AddNpcMission ( 6062 )
@@ -1776,17 +1776,17 @@ function r_talk12 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ë®ÊÖ¡¤º£ÔÆ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ°´æ‰‹Â·æµ·äº‘
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÒøĞĞ³öÄÉ¡¤Ä¦ÄİÑÅ]			--
+--		ç™½é“¶åŸ[é“¶è¡Œå‡ºçº³Â·æ‘©å¦®é›…]			--
 --							--
 --		222050,270400				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk13 ()
 	
 	
@@ -1807,79 +1807,79 @@ function r_talk13 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÒøĞĞ³öÄÉ¡¤Ä¦ÄİÑÅ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“¶è¡Œå‡ºçº³Â·æ‘©å¦®é›…
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[º£¾üÉÙ½«¡¤Íş¶ûË¹]			--
+--		ç™½é“¶åŸ[æµ·å†›å°‘å°†Â·å¨å°”æ–¯]			--
 --							--
 --		230228,270157				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk14 ()
 	
 	
 	Talk( 1, "William: Hi, I am General William. The highest authority around here." )
-	--Text( 1, "¶Ò»»¾üÃ±", JumpPage, 3)
+	--Text( 1, "å…‘æ¢å†›å¸½", JumpPage, 3)
 	Text( 1, "Nothing...",CloseTalk )
 
-	Talk( 3, "Íş¶ûË¹:ÎÒÕâÀï¿ÉÒÔÓÃ¾üÏÎÖ¤Ã÷»»µÃ·Ç³£Ï¡ÓĞµÄ¾üÃ±Å¶." )
-	Text( 3, "¶Ò»»ÉÙĞ£¾üÃ±", JumpPage, 4)
-	Text( 3, "¶Ò»»ÖĞĞ£¾üÃ±", JumpPage, 5)
-	Text( 3, "¶Ò»»ÉÏĞ£¾üÃ±", JumpPage, 6)
-	Text( 3, "¶Ò»»½«¾ü¾üÃ±", JumpPage, 7)
-	Text( 3, "¶Ò»»ÔªË§¾üÃ±", JumpPage, 8)
+	Talk( 3, "å¨å°”æ–¯:æˆ‘è¿™é‡Œå¯ä»¥ç”¨å†›è¡”è¯æ˜æ¢å¾—éå¸¸ç¨€æœ‰çš„å†›å¸½å“¦." )
+	Text( 3, "å…‘æ¢å°‘æ ¡å†›å¸½", JumpPage, 4)
+	Text( 3, "å…‘æ¢ä¸­æ ¡å†›å¸½", JumpPage, 5)
+	Text( 3, "å…‘æ¢ä¸Šæ ¡å†›å¸½", JumpPage, 6)
+	Text( 3, "å…‘æ¢å°†å†›å†›å¸½", JumpPage, 7)
+	Text( 3, "å…‘æ¢å…ƒå¸…å†›å¸½", JumpPage, 8)
 	
-	Talk( 4, "Íş¶ûË¹:ÏëÒª¶Ò»»ÉÙĞ£Ö®Ê×,Äã±ØĞë¸øÎÒ1ÕÅÉÙĞ£¾üÏÎÖ¤Ã÷²ÅĞĞ." )
-	--------------¶Ò»»ÉÙĞ£Ö®Ê×
+	Talk( 4, "å¨å°”æ–¯:æƒ³è¦å…‘æ¢å°‘æ ¡ä¹‹é¦–,ä½ å¿…é¡»ç»™æˆ‘1å¼ å°‘æ ¡å†›è¡”è¯æ˜æ‰è¡Œ." )
+	--------------å…‘æ¢å°‘æ ¡ä¹‹é¦–
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 68, 1 )
 	TriggerAction( 1, TakeItem, 68, 1 )
 	TriggerAction( 1, GiveItem, 90, 1 , 4)
 	TriggerFailure( 1, JumpPage, 10 )
-	Text( 4, "ÎÒÒª¶Ò»»", MultiTrigger, GetMultiTrigger(), 1)
-	Text( 4, "´Ó",CloseTalk )
+	Text( 4, "æˆ‘è¦å…‘æ¢", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 4, "ä»",CloseTalk )
 
-	Talk( 5, "Íş¶ûË¹:ÏëÒª¶Ò»»ÉÙĞ£Ö®Ê×,Äã±ØĞë¸øÎÒ1ÕÅÖĞĞ£¾üÏÎÖ¤Ã÷²ÅĞĞ." )
-	--------------¶Ò»»ÖĞĞ£Ö®Ê×
+	Talk( 5, "å¨å°”æ–¯:æƒ³è¦å…‘æ¢å°‘æ ¡ä¹‹é¦–,ä½ å¿…é¡»ç»™æˆ‘1å¼ ä¸­æ ¡å†›è¡”è¯æ˜æ‰è¡Œ." )
+	--------------å…‘æ¢ä¸­æ ¡ä¹‹é¦–
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 69, 1 )
 	TriggerAction( 1, TakeItem, 69, 1 )
 	TriggerAction( 1, GiveItem, 91, 1 , 4)
 	TriggerFailure( 1, JumpPage, 10 )
-	Text( 5, "ÎÒÒª¶Ò»»", MultiTrigger, GetMultiTrigger(), 1)
-	Text( 5, "´Ó",CloseTalk )
+	Text( 5, "æˆ‘è¦å…‘æ¢", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 5, "ä»",CloseTalk )
 
-	Talk( 6, "Íş¶ûË¹:ÏëÒª¶Ò»»ÉÏĞ£Ö®Ê×,Äã±ØĞë¸øÎÒ1ÕÅÖĞĞ£¾üÏÎÖ¤Ã÷²ÅĞĞ." )
-	--------------¶Ò»»ÉÏĞ£Ö®Ê×
+	Talk( 6, "å¨å°”æ–¯:æƒ³è¦å…‘æ¢ä¸Šæ ¡ä¹‹é¦–,ä½ å¿…é¡»ç»™æˆ‘1å¼ ä¸­æ ¡å†›è¡”è¯æ˜æ‰è¡Œ." )
+	--------------å…‘æ¢ä¸Šæ ¡ä¹‹é¦–
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 70, 1 )
 	TriggerAction( 1, TakeItem, 70, 1 )
 	TriggerAction( 1, GiveItem, 92, 1 , 4)
 	TriggerFailure( 1, JumpPage, 10 )
-	Text( 6, "ÎÒÒª¶Ò»»", MultiTrigger, GetMultiTrigger(), 1)
-	Text( 6, "´Ó",CloseTalk )
+	Text( 6, "æˆ‘è¦å…‘æ¢", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 6, "ä»",CloseTalk )
 
-	Talk( 7, "Íş¶ûË¹:ÏëÒª¶Ò»»½«¾üÖ®Ê×,Äã±ØĞë¸øÎÒ1ÕÅÖĞĞ£¾üÏÎÖ¤Ã÷²ÅĞĞ." )
-	--------------¶Ò»»½«¾üÖ®Ê×
+	Talk( 7, "å¨å°”æ–¯:æƒ³è¦å…‘æ¢å°†å†›ä¹‹é¦–,ä½ å¿…é¡»ç»™æˆ‘1å¼ ä¸­æ ¡å†›è¡”è¯æ˜æ‰è¡Œ." )
+	--------------å…‘æ¢å°†å†›ä¹‹é¦–
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 71, 1 )
 	TriggerAction( 1, TakeItem, 71, 1 )
 	TriggerAction( 1, GiveItem, 93, 1 , 4)
 	TriggerFailure( 1, JumpPage, 10 )
-	Text( 7, "ÎÒÒª¶Ò»»", MultiTrigger, GetMultiTrigger(), 1)
-	Text( 7, "´Ó",CloseTalk )
+	Text( 7, "æˆ‘è¦å…‘æ¢", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 7, "ä»",CloseTalk )
 
-	Talk( 8, "Íş¶ûË¹:ÏëÒª¶Ò»»ÔªË§Ö®Ê×,Äã±ØĞë¸øÎÒ1ÕÅÖĞĞ£¾üÏÎÖ¤Ã÷²ÅĞĞ." )
-	--------------¶Ò»»ÔªË§Ö®Ê×
+	Talk( 8, "å¨å°”æ–¯:æƒ³è¦å…‘æ¢å…ƒå¸…ä¹‹é¦–,ä½ å¿…é¡»ç»™æˆ‘1å¼ ä¸­æ ¡å†›è¡”è¯æ˜æ‰è¡Œ." )
+	--------------å…‘æ¢å…ƒå¸…ä¹‹é¦–
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 72, 1 )
 	TriggerAction( 1, TakeItem, 72, 1 )
 	TriggerAction( 1, GiveItem, 94, 1 , 4)
 	TriggerFailure( 1, JumpPage, 10 )
-	Text( 8, "ÎÒÒª¶Ò»»", MultiTrigger, GetMultiTrigger(), 1)
-	Text( 8, "´Ó",CloseTalk )
+	Text( 8, "æˆ‘è¦å…‘æ¢", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 8, "ä»",CloseTalk )
 
 	InitTrigger()
 	TriggerCondition( 1, HasMoney, 20000 )
@@ -1894,7 +1894,7 @@ function r_talk14 ()
 	Text( 2, "Regarding Evanescence set items", JumpPage, 5)
 	Text( 2, "Regarding Enigma set items", JumpPage, 6)
 
-	Talk( 10, "Íş¶ûË¹:ÇëÈ·±£ÄúÉíÉÏÓĞ¶ÔÓ¦µÄ¾üÏÎÖ¤Ã÷." )
+	Talk( 10, "å¨å°”æ–¯:è¯·ç¡®ä¿æ‚¨èº«ä¸Šæœ‰å¯¹åº”çš„å†›è¡”è¯æ˜." )
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 248 )
@@ -1935,41 +1935,41 @@ function r_talk14 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£¾üÉÙ½«¡¤Íş¶ûË¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·å†›å°‘å°†Â·å¨å°”æ–¯
 
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[É³á°³Ç´óÊ¹¡¤Ï¯°Í]			--
+--		ç™½é“¶åŸ[æ²™å²šåŸå¤§ä½¿Â·å¸­å·´]			--
 --							--
 --		225648,270640				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk15 ()
 	
 	
-	Talk( 1, "Xiba: Although I am an Ambassador, I need some time for myself too¡­Life cannot be just about work. You need to play to balance it too!" )
+	Talk( 1, "Xiba: Although I am an Ambassador, I need some time for myself tooâ€¦Life cannot be just about work. You need to play to balance it too!" )
 
 	AddNpcMission	(1032)
 	AddNpcMission	(1195)
-----------------Çïµº¿ª·¢
+----------------ç§‹å²›å¼€å‘
 	--AddNpcMission	(6177)
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<É³á°³Ç´óÊ¹¡¤Ï¯°Í
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ²™å²šåŸå¤§ä½¿Â·å¸­å·´
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[°×Òø³ÇÉÌ»á»á³¤¡¤ÀÍÂ×µÏÂíË¹]		--
+--		ç™½é“¶åŸ[ç™½é“¶åŸå•†ä¼šä¼šé•¿Â·åŠ³ä¼¦è¿ªé©¬æ–¯]		--
 --							--
 --		224207,274850				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk16 ()
 	
 	
@@ -1993,16 +1993,16 @@ function r_talk16 ()
 	AddNpcMission (5147 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<°×Òø³ÇÉÌ»á»á³¤¡¤ÀÍÂ×µÏÂíË¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ç™½é“¶åŸå•†ä¼šä¼šé•¿Â·åŠ³ä¼¦è¿ªé©¬æ–¯
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÀÏÕß¡¤ºıÍ¿É½ÈË]			--
+--		ç™½é“¶åŸ[è€è€…Â·ç³Šæ¶‚å±±äºº]			--
 --							--
 --		227208,270036				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk17 ()
 	
 	
@@ -2018,13 +2018,13 @@ function r_talk17 ()
 	AddNpcMission ( 554 )
 	AddNpcMission ( 555 )
 	AddNpcMission ( 901 )
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5557)
 	AddNpcMission	(5558)
 	--AddNpcMission ( 6094 )
-		--------------Öí¹â±¦Æø--------ÂíÀ´Î÷ÑÇ
+		--------------çŒªå…‰å®æ°”--------é©¬æ¥è¥¿äºš
 	--AddNpcMission ( 6126 )
-	---------------ÓÂÕßÊÔÁ¶
+	---------------å‹‡è€…è¯•ç‚¼
 	--AddNpcMission( 6167 )
 	AddNpcMission( 6168 )
 	AddNpcMission( 6169 )
@@ -2033,36 +2033,36 @@ function r_talk17 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÀÏÕß¡¤ºıÍ¿É½ÈË
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è€è€…Â·ç³Šæ¶‚å±±äºº
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[»á³¤ÖúÀí¡¤ÂŞÒÁ]			--
+--		ç™½é“¶åŸ[ä¼šé•¿åŠ©ç†Â·ç½—ä¼Š]			--
 --							--
 --		224075,275275				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk18 ()
 	
 	
-	Talk( 1, "Rouri: Hmm¡­I am wandering what secret does our chairman has? I am really interested to find out¡­" )
+	Talk( 1, "Rouri: Hmmâ€¦I am wandering what secret does our chairman has? I am really interested to find outâ€¦" )
 	
 	AddNpcMission ( 76 )
 	AddNpcMission ( 77 )
 	AddNpcMission ( 78 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»á³¤ÖúÀí¡¤ÂŞÒÁ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ä¼šé•¿åŠ©ç†Â·ç½—ä¼Š
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[Â·ÈË¡¤¼×]				--
+--		ç™½é“¶åŸ[è·¯äººÂ·ç”²]				--
 --							--
 --		221588,282819				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk19 ()
 	
 	
@@ -2074,16 +2074,16 @@ function r_talk19 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤¼×
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·ç”²
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[¾Æ¹í¡¤·ÒµÂÄÚ]			--
+--		ç™½é“¶åŸ[é…’é¬¼Â·èŠ¬å¾·å†…]			--
 --							--
 --		236002,281965				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk20 ()
 	
 	
@@ -2097,16 +2097,16 @@ function r_talk20 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾Æ¹í¡¤·ÒµÂÄÚ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é…’é¬¼Â·èŠ¬å¾·å†…
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÉÙÄê¡¤ÌÆµÂ]			--
+--		ç™½é“¶åŸ[å°‘å¹´Â·å”å¾·]			--
 --							--
 --		196225,269425				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk21 ()
 	
 	
@@ -2119,16 +2119,16 @@ function r_talk21 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÉÙÄê¡¤ÌÆµÂ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å°‘å¹´Â·å”å¾·
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[ÖÆÔìÊ¦¡¤µÂÈø¿Ë]			--
+--		ç™½é“¶åŸ[åˆ¶é€ å¸ˆÂ·å¾·è¨å…‹]			--
 --							--
 --		173269,278261				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk22 ()
 	
 	
@@ -2139,17 +2139,17 @@ function r_talk22 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÖÆÔìÊ¦¡¤µÂÈø¿Ë
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<åˆ¶é€ å¸ˆÂ·å¾·è¨å…‹
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		°×Òø³Ç[D°æÉÌ¡¤×ßË½ÍÃ]			--
+--		ç™½é“¶åŸ[Dç‰ˆå•†Â·èµ°ç§å…”]			--
 --							--
 --		2298,2520				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk23 ()
 	
 	
@@ -2157,23 +2157,23 @@ function r_talk23 ()
 	
 	AddNpcMission	(1000)
 	AddNpcMission	(1164)
-			--------ÓŞÈË½Ú
+			--------æ„šäººèŠ‚
 	--AddNpcMission	(5601)
 	--AddNpcMission	(5602)
 	--AddNpcMission	(5603)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<D°æÉÌ¡¤×ßË½ÍÃ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Dç‰ˆå•†Â·èµ°ç§å…”
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[º£¾üË¾Áî¹Ù¡¤µÂË¹ËşÂŞ]		--
+--		é›·éœ†å ¡[æµ·å†›å¸ä»¤å®˜Â·å¾·æ–¯å¡”ç½—]		--
 --							--
 --		71350,141619				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk24 ()
 	
 	
@@ -2196,17 +2196,17 @@ function r_talk24 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£¾üË¾Áî¹Ù¡¤µÂË¹ËşÂŞ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·å†›å¸ä»¤å®˜Â·å¾·æ–¯å¡”ç½—
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[¾Æ°É·şÎñÔ±¡¤Ã×ÄÈ]			--
+--		é›·éœ†å ¡[é…’å§æœåŠ¡å‘˜Â·ç±³å¨œ]			--
 --							--
 --		99053,133465				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk25 ()
 	
 	
@@ -2219,29 +2219,29 @@ function r_talk25 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾Æ°É·şÎñÔ±¡¤Ã×ÄÈ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é…’å§æœåŠ¡å‘˜Â·ç±³å¨œ
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[Ë®ÊÖ¡¤µÏ°Â]			--
+--		é›·éœ†å ¡[æ°´æ‰‹Â·è¿ªå¥¥]			--
 --							--
 --		108330,128563				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk26 ()
 	
 	
-	Talk( 1, "Hi! I am Sailor Dio. Becareful when you are out in the open sea. There are many ferocious monsters out there, especially those sharks. They are demons¡­and they will bite off your leg! Just like mine! Oh no!...My leg!" )
+	Talk( 1, "Hi! I am Sailor Dio. Becareful when you are out in the open sea. There are many ferocious monsters out there, especially those sharks. They are demonsâ€¦and they will bite off your leg! Just like mine! Oh no!...My leg!" )
 	AddNpcMission	(1038)
 	AddNpcMission	(1092)
 	AddNpcMission	(1150)
 	AddNpcMission	(1201)
-----------------¼ªÄáË¹---Ë®ÊÖ¡¤µÏ°Â--01
+----------------å‰å°¼æ–¯---æ°´æ‰‹Â·è¿ªå¥¥--01
 	AddNpcMission (5535 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ë®ÊÖ¡¤µÏ°Â
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ°´æ‰‹Â·è¿ªå¥¥
 
 
 
@@ -2251,11 +2251,11 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[¾üÒ½¡¤ÂêÉ³]			--
+--		é›·éœ†å ¡[å†›åŒ»Â·ç›æ²™]			--
 --							--
 --		77300,154900				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk28 ()
 	
 	
@@ -2280,16 +2280,16 @@ function r_talk28 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾üÒ½¡¤ÂêÉ³
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å†›åŒ»Â·ç›æ²™
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[ÒøĞĞ³öÄÉ¡¤Âê¿¨¶à]			--
+--		é›·éœ†å ¡[é“¶è¡Œå‡ºçº³Â·ç›å¡å¤š]			--
 --							--
 --		74300,153400				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk29 ()
 	
 	
@@ -2319,17 +2319,17 @@ function r_talk29 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÒøĞĞ³öÄÉ¡¤Âê¿¨¶à
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“¶è¡Œå‡ºçº³Â·ç›å¡å¤š
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[Ìú½³¡¤·ğÀÊ¸ç]			--
+--		é›·éœ†å ¡[é“åŒ Â·ä½›æœ—å“¥]			--
 --							--
 --		76662,144769				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk30 ()
 	
 	
@@ -2338,7 +2338,7 @@ function r_talk30 ()
 	Text( 1, "Nothing...",CloseTalk )
 
 
-----------------Á¶ÖÆË®¾§É°ËéÆ¬
+----------------ç‚¼åˆ¶æ°´æ™¶ç ‚ç¢ç‰‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1784, 10 )
 	TriggerCondition( 1, HasMoney, 200 )
@@ -2347,7 +2347,7 @@ function r_talk30 ()
 	TriggerAction( 1, GiveItem, 1785, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	Talk( 2, "Furlington: Forge¡­forge¡­forge¡­All I do all day long is forge items¡­zzZZz" )
+	Talk( 2, "Furlington: Forgeâ€¦forgeâ€¦forgeâ€¦All I do all day long is forge itemsâ€¦zzZZz" )
 	Text( 2, "Refine Clarion Fragment",MultiTrigger, GetMultiTrigger(), 1)
 	
 	Talk( 3, "Furlington: This Clarion Crystal is made from the fragments. Keep it well. Look for me again." )
@@ -2361,15 +2361,15 @@ function r_talk30 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ìú½³¡¤·ğÀÊ¸ç
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“åŒ Â·ä½›æœ—å“¥
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[ÉÙÅ®¡¤ĞÁµÙ]			--
+--		é›·éœ†å ¡[å°‘å¥³Â·è¾›è’‚]			--
 --							--
 --		74026,145143				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk31 ()
 	
 	
@@ -2521,7 +2521,7 @@ function r_talk31 ()
 	TriggerFailure( 1, JumpPage, 4 )
 	Talk( 2, "Cindy: Want to have the same hair color as me? Let me help you mix the hair colourant." )
 	Text( 2, "Decoct Yellow Colorant",MultiTrigger, GetMultiTrigger(), 1)
----------------µ÷ÅäÂÌÉ«È¾·¢¼Á
+---------------è°ƒé…ç»¿è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1790, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -2545,7 +2545,7 @@ function r_talk31 ()
 	AddNpcMission	(1199)
 	AddNpcMission	(867)
 	AddNpcMission	(863)
-	------------------------------------------°×Ñò
+	------------------------------------------ç™½ç¾Š
 	AddNpcMission	(5536)
 	AddNpcMission	(5537)
 	AddNpcMission	(5538)
@@ -2572,17 +2572,17 @@ function r_talk31 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÉÙÅ®¡¤ĞÁµÙ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å°‘å¥³Â·è¾›è’‚
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[É³á°×¤À×öª±¤´óÊ¹¡¤°£µÂ¼Ó]		--
+--		é›·éœ†å ¡[æ²™å²šé©»é›·éœ†å ¡å¤§ä½¿Â·åŸƒå¾·åŠ ]		--
 --							--
 --		71220,150827				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk32 ()
 	
 	
@@ -2594,16 +2594,16 @@ function r_talk32 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<É³á°×¤À×öª±¤´óÊ¹¡¤°£µÂ¼Ó
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ²™å²šé©»é›·éœ†å ¡å¤§ä½¿Â·åŸƒå¾·åŠ 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[µÀ¾ßÉÌÈË¡¤Ğİ²¼ÀîÎ¬Ë¹]		--
+--		é›·éœ†å ¡[é“å…·å•†äººÂ·ä¼‘å¸ƒæç»´æ–¯]		--
 --							--
 --		74100,156300				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk33 ()
 	
 	
@@ -2620,16 +2620,16 @@ function r_talk33 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<µÀ¾ßÉÌÈË¡¤Ğİ²¼ÀîÎ¬Ë¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“å…·å•†äººÂ·ä¼‘å¸ƒæç»´æ–¯
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[ÂÃ¹İÀÏ°å¡¤ÂêÑÅÆÅÆÅ]		--
+--		é›·éœ†å ¡[æ—…é¦†è€æ¿Â·ç›é›…å©†å©†]		--
 --							--
 --		69761,154269				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk34 ()
 	
 	
@@ -2641,16 +2641,16 @@ function r_talk34 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂÃ¹İÀÏ°å¡¤ÂêÑÅÆÅÆÅ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ—…é¦†è€æ¿Â·ç›é›…å©†å©†
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[·ş×°µêÖ÷¡¤µÏÀÖ]			--
+--		é›·éœ†å ¡[æœè£…åº—ä¸»Â·è¿ªä¹]			--
 --							--
 --		75450,151200				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk35 ()
 	
 	
@@ -2664,16 +2664,16 @@ function r_talk35 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<·ş×°µêÖ÷¡¤µÏÀÖ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æœè£…åº—ä¸»Â·è¿ªä¹
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[°×Òø³Ç×¤À×öª±¤´óÊ¹¡¤ÒÁËş¶à]		--
+--		é›·éœ†å ¡[ç™½é“¶åŸé©»é›·éœ†å ¡å¤§ä½¿Â·ä¼Šå¡”å¤š]		--
 --							--
 --		74171,155325				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk36 ()
 	
 	
@@ -2688,16 +2688,16 @@ function r_talk36 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<°×Òø³Ç×¤À×öª±¤´óÊ¹¡¤ÒÁËş¶à
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ç™½é“¶åŸé©»é›·éœ†å ¡å¤§ä½¿Â·ä¼Šå¡”å¤š
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[»¤ÎÀ³¤¡¤åÈÂÔ¿Ë]			--
+--		é›·éœ†å ¡[æŠ¤å«é•¿Â·è¿¦ç•¥å…‹]			--
 --							--
 --		79600,148800				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk37 ()
 	
 	
@@ -2739,7 +2739,7 @@ function r_talk37 ()
 	
 		
 
-	----------×ªÖ°³ÉÎª½£¶ÜÊ¿
+	----------è½¬èŒæˆä¸ºå‰‘ç›¾å£«
 	--TriggerCondition( 1, LvCheck, ">", 39 )
 	--TriggerCondition( 1, IsCategory, 1 )
 	--TriggerCondition( 1, PfEqual, 1 )
@@ -2750,7 +2750,7 @@ function r_talk37 ()
 	--TriggerCondition( 2, PfEqual, 1 )
 	--TriggerAction( 2, JumpPage, 2 )
 
--------------------×ª¾Ñ»÷ÊÖÅĞ¶Ï
+-------------------è½¬ç‹™å‡»æ‰‹åˆ¤æ–­
 
 	AddNpcMission	(1019)
 	AddNpcMission	(1074)
@@ -2765,16 +2765,16 @@ function r_talk37 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤ÎÀ³¤¡¤åÈÂÔ¿Ë
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å«é•¿Â·è¿¦ç•¥å…‹
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[ÔÓ»õÉÌÈË¡¤¹¾à½]			--
+--		é›·éœ†å ¡[æ‚è´§å•†äººÂ·å’•å˜Ÿ]			--
 --							--
 --		72500,155100				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk38 ()
 	
 	
@@ -2789,16 +2789,16 @@ function r_talk38 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÔÓ»õÉÌÈË¡¤¹¾à½
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‚è´§å•†äººÂ·å’•å˜Ÿ
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[ÉÙÅ®¡¤ÂŞÀò]			--
+--		é›·éœ†å ¡[å°‘å¥³Â·ç½—è‰]			--
 --							--
 --		101653,128642				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk39 ()
 	
 	
@@ -2810,43 +2810,43 @@ function r_talk39 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÉÙÅ®¡¤ÂŞÀò
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å°‘å¥³Â·ç½—è‰
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[º£¾ü×Ü²¿Ö¸»Ó¹Ù¡¤»ù.°£Ë¹Î÷×¼½«]	--
+--		é›·éœ†å ¡[æµ·å†›æ€»éƒ¨æŒ‡æŒ¥å®˜Â·åŸº.åŸƒæ–¯è¥¿å‡†å°†]	--
 --							--
 --		80800,152100				--
 ---------------------2005-3-8-------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk40 ()
 	
 	
-	Talk( 1, "General Ken: I sense that Maxi will come looking for my trouble one day. Even I sent himto guard other outpost, I am sure that he will make some trouble there too. He is always landing me in trouble¡­" )
+	Talk( 1, "General Ken: I sense that Maxi will come looking for my trouble one day. Even I sent himto guard other outpost, I am sure that he will make some trouble there too. He is always landing me in troubleâ€¦" )
 	AddNpcMission	(1017)
 	AddNpcMission	(1071)
 	AddNpcMission	(1127)
 	AddNpcMission	(1180)
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5575)
 	AddNpcMission	(5576)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£¾ü×Ü²¿Ö¸»Ó¹Ù¡¤»ù.°£Ë¹Î÷×¼½«
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·å†›æ€»éƒ¨æŒ‡æŒ¥å®˜Â·åŸº.åŸƒæ–¯è¥¿å‡†å°†
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[º£¾ü×Ü²¿²ÎÄ±³¤¡¤ÂêÑÇ×ÈÉÙĞ£]		--
+--		é›·éœ†å ¡[æµ·å†›æ€»éƒ¨å‚è°‹é•¿Â·ç›äºšå…¹å°‘æ ¡]		--
 --							--
 --		65323,150512				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk41 ()
 	
 	
-	Talk( 1, "Colonel Maxi: Hi, I am Colonel Maxi. General Ken delegates me to take care of this place. Hehe! I love to make trouble for him¡­Hehe!" )
+	Talk( 1, "Colonel Maxi: Hi, I am Colonel Maxi. General Ken delegates me to take care of this place. Hehe! I love to make trouble for himâ€¦Hehe!" )
 	
 	AddNpcMission	(849)
 	AddNpcMission	(856)
@@ -2856,16 +2856,16 @@ function r_talk41 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£¾ü×Ü²¿²ÎÄ±³¤¡¤ÂêÑÇ×ÈÉÙĞ£
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·å†›æ€»éƒ¨å‚è°‹é•¿Â·ç›äºšå…¹å°‘æ ¡
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[Ä¦¶û¿ËÈËºóÒá¡¤·Æ¶ù]		--
+--		é›·éœ†å ¡[æ‘©å°”å…‹äººåè£”Â·è²å„¿]		--
 --							--
 --		65146,158595				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk42 ()
 	
 	
@@ -2880,16 +2880,16 @@ function r_talk42 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ä¦¶û¿ËÈËºóÒá¡¤·Æ¶ù
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‘©å°”å…‹äººåè£”Â·è²å„¿
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[»¤ÎÀ¡¤ÄáËÉ]			--
+--		é›·éœ†å ¡[æŠ¤å«Â·å°¼æ¾]			--
 --							--
 --		71187,141438				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk43 ()
 	
 	
@@ -2897,21 +2897,21 @@ function r_talk43 ()
 
 	AddNpcMission	(859)
 	AddNpcMission	(857)
-	-------------»¤ÎÀ¡¤ÄáËÉ-------Ë«×Ó
+	-------------æŠ¤å«Â·å°¼æ¾-------åŒå­
 	AddNpcMission	(5690)
 	AddNpcMission	(5691)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤ÎÀ¡¤ÄáËÉ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å«Â·å°¼æ¾
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[»¤ÎÀ¡¤ËÉÄá]			--
+--		é›·éœ†å ¡[æŠ¤å«Â·æ¾å°¼]			--
 --							--
 --		71536,141462				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk44 ()
 	
 	
@@ -2921,16 +2921,16 @@ function r_talk44 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤ÎÀ¡¤ËÉÄá
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å«Â·æ¾å°¼
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[Â·ÈË¡¤±û]				--
+--		é›·éœ†å ¡[è·¯äººÂ·ä¸™]				--
 --							--
 --		66976,155428				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk45 ()
 	
 	
@@ -2938,24 +2938,24 @@ function r_talk45 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤±û
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·ä¸™
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		À×öª±¤[Â·ÈË¡¤°Í±È]				--
+--		é›·éœ†å ¡[è·¯äººÂ·å·´æ¯”]				--
 --							--
 --		99475,123473				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk46 ()
 	
 	
 	Talk( 1, "Barbi: Hi, are you an ex-pirate? There are just too much Navy men in Thundoria. The pirates dare not approach!" )
 	Text( 1, "Refine", JumpPage, 2)
 
---------------Á¶ÔìµØ½ğ
+--------------ç‚¼é€ åœ°é‡‘
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1782, 10 )
 	TriggerCondition( 1, HasMoney, 2000 )
@@ -2972,16 +2972,16 @@ function r_talk46 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤°Í±È
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·å·´æ¯”
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[´óÉñ¹Ù¡¤¸ÊµØÎ¬À­]			--
+--		æ²™å²šåŸ[å¤§ç¥å®˜Â·ç”˜åœ°ç»´æ‹‰]			--
 --							--
 --		86299,350092				--
  
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk47 ()
 	
 	
@@ -2998,7 +2998,7 @@ function r_talk47 ()
 	Text( 2, "Regarding Enigma set items", JumpPage, 6)
 	
 	Talk( 3, "Gannon: Skeletar set items belong to Lv 30 equipments from Forsaken City. You will need to pass me 10 Nal Runestones and 10 Sol Runestones. You can select the related class too." )
-	--------------÷¼÷ÃÖ®½£Ê¿±¦Ïä
+	--------------éª·é«…ä¹‹å‰‘å£«å®ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3425, 10 )
 	TriggerCondition( 1, HasItem, 3426, 10 )
@@ -3007,7 +3007,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3400, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 3, "Obtain Swordsman equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------÷¼÷ÃÖ®ÁÔÈË±¦Ïä
+	--------------éª·é«…ä¹‹çŒäººå®ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3425, 10 )
 	TriggerCondition( 1, HasItem, 3426, 10 )
@@ -3016,7 +3016,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3401, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 3, "Obtained Hunter equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------÷¼÷ÃÖ®Ò©Ê¦±¦Ïä
+	--------------éª·é«…ä¹‹è¯å¸ˆå®ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3425, 10 )
 	TriggerCondition( 1, HasItem, 3426, 10 )
@@ -3025,7 +3025,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3402, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 3, "Obtained Herbalist equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------÷¼÷ÃÖ®Ã°ÏÕÕß±¦Ïä
+	--------------éª·é«…ä¹‹å†’é™©è€…å®ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3425, 10 )
 	TriggerCondition( 1, HasItem, 3426, 10 )
@@ -3036,7 +3036,7 @@ function r_talk47 ()
 	Text( 3, "Obtained Explorer equipment", MultiTrigger, GetMultiTrigger(), 1)
 
 	Talk( 4, "Gannon: Incantation set items are Lv 40 equipments from Forsaken City and Dark Swamp. You need to bring me 10 El Runestone and 10 Cam Runestone in exchange. You can select the class for the equipment." )
-	--------------ÖäÊõÖ®Ë«½£Ê¿×°±¸Ïä
+	--------------å’’æœ¯ä¹‹åŒå‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3045,7 +3045,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3404, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 4, "Obtained Crusader equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÖäÊõÖ®¾Ş½£Ê¿×°±¸Ïä
+	--------------å’’æœ¯ä¹‹å·¨å‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3054,7 +3054,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3405, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 4, "Obtained Champion equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÖäÊõÖ®¾Ñ»÷ÊÖ×°±¸Ïä
+	--------------å’’æœ¯ä¹‹ç‹™å‡»æ‰‹è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3063,7 +3063,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3406, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 4, "Obtained Sharpshooter equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÖäÊõÖ®Ê¥Ö°Õß×°±¸Ïä
+	--------------å’’æœ¯ä¹‹åœ£èŒè€…è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3072,7 +3072,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3407, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 4, "Obtain Cleric equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÖäÊõÖ®·âÓ¡Ê¦×°±¸Ïä
+	--------------å’’æœ¯ä¹‹å°å°å¸ˆè£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3081,7 +3081,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3408, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 4, "Obtained Seal Master equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÖäÊõÖ®º½º£Ê¿×°±¸Ïä
+	--------------å’’æœ¯ä¹‹èˆªæµ·å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3428, 10 )
 	TriggerCondition( 1, HasItem, 3429, 10 )
@@ -3093,7 +3093,7 @@ function r_talk47 ()
 
 
 	Talk( 5, "Gannon: Incantation set items belonged to Demonic World Lv50 equipments. You will need to pass me 10 Ja Runestones and 10 Tef Runestones. You can select the related class too." )
-	--------------»ÃÁéÖ®Ë«½£Ê¿×°±¸Ïä
+	--------------å¹»çµä¹‹åŒå‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3102,7 +3102,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3410, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 5, "Obtained Crusader equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------»ÃÁéÖ®¾Ş½£Ê¿×°±¸Ïä
+	--------------å¹»çµä¹‹å·¨å‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3111,7 +3111,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3411, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 5, "Obtained Champion equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------»ÃÁéÖ®¾Ñ»÷ÊÖ×°±¸Ïä
+	--------------å¹»çµä¹‹ç‹™å‡»æ‰‹è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3120,7 +3120,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3412, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 5, "Obtained Sharpshooter equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------»ÃÁéÖ®Ê¥Ö°Õß×°±¸Ïä
+	--------------å¹»çµä¹‹åœ£èŒè€…è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3129,7 +3129,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3413, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 5, "Obtain Cleric equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------»ÃÁéÖ®·âÓ¡Ê¦×°±¸Ïä
+	--------------å¹»çµä¹‹å°å°å¸ˆè£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3138,7 +3138,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3414, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 5, "Obtained Seal Master equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------»ÃÁéÖ®º½º£Ê¿×°±¸Ïä
+	--------------å¹»çµä¹‹èˆªæµ·å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3427, 10 )
 	TriggerCondition( 1, HasItem, 3430, 10 )
@@ -3150,7 +3150,7 @@ function r_talk47 ()
 
 
 	Talk( 6, "Gannon: Enigma set items belonged to Demonic World Lv60 equipments. You will need to pass me 10 Ter Runestones and 10 Fa Runestones. You can select the related class too." )
-	--------------ÃÔÖ®Ë«½£Ê¿×°±¸Ïä
+	--------------è¿·ä¹‹åŒå‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3159,7 +3159,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3416, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 6, "Obtained Crusader equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÃÔÖ®¾Ş½£Ê¿×°±¸Ïä
+	--------------è¿·ä¹‹å·¨å‰‘å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3168,7 +3168,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3417, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 6, "Obtained Champion equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÃÔÖ®¾Ñ»÷ÊÖ×°±¸Ïä
+	--------------è¿·ä¹‹ç‹™å‡»æ‰‹è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3177,7 +3177,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3418, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 6, "Obtained Sharpshooter equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÃÔÖ®Ê¥Ö°Õß×°±¸Ïä
+	--------------è¿·ä¹‹åœ£èŒè€…è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3186,7 +3186,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3419, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 6, "Obtain Cleric equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÃÔÖ®·âÓ¡Ê¦×°±¸Ïä
+	--------------è¿·ä¹‹å°å°å¸ˆè£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3195,7 +3195,7 @@ function r_talk47 ()
 	TriggerAction( 1, GiveItem, 3420, 1 , 4)
 	TriggerFailure( 1, JumpPage, 30 )
 	Text( 6, "Obtained Seal Master equipment", MultiTrigger, GetMultiTrigger(), 1)
-	--------------ÃÔÖ®º½º£Ê¿×°±¸Ïä
+	--------------è¿·ä¹‹èˆªæµ·å£«è£…å¤‡ç®±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3455, 10 )
 	TriggerCondition( 1, HasItem, 3456, 10 )
@@ -3206,7 +3206,7 @@ function r_talk47 ()
 	Text( 6, "Obtained Voyager equipment", MultiTrigger, GetMultiTrigger(), 1)
 
  
-	InitTrigger() --ºÏ³É²Ø±¦Í¼
+	InitTrigger() --åˆæˆè—å®å›¾
 	TriggerCondition( 1, HasItem, 0432, 1 )
         TriggerCondition( 1, HasItem, 0433, 1 )
 	TriggerCondition( 1, HasItem, 0434, 1 )
@@ -3224,7 +3224,7 @@ function r_talk47 ()
 	Text( 7, "Combine Treasure Map",MultiTrigger, GetMultiTrigger(), 1) 
 	Talk( 8, "Gannon: When you have collected the 4 separate maps, look for me and bring along 2000G." )
 
-	--------------¶Ò»»Í¼Ö½
+	--------------å…‘æ¢å›¾çº¸
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2324, 5 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3235,7 +3235,7 @@ function r_talk47 ()
 	Talk( 9, "Gannon: Ah? Can you give me your Fragment? It will be worth your while." )
 	Text( 9, "5 Illusion Fragments to exchange for 1 Burry Blueprint", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»Í¼Ö½
+	--------------å…‘æ¢å›¾çº¸
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2324, 30 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3245,7 +3245,7 @@ function r_talk47 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text( 9, "30 Illusion Fragments to exchange for 1 Encrypted Blueprint ", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»Í¼Ö½
+	--------------å…‘æ¢å›¾çº¸
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2324, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3255,7 +3255,7 @@ function r_talk47 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text( 9, "100 Illusion Fragments to exchange for 1 Sealed Blueprint", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»Í¼Ö½
+	--------------å…‘æ¢å›¾çº¸
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2324, 500 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3266,7 +3266,7 @@ function r_talk47 ()
 	Text( 9, "500 Illusion Fragments to exchange for 1 Invocation Blueprint", MultiTrigger, GetMultiTrigger(), 1)
 
 
-	--------------¶Ò»»½äÖ¸
+	--------------å…‘æ¢æˆ’æŒ‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2325, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3277,7 +3277,7 @@ function r_talk47 ()
 	Talk( 10, "Gannon: Its such a beautiful Illusion Heart. Let me use this ring to exchange." )
 	Text( 10, "Exchanged Flame of Fury", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»½äÖ¸
+	--------------å…‘æ¢æˆ’æŒ‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2325, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3287,7 +3287,7 @@ function r_talk47 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text( 10, "Redeem Stable Cliff", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»½äÖ¸
+	--------------å…‘æ¢æˆ’æŒ‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2325, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3297,7 +3297,7 @@ function r_talk47 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text( 10, "Redeem Wind of the Gentle Soul", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»½äÖ¸
+	--------------å…‘æ¢æˆ’æŒ‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2325, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3307,7 +3307,7 @@ function r_talk47 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text( 10, "Redeem Entwined Rattan", MultiTrigger, GetMultiTrigger(), 1)
 
-	--------------¶Ò»»½äÖ¸
+	--------------å…‘æ¢æˆ’æŒ‡
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2325, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -3358,17 +3358,17 @@ function r_talk47 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<´óÉñ¹Ù¡¤¸ÊµØÎ¬À­
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å¤§ç¥å®˜Â·ç”˜åœ°ç»´æ‹‰
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÊÏ×å³¤¡¤°¢²¼¶àÂŞ.Àî]		--
+--		æ²™å²šåŸ[æ°æ—é•¿Â·é˜¿å¸ƒå¤šç½—.æ]		--
 --							--
 --		90374,364023				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk48 ()
 	
 	
@@ -3391,7 +3391,7 @@ function r_talk48 ()
 	Text( 1, "Reselect path of rebirth",MultiTrigger, GetMultiTrigger(), 1 )
 	
 		
-	Text( 1, "There's something wrong with my Rebirth Quest", JumpPage, 9 )  --Õë¶Ô±±ÃÀ×ªÉúÈÎÎñÎŞ·¨½Óµ½ºóĞøµÄ²¹³äÑ¡Ïî
+	Text( 1, "There's something wrong with my Rebirth Quest", JumpPage, 9 )  --é’ˆå¯¹åŒ—ç¾è½¬ç”Ÿä»»åŠ¡æ— æ³•æ¥åˆ°åç»­çš„è¡¥å……é€‰é¡¹
 	Text( 1, "Nothing", CloseTalk)
 	
 	
@@ -3486,7 +3486,7 @@ function r_talk48 ()
 	Text( 11, "No", CloseTalk )
 	
 	Talk( 12, "Congratulations! Reset successful. Return to Passerby - Tink and continue your quest.")
-	Talk( 13, "What¡¯s the matter?")
+	Talk( 13, "Whatâ€™s the matter?")
 	
 
 	AddNpcMission ( 231 )
@@ -3508,17 +3508,17 @@ function r_talk48 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÊÏ×å³¤¡¤°¢²¼¶àÂŞ.Àî
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ°æ—é•¿Â·é˜¿å¸ƒå¤šç½—.æ
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[µÀ¾ßµêÖ÷¡¤Å·µÔ]			--
+--		æ²™å²šåŸ[é“å…·åº—ä¸»Â·æ¬§ç¿Ÿ]			--
 --							--
 --		86214,359121				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk49 ()
 	
 	
@@ -3560,12 +3560,12 @@ function r_talk49 ()
 	TriggerFailure( 1, JumpPage, 8 )
 	Text( 2, "Brew Energetic Tea", MultiTrigger, GetMultiTrigger(), 1 )
 
-	Talk( 3, "Ouya: Money first¡­This is the Energetic Tea you needed. Keep it well." )
-	Talk( 4, "Ouya: Oh¡­It requires 10 Medicated Grass and 1 Bottle to make 1 Liquorice Potion. Also, it needs a fee of 50G." )
+	Talk( 3, "Ouya: Money firstâ€¦This is the Energetic Tea you needed. Keep it well." )
+	Talk( 4, "Ouya: Ohâ€¦It requires 10 Medicated Grass and 1 Bottle to make 1 Liquorice Potion. Also, it needs a fee of 50G." )
 	Talk( 5, "Ouya: This Elven Fruit Juice was made from your Elven Fruit. Keep it well." )
 	Talk( 6, "Ouya: Sorry, you do not have the required items. Elven Fruit Juice requires 10 Elven Fruits and 1 Glass to make." )
 	Talk( 7, "Ouya: Money first...This is the Energetic Tea you needed. Keep it well." )
-	Talk( 8, "Ouya: Oh¡­It requires 10 Fancy Petal and 1 Bottle to make 1 Energetic Tea. Needs a fee of 50G too." )
+	Talk( 8, "Ouya: Ohâ€¦It requires 10 Fancy Petal and 1 Bottle to make 1 Energetic Tea. Needs a fee of 50G too." )
 
 	AddNpcMission( 1007 )
 	AddNpcMission( 1117 )
@@ -3578,17 +3578,17 @@ function r_talk49 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<µÀ¾ßµêÖ÷¡¤Å·µÔ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“å…·åº—ä¸»Â·æ¬§ç¿Ÿ
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[·ş×°µêÖ÷¡¤ÄªÑÇ]			--
+--		æ²™å²šåŸ[æœè£…åº—ä¸»Â·è«äºš]			--
 --							--
 --		89463,360213				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk50 ()
 	
 	
@@ -3695,16 +3695,16 @@ function r_talk50 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<·ş×°µêÖ÷¡¤ÄªÑÇ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æœè£…åº—ä¸»Â·è«äºš
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÒøĞĞ³öÄÉ¡¤ÖìµÏË¹]			--
+--		æ²™å²šåŸ[é“¶è¡Œå‡ºçº³Â·æœ±è¿ªæ–¯]			--
 --							--
 --		90637,353900				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk51 ()
 	
 	
@@ -3726,16 +3726,16 @@ function r_talk51 ()
 	AddNpcMission(	5012	)	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÒøĞĞ³öÄÉ¡¤ÖìµÏË¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“¶è¡Œå‡ºçº³Â·æœ±è¿ªæ–¯
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[¸ÛÎÀ¶Ó³ÉÔ±¡¤ğÑğ³²İ]		--
+--		æ²™å²šåŸ[æ¸¯å«é˜Ÿæˆå‘˜Â·é¹§é¸ªè‰]		--
 --							--
 --		86734,366071				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk52 ()
 	
 	
@@ -3743,7 +3743,7 @@ function r_talk52 ()
 	Text( 1, "Nothing...",CloseTalk )
 	
 	
-	----------------×ªÖ°³ÉÎªÑµÊŞÊ¦
+	----------------è½¬èŒæˆä¸ºè®­å…½å¸ˆ
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 39 )
 	TriggerCondition( 1, IsCategory, 1 )
@@ -3765,7 +3765,7 @@ function r_talk52 ()
 	TriggerAction( 2, JumpPage, 6 )
 	TriggerFailure( 2, JumpPage, 7 )
 
-	Talk(5, "Sigh¡­it's a pity that you are not a Beast Tamer. I believed that you have the ability to become one. Let me teach you how!")
+	Talk(5, "Sighâ€¦it's a pity that you are not a Beast Tamer. I believed that you have the ability to become one. Let me teach you how!")
 	Text(5, "Ok, I will become a Beast Tamer", MultiTrigger, GetMultiTrigger(), 2)
 	Text(5, "No, it is good enough for now.", CloseTalk)
 
@@ -3805,16 +3805,16 @@ function r_talk52 ()
 	MisListPage(5)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¸ÛÎÀ¶Ó³ÉÔ±¡¤ğÑğ³²İ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ¸¯å«é˜Ÿæˆå‘˜Â·é¹§é¸ªè‰
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Ìú½³¡¤Í­Í­¹Ä]			--
+--		æ²™å²šåŸ[é“åŒ Â·é“œé“œé¼“]			--
 --							--
 --		90424,349871				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk53 ()
 	
 	
@@ -3887,12 +3887,12 @@ function r_talk53 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ìú½³¡¤Í­Í­¹Ä
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“åŒ Â·é“œé“œé¼“
 
 
 
 
---------------------------------------------------------------Ìú½³µÄÍ½µÜ 
+--------------------------------------------------------------é“åŒ çš„å¾’å¼Ÿ 
 function mmm_talk04 ()
 	Talk( 1, "Blacksmith's apprentice: If only I have my teacher's skills." )
 	Text( 1, "Regarding Item Forging", JumpPage, 2 )
@@ -3921,18 +3921,18 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÀòÄÈ]				--
+--		æ²™å²šåŸ[è‰å¨œ]				--
 --							--
 --		88307,352019				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk54 ()
 	
 	
 	Talk( 1, "Lena: Hi! I am the wife of Smithy." )
 	Text( 1, "Decoct Hair Colorant", JumpPage, 2)
 
-----------------µ÷ÅäÇàÉ«È¾·¢¼Á
+----------------è°ƒé…é’è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1791, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -3958,16 +3958,16 @@ function r_talk54 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÀòÄÈ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è‰å¨œ
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÔÓ»õÉÌÈË¡¤°¬Ä«]			--
+--		æ²™å²šåŸ[æ‚è´§å•†äººÂ·è‰¾å¢¨]			--
 --							--
 --		84040,358567				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk55 ()
 	
 	
@@ -4006,7 +4006,7 @@ function r_talk55 ()
 	Other(	4604	)
 	Other( 3296 )
 	Other( 886 )
-	--baby--Éú»î¼¼ÄÜÊéLv1
+	--baby--ç”Ÿæ´»æŠ€èƒ½ä¹¦Lv1
 	Other(	2679	)
 	Other(	2689	)
 	Other(	2699	)
@@ -4118,16 +4118,16 @@ function r_talk55 ()
 	Talk( 4, "Amos: You do not seem to have enough material. Or it might be that your inventory is binded or you do not have enough slots in your inventory." )
 
 end 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÔÓ»õÉÌÈË¡¤°¬Ä«
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‚è´§å•†äººÂ·è‰¾å¢¨
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÂÃµêÀÏ°å¡¤¹ş¸ù]			--
+--		æ²™å²šåŸ[æ—…åº—è€æ¿Â·å“ˆæ ¹]			--
 --							--
 --		81035,349813				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk56 ()
 	
 	
@@ -4135,7 +4135,7 @@ function r_talk56 ()
 	Text( 1, "Make nice desert", JumpPage, 2)
 
 
---------------------µ÷ÅäÎå²ÊÁğÁ§Ö­
+--------------------è°ƒé…äº”å½©ç‰ç’ƒæ±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1778, 1 )
 	TriggerCondition( 1, HasItem, 3121, 4 )
@@ -4149,7 +4149,7 @@ function r_talk56 ()
 	Talk( 2, "Harken: It's a good year for the business. All my items are sold out due to overwhelming demands." )
 	Text( 2, "Mix Rainbow Fruit Juice",MultiTrigger, GetMultiTrigger(), 1)
 
-----------------µ÷Åä×ÛºÏ¹ûÖ­
+----------------è°ƒé…ç»¼åˆæœæ±
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1778, 1 )
 	TriggerCondition( 1, HasItem, 3122, 1 )
@@ -4176,16 +4176,16 @@ function r_talk56 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂÃµêÀÏ°å¡¤¹ş¸ù
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ—…åº—è€æ¿Â·å“ˆæ ¹
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[»¤Ê¿Ğ¡½ã¡¤À¼À¼]			--
+--		æ²™å²šåŸ[æŠ¤å£«å°å§Â·å…°å…°]			--
 --							--
 --		87954,356282				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk57 ()
 	
 	
@@ -4194,31 +4194,31 @@ function r_talk57 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤Ê¿Ğ¡½ã¡¤À¼À¼
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å£«å°å§Â·å…°å…°
 
 --------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[º£µÁ¡¤µÂ¿Ë]			--
+--		æ²™å²šåŸ[æµ·ç›—Â·å¾·å…‹]			--
 --							--
 --		794,3669				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk58 ()
 	
 	
 	Talk( 1, "Decky: Hey! I am the werewolf pirates leader Decky! I am currently ranked 7th on the Navy bounty list. Why I telling you this? It is because I am not afraid of the Navy! Hehe!" )
 	
 
---	Text( 1, "ÃÎ»ÃË«×Ó¹¬(ÖÕ¼«12¹¬×¨ÓÃÈÎÎñ)", JumpPage,2 )
+--	Text( 1, "æ¢¦å¹»åŒå­å®«(ç»ˆæ12å®«ä¸“ç”¨ä»»åŠ¡)", JumpPage,2 )
 
-	Talk( 2, "º£µÁ¡¤µÂ¿Ë:ÇëÑ¡ÔñÄãÒª´³¹ØµÄÄÑ¶È,´ÓË®ÊÖµ½´¬³¤ÄÑ¶ÈÒÀ´Î¼Ó´ó,µ±È»ÁËÄÑ¶ÈÔ½¸ß½±ÀøÔ½·áºñ.ÄãÏëºÃÁËÂğ?Ö»ÄÜÑ¡ÔñÒ»´Î,²»¿ÉÒÔºó»ÚÅ¶" )
+	Talk( 2, "æµ·ç›—Â·å¾·å…‹:è¯·é€‰æ‹©ä½ è¦é—¯å…³çš„éš¾åº¦,ä»æ°´æ‰‹åˆ°èˆ¹é•¿éš¾åº¦ä¾æ¬¡åŠ å¤§,å½“ç„¶äº†éš¾åº¦è¶Šé«˜å¥–åŠ±è¶Šä¸°åš.ä½ æƒ³å¥½äº†å—?åªèƒ½é€‰æ‹©ä¸€æ¬¡,ä¸å¯ä»¥åæ‚”å“¦" )
 
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1204 )
 	TriggerCondition( 1, NoRecord,1161 )
-	TriggerCondition( 1, HasItem, 3027, 1 )---------Ë«×ÓÃÅÆ±
-	TriggerAction( 1, TakeItem, 3027, 1 )----------Ë«×ÓÃÅÆ±
+	TriggerCondition( 1, HasItem, 3027, 1 )---------åŒå­é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 3027, 1 )----------åŒå­é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1159 )
 	TriggerAction( 1, SetRecord, 1162 )
 	TriggerAction( 1, JumpPage, 3 )
@@ -4228,8 +4228,8 @@ function r_talk58 ()
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1159 )
 	TriggerCondition( 1, NoRecord,1161 )
-	TriggerCondition( 1, HasItem, 3027, 1 )---------Ë«×ÓÃÅÆ±
-	TriggerAction( 1, TakeItem, 3027, 1 )----------Ë«×ÓÃÅÆ±
+	TriggerCondition( 1, HasItem, 3027, 1 )---------åŒå­é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 3027, 1 )----------åŒå­é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1204 )
 	TriggerAction( 1, SetRecord, 1162 )
 	TriggerAction( 1, JumpPage, 3 )
@@ -4239,21 +4239,21 @@ function r_talk58 ()
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1159 )
 	TriggerCondition( 1, NoRecord,1204 )
-	TriggerCondition( 1, HasItem, 3027, 1 )--------Ë«×ÓÃÅÆ±
-	TriggerAction( 1, TakeItem, 3027, 1 )----------Ë«×ÓÃÅÆ±
+	TriggerCondition( 1, HasItem, 3027, 1 )--------åŒå­é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 3027, 1 )----------åŒå­é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1161 )
 	TriggerAction( 1, SetRecord, 1162 )
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
 	Text( 2, "Captain",MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk(3, "º£µÁ¡¤µÂ¿Ë:ÎÒÆíµ»ÄãÔÚ×Ô¼ºÑ¡ÔñµÄµÀÂ·ÉÏ²»»áÒ»ÃüÎØºô.ÍÛ¹ş¹ş¹ş..." )
-	Talk( 4, "º£µÁ¡¤µÂ¿Ë:ÌôÕ½Ë«×Ó¹¬µÄÊ±ºò,ÄÑ¶ÈÖ»ÄÜÑ¡ÔñÒ»´Î.²¢È·±£ÄúµÄ±³°üÀïÓĞË«×Ó¹¬ÃÅÆ±.")
+	Talk(3, "æµ·ç›—Â·å¾·å…‹:æˆ‘ç¥ˆç¥·ä½ åœ¨è‡ªå·±é€‰æ‹©çš„é“è·¯ä¸Šä¸ä¼šä¸€å‘½å‘œå‘¼.å“‡å“ˆå“ˆå“ˆ..." )
+	Talk( 4, "æµ·ç›—Â·å¾·å…‹:æŒ‘æˆ˜åŒå­å®«çš„æ—¶å€™,éš¾åº¦åªèƒ½é€‰æ‹©ä¸€æ¬¡.å¹¶ç¡®ä¿æ‚¨çš„èƒŒåŒ…é‡Œæœ‰åŒå­å®«é—¨ç¥¨.")
 	
 	AddNpcMission	(1125)
 
----------------------º£µÁ¡¤µÂ¿Ë
-	---------------Ë«×Ó
+---------------------æµ·ç›—Â·å¾·å…‹
+	---------------åŒå­
 	AddNpcMission	(5673)
 	AddNpcMission	(5674)
 	AddNpcMission	(5741)-------(5675)
@@ -4283,16 +4283,16 @@ function r_talk58 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£µÁ¡¤µÂ¿Ë
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·ç›—Â·å¾·å…‹
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ĞÂÊÖÖ¸µ¼¡¤À­Ë¿±Ì]			--
+--		æ²™å²šåŸ[æ–°æ‰‹æŒ‡å¯¼Â·æ‹‰ä¸ç¢§]			--
 --							--
 --		87614,357250				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk59 ()
 	Talk( 1, "Resline: 'Hi, I am Resline. I love to chat and poke my nose into all troubles. Look for me if you have any troubles.'" )
 	Text( 1, "Star of Unity", JumpPage, 31 )
@@ -4469,7 +4469,7 @@ function r_talk59 ()
 	Talk( 6, "Resline: Sorry, you do not meet the requirements to redeem." )
 	
 	--InitTrigger()
-	---------------------Íæ¼Ò³¬¹ı6¼¶Íê³É¹ıÉª°²µÄÕ½¶·ÑµÁ·ÈÎÎñ
+	---------------------ç©å®¶è¶…è¿‡6çº§å®Œæˆè¿‡ç‘Ÿå®‰çš„æˆ˜æ–—è®­ç»ƒä»»åŠ¡
 	--TriggerCondition( 1, LvCheck, ">", 4 )
 	--TriggerCondition( 1, LvCheck, "<", 9 )
 	---TriggerCondition( 1, HasRecord, 710 )
@@ -4503,17 +4503,17 @@ function r_talk59 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ĞÂÊÖÖ¸µ¼¡¤À­Ë¿±Ì
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ–°æ‰‹æŒ‡å¯¼Â·æ‹‰ä¸ç¢§
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[º£¾ü°ìÊÂ´¦¹ÙÔ±¡¤°¬Î¢¶ûÉÙĞ£]		--
+--		æ²™å²šåŸ[æµ·å†›åŠäº‹å¤„å®˜å‘˜Â·è‰¾å¾®å°”å°‘æ ¡]		--
 --							--
 --		86507,364804				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk61 ()
 	
 	
@@ -4526,16 +4526,16 @@ function r_talk61 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<º£¾ü°ìÊÂ´¦¹ÙÔ±¡¤°¬Î¢¶ûÉÙĞ£
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æµ·å†›åŠäº‹å¤„å®˜å‘˜Â·è‰¾å¾®å°”å°‘æ ¡
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[É³á°³ÇÉÌ»á»á³¤¡¤¹ÅÀû»÷]		--
+--		æ²™å²šåŸ[æ²™å²šåŸå•†ä¼šä¼šé•¿Â·å¤åˆ©å‡»]		--
 --							--
 --		87362,354566				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk62 ()
 	
 	
@@ -4543,22 +4543,22 @@ function r_talk62 ()
 	Text( 1, "Nothing...",CloseTalk )
 	AddNpcMission	(1144)
 
------ÌúÈËÁùÏî
+-----é“äººå…­é¡¹
 	AddNpcMission ( 6115 )
 	AddNpcMission ( 6116 )
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<É³á°³ÇÉÌ»á»á³¤¡¤¹ÅÀû»÷
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ²™å²šåŸå•†ä¼šä¼šé•¿Â·å¤åˆ©å‡»
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Â·ÈË¡¤Éºº÷³æ]		--
+--		æ²™å²šåŸ[è·¯äººÂ·çŠç‘šè™«]		--
 --							--
 --		84634,349945				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk63 ()
 	
 	
@@ -4571,7 +4571,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3000, 1 , 4)
 	TriggerAction( 1, JumpPage, 2 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "99¸ö½ğÊôËéÆ¬¶Ò»»1¸ö±¦²ØÃÜÔ¿", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "99ä¸ªé‡‘å±ç¢ç‰‡å…‘æ¢1ä¸ªå®è—å¯†é’¥", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 1 )
@@ -4581,7 +4581,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3017, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "1¸ö±¦²ØÃÜÔ¿¶Ò»»1¸öÌìÊ¹±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "1ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªå¤©ä½¿å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 8 )
@@ -4591,7 +4591,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3018, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "8¸ö±¦²ØÃÜÔ¿¶Ò»»1¸ö»Æ½ğÊ¥¶·Ê¿±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "8ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªé»„é‡‘åœ£æ–—å£«å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 18 )
@@ -4601,7 +4601,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3019, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "18¸ö±¦²ØÃÜÔ¿¶Ò»»1¸öÉñÁú±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "18ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªç¥é¾™å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 88 )
@@ -4611,7 +4611,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3020, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "88¸ö±¦²ØÃÜÔ¿¶Ò»»1¸ö¼«ËÙ±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "88ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªæé€Ÿå®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 198 )
@@ -4620,7 +4620,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3021, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	--Text( 1, "198¸ö±¦²ØÃÜÔ¿¶Ò»»1¸ö¶ñÄ§±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	--Text( 1, "198ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªæ¶é­”å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	--Text( 1, "Next Page", JumpPage, 5)
 	
@@ -4649,7 +4649,7 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3022, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	Text( 5, "498¸ö±¦²ØÃÜÔ¿¶Ò»»1¸öËÀÉñ±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 5, "498ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªæ­»ç¥å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 3000, 3888 )
@@ -4658,11 +4658,11 @@ function r_talk63 ()
 	TriggerAction( 1, GiveItem, 3023, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4 )
-	Text( 5, "3888¸ö±¦²ØÃÜÔ¿¶Ò»»1¸öÄêÊŞ±¦²Ø", MultiTrigger, GetMultiTrigger(), 1)
+	Text( 5, "3888ä¸ªå®è—å¯†é’¥å…‘æ¢1ä¸ªå¹´å…½å®è—", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 2, "Õâ¿ÉÊÇ´«ËµÖĞÄÜ´øÀ´ÎŞÊı²Æ¸»µÄÔ¿³×°¡£¬Õâ´Î¶Ò»»ÕæÊÇ±ãÒËÄãÁË¡£")
-	Talk( 3, "»»µ½ÄãÏëÒªµÄ±¦ÏäÁËÂğ£¿×£ÄãºÃÔË¿ª³öºÃ¶«¶«Å¶¡£")
-	Talk( 4, "ÄúÃ»ÓĞ×ã¹»µÄ¶Ò»»ËùĞèÒªµÄµÀ¾ß£¬Ò²ÓĞ¿ÉÄÜÄúµÄ±³°üÒÑ¾­Ëø¶¨»òÕß±³°ü¿Õ¼ä²»¹»." )
+	Talk( 2, "è¿™å¯æ˜¯ä¼ è¯´ä¸­èƒ½å¸¦æ¥æ— æ•°è´¢å¯Œçš„é’¥åŒ™å•Šï¼Œè¿™æ¬¡å…‘æ¢çœŸæ˜¯ä¾¿å®œä½ äº†ã€‚")
+	Talk( 3, "æ¢åˆ°ä½ æƒ³è¦çš„å®ç®±äº†å—ï¼Ÿç¥ä½ å¥½è¿å¼€å‡ºå¥½ä¸œä¸œå“¦ã€‚")
+	Talk( 4, "æ‚¨æ²¡æœ‰è¶³å¤Ÿçš„å…‘æ¢æ‰€éœ€è¦çš„é“å…·ï¼Œä¹Ÿæœ‰å¯èƒ½æ‚¨çš„èƒŒåŒ…å·²ç»é”å®šæˆ–è€…èƒŒåŒ…ç©ºé—´ä¸å¤Ÿ." )
 	Talk( 20, "You can take the challenge of Hexathlon again now!")
 	Talk( 21, "you can do the challenge now.please don't joke with me.i'm busy now.")
 
@@ -4670,52 +4670,52 @@ function r_talk63 ()
 	AddNpcMission ( 6029 )
 	AddNpcMission ( 6054 )
 	AddNpcMission ( 6055 )
-	-----ÌúÈËÁùÏî
+	-----é“äººå…­é¡¹
 	AddNpcMission ( 6114 )
 
 end 
 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤Éºº÷³æ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·çŠç‘šè™«
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Ğ¡Ñò¡¤ÍşÀû]			--
+--		æ²™å²šåŸ[å°ç¾ŠÂ·å¨åˆ©]			--
 --							--
 --		89875,368331				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk64 ()
 	
 	
 	Talk( 1, "Welly: Hi! I am the world only talking lamb! Baa!" )
 
 	AddNpcMission ( 233 )
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5565)
 	AddNpcMission	(5566)
 
-		----------------Çïµº¿ª·¢
+		----------------ç§‹å²›å¼€å‘
 	--AddNpcMission	(6184)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ğ¡Ñò¡¤ÍşÀû
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å°ç¾ŠÂ·å¨åˆ©
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[»á³¤ÖúÀí¡¤ÌáË¾Ãæ°ü]		--
+--		æ²™å²šåŸ[ä¼šé•¿åŠ©ç†Â·æå¸é¢åŒ…]		--
 --							--
 --		87171,354774				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk65 ()
 	
 	
 	Talk( 1, "Tintin: We always talk but never take any action." )
 --	AddNpcMission ( 905 )
-	----------------ÖÜËê°ü
+	----------------å‘¨å²åŒ…
 --	AddNpcMission ( 5604 )
 --	AddNpcMission ( 5605 )
 --	AddNpcMission ( 5606 )
@@ -4723,16 +4723,16 @@ function r_talk65 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»á³¤ÖúÀí¡¤ÌáË¾Ãæ°ü
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ä¼šé•¿åŠ©ç†Â·æå¸é¢åŒ…
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Â·ÈË¡¤ÒÒ]				--
+--		æ²™å²šåŸ[è·¯äººÂ·ä¹™]				--
 --							--
 --		79792,355469				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk66 ()
 	
 	
@@ -4740,20 +4740,20 @@ function r_talk66 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤ÒÒ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·ä¹™
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[É³·Ë¡¤ÉÁ¹âÏÀ°ËÊÀ]			--
+--		æ²™å²šåŸ[æ²™åŒªÂ·é—ªå…‰ä¾ å…«ä¸–]			--
 --							--
 --		108242,310135				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk67 ()
 	
 	
-	Talk( 1, "Supermun: I am the great descendent of Superman! I will rule the desert with my super powers! (Oh god he is dreaming again¡­)" )
+	Talk( 1, "Supermun: I am the great descendent of Superman! I will rule the desert with my super powers! (Oh god he is dreaming againâ€¦)" )
 	
 	AddNpcMission ( 237 )
 	AddNpcMission ( 238 )
@@ -4765,21 +4765,21 @@ function r_talk67 ()
 	AddNpcMission (5011 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<É³·Ë¡¤ÉÁ¹âÏÀ°ËÊÀ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ²™åŒªÂ·é—ªå…‰ä¾ å…«ä¸–
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÈËÓãÍõ×Ó¡¤¹şÉ³ÌØ]			--
+--		æ²™å²šåŸ[äººé±¼ç‹å­Â·å“ˆæ²™ç‰¹]			--
 --							--
 --		125471,349171				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk68 ()
 	
 	
-	Talk( 1, "Hassan: Hmm¡­I smell something nice the other day and the smell has lingered for very long. I wish to find out what is it exactly." )
+	Talk( 1, "Hassan: Hmmâ€¦I smell something nice the other day and the smell has lingered for very long. I wish to find out what is it exactly." )
 	Text( 1, "Combine", JumpPage, 2)
 
 	InitTrigger()
@@ -4800,42 +4800,42 @@ function r_talk68 ()
 	AddNpcMission ( 5014)
 	AddNpcMission ( 5033)
 	AddNpcMission ( 5034)
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5553)
 	AddNpcMission	(5554)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÈËÓãÍõ×Ó¡¤¹şÉ³ÌØ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<äººé±¼ç‹å­Â·å“ˆæ²™ç‰¹
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[ÀÖÆ÷×¨¼Ò¡¤É³Ã·¶ı]			--
+--		æ²™å²šåŸ[ä¹å™¨ä¸“å®¶Â·æ²™æ¢…æ´±]			--
 --							--
 --		66465,609367				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk69 ()
 	
 	
 	Talk( 1, "Shamel: Hi! I am a musician that bring melody to this place." )
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5559)
 	AddNpcMission	(5560)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÀÖÆ÷×¨¼Ò¡¤É³Ã·¶ı
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ä¹å™¨ä¸“å®¶Â·æ²™æ¢…æ´±
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Ê¥Å®¡¤°¬´ï]			--
+--		æ²™å²šåŸ[åœ£å¥³Â·è‰¾è¾¾]			--
 --							--
 --		86248,330381				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk70 ()
 	
 	
@@ -4852,22 +4852,22 @@ function r_talk70 ()
 	AddNpcMission ( 552 )
 	AddNpcMission ( 553 )
 	AddNpcMission ( 556 )
------------------Ê¥Å®¡¤°¬´ï---------½ğÅ£
+-----------------åœ£å¥³Â·è‰¾è¾¾---------é‡‘ç‰›
 	AddNpcMission	(5627)
 	AddNpcMission	(5628)
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ê¥Å®¡¤°¬´ï
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<åœ£å¥³Â·è‰¾è¾¾
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[Â·ÈË¡¤·¨Àû¶û]			--
+--		æ²™å²šåŸ[è·¯äººÂ·æ³•åˆ©å°”]			--
 --							--
 --		93176,352977				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk71 ()
 	
 	
@@ -4875,16 +4875,16 @@ function r_talk71 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤·¨Àû¶û
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·æ³•åˆ©å°”
 
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[¹¤»á»á³¤¡¤·ğÈğ]			--
+--		æ²™å²šåŸ[å·¥ä¼šä¼šé•¿Â·ä½›ç‘]			--
 --							--
 --		83171,354853				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk72 ()
 	
 	Talk( 1, "Forlan: Unity is strength! Want to challenge the Top 3 Guilds? Want to rule this world? Guild leader may apply for guild challenge with me. Your guild might make it to the Top 3 too!" )
@@ -4892,16 +4892,16 @@ function r_talk72 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¹¤»á»á³¤¡¤·ğÈğ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å·¥ä¼šä¼šé•¿Â·ä½›ç‘
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[Ìú½³¡¤±©±ù]			--
+--		å†°ç‹¼å ¡[é“åŒ Â·æš´å†°]			--
 --							--
 --		134423,52988				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk73 ()
 	
 	
@@ -4961,16 +4961,16 @@ function r_talk73 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ìú½³¡¤±©±ù
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“åŒ Â·æš´å†°
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[ÔÓ»õÉÌÈË¡¤²®Â³]			--
+--		å†°ç‹¼å ¡[æ‚è´§å•†äººÂ·ä¼¯é²]			--
 --							--
 --		135671,48320				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk74 ()
 	Talk( 1, "Palpin: Hi, I am the Grocer in Icicle City. I love to collect items. After you are Lv 10, look for me to get some item scollection quest. I pay well for the items I needed. How can I help you?" )
 	Text( 1, "Trade", BuyPage )
@@ -4999,7 +4999,7 @@ function r_talk74 ()
 	Other(	4603	)
 	Other(	4604	)
 	Other( 3296 )
-	--baby--Éú»î¼¼ÄÜÊéLv1
+	--baby--ç”Ÿæ´»æŠ€èƒ½ä¹¦Lv1
 	Other(	2679	)
 	Other(	2689	)
 	Other(	2699	)
@@ -5115,16 +5115,16 @@ function r_talk74 ()
 	Talk( 3, "Palpin: Keep it well...It is important." )
 	Talk( 4, "Palpin: You do not seem to have enough material. Your inventory may be binded or you do not have enough free slots." )
 end 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÔÓ»õÉÌÈË¡¤²®Â³
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‚è´§å•†äººÂ·ä¼¯é²
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[Ò©µêÀÏ°å¡¤´ïºÕ]			--
+--		å†°ç‹¼å ¡[è¯åº—è€æ¿Â·è¾¾èµ«]			--
 --							--
 --		135298,49926				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk75 ()
 	
 	
@@ -5153,7 +5153,7 @@ function r_talk75 ()
 	Other(	4057	)
 	Other(	1768	)
 
-	---------------------Íæ¼Ò³¬¹ı9¼¶
+	---------------------ç©å®¶è¶…è¿‡9çº§
 	--InitTrigger()
 	--TriggerCondition( 1, LvCheck, ">", 8 )
 	--TriggerCondition( 1, LvCheck, "<", 10 )
@@ -5180,17 +5180,17 @@ function r_talk75 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ò©µêÀÏ°å¡¤´ïºÕ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è¯åº—è€æ¿Â·è¾¾èµ«
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[»¤Ê¿Ğ¡½ã¡¤°²Äİ]			--
+--		å†°ç‹¼å ¡[æŠ¤å£«å°å§Â·å®‰å¦®]			--
 --							--
 --		131725,50169				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk76 ()
 	
 	
@@ -5207,16 +5207,16 @@ function r_talk76 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»¤Ê¿Ğ¡½ã¡¤°²Äİ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æŠ¤å£«å°å§Â·å®‰å¦®
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[ĞÂÊÖÖ¸µ¼¡¤°²ç÷Â¶ÑÇ]		--
+--		å†°ç‹¼å ¡[æ–°æ‰‹æŒ‡å¯¼Â·å®‰çªéœ²äºš]		--
 --							--
 --		131577,50700				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk77 ()
 	
 	
@@ -5371,7 +5371,7 @@ function r_talk77 ()
 	Text( 28, "Regarding Classes and Attributes", JumpPage, 11 )
 	Text( 28, "I have understood all",  CloseTalk )
 
-	Talk( 29, "Angela: Very good! Now it is time for you to select your class. To become a Swordsman, go to Peter in Argent City (2192, 2767), Herbalist go to Shaitan City look for High Priest - Gannon at (862, 3500), Hunter look for Swordsman - Ray in Icicle City at (1365, 570). The path is long¡­Choose well." )
+	Talk( 29, "Angela: Very good! Now it is time for you to select your class. To become a Swordsman, go to Peter in Argent City (2192, 2767), Herbalist go to Shaitan City look for High Priest - Gannon at (862, 3500), Hunter look for Swordsman - Ray in Icicle City at (1365, 570). The path is longâ€¦Choose well." )
 	Text( 29, "I would like to ask about something", JumpPage, 4 )
 	Text( 29, "Regarding Classes and Attributes", JumpPage, 11 )
 	Text( 29, "I have understood all",  CloseTalk)
@@ -5400,7 +5400,7 @@ function r_talk77 ()
 	Talk( 6, "Angela: Sorry, you do not meet the requirements to redeem." )
 
 	--InitTrigger()
-	---------------------Íæ¼Ò³¬¹ı6¼¶Íê³É¹ıÉª°²µÄÕ½¶·ÑµÁ·ÈÎÎñ
+	---------------------ç©å®¶è¶…è¿‡6çº§å®Œæˆè¿‡ç‘Ÿå®‰çš„æˆ˜æ–—è®­ç»ƒä»»åŠ¡
 	--TriggerCondition( 1, LvCheck, ">", 4 )
 	--TriggerCondition( 1, LvCheck, "<", 9 )
 	--TriggerCondition( 1, HasRecord, 716 )
@@ -5435,23 +5435,23 @@ function r_talk77 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ĞÂÊÖÖ¸µ¼¡¤°²ç÷Â¶ÑÇ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ–°æ‰‹æŒ‡å¯¼Â·å®‰çªéœ²äºš
 
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[±ùÀÇ±¤½£Ê¿¡¤À×Å·]		--
+--		å†°ç‹¼å ¡[å†°ç‹¼å ¡å‰‘å£«Â·é›·æ¬§]		--
 --							--
 --		136573,57078				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk78 ()
 	
-	-------------------×ªÖ°Ë«½£
+	-------------------è½¬èŒåŒå‰‘
 	Talk( 1, "Ray: I am a bounty hunter. I love to hunt for undeads. If you are interested, I can recommend a few places to you." )
 
-		----------------×ªÖ°³ÉÎªÁÔÈË
+		----------------è½¬èŒæˆä¸ºçŒäºº
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 9 )
 	TriggerCondition( 1, IsCategory, 1 )
@@ -5485,7 +5485,7 @@ function r_talk78 ()
 
 	Talk(4, "Want to be a Hunter? Only players Lv 8 and above who possess a Hunter Manual can register with me for 1000G. Muscular guy or little girl are not suitable.")
 
-	----------------×ªÖ°³ÉÎª¾Ñ»÷ÊÖ
+	----------------è½¬èŒæˆä¸ºç‹™å‡»æ‰‹
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 39 )
 	TriggerCondition( 1, IsCategory, 1 )
@@ -5517,7 +5517,7 @@ function r_talk78 ()
 
 	--InitTrigger()
 
--------------------×ªÁÔÈËÅĞ¶Ï
+-------------------è½¬çŒäººåˆ¤æ–­
 	--TriggerCondition( 1, LvCheck, ">", 9 )
 	----TriggerCondition( 1, IsCategory, 1 )
 	--TriggerCondition( 1, PfEqual, 0 )
@@ -5528,7 +5528,7 @@ function r_talk78 ()
 	--TriggerAction( 2, JumpPage, 2 )
 	--TriggerFailure( 2, JumpPage, 1 )
 
-----------------¾Ñ»÷ÊÖ
+----------------ç‹™å‡»æ‰‹
 
 	--TriggerCondition( 3, LvCheck, ">", 39 )
 	--TriggerCondition( 3, IsCategory, 1 )
@@ -5574,27 +5574,27 @@ function r_talk78 ()
 
 	MisListPage(2)
 
------ÌúÈËÁùÏî
+-----é“äººå…­é¡¹
 	AddNpcMission ( 6125 )
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<±ùÀÇ±¤½£Ê¿¡¤À×Å·
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å†°ç‹¼å ¡å‰‘å£«Â·é›·æ¬§
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[±ùÀÇ±¤ÉÌ»á»á³¤¡¤°¬Á¢¿Ë]		--
+--		å†°ç‹¼å ¡[å†°ç‹¼å ¡å•†ä¼šä¼šé•¿Â·è‰¾ç«‹å…‹]		--
 --							--
 --		129486,49842				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk79 ()
 	
 	
 	Talk( 1, "Reyno: Wherever there are money to be earned, I will be there. Hi! I am Icicle Chairman - Reyno. The richest man in the city." )
 	Text( 1, "Decoct Recovery Potion", JumpPage, 5)
 
-	--------------------ÅÚÖÆÌáÉñ¼Á
+	--------------------ç‚®åˆ¶æç¥å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3138, 2 )
@@ -5610,7 +5610,7 @@ function r_talk79 ()
 	Talk( 5, "Reyno: Those herbs sold by physicians are just common herbs. Only I possess rare herbs that do miracles." )
 	Text( 5, "Make Agrypnotic",MultiTrigger, GetMultiTrigger(), 1)
 
-	----------------ºÏ³ÉÄ§»ÃÒ©Ë®
+	----------------åˆæˆé­”å¹»è¯æ°´
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1779, 1 )
 	TriggerCondition( 1, HasItem, 3133, 1 )
@@ -5657,16 +5657,16 @@ function r_talk79 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÉÌ»á»á³¤¡¤°¬Á¢¿Ë
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å•†ä¼šä¼šé•¿Â·è‰¾ç«‹å…‹
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[±ùÀÇ±¤¹ó×å¡¤Âí¶ûĞŞË¹]		--
+--		å†°ç‹¼å ¡[å†°ç‹¼å ¡è´µæ—Â·é©¬å°”ä¿®æ–¯]		--
 --							--
 --		134652,45141				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk80 ()
 	
 	
@@ -5705,16 +5705,16 @@ function r_talk80 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<±ùÀÇ±¤¹ó×å¡¤Âí¶ûĞŞË¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<å†°ç‹¼å ¡è´µæ—Â·é©¬å°”ä¿®æ–¯
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[ÒøĞĞ³öÄÉ¡¤²¼ÀöÄÈ]		--
+--		å†°ç‹¼å ¡[é“¶è¡Œå‡ºçº³Â·å¸ƒä¸½å¨œ]		--
 --							--
 --		136058,51931				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk81 ()
 	
 	
@@ -5738,16 +5738,16 @@ function r_talk81 ()
 
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÒøĞĞ³öÄÉ¡¤²¼ÀöÄÈ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é“¶è¡Œå‡ºçº³Â·å¸ƒä¸½å¨œ
 
 -----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[¾Æ°É·şÎñÔ±¡¤°Å°ÅÀ­]		--
+--		å†°ç‹¼å ¡[é…’å§æœåŠ¡å‘˜Â·èŠ­èŠ­æ‹‰]		--
 --							--
 --		131083,53031				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk82 ()
 	
 	
@@ -5766,8 +5766,8 @@ function r_talk82 ()
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1112 )
 	TriggerCondition( 1, NoRecord,1113 )
-	TriggerCondition( 1, HasItem, 2943, 1 )---------½ğÅ£ÃÅÆ±
-	TriggerAction( 1, TakeItem, 2943, 1 )----------½ğÅ£ÃÅÆ±
+	TriggerCondition( 1, HasItem, 2943, 1 )---------é‡‘ç‰›é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 2943, 1 )----------é‡‘ç‰›é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1111 )
 	TriggerAction( 1, SetRecord, 1152 )
 	TriggerAction( 1, JumpPage, 10 )
@@ -5777,8 +5777,8 @@ function r_talk82 ()
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1111 )
 	TriggerCondition( 1, NoRecord,1113 )
-	TriggerCondition( 1, HasItem, 2943, 1 )---------½ğÅ£ÃÅÆ±
-	TriggerAction( 1, TakeItem, 2943, 1 )----------½ğÅ£ÃÅÆ±
+	TriggerCondition( 1, HasItem, 2943, 1 )---------é‡‘ç‰›é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 2943, 1 )----------é‡‘ç‰›é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1112 )
 	TriggerAction( 1, SetRecord, 1152 )
 	TriggerAction( 1, JumpPage, 10 )
@@ -5788,8 +5788,8 @@ function r_talk82 ()
 	InitTrigger()
 	TriggerCondition( 1, NoRecord,1111 )
 	TriggerCondition( 1, NoRecord,1112 )
-	TriggerCondition( 1, HasItem, 2943, 1 )---------½ğÅ£ÃÅÆ±
-	TriggerAction( 1, TakeItem, 2943, 1 )----------½ğÅ£ÃÅÆ±
+	TriggerCondition( 1, HasItem, 2943, 1 )---------é‡‘ç‰›é—¨ç¥¨
+	TriggerAction( 1, TakeItem, 2943, 1 )----------é‡‘ç‰›é—¨ç¥¨
 	TriggerAction( 1, SetRecord, 1113 )
 	TriggerAction( 1, SetRecord, 1152 )
 	TriggerAction( 1, JumpPage, 10 )
@@ -5891,7 +5891,7 @@ function r_talk82 ()
 --	Talk( 15, "Babara: Next Palace is Gemini Palace, and please continue your effort!")
 
 
------------µ÷ÅäÀ¶É«È¾·¢¼Á
+-----------è°ƒé…è“è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1792, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -5906,7 +5906,7 @@ function r_talk82 ()
 	TriggerFailure( 1, JumpPage, 4 )
 	Talk( 2, "Babara: Hi! Have you encounter anything interesting? Tell me!" )
 	Text( 2, "Decoct Blue Colorant", MultiTrigger, GetMultiTrigger(), 1)
--------------------------µ÷Åä×ÏÉ«È¾·¢¼Á
+-------------------------è°ƒé…ç´«è‰²æŸ“å‘å‰‚
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1793, 5 )
 	TriggerCondition( 1, HasItem, 1657, 1 )
@@ -5941,8 +5941,8 @@ function r_talk82 ()
 	Talk( 8, "Babara: Sorry! You do not have the required items. You need to have 10 Elven Fruits and 1 Glass to mix the drink." )
 	AddNpcMission	(1078)
 	AddNpcMission	(389)
----------------------°Å°ÅÀ­
-	---------------½ğÅ£
+---------------------èŠ­èŠ­æ‹‰
+	---------------é‡‘ç‰›
 	AddNpcMission	(5608)
 	AddNpcMission	(5609)
 	AddNpcMission	(5610)
@@ -5973,16 +5973,16 @@ function r_talk82 ()
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<¾Æ°É·şÎñÔ±¡¤°Å°ÅÀ­
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<é…’å§æœåŠ¡å‘˜Â·èŠ­èŠ­æ‹‰
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[·ş×°µêÖ÷¡¤º²ÄÈ]		--
+--		å†°ç‹¼å ¡[æœè£…åº—ä¸»Â·ç¿°å¨œ]		--
 --							--
 --		134926,53992				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk83 ()
 	
 	
@@ -6032,16 +6032,16 @@ function r_talk83 ()
 	AddNpcMission	(172)
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<·ş×°µêÖ÷¡¤º²ÄÈ
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æœè£…åº—ä¸»Â·ç¿°å¨œ
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[ÂÃµêÀÏ°å¡¤Ô¼Éª·ò]		--
+--		å†°ç‹¼å ¡[æ—…åº—è€æ¿Â·çº¦ç‘Ÿå¤«]		--
 --							--
 --		129074,54098				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk84 ()
 	
 	
@@ -6050,28 +6050,28 @@ function r_talk84 ()
 	AddNpcMission	(184)
 	AddNpcMission	(185)
 	AddNpcMission	(186)
-	---------------Çïµº¿ª·¢
+	---------------ç§‹å²›å¼€å‘
 	--AddNpcMission	(6179)
 	--AddNpcMission	(6180)
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂÃµêÀÏ°å¡¤Ô¼Éª·ò
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ—…åº—è€æ¿Â·çº¦ç‘Ÿå¤«
 
 ----------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[Â·ÈË¡¤¶¡]		--
+--		å†°ç‹¼å ¡[è·¯äººÂ·ä¸]		--
 --							--
 --		133550,46900				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function r_talk85 ()
 	
 	
 	Talk( 1, "Tink: Have you seen my three brothers? They live in Shaitan, Argent and Thundoria respectively." )
 	Text( 1, "Refine", JumpPage, 2)
--------------------Á¶ÔìµØ½ğ¿óÊ¯
+-------------------ç‚¼é€ åœ°é‡‘çŸ¿çŸ³
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 1781, 10 )
 	TriggerCondition( 1, HasMoney, 200 )
@@ -6094,20 +6094,20 @@ function r_talk85 ()
 	AddNpcMission ( 6022 )
 	AddNpcMission ( 6023 )
 	AddNpcMission ( 6024 )
-	-------------------Â·ÈË¡¤¶¡  -------------------------¾ŞĞ·
+	-------------------è·¯äººÂ·ä¸  -------------------------å·¨èŸ¹
 	AddNpcMission ( 5859 )
 	AddNpcMission ( 5860 )
 
 	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Â·ÈË¡¤¶¡
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<è·¯äººÂ·ä¸
 
 
 
 
 ------------------------------------------------------------
--- °×ÒøÖ®³Ç:ÀúÊ·ÈÎÎñ:ĞÂÊÖÖ¸µ¼ÈÎÎñ
+-- ç™½é“¶ä¹‹åŸ:å†å²ä»»åŠ¡:æ–°æ‰‹æŒ‡å¯¼ä»»åŠ¡
 ------------------------------------------------------------
 
 function BT_NewUser001()
@@ -6292,7 +6292,7 @@ function BT_NewUser001()
 	Talk( 6, "Senna: I'm sorry, you are not qualified to receive the prize" )
 
 	--InitTrigger()
-	---------------------Íæ¼Ò³¬¹ı6¼¶Íê³É¹ıÉª°²µÄÕ½¶·ÑµÁ·ÈÎÎñ
+	---------------------ç©å®¶è¶…è¿‡6çº§å®Œæˆè¿‡ç‘Ÿå®‰çš„æˆ˜æ–—è®­ç»ƒä»»åŠ¡
 	--TriggerCondition( 1, LvCheck, ">", 4 )
 	--TriggerCondition( 1, LvCheck, "<", 8 )
 	--TriggerCondition( 1, HasRecord, 704)
@@ -6322,7 +6322,7 @@ function BT_NewUser001()
 
 	MisListPage(28)
 	MisListPage(29)
------------------¶şÔÂ-------------Ñ¹Ëê°ü
+-----------------äºŒæœˆ-------------å‹å²åŒ…
 	--AddNpcMission 	(5507)
 end
 
@@ -6330,7 +6330,7 @@ end
 
 
 ------------------------------------------------------------
--- Í¨ÓÃ¾º¼¼³¡½Å±¾
+-- é€šç”¨ç«æŠ€åœºè„šæœ¬
 ------------------------------------------------------------
 
 function r_talk87 ()
@@ -6423,17 +6423,17 @@ end
 
 
 ------------------------------------------------------------
--- °×Òø³Ç¡ª¡ªÑ²Âß±ø¡¤Âí¶ûË¹
+-- ç™½é“¶åŸâ€”â€”å·¡é€»å…µÂ·é©¬å°”æ–¯
 ------------------------------------------------------------
 
 function r_talk88 ()
 
-	Talk( 1, "Marcusa: Hi, I am new around here. My name is Marcusa. Wonder why so many squids appear outside of Argent. My captain sends me to clear up the mess they did with their ink¡­sob¡­sob. New man always gets bullied¡­" )
+	Talk( 1, "Marcusa: Hi, I am new around here. My name is Marcusa. Wonder why so many squids appear outside of Argent. My captain sends me to clear up the mess they did with their inkâ€¦sobâ€¦sob. New man always gets bulliedâ€¦" )
 
 	Talk( 2, "Marcusa: Very well! You have progressed to Lv 9. You can choose your class at Lv 10. Go now to the related NPC to start your trial for the class you wish to become. Swordsman look for Peter in Argent City at (2192, 2767). Herbalist look for High Priest - Gannon in Shaitan City at (862, 3500). Hunter look for Swordsman - Ray in Icicle Castle at (1365, 570). Explorer look for Little Daniel at (2193, 2730). You can reach Icicle or Shaitan by using the teleporter." )
 
 
-	---------------------Íæ¼Ò³¬¹ı9¼¶
+	---------------------ç©å®¶è¶…è¿‡9çº§
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 8 )
 	TriggerCondition( 1, LvCheck, "<", 10 )
@@ -6448,7 +6448,7 @@ function r_talk88 ()
 	AddNpcMission ( 52 )
 	AddNpcMission ( 53 )
 	AddNpcMission ( 54 )
-----------Ñ²Âß±ø¡¤Âí¶ûË¹-------Ë«×Ó
+----------å·¡é€»å…µÂ·é©¬å°”æ–¯-------åŒå­
 	AddNpcMission	(5696)
 	AddNpcMission	(5697)
 	MisListPage(2)
@@ -6456,16 +6456,16 @@ function r_talk88 ()
 end
 
 ------------------------------------------------------------
--- É³á°³Ç¡ª¡ªÑ²Âß±ø¡¤Âõ¿Ë
+-- æ²™å²šåŸâ€”â€”å·¡é€»å…µÂ·è¿ˆå…‹
 ------------------------------------------------------------
 
 function r_talk89 ()
 
-	Talk( 1, "Michael: Hi, I am suppose to patrol around here.. You better be careful as the scorpions here are dangerous. Its so boring¡­" )
+	Talk( 1, "Michael: Hi, I am suppose to patrol around here.. You better be careful as the scorpions here are dangerous. Its so boringâ€¦" )
 	
 	Talk( 2, "Michael: Very well! You have progressed to Lv 9. You can choose your class at Lv 10. Go now to the related NPC to start your trial for the class you wish to become. Swordsman look for Peter in Argent City at (2192, 2767). Herbalist look for High Priest - Gannon in Shaitan City at (862, 3500). Hunter look for Swordsman - Ray in Icicle Castle at (1365, 570). You can reach Icicle or Argent by using the teleporter." )
 
-	---------------------Íæ¼Ò³¬¹ı9¼¶
+	---------------------ç©å®¶è¶…è¿‡9çº§
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 8 )
 	TriggerCondition( 1, LvCheck, "<", 10 )
@@ -6487,7 +6487,7 @@ function r_talk89 ()
 	AddNpcMission 	(922)--------------------------------------------
 	AddNpcMission 	(923)
 	AddNpcMission 	(924)------------
-----------Ñ²Âß±ø¡¤Âõ¿Ë-------Ë«×Ó
+----------å·¡é€»å…µÂ·è¿ˆå…‹-------åŒå­
 	AddNpcMission	(5692)
 	AddNpcMission	(5693)
 
@@ -6496,16 +6496,16 @@ function r_talk89 ()
 end
 
 ------------------------------------------------------------
--- ±ùÀÇ±¤¡ª¡ªÑ²Âß±ø¡¤Ğ¡Äª
+-- å†°ç‹¼å ¡â€”â€”å·¡é€»å…µÂ·å°è«
 ------------------------------------------------------------
 
 function r_talk90 ()
 
-	Talk( 1, "Little Mo: I am supposed to patrol around this area all day long. It is so boring and cold around here. Do you have something for me to eat? I am so hungry. There are no good foods around here¡­" )
+	Talk( 1, "Little Mo: I am supposed to patrol around this area all day long. It is so boring and cold around here. Do you have something for me to eat? I am so hungry. There are no good foods around hereâ€¦" )
 
 	Talk( 2, "Little Mo: Very well! You have progressed to Lv 9. You can choose your class at Lv 10. Go now to the related NPC to start your trial for the class you wish to become. Swordsman look for Peter in Argent City at (2192, 2767). Herbalist look for High Priest - Gannon in Shaitan City at (862, 3500). Hunter look for Swordsman - Ray in Icicle Castle at (1365, 570). You can reach Icicle or Shaitan by using the teleporter." )
 
-	---------------------Íæ¼Ò³¬¹ı9¼¶
+	---------------------ç©å®¶è¶…è¿‡9çº§
 	InitTrigger()
 	TriggerCondition( 1, LvCheck, ">", 8 )
 	TriggerCondition( 1, LvCheck, "<", 10 )
@@ -6532,7 +6532,7 @@ function r_talk90 ()
 end
 
 ------------------------------------------------------------
--- É³á°³Ç¡ª¡ªÒ©²ÄÉÌÈË¡¤É³À­À­
+-- æ²™å²šåŸâ€”â€”è¯æå•†äººÂ·æ²™æ‹‰æ‹‰
 ------------------------------------------------------------
 
 function r_talk91 ()
@@ -6563,7 +6563,7 @@ function r_talk91 ()
 	Other(	1768	)
 
 
-	---------------------Íæ¼Ò³¬¹ı9¼¶
+	---------------------ç©å®¶è¶…è¿‡9çº§
 	--InitTrigger()
 	--TriggerCondition( 1, LvCheck, ">", 8 )
 	--TriggerCondition( 1, LvCheck, "<", 10 )
@@ -6581,7 +6581,7 @@ function r_talk91 ()
 end 
 
 ------------------------------------------------------------
---¿¨¶û¼ÓµÂÑ©Ô­    ÂÃĞĞÒ½Éú¡¤ÍßÂŞÎÂÄİ
+--å¡å°”åŠ å¾·é›ªåŸ    æ—…è¡ŒåŒ»ç”ŸÂ·ç“¦ç½—æ¸©å¦®
 ------------------------------------------------------------
 
 function r_talk92 ()
@@ -6602,7 +6602,7 @@ function r_talk92 ()
 end
 
 ------------------------------------------------------------
--- Àµ°²É­ÁÖ¡ª¡ªÂÃĞĞÒ½Éú¡¤Ã×ÄÎÏ£¶û
+-- èµ–å®‰æ£®æ—â€”â€”æ—…è¡ŒåŒ»ç”ŸÂ·ç±³å¥ˆå¸Œå°”
 ------------------------------------------------------------
 
 function r_talk93 ()
@@ -6619,7 +6619,7 @@ function r_talk93 ()
 	AddNpcMission(	1442	)
 	AddNpcMission (	1900	)
 
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5567)
 	AddNpcMission	(5568)
 	AddNpcMission ( 6052 )
@@ -6631,7 +6631,7 @@ function r_talk93 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----¸£¿Ë
+-- å¾·å°”ç»´å¹³åŸ-----ç¦å…‹
 ------------------------------------------------------------
 
 function r_talk94 ()
@@ -6641,12 +6641,12 @@ function r_talk94 ()
 end
 
 ------------------------------------------------------------
--- ±ù¼«²¹¸øÕ¾-----·¨µÏ¶û
+-- å†°æè¡¥ç»™ç«™-----æ³•è¿ªå°”
 ------------------------------------------------------------
 
 function r_talk95 ()
 
-	Talk( 1, "Fardey: My dumb friend is thinking to bring winter clothings to sell in the hot and dry Shaitan City¡­What can I do to deter him¡­." )
+	Talk( 1, "Fardey: My dumb friend is thinking to bring winter clothings to sell in the hot and dry Shaitan Cityâ€¦What can I do to deter himâ€¦." )
 	Text( 1, "Trade", BuyPage )
 	Text( 1, "Nothing...",CloseTalk )
 
@@ -6667,7 +6667,7 @@ function r_talk95 ()
 	AddNpcMission (	1927	)
 	AddNpcMission (	1948	)
 
-	------------------¶şÔÂ
+	------------------äºŒæœˆ
 	--AddNpcMission (5504	)
 
 
@@ -6675,7 +6675,7 @@ function r_talk95 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----Ï¯ÌØ
+-- å¾·å°”ç»´å¹³åŸ-----å¸­ç‰¹
 ------------------------------------------------------------
 
 function r_talk96 ()
@@ -6685,7 +6685,7 @@ function r_talk96 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----ÑÏÂŞËş
+-- å¾·å°”ç»´å¹³åŸ-----ä¸¥ç½—å¡”
 ------------------------------------------------------------
 
 function r_talk97 ()
@@ -6713,7 +6713,7 @@ function r_talk97 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----²¼²¼
+-- å¾·å°”ç»´å¹³åŸ-----å¸ƒå¸ƒ
 ------------------------------------------------------------
 
 function r_talk98 ()
@@ -6723,7 +6723,7 @@ function r_talk98 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----Â³Â³
+-- å¾·å°”ç»´å¹³åŸ-----é²é²
 ------------------------------------------------------------
 
 function r_talk99 ()
@@ -6734,7 +6734,7 @@ function r_talk99 ()
 	AddNpcMission (	1925	)
 	AddNpcMission (	1946	)
 
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5561)
 	AddNpcMission	(5562)
 	AddNpcMission ( 6040 )
@@ -6745,7 +6745,7 @@ function r_talk99 ()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----°ÂµÏË¹.ÉÁ¹â
+-- å¾·å°”ç»´å¹³åŸ-----å¥¥è¿ªæ–¯.é—ªå…‰
 ------------------------------------------------------------
 
 function r_talk100()
@@ -6771,7 +6771,7 @@ function r_talk100()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----Ã·¶û
+-- å¾·å°”ç»´å¹³åŸ-----æ¢…å°”
 ------------------------------------------------------------
 
 function r_talk101()
@@ -6781,7 +6781,7 @@ function r_talk101()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----¹Å²©À­
+-- å¾·å°”ç»´å¹³åŸ-----å¤åšæ‹‰
 ------------------------------------------------------------
 
 function r_talk102()
@@ -6793,39 +6793,39 @@ function r_talk102()
 	AddNpcMission 	(613)
 	AddNpcMission 	(615)
 	AddNpcMission 	(618)
-----------¹Å²©À­-------Ë«×Ó
+----------å¤åšæ‹‰-------åŒå­
 	AddNpcMission	(5702)
 	AddNpcMission	(5703)
 
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----Ğ¡¿â¶ûÉ­
+-- å¾·å°”ç»´å¹³åŸ-----å°åº“å°”æ£®
 ------------------------------------------------------------
 
 function r_talk103()
 
-	Talk( 1, "Little Cuwen: Mum say I should not talk to stranger¡­Can I have a sweet?" )
+	Talk( 1, "Little Cuwen: Mum say I should not talk to strangerâ€¦Can I have a sweet?" )
 
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----Âê¼§ÉôÉô
+-- å¾·å°”ç»´å¹³åŸ-----ç›å§¬å©¶å©¶
 ------------------------------------------------------------
 
 function r_talk104()
 
-	Talk( 1, "Aunt Mary: I love to eat Black Forest Cake, baked with a thick layer of chocolates on top. Yummy¡­It makes me drool." )
+	Talk( 1, "Aunt Mary: I love to eat Black Forest Cake, baked with a thick layer of chocolates on top. Yummyâ€¦It makes me drool." )
 
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----ÍßÈø·¨¶û
+-- å¾·å°”ç»´å¹³åŸ-----ç“¦è¨æ³•å°”
 ------------------------------------------------------------
 
 function r_talk105()
 
-	Talk( 1, "Waala: Tell you a secret¡­Recently, my friends and I made a new card game. It requires 4 person and 108 cards. Each of us sit in a circle and¡­." )
+	Talk( 1, "Waala: Tell you a secretâ€¦Recently, my friends and I made a new card game. It requires 4 person and 108 cards. Each of us sit in a circle andâ€¦." )
 
 	AddNpcMission 	(451)
 	AddNpcMission 	(457)
@@ -6835,7 +6835,7 @@ function r_talk105()
 	AddNpcMission (	1902	)
 	AddNpcMission (	1940	)
 
-	----------ÍßÈø·¨¶û-------Ë«×Ó
+	----------ç“¦è¨æ³•å°”-------åŒå­
 	AddNpcMission	(5708)
 	AddNpcMission	(5709)
 
@@ -6845,7 +6845,7 @@ function r_talk105()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----ÖìÀö²¼Âê
+-- å¾·å°”ç»´å¹³åŸ-----æœ±ä¸½å¸ƒç›
 ------------------------------------------------------------
 
 function r_talk106()
@@ -6864,7 +6864,7 @@ function r_talk106()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----°¢Àï¿ËË¹
+-- å¾·å°”ç»´å¹³åŸ-----é˜¿é‡Œå…‹æ–¯
 ------------------------------------------------------------
 
 function r_talk107()
@@ -6887,7 +6887,7 @@ function r_talk107()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----ÀÏ¿â¶ûÉ­
+-- å¾·å°”ç»´å¹³åŸ-----è€åº“å°”æ£®
 ------------------------------------------------------------
 
 function r_talk108()
@@ -6899,7 +6899,7 @@ function r_talk108()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----º£¾üÁĞ±ø
+-- å¾·å°”ç»´å¹³åŸ-----æµ·å†›åˆ—å…µ
 ------------------------------------------------------------
 
 function r_talk109()
@@ -6909,7 +6909,7 @@ function r_talk109()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¼ª¶ûÄáÄáË¹
+-- å¸•å…‹è’æ¼ -----å‰å°”å°¼å°¼æ–¯
 ------------------------------------------------------------
 
 function r_talk110()
@@ -6928,7 +6928,7 @@ function r_talk110()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----Ã×¶ûÃ×Àò
+-- å¸•å…‹è’æ¼ -----ç±³å°”ç±³è‰
 ------------------------------------------------------------
 
 function r_talk111()
@@ -6959,13 +6959,13 @@ function r_talk111()
 	AddNpcMission (5113 )
 	AddNpcMission ( 6032 )
 	AddNpcMission ( 6033 )
-----------Ã×¶ûÃ×Àò-------Ë«×Ó
+----------ç±³å°”ç±³è‰-------åŒå­
 	AddNpcMission	(5722)
 	AddNpcMission	(5723)
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----°Â¸ñÉ­
+-- å¸•å…‹è’æ¼ -----å¥¥æ ¼æ£®
 ------------------------------------------------------------
 
 function r_talk112()
@@ -6978,7 +6978,7 @@ function r_talk112()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¼ÓÎ÷ÑÇ¡¤ÆÆ·«
+-- å¸•å…‹è’æ¼ -----åŠ è¥¿äºšÂ·ç ´å¸†
 ------------------------------------------------------------
 
 function r_talk113()
@@ -6989,7 +6989,7 @@ function r_talk113()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----µÏµÏÂíĞŞ
+-- å¸•å…‹è’æ¼ -----è¿ªè¿ªé©¬ä¿®
 ------------------------------------------------------------
 
 function r_talk114()
@@ -7016,21 +7016,21 @@ function r_talk114()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¶í¿ËÁğÎ÷Ë¹
+-- å¸•å…‹è’æ¼ -----ä¿„å…‹ç‰è¥¿æ–¯
 ------------------------------------------------------------
 
 function r_talk115()
 
 	Talk( 1, "Ruben Actus: I want to earn a lot of gold. If that cannot be done, I need a party mate that is able to supply me with lots of gold." )
 	AddNpcMission	(1120)
-----------¶í¿ËÁğÎ÷Ë¹-------Ë«×Ó
+----------ä¿„å…‹ç‰è¥¿æ–¯-------åŒå­
 	AddNpcMission	(5698)
 	AddNpcMission	(5699)
 
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----Ã·ÀûÎ÷ÑÇ¡¤Ã¨ÑÛ
+-- å¸•å…‹è’æ¼ -----æ¢…åˆ©è¥¿äºšÂ·çŒ«çœ¼
 ------------------------------------------------------------
 
 function r_talk116()
@@ -7047,7 +7047,7 @@ function r_talk116()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¹ÅµÃËş¿Ë¡¤»ÒÇ½
+-- å¸•å…‹è’æ¼ -----å¤å¾—å¡”å…‹Â·ç°å¢™
 ------------------------------------------------------------
 
 function r_talk117()
@@ -7057,12 +7057,12 @@ function r_talk117()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¿üÈüË¹¡¤¿ñÉ³
+-- å¸•å…‹è’æ¼ -----å¥èµ›æ–¯Â·ç‹‚æ²™
 ------------------------------------------------------------
 
 function r_talk118()
 
-	Talk( 1, "Gasardis: It doesn't pay to be kind¡­" )
+	Talk( 1, "Gasardis: It doesn't pay to be kindâ€¦" )
 	
 	AddNpcMission ( 257 )
 	AddNpcMission ( 258 )
@@ -7079,12 +7079,12 @@ function r_talk118()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----Í¨ÁéÕß¡¤ÔÂ¹âÑÛ
+-- å¸•å…‹è’æ¼ -----é€šçµè€…Â·æœˆå…‰çœ¼
 ------------------------------------------------------------
 
 function r_talk119()
 
-	Talk( 1, "Oracle Moonlight: I can see what others cannot see¡­like the shadow behind you¡­" )
+	Talk( 1, "Oracle Moonlight: I can see what others cannot seeâ€¦like the shadow behind youâ€¦" )
 
 	AddNpcMission 	(804)
 	AddNpcMission 	(808)
@@ -7094,7 +7094,7 @@ function r_talk119()
 	AddNpcMission (	1920	)
 
 	
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5585)
 	AddNpcMission	(5586)
 
@@ -7103,7 +7103,7 @@ function r_talk119()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¿¨¶ûËÕË¹¡¤Äà°Í
+-- å¸•å…‹è’æ¼ -----å¡å°”è‹æ–¯Â·æ³¥å·´
 ------------------------------------------------------------
 
 function r_talk120()
@@ -7123,12 +7123,12 @@ function r_talk120()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----ÄáÀï°¬ÑÇ¡¤³¤·¢
+-- å¸•å…‹è’æ¼ -----å°¼é‡Œè‰¾äºšÂ·é•¿å‘
 ------------------------------------------------------------
 
 function r_talk121()
 
-	Talk( 1, "Neila: Ya, you¡­me¡­.that¡­oh¡­.Sorry! Did I say anthing?" )
+	Talk( 1, "Neila: Ya, youâ€¦meâ€¦.thatâ€¦ohâ€¦.Sorry! Did I say anthing?" )
 
 	
 	AddNpcMission	(	870	)
@@ -7150,7 +7150,7 @@ function r_talk121()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¿ËÀòÀòÑÅ
+-- å¸•å…‹è’æ¼ -----å…‹è‰è‰é›…
 ------------------------------------------------------------
 
 function r_talk122()
@@ -7166,7 +7166,7 @@ function r_talk122()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----±´¿Ë
+-- å¸•å…‹è’æ¼ -----è´å…‹
 ------------------------------------------------------------
 
 function r_talk123()
@@ -7176,34 +7176,34 @@ function r_talk123()
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----ººÄ·
+-- å¸•å…‹è’æ¼ -----æ±‰å§†
 ------------------------------------------------------------
 
 function r_talk124()
 
 	Talk( 1, "Ham: I have a brother by the name of Beck. But I am the better half." )
------------------ººÄ·---------½ğÅ£
+-----------------æ±‰å§†---------é‡‘ç‰›
 	AddNpcMission	(5645)
 	AddNpcMission	(5646)
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----°®¶ûÓÈÀû¡¤Î¢·ç
+-- å¸•å…‹è’æ¼ -----çˆ±å°”å°¤åˆ©Â·å¾®é£
 ------------------------------------------------------------
 
 function r_talk125()
 
-	Talk( 1, "Love Yuri: Sigh¡­Love is so near yet so far¡­Sigh¡­" )
+	Talk( 1, "Love Yuri: Sighâ€¦Love is so near yet so farâ€¦Sighâ€¦" )
 
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----Ş±Àò¶û
+-- å¸•å…‹è’æ¼ -----è–‡è‰å°”
 ------------------------------------------------------------
 
 function r_talk126()
 
-	Talk( 1, "Willi: First! Never say that I am fat! Second! Never say that I am plump! Third! Don't tell me that I look like a pig! Ok¡­you can speak now." )
+	Talk( 1, "Willi: First! Never say that I am fat! Second! Never say that I am plump! Third! Don't tell me that I look like a pig! Okâ€¦you can speak now." )
 
 	AddNpcMission 	(685)
 	AddNpcMission 	(688)
@@ -7215,10 +7215,10 @@ function r_talk126()
 
 end
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----¶¬´ïÃ×ÆÅÆÅ
+-- å¸•å…‹è’æ¼ -----å†¬è¾¾ç±³å©†å©†
 ------------------------------------------------------------
 function r_talk127()
-Talk( 1, "Granny Dong: Young fellow¡­explore while you are still young." )
+Talk( 1, "Granny Dong: Young fellowâ€¦explore while you are still young." )
 	
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 1557 )
@@ -7309,17 +7309,17 @@ Talk( 1, "Granny Dong: Young fellow¡­explore while you are still young." )
 	end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----ÂŞ±öË¹¡¤±³°ü
+-- å¸•å…‹è’æ¼ -----ç½—å®¾æ–¯Â·èƒŒåŒ…
 ------------------------------------------------------------
 
 function r_talk128()
 
-	Talk( 1, "Robin: When I was small, my father would put me in his backpack and roam the world. I wanted to do the same too¡­" )
+	Talk( 1, "Robin: When I was small, my father would put me in his backpack and roam the world. I wanted to do the same tooâ€¦" )
 
 end
 
 ------------------------------------------------------------
--- ÅÁ¿Ë»ÄÄ®-----ÈğµÃ¡¤Æ¤¸ê
+-- å¸•å…‹è’æ¼ -----ç‘å¾—Â·çš®æˆˆ
 ------------------------------------------------------------
 
 function r_talk129()
@@ -7335,7 +7335,7 @@ function r_talk129()
 	AddNpcMission (	1905	)
 	AddNpcMission (	1941	)
 
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5583)
 	AddNpcMission	(5584)
 
@@ -7344,31 +7344,31 @@ function r_talk129()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÎÂÀò¡¤±ùÈª
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----æ¸©è‰Â·å†°æ³‰
 ------------------------------------------------------------
 
 function r_talk130()
 
 	Talk( 1, "Wynne: My home is in Icicle Castle. Have you visited my house?" )
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5581)
 	AddNpcMission	(5582)
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----À×Ë¹¡¤Ğ¡³æ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----é›·æ–¯Â·å°è™«
 ------------------------------------------------------------
 
 function r_talk131()
 
-	Talk( 1, "Lessie: People always refer to me as a little worm¡­But I will not stay this small forever¡­" )
------------------À×Ë¹¡¤Ğ¡³æ---------½ğÅ£
+	Talk( 1, "Lessie: People always refer to me as a little wormâ€¦But I will not stay this small foreverâ€¦" )
+-----------------é›·æ–¯Â·å°è™«---------é‡‘ç‰›
 	AddNpcMission	(5653)
 	AddNpcMission	(5654)
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----´ïÃ×¶û¡¤à½à½
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----è¾¾ç±³å°”Â·å˜Ÿå˜Ÿ
 ------------------------------------------------------------
 
 function r_talk132()
@@ -7384,7 +7384,7 @@ function r_talk132()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----Ë÷À­Ä·¡¤Èø¼Ó
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ç´¢æ‹‰å§†Â·è¨åŠ 
 ------------------------------------------------------------
 
 function r_talk133()
@@ -7404,7 +7404,7 @@ function r_talk133()
 	AddNpcMission (	1913	)
 
 
------------------Ë÷À­Ä·¡¤Èø¼Ó---------½ğÅ£
+-----------------ç´¢æ‹‰å§†Â·è¨åŠ ---------é‡‘ç‰›
 	AddNpcMission	(5657)
 	AddNpcMission	(5658)
 
@@ -7413,30 +7413,30 @@ function r_talk133()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÀÇÑÀÀ­Ä·
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ç‹¼ç‰™æ‹‰å§†
 ------------------------------------------------------------
 
 function r_talk134()
 
-	Talk( 1, "Lamut: I cannot see any city after three days of walking¡­.Am I lost again?" )
+	Talk( 1, "Lamut: I cannot see any city after three days of walkingâ€¦.Am I lost again?" )
 	AddNpcMission	(1083)
 
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÀÇÑÀÀ­Ä·
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ç‹¼ç‰™æ‹‰å§†
 ------------------------------------------------------------
 
 function r_talk135()
 
-	Talk( 1, "Irisis: If you never bring me a letter by the 'Legendary Prince Charming', don't talk to me¡­" )
+	Talk( 1, "Irisis: If you never bring me a letter by the 'Legendary Prince Charming', don't talk to meâ€¦" )
 	AddNpcMission	(1098)
 
 end
 
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----°¬Â×ÄÈ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----è‰¾ä¼¦å¨œ
 ------------------------------------------------------------
 
 function r_talk136()
@@ -7453,7 +7453,7 @@ function r_talk136()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ºÕ¶û´ï´ï
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----èµ«å°”è¾¾è¾¾
 ------------------------------------------------------------
 
 function r_talk137()
@@ -7464,7 +7464,7 @@ function r_talk137()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----Ô¼Éª·ò¡¤ÇÇ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----çº¦ç‘Ÿå¤«Â·ä¹”
 ------------------------------------------------------------
 
 function r_talk138()
@@ -7475,22 +7475,22 @@ function r_talk138()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----²İİ®ÓÅÓÅ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----è‰è“ä¼˜ä¼˜
 ------------------------------------------------------------
 
 function r_talk139()
 
 	Talk( 1, "Strawberry: Have you seen those pinkish piglets? They are the tastiest around here." )
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5555)
 	AddNpcMission	(5556)
-	----------²İİ®ÓÅÓÅ-------Ë«×Ó
+	----------è‰è“ä¼˜ä¼˜-------åŒå­
 	AddNpcMission	(5706)
 	AddNpcMission	(5707)
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÒÁÎÄ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ä¼Šæ–‡
 ------------------------------------------------------------
 
 function r_talk140()
@@ -7500,7 +7500,7 @@ function r_talk140()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ËÕÉºÄÈ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----è‹çŠå¨œ
 ------------------------------------------------------------
 
 function r_talk141()
@@ -7510,7 +7510,7 @@ function r_talk141()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----¿¨ÅµÁÖ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----å¡è¯ºæ—
 ------------------------------------------------------------
 
 function r_talk142()
@@ -7520,17 +7520,17 @@ function r_talk142()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----Õ²Ä·Ë¹
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----è©¹å§†æ–¯
 ------------------------------------------------------------
 
 function r_talk143()
 
-	Talk( 1, "Jameson: Rumored that there is a talking lamb in this world¡­" )
+	Talk( 1, "Jameson: Rumored that there is a talking lamb in this worldâ€¦" )
 
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----Â¶Î÷ÀöÀöÑÅ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----éœ²è¥¿ä¸½ä¸½é›…
 ------------------------------------------------------------
 
 function r_talk144()
@@ -7540,17 +7540,17 @@ function r_talk144()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÓÈÀ¼´ï¿Ë
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----å°¤å…°è¾¾å…‹
 ------------------------------------------------------------
 
 function r_talk145()
 
-	Talk( 1, "Yulandor: I always try to earn more money by killing monsters. However, I discover that they have very small purse recently¡­" )
+	Talk( 1, "Yulandor: I always try to earn more money by killing monsters. However, I discover that they have very small purse recentlyâ€¦" )
 
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----²©¶û·ÒÄá
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----åšå°”èŠ¬å°¼
 ------------------------------------------------------------
 
 function r_talk146()
@@ -7577,12 +7577,12 @@ function r_talk146()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----ÌÔÌÔ
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----æ·˜æ·˜
 ------------------------------------------------------------
 
 function r_talk147()
 
-	Talk( 1, "Berry: This sky is so blue... Blue¡­ Ocean¡­ Blue¡­ Blue¡­ Oh my¡­ mood also¡­ Blue¡­ Blue!" )
+	Talk( 1, "Berry: This sky is so blue... Blueâ€¦ Oceanâ€¦ Blueâ€¦ Blueâ€¦ Oh myâ€¦ mood alsoâ€¦ Blueâ€¦ Blue!" )
 
 	AddNpcMission ( 401 )
 	AddNpcMission 	(810)
@@ -7592,7 +7592,7 @@ function r_talk147()
 	AddNpcMission (	1909	)
 
 	
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5579)
 	AddNpcMission	(5580)
 
@@ -7603,7 +7603,7 @@ function r_talk147()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----¿ÆÈğÆä
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ç§‘ç‘å…¶
 ------------------------------------------------------------
 
 function r_talk148()
@@ -7613,18 +7613,18 @@ function r_talk148()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹±ùÔ­-----Ã×Ğª¶ûÃ·ÁÖ·Ò
+-- é˜¿å…°æ¯”æ–¯å†°åŸ-----ç±³æ­‡å°”æ¢…æ—èŠ¬
 ------------------------------------------------------------
 
 function r_talk149()
 
 	Talk( 1, "Missy Elene: ..............(I don't have anything to say to you...)" )
--------------Çïµº¿ª·¢
+-------------ç§‹å²›å¼€å‘
 	--AddNpcMission 	(6182)
 end
 
 ------------------------------------------------------------
--- ±ùÀÇ±¤-----Ë®ÊÖ¡¤°£µÏ¼Ó
+-- å†°ç‹¼å ¡-----æ°´æ‰‹Â·åŸƒè¿ªåŠ 
 ------------------------------------------------------------
 
 function r_talk156()
@@ -7634,7 +7634,7 @@ function r_talk156()
 end
 
 ------------------------------------------------------------
--- ¹ÅÀï¿©Àû²¹¸øÕ¾-----ÁñÁ«
+-- å¤é‡Œå’¯åˆ©è¡¥ç»™ç«™-----æ¦´è²
 ------------------------------------------------------------
 
 function r_talk157()
@@ -7654,7 +7654,7 @@ function r_talk157()
 	AddNpcMission(	1434	)
 	AddNpcMission (	1903	)
 
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5587)
 	AddNpcMission	(5588)
 
@@ -7665,7 +7665,7 @@ function r_talk157()
 end
 
 ------------------------------------------------------------
--- ¹ÅÀï¿©Àû²¹¸øÕ¾-----Á«ÄÈÒÌ
+-- å¤é‡Œå’¯åˆ©è¡¥ç»™ç«™-----è²å¨œå§¨
 ------------------------------------------------------------
 
 function r_talk158()
@@ -7697,7 +7697,7 @@ function r_talk158()
 end
 
 ------------------------------------------------------------
--- Íß¶ûÅµ²¹¸øÕ¾-----¹ÅÄÎË¹
+-- ç“¦å°”è¯ºè¡¥ç»™ç«™-----å¤å¥ˆæ–¯
 ------------------------------------------------------------
 
 function r_talk159()
@@ -7732,12 +7732,12 @@ function r_talk159()
 end
 
 ------------------------------------------------------------
--- ·Ï¿ó²¹¸øÕ¾-----Àï¿¨¶û
+-- åºŸçŸ¿è¡¥ç»™ç«™-----é‡Œå¡å°”
 ------------------------------------------------------------
 
 function r_talk160()
 
-	Talk( 1, "Kal: Hi! I am Security - Kal! This place is dangerous¡­" )
+	Talk( 1, "Kal: Hi! I am Security - Kal! This place is dangerousâ€¦" )
 
 	AddNpcMission ( 223 )
 	AddNpcMission ( 224 )
@@ -7760,23 +7760,23 @@ function r_talk160()
 end
 
 ------------------------------------------------------------
--- ·Ï¿ó²¹¸øÕ¾-----¿ó¹¤´ó¶Çëî
+-- åºŸçŸ¿è¡¥ç»™ç«™-----çŸ¿å·¥å¤§è‚šè…©
 ------------------------------------------------------------
 
 function r_talk161()
 
-	Talk( 1, "Drunky: Groan¡­I am so hungry¡­I lost my lunchbox¡­Sigh¡­" )
+	Talk( 1, "Drunky: Groanâ€¦I am so hungryâ€¦I lost my lunchboxâ€¦Sighâ€¦" )
 
 	AddNpcMission ( 284 )
 	AddNpcMission ( 285 )
 	AddNpcMission ( 311 )
-	-----------------¿ó¹¤´ó¶Çëî---------½ğÅ£
+	-----------------çŸ¿å·¥å¤§è‚šè…©---------é‡‘ç‰›
 	AddNpcMission	(5663)
 	AddNpcMission	(5664)
 end
 
 ------------------------------------------------------------
--- ·Ï¿ó²¹¸øÕ¾-----¹ÅÁé¾«
+-- åºŸçŸ¿è¡¥ç»™ç«™-----å¤çµç²¾
 ------------------------------------------------------------
 
 function r_talk162()
@@ -7798,7 +7798,7 @@ function r_talk162()
 	AddNpcMission	(1014)
 	AddNpcMission	(1177)
 
------ÌúÈËÁùÏî
+-----é“äººå…­é¡¹
 	AddNpcMission ( 6121 )
 	AddNpcMission ( 6122 )
 
@@ -7806,12 +7806,12 @@ function r_talk162()
 end
 
 ------------------------------------------------------------
--- ÎÂÄÃ²¹¸øÕ¾-----ÁÕ´ï
+-- æ¸©æ‹¿è¡¥ç»™ç«™-----ç³è¾¾
 ------------------------------------------------------------
 
 function r_talk163()
 
-	Talk( 1, "Linda: I don't want to work OT! But my boss force me to OT everyday¡­I want a pay rise!" )
+	Talk( 1, "Linda: I don't want to work OT! But my boss force me to OT everydayâ€¦I want a pay rise!" )
 	AddNpcMission	(1027)
 	AddNpcMission	(1190)
 ----------------1.7
@@ -7824,7 +7824,7 @@ function r_talk163()
 end
 
 ------------------------------------------------------------
--- ÎÂÄÃ²¹¸øÕ¾-----´ï´ïÂõÑÇ
+-- æ¸©æ‹¿è¡¥ç»™ç«™-----è¾¾è¾¾è¿ˆäºš
 ------------------------------------------------------------
 
 function r_talk164()
@@ -7834,7 +7834,7 @@ function r_talk164()
 end
 
 ------------------------------------------------------------
--- ÎÂÄÃ²¹¸øÕ¾-----¹ÅÁ¦¹û
+-- æ¸©æ‹¿è¡¥ç»™ç«™-----å¤åŠ›æœ
 ------------------------------------------------------------
 
 function r_talk165()
@@ -7847,13 +7847,13 @@ function r_talk165()
 	Other(	1847	)
 	Other(	1848	)
 	Other(	1849	)
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5563)
 	AddNpcMission	(5564)
 end
 
 ------------------------------------------------------------
--- °Í²¼²¹¸øÕ¾-----Ä¢Ä¢
+-- å·´å¸ƒè¡¥ç»™ç«™-----è˜‘è˜‘
 ------------------------------------------------------------
 
 function r_talk166()
@@ -7875,7 +7875,7 @@ function r_talk166()
 	AddNpcMission(	1585	)
 	AddNpcMission (	1915	)
 
-	---------------°×Ñò
+	---------------ç™½ç¾Š
 	AddNpcMission	(5577)
 	AddNpcMission	(5578)
 
@@ -7885,7 +7885,7 @@ function r_talk166()
 end
 
 ------------------------------------------------------------
--- É³Èª²¹¸øÕ¾-----Î¬ÄÈ
+-- æ²™æ³‰è¡¥ç»™ç«™-----ç»´å¨œ
 ------------------------------------------------------------
 
 function r_talk167()
@@ -7902,7 +7902,7 @@ end
 
 
 ------------------------------------------------------------
--- É³Èª²¹¸øÕ¾-----·Æ·Æ
+-- æ²™æ³‰è¡¥ç»™ç«™-----è²è²
 ------------------------------------------------------------
 
 function r_talk168()
@@ -7916,10 +7916,10 @@ function r_talk168()
 	AddNpcMission(	1439	)
 	AddNpcMission (	1916	)
 
-	---------------¶şÔÂ
+	---------------äºŒæœˆ
 	--AddNpcMission (5503	)
 
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5569)
 	AddNpcMission	(5572)
 
@@ -7927,7 +7927,7 @@ function r_talk168()
 end
 
 ------------------------------------------------------------
--- É³Èª²¹¸øÕ¾-----ÂíÂå
+-- æ²™æ³‰è¡¥ç»™ç«™-----é©¬æ´›
 ------------------------------------------------------------
 
 function r_talk169()
@@ -7959,7 +7959,7 @@ function r_talk169()
 end
 
 ------------------------------------------------------------
--- °¢À¼±ÈË¹²¹¸øÕ¾-----Öì±È
+-- é˜¿å…°æ¯”æ–¯è¡¥ç»™ç«™-----æœ±æ¯”
 ------------------------------------------------------------
 
 function r_talk170()
@@ -7978,13 +7978,13 @@ function r_talk170()
 	AddNpcMission (5136 )
 	AddNpcMission (5137 )
 	AddNpcMission (5138 )
------------------Öì±È---------½ğÅ£
+-----------------æœ±æ¯”---------é‡‘ç‰›
 	AddNpcMission	(5647)
 	AddNpcMission	(5648)
 end
 
 ------------------------------------------------------------
--- É³Èª²¹¸øÕ¾-----ÓÈËşÀïÄá
+-- æ²™æ³‰è¡¥ç»™ç«™-----å°¤å¡”é‡Œå°¼
 ------------------------------------------------------------
 
 function r_talk171()
@@ -8010,7 +8010,7 @@ function r_talk171()
 	AddNpcMission (	1919	)
 	AddNpcMission (	1955	)
 
-	----------ÓÈËşÀïÄá-------Ë«×Ó
+	----------å°¤å¡”é‡Œå°¼-------åŒå­
 	AddNpcMission	(5718)
 	AddNpcMission	(5719)
 
@@ -8020,7 +8020,7 @@ function r_talk171()
 end
 
 ------------------------------------------------------------
--- ÷¼÷ÃÓªµØ²¹¸øÕ¾-----ĞŞË¾
+-- éª·é«…è¥åœ°è¡¥ç»™ç«™-----ä¿®å¸
 ------------------------------------------------------------
 
 function r_talk172()
@@ -8040,7 +8040,7 @@ function r_talk172()
 	AddNpcMission ( 6046 )
 	AddNpcMission ( 6047 )
 
-	----------ĞŞË¾-------Ë«×Ó
+	----------ä¿®å¸-------åŒå­
 	AddNpcMission	(5694)
 	AddNpcMission	(5695)
 
@@ -8048,7 +8048,7 @@ function r_talk172()
 end
 
 ------------------------------------------------------------
--- ÷¼÷ÃÓªµØ²¹¸øÕ¾-----ÎûÎû¹ş¹ş
+-- éª·é«…è¥åœ°è¡¥ç»™ç«™-----å˜»å˜»å“ˆå“ˆ
 ------------------------------------------------------------
 
 function r_talk173()
@@ -8077,7 +8077,7 @@ function r_talk173()
 end
 
 ------------------------------------------------------------
--- ±ù¼«²¹¸øÕ¾-----Ã×¿ªÀÊ·ÑÂŞ
+-- å†°æè¡¥ç»™ç«™-----ç±³å¼€æœ—è´¹ç½—
 ------------------------------------------------------------
 
 function r_talk174()
@@ -8102,12 +8102,12 @@ function r_talk174()
 end
 
 ------------------------------------------------------------
--- ±ù¶¼²¹¸øÕ¾-----ÄÎÄÎ
+-- å†°éƒ½è¡¥ç»™ç«™-----å¥ˆå¥ˆ
 ------------------------------------------------------------
 
 function r_talk175()
 
-	Talk( 1, "Nana: I guess I am stupid¡­being lost just outside of the city. If only I have a automated guide." )
+	Talk( 1, "Nana: I guess I am stupidâ€¦being lost just outside of the city. If only I have a automated guide." )
 
 	AddNpcMission 	(405)
 	AddNpcMission 	(432)
@@ -8118,13 +8118,13 @@ function r_talk175()
 	AddNpcMission	(1087)
 	AddNpcMission(	1429	)
 	AddNpcMission (	1928	)
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5589)
 	AddNpcMission	(5590)
 	AddNpcMission ( 6050 )
 	AddNpcMission ( 6051 )
 	
-----------ÄÎÄÎ-------Ë«×Ó
+----------å¥ˆå¥ˆ-------åŒå­
 	AddNpcMission	(5700)
 	AddNpcMission	(5701)
 
@@ -8133,7 +8133,7 @@ function r_talk175()
 end
 
 ------------------------------------------------------------
--- ±ù¶¼²¹¸øÕ¾-----¹ÖÛÅÒ¯Ò¯
+-- å†°éƒ½è¡¥ç»™ç«™-----æ€ªåŸçˆ·çˆ·
 ------------------------------------------------------------
 
 function r_talk176()
@@ -8176,7 +8176,7 @@ end
 
 
 ------------------------------------------------------------
--- ÷¼÷ÃÓªµØ²¹¸øÕ¾-----°¢Ì©
+-- éª·é«…è¥åœ°è¡¥ç»™ç«™-----é˜¿æ³°
 ------------------------------------------------------------
 
 function r_talk177()
@@ -8189,7 +8189,7 @@ function r_talk177()
 	AddNpcMission (	1934	)
 	AddNpcMission (	1949	)
 
-	-----------------°¢Ì©---------½ğÅ£
+	-----------------é˜¿æ³°---------é‡‘ç‰›
 	AddNpcMission	(5629)
 	AddNpcMission	(5630)
 
@@ -8200,7 +8200,7 @@ function r_talk177()
 end
 
 ------------------------------------------------------------
--- µÂ¶ûÎ¬Æ½Ô­-----±´¿ÇÉÌÈË¡¤À­Ä·
+-- å¾·å°”ç»´å¹³åŸ-----è´å£³å•†äººÂ·æ‹‰å§†
 ------------------------------------------------------------
 
 function r_talk221()
@@ -8223,7 +8223,7 @@ function r_talk221()
 	Weapon(	0873	)
 	Weapon(	0635	)
 	Weapon(	0636	)
------------------±´¿ÇÉÌÈË¡¤À­Ä·---------½ğÅ£
+-----------------è´å£³å•†äººÂ·æ‹‰å§†---------é‡‘ç‰›
 	AddNpcMission	(5637)
 	AddNpcMission	(5638)
 
@@ -8234,7 +8234,7 @@ end
 
 
 ------------------------------------------------------------
--- °×Òø³Ç-----·ş×°µêÖúÀí¡òİíİí
+-- ç™½é“¶åŸ-----æœè£…åº—åŠ©ç†â—è““è““
 ------------------------------------------------------------
 function r_talk222()
 
@@ -8310,7 +8310,7 @@ function r_talk222()
 
 end
 ------------------------------------------------------------
--- ÇïÖ®µº-----À³ÄÈ
+-- ç§‹ä¹‹å²›-----è±å¨œ
 ------------------------------------------------------------
 function r_talk223()
 
@@ -8322,7 +8322,7 @@ end
 
 
 ------------------------------------------------------------
--- ±ùÑ©µº-----º£µÁ½ÜÀïÃ×
+-- å†°é›ªå²›-----æµ·ç›—æ°é‡Œç±³
 ------------------------------------------------------------
 function r_talk224()
 
@@ -8332,13 +8332,13 @@ function r_talk224()
 	AddNpcMission ( 306 )
 	AddNpcMission ( 307 )
 	AddNpcMission ( 308 )
------------------º£µÁ½ÜÀïÃ×---------½ğÅ£
+-----------------æµ·ç›—æ°é‡Œç±³---------é‡‘ç‰›
 	AddNpcMission	(5651)
 	AddNpcMission	(5652)
 end
 
 ------------------------------------------------------------
--- ÃùÉ³µº-----½Ü¿Ë´¬³¤
+-- é¸£æ²™å²›-----æ°å…‹èˆ¹é•¿
 ------------------------------------------------------------
 function r_talk225()
 
@@ -8359,21 +8359,21 @@ function r_talk225()
 	AddNpcMission ( 483 )
 	AddNpcMission ( 484 )
 
-	-----------------½Ü¿Ë´¬³¤---------½ğÅ£
+	-----------------æ°å…‹èˆ¹é•¿---------é‡‘ç‰›
 	AddNpcMission	(5639)
 	AddNpcMission	(5640)
 end
 
 
 ------------------------------------------------------------
--- ±ùÀÇ±¤ÏÂ³Ç-----Â³¸ñÀ¼
+-- å†°ç‹¼å ¡ä¸‹åŸ-----é²æ ¼å…°
 ------------------------------------------------------------
 function r_talk226()
 
 
-	Talk( 1, "Luke: My brother loves to create trouble for me¡­always expecting me to clear the mess. Sigh¡­" )
+	Talk( 1, "Luke: My brother loves to create trouble for meâ€¦always expecting me to clear the mess. Sighâ€¦" )
 	
-	Talk( 2, "Luke: My brother loves to create trouble for me¡­always expecting me to clear the mess. Sigh¡­")
+	Talk( 2, "Luke: My brother loves to create trouble for meâ€¦always expecting me to clear the mess. Sighâ€¦")
 	Text( 2, "I lost the ring you gave me", JumpPage, 3)
 
 	InitTrigger()
@@ -8391,7 +8391,7 @@ function r_talk226()
 	Talk( 5, "Luke: You don't seems to have enough gold...Its 50000G...")
 
 	InitTrigger()
-	-----------¼ì²âÈÎÎñÄÃÁËÓãÁÛ½äÖ¸,µ«ÊÇ¶ªÁË²»¼ûÁË
+	-----------æ£€æµ‹ä»»åŠ¡æ‹¿äº†é±¼é³æˆ’æŒ‡,ä½†æ˜¯ä¸¢äº†ä¸è§äº†
 	TriggerCondition( 1, HasRecord, 260 )
 	TriggerCondition( 1, NoRecord, 262 )
 	TriggerCondition( 1, NoItem, 4144, 1 )
@@ -8410,7 +8410,7 @@ end
 
 
 ------------------------------------------------------------
--- ÷¼÷ÃÓªµØ²¹¸øÕ¾-----¿ËÀ­À­´óÊ¦
+-- éª·é«…è¥åœ°è¡¥ç»™ç«™-----å…‹æ‹‰æ‹‰å¤§å¸ˆ
 ------------------------------------------------------------
 function r_talk227()
 
@@ -8427,11 +8427,11 @@ function r_talk227()
 end
 
 ------------------------------------------------------------
--- ¿¨¶û¼ÓµÂ²¹¸øÕ¾-----ÈøÄÏ¡¤¸ñÁ¦µÂ
+-- å¡å°”åŠ å¾·è¡¥ç»™ç«™-----è¨å—Â·æ ¼åŠ›å¾·
 ------------------------------------------------------------
 function r_talk228()
 
-	Talk( 1, "Simon Gilter: Sigh¡­When can I become an officier in the Navy? Am I not charming?" )
+	Talk( 1, "Simon Gilter: Sighâ€¦When can I become an officier in the Navy? Am I not charming?" )
 	
 	AddNpcMission ( 837 )
 	AddNpcMission ( 838 )
@@ -8440,14 +8440,14 @@ function r_talk228()
 end
 
 ------------------------------------------------------------
--- ¿¨¶û¼ÓµÂ²¹¸øÕ¾-----º£À¶¡¤Î¢·ç
+-- å¡å°”åŠ å¾·è¡¥ç»™ç«™-----æµ·è“Â·å¾®é£
 ------------------------------------------------------------
 function r_talk229()
 
 	Talk( 1, "Azur Breeze: Please remember to keep any nice looking branch for me." )
 
 	AddNpcMission ( 840 )
----------------°×Ñò
+---------------ç™½ç¾Š
 	AddNpcMission	(5591)
 	AddNpcMission	(5592)
 	AddNpcMission ( 6048 )
@@ -8456,7 +8456,7 @@ function r_talk229()
 end
 
 ------------------------------------------------------------
--- ¿¨¶û¼ÓµÂ²¹¸øÕ¾-----Ù¡¤Ä§Á¦
+-- å¡å°”åŠ å¾·è¡¥ç»™ç«™-----è³½Â·é­”åŠ›
 ------------------------------------------------------------
 function r_talk230()
 
@@ -8466,13 +8466,13 @@ function r_talk230()
 	AddNpcMission ( 841 )
 	AddNpcMission ( 842 )
 	AddNpcMission ( 843 )
------------------Ù¡¤Ä§Á¦---------½ğÅ£
+-----------------è³½Â·é­”åŠ›---------é‡‘ç‰›
 	AddNpcMission	(5625)
 	AddNpcMission	(5626)
 end
 
 ------------------------------------------------------------
--- ¿¨¶û¼ÓµÂ²¹¸øÕ¾-----¿¨Ğİ¡¤ËéÊ¯
+-- å¡å°”åŠ å¾·è¡¥ç»™ç«™-----å¡ä¼‘Â·ç¢çŸ³
 ------------------------------------------------------------
 function r_talk231()
 
@@ -8482,13 +8482,13 @@ function r_talk231()
 	AddNpcMission ( 846 )
 	AddNpcMission ( 847 )
 	AddNpcMission ( 848 )
-----------¿¨Ğİ¡¤ËéÊ¯-------Ë«×Ó
+----------å¡ä¼‘Â·ç¢çŸ³-------åŒå­
 	AddNpcMission	(5714)
 	AddNpcMission	(5715)
 end
 
 ------------------------------------------------------------
--- ±ù¼«²¹¸øÕ¾-----ÈûÎ¬¡¤Öì¶û
+-- å†°æè¡¥ç»™ç«™-----å¡ç»´Â·æœ±å°”
 ------------------------------------------------------------
 function r_talk232()
 
@@ -8502,17 +8502,17 @@ function r_talk232()
 end
 
 ------------------------------------------------------------
--- ±ù¼«²¹¸øÕ¾-----¿­ÎÄ¡¤ÀÇ
+-- å†°æè¡¥ç»™ç«™-----å‡¯æ–‡Â·ç‹¼
 ------------------------------------------------------------
 function r_talk233()
 
-	Talk( 1, "Kevin Wolf: I am a wolf wandering in the lonely desert¡­." )
+	Talk( 1, "Kevin Wolf: I am a wolf wandering in the lonely desertâ€¦." )
 
 	AddNpcMission ( 881 )
 end
 
 ------------------------------------------------------------
--- °×Òø³Ç-----³±Á÷·¢ĞÍÊ¦¡¤¿¨ÌØ
+-- ç™½é“¶åŸ-----æ½®æµå‘å‹å¸ˆÂ·å¡ç‰¹
 ------------------------------------------------------------
 function r_talk234()
 
@@ -8534,7 +8534,7 @@ function r_talk234()
 end
 
 ------------------------------------------------------------
--- ·Ï¿ó²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤²¼¿¨
+-- åºŸçŸ¿è¡¥ç»™ç«™-----é¥°å“å•†äººÂ·å¸ƒå¡
 ------------------------------------------------------------
 function r_talk235()
 
@@ -8556,7 +8556,7 @@ function r_talk235()
 end
 
 ------------------------------------------------------------
--- Àµ°²É­ÁÖ²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤Àï¿Ë
+-- èµ–å®‰æ£®æ—è¡¥ç»™ç«™-----é¥°å“å•†äººÂ·é‡Œå…‹
 ------------------------------------------------------------
 function r_talk236()
 
@@ -8575,13 +8575,13 @@ function r_talk236()
 	Defence(	4634	)
 	Defence(	4635	)
 
-	-----------------ÊÎÆ·ÉÌÈË¡¤Àï¿Ë---------½ğÅ£
+	-----------------é¥°å“å•†äººÂ·é‡Œå…‹---------é‡‘ç‰›
 	AddNpcMission	(5649)
 	AddNpcMission	(5650)
 end
 
 ------------------------------------------------------------
--- Íß¶ûÅµ²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤·ÑÀ­Àï
+-- ç“¦å°”è¯ºè¡¥ç»™ç«™-----é¥°å“å•†äººÂ·è´¹æ‹‰é‡Œ
 ------------------------------------------------------------
 function r_talk237()
 
@@ -8603,7 +8603,7 @@ function r_talk237()
 end
 
 ------------------------------------------------------------
--- À×öª±¤-----ÊÎÆ·ÉÌÈË¡¤Î¬¿Ë¶à
+-- é›·éœ†å ¡-----é¥°å“å•†äººÂ·ç»´å…‹å¤š
 ------------------------------------------------------------
 function r_talk238()
 
@@ -8634,7 +8634,7 @@ function r_talk238()
 end
 
 ------------------------------------------------------------
--- ¿¨¶û¼ÓµÂ²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤°¬¶û
+-- å¡å°”åŠ å¾·è¡¥ç»™ç«™-----é¥°å“å•†äººÂ·è‰¾å°”
 ------------------------------------------------------------
 function r_talk239()
 
@@ -8656,7 +8656,7 @@ function r_talk239()
 end
 
 ------------------------------------------------------------
--- °Í²¼²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤°¬Â×
+-- å·´å¸ƒè¡¥ç»™ç«™-----é¥°å“å•†äººÂ·è‰¾ä¼¦
 ------------------------------------------------------------
 function r_talk240()
 
@@ -8686,7 +8686,7 @@ function r_talk240()
 end
 
 ------------------------------------------------------------
--- ±ù¼«²¹¸øÕ¾-----ÊÎÆ·ÉÌÈË¡¤Èğ¶÷
+-- å†°æè¡¥ç»™ç«™-----é¥°å“å•†äººÂ·ç‘æ©
 ------------------------------------------------------------
 function r_talk241()
 
@@ -8712,14 +8712,14 @@ function r_talk241()
 	Defence(	4703	)
 	Defence(	4704	)
 	Defence(	4705	)
-----------ÊÎÆ·ÉÌÈË¡¤Èğ¶÷-------Ë«×Ó
+----------é¥°å“å•†äººÂ·ç‘æ©-------åŒå­
 	AddNpcMission	(5712)
 	AddNpcMission	(5713)
 end
 
 
 ------------------------------------------------------------
--- °×Òø³Ç-----ÇåÏ´»ú
+-- ç™½é“¶åŸ-----æ¸…æ´—æœº
 ------------------------------------------------------------
 function r_talk252()
 	
@@ -8830,7 +8830,7 @@ end
 
 
 ------------------------------------------------------------
--- ¿¼¹Å¶Ó³¤-----¿¼¹ÅÑ§¼Ò
+-- è€ƒå¤é˜Ÿé•¿-----è€ƒå¤å­¦å®¶
 ------------------------------------------------------------
 function r_talk253()
 	
@@ -9227,7 +9227,7 @@ function r_talk253()
 end
 
 ------------------------------------------------------------
--- ·ÏÁéÖ®¶¼-----¿¼¹ÅÑ§¼Ò
+-- åºŸçµä¹‹éƒ½-----è€ƒå¤å­¦å®¶
 ------------------------------------------------------------
 function r_talk254()
 	
@@ -9380,7 +9380,7 @@ function r_talk254()
 end
 
 ------------------------------------------------------------
--- Ä§·½ÊÀ½ç-----¿¼¹ÅÑ§¼Ò
+-- é­”æ–¹ä¸–ç•Œ-----è€ƒå¤å­¦å®¶
 ------------------------------------------------------------
 function r_talk255()
 	
@@ -9605,7 +9605,7 @@ end
 
 
 ------------------------------------------------------------
--- Òõ°µÕÓÔó-----¿¼¹ÅÑ§¼Ò¶Ó³¤
+-- é˜´æš—æ²¼æ³½-----è€ƒå¤å­¦å®¶é˜Ÿé•¿
 ------------------------------------------------------------
 function r_talk256()
 	
@@ -9848,11 +9848,11 @@ end
 
 
 ------------------------------------------------------------
--- °×Òø³Ç-----éÄ¹û
+-- ç™½é“¶åŸ-----æ§Ÿæœ
 ------------------------------------------------------------
 function r_talk242()
 	Talk( 14, "Bingo: Give me a Christmas Gem Voucher, and you will get a high quality gem." )
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem,2899, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -9860,7 +9860,7 @@ function r_talk242()
 	TriggerAction( 1, GiveItem, 0860, 3, 101 )
 	TriggerFailure( 1, JumpPage, 15 )
 	Text( 14, "Exchanged 3 Gem of the Wind.",MultiTrigger, GetMultiTrigger(), 1) 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem,2899, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -9869,7 +9869,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 15 )
         Text( 14, "Redeem 3 Gem of Striking",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem,2899, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -9878,7 +9878,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 15 )
         Text( 14, "Exchanged 3 Gem of Colossus",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem,2899, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -9886,7 +9886,7 @@ function r_talk242()
 	TriggerAction( 1, GiveItem, 0863, 3,101 )
 	TriggerFailure( 1, JumpPage, 15 )
         Text( 14, "Exchanged 3 Gem of Rage",MultiTrigger, GetMultiTrigger(), 1) 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem,2899, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -9907,104 +9907,104 @@ function r_talk242()
 	Text( 1, "Refining Gem Voucher", JumpPage, 4 )
         Text( 1, "Gem Voucher", JumpPage, 5 )
         Text( 1, "Combine Wishing Stone", JumpPage, 6 )
---	Text( 1, "ÔÂ±ı¶Ò»»", JumpPage, 20 )
+--	Text( 1, "æœˆé¥¼å…‘æ¢", JumpPage, 20 )
 
 
---	Talk( 20, "éÄ¹û:ÄãÓĞ³Ô²»ÍêµÄÔÂ±ıÂğ?ÔÚÎÒÕâÀï¿ÉÒÔ¶Ò»»Ğí¶àºÃ¶«Î÷." )
---	InitTrigger() --99¸ö£ºÃÔÖ®Ëø10¸ö
+--	Talk( 20, "æ§Ÿæœ:ä½ æœ‰åƒä¸å®Œçš„æœˆé¥¼å—?åœ¨æˆ‘è¿™é‡Œå¯ä»¥å…‘æ¢è®¸å¤šå¥½ä¸œè¥¿." )
+--	InitTrigger() --99ä¸ªï¼šè¿·ä¹‹é”10ä¸ª
 --	TriggerCondition( 1, HasItem,3915, 99 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 99 )
 --	TriggerAction( 1, GiveItem, 2440, 10, 4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---	Text( 20, "¶Ò»»ÃÔÖ®Ëø10¸ö",MultiTrigger, GetMultiTrigger(), 1) 
+--	Text( 20, "å…‘æ¢è¿·ä¹‹é”10ä¸ª",MultiTrigger, GetMultiTrigger(), 1) 
 	
---	InitTrigger() --100¸ö£º²Æ¸»1¸ö
+--	InitTrigger() --100ä¸ªï¼šè´¢å¯Œ1ä¸ª
 --	TriggerCondition( 1, HasItem,3915, 100 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 100 )
 --	TriggerAction( 1, GiveItem, 3096, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»²Æ¸»Ôö·ùÆ÷1¸ö",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢è´¢å¯Œå¢å¹…å™¨1ä¸ª",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --200¸ö£º²Ø±¦Í¼1¸ö
+--	InitTrigger() --200ä¸ªï¼šè—å®å›¾1ä¸ª
 --	TriggerCondition( 1, HasItem,3915, 200 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 200 )
 --	TriggerAction( 1, GiveItem, 1092, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»²Ø±¦Í¼1¸ö",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢è—å®å›¾1ä¸ª",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --300¸ö£º99°ü1¸ö
+--	InitTrigger() --300ä¸ªï¼š99åŒ…1ä¸ª
 --	TriggerCondition( 1, HasItem,3915, 300 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 300 )
 --	TriggerAction( 1, GiveItem, 1095, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»99°ü1¸ö",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢99åŒ…1ä¸ª",MultiTrigger, GetMultiTrigger(), 1) 
 	
---	InitTrigger() --2000¸ö£º¼ÓÄÉÖ®Éñ£¨¾«Éñ¼Ó5£©
+--	InitTrigger() --2000ä¸ªï¼šåŠ çº³ä¹‹ç¥ï¼ˆç²¾ç¥åŠ 5ï¼‰
 --	TriggerCondition( 1, HasItem,3915, 2000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 2000 )
 --	TriggerAction( 1, GiveItem, 1012, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»¼ÓÄÉÖ®Éñ1¿Å",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢åŠ çº³ä¹‹ç¥1é¢—",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --2000¸ö£ºÑ×Óñ£¨Á¦Á¿¼Ó5£©
+--	InitTrigger() --2000ä¸ªï¼šç‚ç‰ï¼ˆåŠ›é‡åŠ 5ï¼‰
 --	TriggerCondition( 1, HasItem,3915, 2000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 2000 )
 --	TriggerAction( 1, GiveItem, 863, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»Ñ×Óñ1¿Å",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢ç‚ç‰1é¢—",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --2000¸ö£ºÑÒÓñ£¨ÌåÖÊ¼Ó5£©
+--	InitTrigger() --2000ä¸ªï¼šå²©ç‰ï¼ˆä½“è´¨åŠ 5ï¼‰
 --	TriggerCondition( 1, HasItem,3915, 2000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 2000 )
 --	TriggerAction( 1, GiveItem, 862, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»ÑÒÓñ1¿Å",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢å²©ç‰1é¢—",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --2000¸ö£ºÓ¥ÑÛÊ¯£¨×¨×¢¼Ó5£©
+--	InitTrigger() --2000ä¸ªï¼šé¹°çœ¼çŸ³ï¼ˆä¸“æ³¨åŠ 5ï¼‰
 --	TriggerCondition( 1, HasItem,3915, 2000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 2000 )
 --	TriggerAction( 1, GiveItem, 861, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»Ó¥ÑÛÊ¯1¿Å",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢é¹°çœ¼çŸ³1é¢—",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --2000¸ö£º·çÁéÊ¯£¨Ãô½İ¼Ó5£©
+--	InitTrigger() --2000ä¸ªï¼šé£çµçŸ³ï¼ˆæ•æ·åŠ 5ï¼‰
 --	TriggerCondition( 1, HasItem,3915, 2000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 2000 )
 --	TriggerAction( 1, GiveItem, 860, 1,4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---       Text( 20, "¶Ò»»·çÁéÊ¯1¿Å",MultiTrigger, GetMultiTrigger(), 1) 
+--       Text( 20, "å…‘æ¢é£çµçŸ³1é¢—",MultiTrigger, GetMultiTrigger(), 1) 
 
---	InitTrigger() --3000¸ö£º65 BOSSÒÂ·ş1¼ş
+--	InitTrigger() --3000ä¸ªï¼š65 BOSSè¡£æœ1ä»¶
 --	TriggerCondition( 1, HasItem,3915,3000 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 --	TriggerCondition( 1, KitbagLock, 0 )
 --	TriggerAction( 1, TakeItem, 3915, 3000)
 --	TriggerAction( 1, GiveItem, 241, 1, 4 )
 --	TriggerFailure( 1, JumpPage, 21 )
---      Text( 20, "¶Ò»»65 BOSSÒÂ·ş1¼ş",MultiTrigger, GetMultiTrigger(), 1) 
+--      Text( 20, "å…‘æ¢65 BOSSè¡£æœ1ä»¶",MultiTrigger, GetMultiTrigger(), 1) 
 
---	Talk( 21, "¶Ò»»Ê§°Ü,ÄúÉíÉÏºÃÏñÃ»ÓĞ×ã¹»µÄÔÂ±ı°¡,»òÕß±³°üÒÑËø»òÃ»ÓĞ¿Õ¸ñ!" )
+--	Talk( 21, "å…‘æ¢å¤±è´¥,æ‚¨èº«ä¸Šå¥½åƒæ²¡æœ‰è¶³å¤Ÿçš„æœˆé¥¼å•Š,æˆ–è€…èƒŒåŒ…å·²é”æˆ–æ²¡æœ‰ç©ºæ ¼!" )
 
 	--Text( 1, "Exchange Lantern", JumpPage, 7 )
-	--Text( 1, "»ñµÃ"ÈıÔÂ¾«Áé"", JumpPage, 10 )
+	--Text( 1, "è·å¾—"ä¸‰æœˆç²¾çµ"", JumpPage, 10 )
       
 	
 	Talk( 2, "Bingo: Pass me one Lv 1 Refining Gem Voucher to exchange for a Lv 1 Refining Gem. Also, you might obtain an additional random Lv1 Attribute Gem.")
@@ -10023,7 +10023,7 @@ function r_talk242()
 
 	Talk( 17, "Bingo: Do you have Pirate Vouchers?")
 	
-	InitTrigger()--¶Ò»»"IPOD"¶Ò»»È¯
+	InitTrigger()--å…‘æ¢"IPOD"å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem, 2238, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10033,7 +10033,7 @@ function r_talk242()
 	Text( 17, "I have Pirate Voucher 8",MultiTrigger, GetMultiTrigger(), 1)
 
 
-	--InitTrigger()--¶Ò»»Ä¦Á¦·ûÊ¯
+	--InitTrigger()--å…‘æ¢æ‘©åŠ›ç¬¦çŸ³
 	--TriggerCondition( 1, HasItem, 2240, 1 )
 	--TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	--TriggerCondition( 1, KitbagLock, 0 )
@@ -10047,7 +10047,7 @@ function r_talk242()
 	Talk(19,"Do you wish to exchange?")
 	Text( 19, "Confirm to exchange",GetChaName_5, 1)
 
-	InitTrigger()--¶Ò»»¾«ÁéÓ²±Ò99¸ö
+	InitTrigger()--å…‘æ¢ç²¾çµç¡¬å¸99ä¸ª
 	TriggerCondition( 1, HasItem, 2237, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10056,7 +10056,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 18 )
 	Text( 17, "I have Pirate Voucher 9",MultiTrigger, GetMultiTrigger(), 1)
 
-	InitTrigger()-- ¶Ò»»ÖıÔìÍ¼Ö½"Encrypted Blueprint"£±ÕÅ
+	InitTrigger()-- å…‘æ¢é“¸é€ å›¾çº¸"Encrypted Blueprint"ï¼‘å¼ 
 	TriggerCondition( 1, HasItem, 2239, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10065,7 +10065,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 18 )
 	Text( 17, "I have Pirate Voucher 7",MultiTrigger, GetMultiTrigger(), 1)
 
-	InitTrigger()--¶Ò»»¼ÓËÙ³É³¤¹û1¸ö
+	InitTrigger()--å…‘æ¢åŠ é€Ÿæˆé•¿æœ1ä¸ª
 	TriggerCondition( 1, HasItem, 2241, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10079,7 +10079,7 @@ function r_talk242()
 
 	Talk( 18, "Bingo: You do not seem to have the suitable Pirate Voucher. Please check to see if your inventory is binded and that theres a least 1 empty slot.")
 
- 	InitTrigger() --ºÏ³ÉĞíÔ¸Ê¯
+ 	InitTrigger() --åˆæˆè®¸æ„¿çŸ³
 	TriggerCondition( 1, HasItem, 3905, 5 )
 	TriggerCondition( 1, HasItem, 3907, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -10091,7 +10091,7 @@ function r_talk242()
 	Talk( 6, "Bingo: Bring me 5 Dark Wishing Stone and 1 Welding Catalyst, I will make 1 Sparkling Wishing Stone for you.")
 	Text( 6, "Confirm to combine",MultiTrigger, GetMultiTrigger(), 1)        
  	
---	InitTrigger() --¶Ô»»µÆÁı
+--	InitTrigger() --å¯¹æ¢ç¯ç¬¼
 --	TriggerCondition( 1, HasItem, 3904, 15 )
 --	TriggerCondition( 1, HasItem, 3911, 15 )
 --	TriggerCondition( 1, HasItem, 4450, 1 )
@@ -10108,7 +10108,7 @@ function r_talk242()
 	Talk( 8, "Bingo: You seems to lack Wishing Stones and Welding Catalyst! Please make sure that your inventory is not binded and has at least 1 empty slot.")
 --	Talk( 9, "Bingo: You do not seem to have enough of Red Paper, Bamboo Stick or Strange Candle!")
 
-	InitTrigger() --¶Ò»»ÈıÔÂ¾«Áé
+	InitTrigger() --å…‘æ¢ä¸‰æœˆç²¾çµ
 	TriggerCondition( 1, HasItem, 3342, 2 )
 	TriggerCondition( 1, HasItem, 3337, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -10124,7 +10124,7 @@ function r_talk242()
 	
 	Talk( 12, "Bingo: Give me 1 Unique Gem Voucher to exchange for 3 x 1 of the following four gems.")
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem, 0333, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10133,7 +10133,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 13 ) 
 	Text( 12, "Redeem Gem of the Wind",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem, 0333, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3)
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10142,7 +10142,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 13 ) 
         Text( 12, "Redeem Gem of Striking",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem, 0333, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid,3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10151,7 +10151,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 13 ) 
         Text( 12, "Redeem Gem of Colossus",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --¸ß¼¶±¦Ê¯¶Ò»»È¯
+	InitTrigger() --é«˜çº§å®çŸ³å…‘æ¢åˆ¸
 	TriggerCondition( 1, HasItem, 0333, 1 )
 	TriggerCondition( 1, HasLeaveBagGrid, 3 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10162,7 +10162,7 @@ function r_talk242()
 
 	Talk( 13, "Bingo: You do not seem to have any Unique Gem Voucher. Please make sure that your inventory is not binded and has at least 3 empty inventory slots.")
 	Talk( 20, "Bingo: Do you have many moon cakes? You can exchange much great stuff from me." )
-	InitTrigger() --99¸ö£ºÃÔÖ®Ëø10¸ö
+	InitTrigger() --99ä¸ªï¼šè¿·ä¹‹é”10ä¸ª
 	TriggerCondition( 1, HasItem,3915, 99 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10171,7 +10171,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 20, "Exchange 10 Locks of Mystic",MultiTrigger, GetMultiTrigger(), 1) 
 	
-	InitTrigger() --100¸ö£º²Æ¸»1¸ö
+	InitTrigger() --100ä¸ªï¼šè´¢å¯Œ1ä¸ª
 	TriggerCondition( 1, HasItem,3915, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10180,7 +10180,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 20, "Exchange one Amplifier of Luck",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --200¸ö£º²Ø±¦Í¼1¸ö
+	InitTrigger() --200ä¸ªï¼šè—å®å›¾1ä¸ª
 	TriggerCondition( 1, HasItem,3915, 200 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10189,7 +10189,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 20, "Exchange one Treasure Map",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --300¸ö£º99°ü1¸ö
+	InitTrigger() --300ä¸ªï¼š99åŒ…1ä¸ª
 	TriggerCondition( 1, HasItem,3915, 300 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10198,7 +10198,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 20, "Exchange one 99 Parcel",MultiTrigger, GetMultiTrigger(), 1) 
 	
-	InitTrigger() --2000¸ö£º¼ÓÄÉÖ®Éñ£¨¾«Éñ¼Ó5£©
+	InitTrigger() --2000ä¸ªï¼šåŠ çº³ä¹‹ç¥ï¼ˆç²¾ç¥åŠ 5ï¼‰
 	TriggerCondition( 1, HasItem,3915, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10211,7 +10211,7 @@ function r_talk242()
 
 	Talk( 22, "Bingo: Do you have many moon cakes? You can exchange much great stuff from me." )
 
-	InitTrigger() --2000¸ö£ºÑ×Óñ£¨Á¦Á¿¼Ó5£©
+	InitTrigger() --2000ä¸ªï¼šç‚ç‰ï¼ˆåŠ›é‡åŠ 5ï¼‰
 	TriggerCondition( 1, HasItem,3915, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10220,7 +10220,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 22, "Exchange one Gem of Rage",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --2000¸ö£ºÑÒÓñ£¨ÌåÖÊ¼Ó5£©
+	InitTrigger() --2000ä¸ªï¼šå²©ç‰ï¼ˆä½“è´¨åŠ 5ï¼‰
 	TriggerCondition( 1, HasItem,3915, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10229,7 +10229,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 22, "Exchange one Gem of Colossus",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --2000¸ö£ºÓ¥ÑÛÊ¯£¨×¨×¢¼Ó5£©
+	InitTrigger() --2000ä¸ªï¼šé¹°çœ¼çŸ³ï¼ˆä¸“æ³¨åŠ 5ï¼‰
 	TriggerCondition( 1, HasItem,3915, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10238,7 +10238,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 22, "Exchange one Gem of Striking",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --2000¸ö£º·çÁéÊ¯£¨Ãô½İ¼Ó5£©
+	InitTrigger() --2000ä¸ªï¼šé£çµçŸ³ï¼ˆæ•æ·åŠ 5ï¼‰
 	TriggerCondition( 1, HasItem,3915, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10247,7 +10247,7 @@ function r_talk242()
 	TriggerFailure( 1, JumpPage, 21 )
 	Text( 22, "Exchange one Gem of Wind",MultiTrigger, GetMultiTrigger(), 1) 
 
-	InitTrigger() --3000¸ö£º65 BOSSÒÂ·ş1¼ş
+	InitTrigger() --3000ä¸ªï¼š65 BOSSè¡£æœ1ä»¶
 	TriggerCondition( 1, HasItem,3915,3000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -10259,7 +10259,7 @@ function r_talk242()
 	Text( 22, "Last page", JumpPage, 20 )
 
 	Talk( 21, "Exchange failed. It seems that you have not either enough moon cakes or any blank inventory slot!" )	
-	----------------------------------------30¸öÔÂ±ı
+	----------------------------------------30ä¸ªæœˆé¥¼
 	--InitFuncList()
 	--AddFuncList( GiveItem, 374, 1, 7 )
 	--AddFuncList( GiveItem, 361, 1, 7 )
@@ -10279,7 +10279,7 @@ function r_talk242()
 
 end
 ------------------------------------------------------------
--- °×Òø³Ç-----»î¶¯×¨Ô±
+-- ç™½é“¶åŸ-----æ´»åŠ¨ä¸“å‘˜
 ------------------------------------------------------------
 function mmm_talk01()
 	Talk( 1, "You can learn all kinds of on-going events of Tales of Pirates from me. Select the topic you interested in from followed list, you will see the brief introduction of the event.Pay attention to the offical site http://top.igg.com/index.php for more detail.")
@@ -10293,7 +10293,7 @@ function mmm_talk01()
 
 
 	----------------11.20-11.26	
-	InitTrigger()						----50Wº£µÁ±Ò
+	InitTrigger()						----50Wæµ·ç›—å¸
 	TriggerCondition( 1, CheckZMKTime )
 	TriggerCondition( 1, HasItem, 3869, 1 )			----t
 	TriggerCondition( 1, HasItem, 3864, 1 )			----0
@@ -10313,7 +10313,7 @@ function mmm_talk01()
 
 
 	----------------11.27-12.3
---	InitTrigger()					----10¸öÉñÏÉ½¬¹û
+--	InitTrigger()					----10ä¸ªç¥ä»™æµ†æœ
 --	TriggerCondition( 1, CheckZMKTime )
 --	TriggerCondition( 1, HasItem, 3858, 1 )			----i
 --	TriggerCondition( 1, HasItem, 3856, 2 )			----g
@@ -10333,7 +10333,7 @@ function mmm_talk01()
 
 
 	---------------12.4-12.10
---	InitTrigger()						----ÌæÉíÍŞÍŞ10¸ö+5¸öÉñÏÉ½¬¹û
+--	InitTrigger()						----æ›¿èº«å¨ƒå¨ƒ10ä¸ª+5ä¸ªç¥ä»™æµ†æœ
 --	TriggerCondition( 1, CheckZMKTime )
 --	TriggerCondition( 1, HasItem, 3857, 1 )			----h
 --	TriggerCondition( 1, HasItem, 3864, 2 )			----0
@@ -10351,7 +10351,7 @@ function mmm_talk01()
 --	Text(18, "Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1)
 
 	---------------12.11-12.17
---	InitTrigger()						----ºÚÁú
+--	InitTrigger()						----é»‘é¾™
 --	TriggerCondition( 1, CheckZMKTime )
 --	TriggerCondition( 1, HasItem, 3869, 2 )			----t
 --	TriggerCondition( 1, HasItem, 3850, 2 )			----a
@@ -10389,7 +10389,7 @@ function mmm_talk01()
 
 end 
 ------------------------------------------------------------
--- °×Òø³Ç-----ÇüÔ­
+-- ç™½é“¶åŸ-----å±ˆåŸ
 ------------------------------------------------------------
 function mmm_talk02()
 	Talk( 1, "Qu Yuan: A long journey home...Sigh...")
@@ -10398,7 +10398,7 @@ function mmm_talk02()
 	--AddNpcMission ( 904 )
 end
 -----------------------------------------------------------
----É³á°³Ç---³èÎï¹ÜÀíÔ±¡¤ÀÊÄÃ¶È
+---æ²™å²šåŸ---å® ç‰©ç®¡ç†å‘˜Â·æœ—æ‹¿åº¦
 -----------------------------------------------------------
 function e_talk01 ()
 	Talk( 1, "Pet Assistant - Langa: Demonic fruit determines which type of fairy that will be conceived and the type of fairy determines what attributes the player will gain when the fairy possession skill is used. After marriage, the parent pet fairies will each drop by 4 levels. Do you wish to know more?" )
@@ -10438,9 +10438,9 @@ function e_talk01 ()
 	AddNpcMission (5149 )
 end 
 
-------------------------------Ñ°ÕÒÒÅÊ§µÄ°®Çé
+------------------------------å¯»æ‰¾é—å¤±çš„çˆ±æƒ…
 function el_talk01()
-	Talk( 1, "Little Fish: Be back fast! I can't handle it alone¡­..")	
+	Talk( 1, "Little Fish: Be back fast! I can't handle it aloneâ€¦..")	
 	AddNpcMission ( 907 )
 	AddNpcMission ( 911 )
 	AddNpcMission ( 912 )
@@ -10453,11 +10453,11 @@ function el_talk02()
 	AddNpcMission ( 910 )
 end
 -----------------------------------------------------------
----°×Òø---ÉñÃØÆÅÆÅ
+---ç™½é“¶---ç¥ç§˜å©†å©†
 -----------------------------------------------------------
--------------------------------------°®ÇéÖØÉú
+-------------------------------------çˆ±æƒ…é‡ç”Ÿ
 function el_talk03()
-	Talk( 1, "Mysterious Granny: I do not understand what is so mysterious about me¡­")	
+	Talk( 1, "Mysterious Granny: I do not understand what is so mysterious about meâ€¦")	
 	AddNpcMission ( 918 )
 --------eleven
 	AddNpcMission ( 5018 )
@@ -10466,7 +10466,7 @@ function el_talk03()
 	AddNpcMission ( 5022)
 end
 -----------------------------------------------------------
----´º·çÕò---ÉñÃØµÄÂ¯×Ó
+---æ˜¥é£é•‡---ç¥ç§˜çš„ç‚‰å­
 -----------------------------------------------------------
 function star_talk02 ()
 	Talk( 1, "Furnace: What are you looking at! Never seen such a beautiful furnace?" )
@@ -10488,7 +10488,7 @@ function star_talk02 ()
 	Talk( 7, "Furnace of Immortality: Taking a 3 sockets Wyrm Sword as an example, first socket forged with Lv3 Gem of Rage, second socket forged with Lv2 Furious Gem and third socket forged with Lv1 Eye of Black Dragon. During extraction, only Lv3 Gem of Rage will be extracted, and first socket will be reduced to Lv2 Gem of Rage. The other 2 sockets will not be affected. Note: Extraction starts from first socket in descending order." )
 end 
 -----------------------------------------------------------
----°×Òø---ÅöÅöÀÖ
+---ç™½é“¶---ç¢°ç¢°ä¹
 -----------------------------------------------------------
 function star_talk03 ()
 	Talk( 1, "Lucky Chance: Hi, I advised you to leave some empty slots in your inventory before playing. You might win something great!" )
@@ -10496,15 +10496,15 @@ function star_talk03 ()
 	Text( 1, "Try your luck, play a round!", OpenTiger )
 	Talk( 2, "Lucky Chance: Each try requires 5 Fairy Coins. You can try multiple times. The more you try, the higher your chance of winning!" )
 end 
---------------------------------------ÑªĞÈµÄ¸ß¸úĞ¬
+--------------------------------------è¡€è…¥çš„é«˜è·Ÿé‹
 function el_talk04 ()
 	
-	Talk( 1, "Skinny Worker: Sigh...Sigh...Oh god, who can take revenge for me¡­" )-------------(2249,2705)
+	Talk( 1, "Skinny Worker: Sigh...Sigh...Oh god, who can take revenge for meâ€¦" )-------------(2249,2705)
 	AddNpcMission ( 919 )
 end
 
 -----------------------------------------------------------
----Ó¡µÚ°²ÄÉ¡¤ÇíË¹
+---å°ç¬¬å®‰çº³Â·ç¼æ–¯
 -----------------------------------------------------------
 function llleo_talk01()
 	Talk( 1, "Indianna Jones: Through the Crescent Canyon till the Shrine, immortality in the name of the Goddess...I have found a secret of Demonic World. Do you wish to know?" )
@@ -10678,7 +10678,7 @@ function llleo_talk01()
 
 end
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂÒ¶·¹ÜÀíÔ±
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ä¹±æ–—ç®¡ç†å‘˜
 function kk_talk01 ()
 	
 	Talk( 1, "Chaos Administrator: Only the strongest can survive in combat and only the strongest will be respected." )
@@ -10708,7 +10708,7 @@ function kk_talk01 ()
 	Text(7,"Redeem Guide",SendExchangeXData)
 	Text(7,"Redeem Symbol of Honor",JumpPage ,12)
 
-	--¶Ò»»ËùĞèÎïÆ· ID,ÊıÁ¿,¶Ò»»ËùµÃÎïÆ·ÊıÁ¿,¸³ÓèµÄÖµ
+	--å…‘æ¢æ‰€éœ€ç‰©å“ ID,æ•°é‡,å…‘æ¢æ‰€å¾—ç‰©å“æ•°é‡,èµ‹äºˆçš„å€¼
 	InitExchangeX()
 
 	ExchangeDataX(	2608	,	100	,	2682	,	1	,	1)
@@ -10796,7 +10796,7 @@ function leo_talkaa()
 	Text( 1, "Have a look at your item.", SendExchangeXData)
 
 	
-	--¶Ò»»ËùĞèÎïÆ· ID,ÊıÁ¿,¶Ò»»ËùµÃÎïÆ·ÊıÁ¿,¸³ÓèµÄÖµ
+	--å…‘æ¢æ‰€éœ€ç‰©å“ ID,æ•°é‡,å…‘æ¢æ‰€å¾—ç‰©å“æ•°é‡,èµ‹äºˆçš„å€¼
 	InitExchangeX()
 
 	ExchangeDataX(	3989	,	99	,	3999	,	20	,	1)
@@ -10817,7 +10817,7 @@ function leo_talkbb()
 	Text( 1, "I only have money.", SendExchangeXData)
 
 	
-	--¶Ò»»ËùĞèÎïÆ· ID,ÊıÁ¿,¶Ò»»ËùµÃÎïÆ·ÊıÁ¿,¸³ÓèµÄÖµ
+	--å…‘æ¢æ‰€éœ€ç‰©å“ ID,æ•°é‡,å…‘æ¢æ‰€å¾—ç‰©å“æ•°é‡,èµ‹äºˆçš„å€¼
 	InitExchangeX()
 
 	ExchangeDataX(	4029	,	99	,	4039	,	20	,	1)
@@ -10846,7 +10846,7 @@ end
 function leo_talkcc()
 	Talk( 1, "Never buy anything from the Black Market Merchant beside me, he will scam you of your money. Take a look at my things instead." )
 	Text( 1, "Let me take a look at your item.", SendExchangeXData)
-	--Text( 1, "99¸ö¾«ÁéÓ²±Ò=1¸ö±¦Ê¯¶Ò»»È¯", JumpPage, 2 )
+	--Text( 1, "99ä¸ªç²¾çµç¡¬å¸=1ä¸ªå®çŸ³å…‘æ¢åˆ¸", JumpPage, 2 )
 	
 	InitExchangeX()
 	ExchangeDataX(	855	,	60	,	2617	,	1	,	1)
@@ -10901,15 +10901,15 @@ function leo_talkcc()
 	TriggerAction( 1, GiveItem, 3886, 1, 4 )
 	TriggerAction( 1, JumpPage, 4 )
 	TriggerFailure( 1, JumpPage, 3 )
-	Talk( 2, "ºÚÊĞÉÌÈË:ÄêÇáÈË,ÎÒÔÚÑĞÖÆĞÂ²úÆ·¡£ĞèÒª´óÁ¿¾«ÁéÓ²±Ò,Äã¿ÉÒÔ°ïÎÒÊÕ¼¯Âğ?ÎÒÓÃÕä²ØµÄ±¦±´¸úÄã»»¡£" )
+	Talk( 2, "é»‘å¸‚å•†äºº:å¹´è½»äºº,æˆ‘åœ¨ç ”åˆ¶æ–°äº§å“ã€‚éœ€è¦å¤§é‡ç²¾çµç¡¬å¸,ä½ å¯ä»¥å¸®æˆ‘æ”¶é›†å—?æˆ‘ç”¨çè—çš„å®è´è·Ÿä½ æ¢ã€‚" )
 	Text( 2, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 3, "ºÚÊĞÉÌÈË:ÊÕÆë¶«Î÷ºóÔÙÀ´ÕÒÎÒ°É,»¹ÓĞÄãÒª±£Ö¤ÄãµÄ±³°üÖÁÉÙÓĞÒ»¸ö¿Õ¸ñ.ÇÒ´¦ÔÚÎ´Ëø¶¨µÄ×´Ì¬" )
-	Talk( 4, "ºÚÊĞÉÌÈË:Ğ»Ğ»Äã,ÓÂÊ¿!ÕâÊÇ¸øÄãµÄ±¨³ê!" )
+	Talk( 3, "é»‘å¸‚å•†äºº:æ”¶é½ä¸œè¥¿åå†æ¥æ‰¾æˆ‘å§,è¿˜æœ‰ä½ è¦ä¿è¯ä½ çš„èƒŒåŒ…è‡³å°‘æœ‰ä¸€ä¸ªç©ºæ ¼.ä¸”å¤„åœ¨æœªé”å®šçš„çŠ¶æ€" )
+	Talk( 4, "é»‘å¸‚å•†äºº:è°¢è°¢ä½ ,å‹‡å£«!è¿™æ˜¯ç»™ä½ çš„æŠ¥é…¬!" )
 
 end
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ºÏ³É½éÉÜÔ±
------½éÉÜÔ±-À¶
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<åˆæˆä»‹ç»å‘˜
+-----ä»‹ç»å‘˜-è“
 function max_talka1()
 	Talk( 1, "Assistant - Blue: Hi, I am Assistant - Blue. I can help you with any problem encountered while using Substance Analyzation Tool. How may I help you?" )
 	Text( 1, "What is Substance Analyzation Tool?", JumpPage ,2)
@@ -10954,14 +10954,14 @@ function max_talka1()
 
 end
 
------óô»ğÆÅÆÅ
+-----ç¯ç«å©†å©†
 function max_talka2()
 	Talk( 1, "Matchstick Granny: Hello young man, I'm matchstick Granny. When I was young, I was the most famous chef! Haha! What can I do for you?" )
 	Text( 1, "I would like to know where I can cook", JumpPage ,2)
 	Text( 1, "Can I learn cooking?", JumpPage ,3)
 	Text( 1, "Can you teach me how to cook?", JumpPage ,4)
 	Text( 1, "Are the things made that special?", JumpPage ,5)
-	Text( 1, "I am only passing by¡­", JumpPage ,6)
+	Text( 1, "I am only passing byâ€¦", JumpPage ,6)
 
 	Talk( 2, "Matchstick Granny: We should treasure the world limited resource - Fire. It can allow us to cook tasty dishes." )
 	Text( 2, "Enquire about other questions", JumpPage ,1)
@@ -10989,7 +10989,7 @@ function max_talka2()
 
 end
 
------ÈÛÂ¯¼¼Ê¦¡¤Ã·¿Ë
+-----ç†”ç‚‰æŠ€å¸ˆÂ·æ¢…å…‹
 function max_talka3()
 	Talk( 1, "Furnace Artificer - Mel: Hi! Looking for me?" )
 	Text( 1, "Tell me what can the Furnace do", JumpPage ,2)
@@ -11015,11 +11015,11 @@ function max_talka3()
 	Text( 7, "So this is it. I understand now.", CloseTalk)
 
 	Talk( 5, "Furnace Artificer - Mel: ...Are you Wolf? Passing by here?")
-	Text( 5, "I am only passing by¡­", CloseTalk)
+	Text( 5, "I am only passing byâ€¦", CloseTalk)
 
 end
 
------ÑĞ¾¿Éú
+-----ç ”ç©¶ç”Ÿ
 function max_talka4()
 	Talk( 1, "Graduate: Hi, is there anything I can do for you?" )
 	Text( 1, "What is it above you", JumpPage ,2)
@@ -11046,55 +11046,55 @@ function max_talka4()
 	Text( 5, "I would like to enquire about other questions", JumpPage ,1)
 	Text( 5, "So this is it. I understand now.", CloseTalk)
 
-	Talk( 6, "Graduate: Looks like you are¡­")
-	Text( 6, "I am really only passing by¡­", CloseTalk)
+	Talk( 6, "Graduate: Looks like you areâ€¦")
+	Text( 6, "I am really only passing byâ€¦", CloseTalk)
 
 	Talk( 7, "Graduate: As we are not the Almighty, what we create are not perfect. To distinguish the quality of the product we have seperate it accordingly in ascending order:                  Thank you     Abysmal                            Terrible                           Bad                                  Poor                            Mediocre                          Fair                              Good                                Great                              Superb                            Perfect .")
 	Text( 7, "I would like to enquire about other questions", JumpPage ,1)
 	Text( 7, "So this is it. I understand now.", CloseTalk)
 end
 
----------------------Ê¥µ®´åµÄÊ¥µ®Ê÷
+---------------------åœ£è¯æ‘çš„åœ£è¯æ ‘
 function el_talk05 ()
 	
 	Talk( 1, "Christmas Tree: Merry Christmas to you! Each blessing that comes from the heart will hold true" )
 	Text( 1, "Select blessing",JumpPage, 2  )
 	
 	Talk ( 2, "Christmas Tree: Do you want to dedicate your blessing? Every dedication requires a Christmas Card and 1000G." )
-	Text( 2, "µÚÒ»Ìõ×£¸£",JumpPage, 3  )
-	Text( 2, "µÚ¶şÌõ×£¸£",JumpPage, 4 )
-	Text( 2, "µÚÈıÌõ×£¸£",JumpPage, 5 )
-	Text( 2, "µÚËÄÌõ×£¸£",JumpPage, 6 )
-	Text( 2, "µÚÎåÌõ×£¸£",JumpPage, 7 )
-	Text( 2, "µÚÁùÌõ×£¸£",JumpPage, 8 )
-	Text( 2, "µÚÆßÌõ×£¸£",JumpPage, 9 )
+	Text( 2, "ç¬¬ä¸€æ¡ç¥ç¦",JumpPage, 3  )
+	Text( 2, "ç¬¬äºŒæ¡ç¥ç¦",JumpPage, 4 )
+	Text( 2, "ç¬¬ä¸‰æ¡ç¥ç¦",JumpPage, 5 )
+	Text( 2, "ç¬¬å››æ¡ç¥ç¦",JumpPage, 6 )
+	Text( 2, "ç¬¬äº”æ¡ç¥ç¦",JumpPage, 7 )
+	Text( 2, "ç¬¬å…­æ¡ç¥ç¦",JumpPage, 8 )
+	Text( 2, "ç¬¬ä¸ƒæ¡ç¥ç¦",JumpPage, 9 )
 
 	
-	Talk( 3, "°×Ñ©Æ®Æ®,Â¹ÁåÏöÏö,ÌğÃÛµÄÆ½°²Ò¹ÓÖÀ´µ½,Ğ¡ÊÖ°Ú°Ú,Îè×ËÂüÂü,¿ìÀÖµÄÊ¥µ®½ÚÈÕ¶àÃÀºÃ.")
+	Talk( 3, "ç™½é›ªé£˜é£˜,é¹¿é“ƒéœ„éœ„,ç”œèœœçš„å¹³å®‰å¤œåˆæ¥åˆ°,å°æ‰‹æ‘†æ‘†,èˆå§¿æ›¼æ›¼,å¿«ä¹çš„åœ£è¯èŠ‚æ—¥å¤šç¾å¥½.")
 	Text(3,"Confirm to broadcast this blessing",  GetChaName_0, 1)
 	Text( 3, "Return",JumpPage, 2  )
 
-	Talk( 4, "Ã¿Ò»¶äÑ©»¨Æ®ÏÂ,Ã¿Ò»¸öÑÌ»ğÈ¼Æğ,Ã¿Ò»ÃëÊ±¼äÁ÷¶¯,Ã¿Ò»·İË¼Äî´«ËÍ,¶¼´ú±í×ÅÎÒÏëÒªËÍÄãµÄÃ¿Ò»¸ö×£¸£,Ê¥µ®¿ìÀÖ!")
+	Talk( 4, "æ¯ä¸€æœµé›ªèŠ±é£˜ä¸‹,æ¯ä¸€ä¸ªçƒŸç«ç‡ƒèµ·,æ¯ä¸€ç§’æ—¶é—´æµåŠ¨,æ¯ä¸€ä»½æ€å¿µä¼ é€,éƒ½ä»£è¡¨ç€æˆ‘æƒ³è¦é€ä½ çš„æ¯ä¸€ä¸ªç¥ç¦,åœ£è¯å¿«ä¹!")
 	Text(4,"Confirm to broadcast this blessing",  GetChaName_1, 1)
 	Text( 4, "Return",JumpPage, 2  )
 
-	Talk( 5, "ÎÒÓĞÒ»¸öÃÀÀöµÄÔ¸Íû:ÒÔÇ°µÄÊ¥µ®½Ú,×ÜÊÇÈÏÎªÊ¥µ®ÀÏÈË²»»á½«×îºÃµÄÀñÎï½µÁÙ¸øÎÒ,µ«½ñÄêµÄÊ¥µ®½Ú²»Í¬,ÓĞÄãµÄµ½À´,ÈÃÎÒÓÀÔ¶¼Ç×¡½ñÌì.")
+	Talk( 5, "æˆ‘æœ‰ä¸€ä¸ªç¾ä¸½çš„æ„¿æœ›:ä»¥å‰çš„åœ£è¯èŠ‚,æ€»æ˜¯è®¤ä¸ºåœ£è¯è€äººä¸ä¼šå°†æœ€å¥½çš„ç¤¼ç‰©é™ä¸´ç»™æˆ‘,ä½†ä»Šå¹´çš„åœ£è¯èŠ‚ä¸åŒ,æœ‰ä½ çš„åˆ°æ¥,è®©æˆ‘æ°¸è¿œè®°ä½ä»Šå¤©.")
 	Text(5,"Confirm to broadcast this blessing",  GetChaName_2, 1)
 	Text( 5, "Return",JumpPage, 2  )
 
-	Talk( 6, "Ê¥µ®½Úµ½ÁË,ÏòÖ§³ÖÎÒµÄÅóÓÑºÍÎÒËù°®µÄÅóÓÑËµÉù¸ĞĞ»,¸ĞĞ»Äã×ß½øÎÒµÄÉú»î,ÎÒ»á¾¡ÎÒ×î´óµÄÅ¬Á¦¸øÄãÎŞÏŞµÄ¿ìÀÖ!")
+	Talk( 6, "åœ£è¯èŠ‚åˆ°äº†,å‘æ”¯æŒæˆ‘çš„æœ‹å‹å’Œæˆ‘æ‰€çˆ±çš„æœ‹å‹è¯´å£°æ„Ÿè°¢,æ„Ÿè°¢ä½ èµ°è¿›æˆ‘çš„ç”Ÿæ´»,æˆ‘ä¼šå°½æˆ‘æœ€å¤§çš„åŠªåŠ›ç»™ä½ æ— é™çš„å¿«ä¹!")
 	Text(6,"Confirm to broadcast this blessing",  GetChaName_3, 1)
 	Text( 6, "Return",JumpPage, 2 )
 
-	Talk( 7, "Ê¥µ®½Ú¶¼µ½ÁË,ÄÜ²»ÄÜÔÚÏÂ¸öÊ¥µ®½ÚÖ®Ç°±ğÔÙÈÃÎÒµ±ÂÒ¶·Ö®Íõ,¹¤»áÕ½²»Òª´Î´Î¶¼Ó®,ÉÏÌì,´ÍÓèÎÒÒ»¸öÇ¿¾¢µÄ¶ÔÊÖ°É,°¢ÃÅ¡­¡­")
+	Talk( 7, "åœ£è¯èŠ‚éƒ½åˆ°äº†,èƒ½ä¸èƒ½åœ¨ä¸‹ä¸ªåœ£è¯èŠ‚ä¹‹å‰åˆ«å†è®©æˆ‘å½“ä¹±æ–—ä¹‹ç‹,å·¥ä¼šæˆ˜ä¸è¦æ¬¡æ¬¡éƒ½èµ¢,ä¸Šå¤©,èµäºˆæˆ‘ä¸€ä¸ªå¼ºåŠ²çš„å¯¹æ‰‹å§,é˜¿é—¨â€¦â€¦")
 	Text(7,"Confirm to broadcast this blessing",  GetChaName_26, 1)
 	Text( 7, "Return",JumpPage, 2 )
 
-	Talk( 8, "¹şÀïÂ·ÑÇ,ÂèÂèßäÑ½,Ö÷°¡¡­¡­´ÍÎÒÒ»¸öæ¤°É")
+	Talk( 8, "å“ˆé‡Œè·¯äºš,å¦ˆå¦ˆå’ªå‘€,ä¸»å•Šâ€¦â€¦èµæˆ‘ä¸€ä¸ªå¦å§")
 	Text(8,"Confirm to broadcast this blessing",  GetChaName_27, 1)
 	Text( 8, "Return",JumpPage, 2 )
 
-	Talk( 9, "Ê¥µ®½Úµ½ÁË,×£¸£×Ô¼ººÃÔËÌìÌì½»£¬Éú»î²½²½¸ß£¬²ÊÆ±ÆÚÆÚÖĞ£¬´òÅÆ´Î´ÎÓ®£¬¿ÚÎ¶¶Ù¶ÙºÃ£¬Èô¸Ò°ÑÎÒÍü£¬Ğ¡ĞÄ°¤¹÷°ô ")
+	Talk( 9, "åœ£è¯èŠ‚åˆ°äº†,ç¥ç¦è‡ªå·±å¥½è¿å¤©å¤©äº¤ï¼Œç”Ÿæ´»æ­¥æ­¥é«˜ï¼Œå½©ç¥¨æœŸæœŸä¸­ï¼Œæ‰“ç‰Œæ¬¡æ¬¡èµ¢ï¼Œå£å‘³é¡¿é¡¿å¥½ï¼Œè‹¥æ•¢æŠŠæˆ‘å¿˜ï¼Œå°å¿ƒæŒ¨æ£æ£’ ")
 	Text(9,"Confirm to broadcast this blessing",  GetChaName_28, 1)
 	Text( 9, "Return",JumpPage, 2 )
 ---------------------------------------------------------------------------------------------------------------	
@@ -11102,8 +11102,8 @@ end
 
 
 
-----------------------------------------»ô½ğË¹-------------------------
---------------------------------¼ÅÄ¯Ö®Ëş6²ã(51300,26900)
+----------------------------------------éœé‡‘æ–¯-------------------------
+--------------------------------å¯‚å¯ä¹‹å¡”6å±‚(51300,26900)
 --------------------------------------eleven------------------------------------------
 function el_talk07 ()
 
@@ -11281,7 +11281,7 @@ function el_talk07 ()
 	Text( 19, "I chose wrongly just now.",JumpPage, 20  )
 	Text( 19, "I need to consider",JumpPage, 32  )
 
-	Talk( 20, "Huckinson: Please be steady¡­" )
+	Talk( 20, "Huckinson: Please be steadyâ€¦" )
 	Text( 20, "Next",JumpPage, 3  )
 
 	Talk( 21, "Huckinson: Confidence is important to a pirate!" )
@@ -11334,18 +11334,18 @@ function el_talk07 ()
 	AddNpcMission	(6001)
 	AddNpcMission	(6002)
 
-	-------------»ô½ğË¹-------¾ŞĞ·
+	-------------éœé‡‘æ–¯-------å·¨èŸ¹
 	AddNpcMission	(5823)
 	AddNpcMission	(5824)
 	
 		
 end 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<»ô½ğË¹
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<éœé‡‘æ–¯
 
 
 
-----------------------------------------ÍĞÂíË¹¡¤Í¼Í¼-------------------------
---------------------------------Ä§·½ÊÀ½ç¶ş²ã(26600,25900)
+----------------------------------------æ‰˜é©¬æ–¯Â·å›¾å›¾-------------------------
+--------------------------------é­”æ–¹ä¸–ç•ŒäºŒå±‚(26600,25900)
 --------------------------------------eleven------------------------------------------
 
 function el_talk08 ()
@@ -11416,9 +11416,9 @@ function el_talk08 ()
 	AddNpcMission	(6014)
 
 	end
-	-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÍĞÂíË¹¡¤Í¼Í¼
+	-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ‰˜é©¬æ–¯Â·å›¾å›¾
 	
-	--ÉñÊ¹
+	--ç¥ä½¿
 	
 function Leo_talkQ()
 	Talk(1,"Representative of order, protector of love and justice! I am the Online GM, maning my post to help those in need...")
@@ -11470,14 +11470,14 @@ end
 ------------------------------------------------------------
 ----							--
 ----							--
-----		É³á°³Ç[½ÌÌÃĞŞÅ®.Ã·À­´ï]			--
+----		æ²™å²šåŸ[æ•™å ‚ä¿®å¥³.æ¢…æ‹‰è¾¾]			--
 ----							--
 ----		82271,353453				--
 ------------------------------------------------------------
--------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-------------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 --function el_talk09 ()
 --	
---	Talk( 1, "Ã·À­´ï:Éñ°®ÊÀÈË,ÎÒÒÔÖ÷µÄÃûÒåÑûÇëÄãÈ¥Ê¥µØ." )
+--	Talk( 1, "æ¢…æ‹‰è¾¾:ç¥çˆ±ä¸–äºº,æˆ‘ä»¥ä¸»çš„åä¹‰é‚€è¯·ä½ å»åœ£åœ°." )
 --	Text( 1, "Church bidding", ListAuction)
 --	Text( 1, "Buy Church Visit Ticket", JumpPage,2 )
 --	Text( 1, "Buy invitiations", JumpPage, 5)
@@ -11503,9 +11503,9 @@ end
 --	
 --end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Ã·À­´ï
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<æ¢…æ‹‰è¾¾
 	
------------------------------Ô¹Äî²İ
+-----------------------------æ€¨å¿µè‰
 function ync_talk ()
 	Talk( 1, "What are you looking at? Stare longer and I will hit you")
 
@@ -11521,7 +11521,7 @@ function ync_talk ()
 	InitTrigger()
 	TriggerAction( 1, SetRecord, 1404 )
 	TriggerAction( 1, SetRecord, 1405 )
-	Talk( 2, "Why¡­Why must always kill us shrub family¡­Do you know how many people in total in this world kills us shrubs and steal our items for their quest?")
+	Talk( 2, "Whyâ€¦Why must always kill us shrub familyâ€¦Do you know how many people in total in this world kills us shrubs and steal our items for their quest?")
 	Text( 2, "quantity 11",MultiTrigger, GetMultiTrigger(), 1 )
 
 	InitTrigger()
@@ -11550,7 +11550,7 @@ function ync_talk ()
 
 end
 
---------------------------------------ÖØÉËµÄÎŞÃûÕ½Ê¿
+--------------------------------------é‡ä¼¤çš„æ— åæˆ˜å£«
 
 function Zs_Soldier ()
 	Talk( 1, "Becareful friend, and don't wake that big lizard.")
@@ -11562,11 +11562,11 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		µØÓü7²ã[À­Èğ]			--
+--		åœ°ç‹±7å±‚[æ‹‰ç‘]			--
 --							--
 --		190, 181				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function el_talk11 ()
 	
 	Talk( 1, "Lurie: Welcome to Abaddon Level 7! Although Abaddon is scary, but is filled with opportunities. Abaddon is heaven for brave adventurers." )
@@ -11590,16 +11590,16 @@ function el_talk11 ()
 --	
 end 
 
------<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ÂŞÀ­
+-----<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<ç½—æ‹‰
 
 ---------------------------------------------------------
 --							--
 --							--
---		µØÓü15²ã[Ï£¶ûËş]			--
+--		åœ°ç‹±15å±‚[å¸Œå°”å¡”]			--
 --							--
 --		314, 303				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function el_talk12 ()
 	
 	Talk( 1, "Abaddon level 15 have give many people a haunting nightmare, only the real champion will obtain honour." )
@@ -11627,12 +11627,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		´º·çÕò[ÔÂÀÏ]			--
+--		æ˜¥é£é•‡[æœˆè€]			--
 --							--
 --		3228,2508				--
 ----------------------------------------------------------
 function amon_talk1 ()
-	Talk( 1, "ÔÂÀÏ: Ò»¸ùºìÏß,Á½´¦ÇéÔµ.µÀ²»ÍêÈË¼äÇéÊÂ.")
+	Talk( 1, "æœˆè€: ä¸€æ ¹çº¢çº¿,ä¸¤å¤„æƒ…ç¼˜.é“ä¸å®Œäººé—´æƒ…äº‹.")
 
 
 	--AddNpcMission ( 5736 )
@@ -11642,12 +11642,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		ÏÄµº[Å£ÀÉ]			--
+--		å¤å²›[ç‰›éƒ]			--
 --							--
 --		3670,2636			--
 ----------------------------------------------------------
 function amon_talk2 ()
-	Talk( 1, "Å£ÀÉ: Ïà¾Û¶Ì,ÒøºÓ³¤.ÓÆÓÆÈµÇÅÂ·,À´ÈËÂ·,ÀëÈËÂ·.")
+	Talk( 1, "ç‰›éƒ: ç›¸èšçŸ­,é“¶æ²³é•¿.æ‚ æ‚ é¹Šæ¡¥è·¯,æ¥äººè·¯,ç¦»äººè·¯.")
 
 
 	--AddNpcMission ( 5738 )
@@ -11657,12 +11657,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		ÌìÌÃ[Ö¯Å®]			--
+--		å¤©å ‚[ç»‡å¥³]			--
 --							--
 --		1599,909			--
 ----------------------------------------------------------
 function amon_talk3 ()
-	Talk( 1, "Ö¯Å®: Ïà¾Û¶Ì,Ë¼Äî³¤.ÓÆÓÆÈµÇÅÂ·,ÀëÈËÂ·,À´ÈËÂ·.")
+	Talk( 1, "ç»‡å¥³: ç›¸èšçŸ­,æ€å¿µé•¿.æ‚ æ‚ é¹Šæ¡¥è·¯,ç¦»äººè·¯,æ¥äººè·¯.")
 
 
 	--AddNpcMission ( 5740 )
@@ -11671,12 +11671,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		°×Òø[Ğ£³¤À×Åµ]			--
+--		ç™½é“¶[æ ¡é•¿é›·è¯º]			--
 --							--
 --		2232,2781			--
 ----------------------------------------------------------
 function dina_talk01 ()
-	Talk( 1, "Ğ£³¤À×Åµ: Êî¼ÙÒÑ¾­¹ıÈ¥£¬Á½¸öÔÂµÄ³¤¼ÙÖ®ºó£¬Ó­À´ÁËĞÂµÄÑ§ÆÚ¡£")
+	Talk( 1, "æ ¡é•¿é›·è¯º: æš‘å‡å·²ç»è¿‡å»ï¼Œä¸¤ä¸ªæœˆçš„é•¿å‡ä¹‹åï¼Œè¿æ¥äº†æ–°çš„å­¦æœŸã€‚")
 
 	AddNpcMission ( 6127 )
 	AddNpcMission ( 6128 )
@@ -11689,12 +11689,12 @@ end
 -----------------------------------------------------------
 ----							--
 ----							--
-----		É³á°[°ºÀòÄÈÀÏÊ¦]			--
+----		æ²™å²š[æ˜‚è‰å¨œè€å¸ˆ]			--
 ----							--
 ----		871,3581			--
 ------------------------------------------------------------
 function dina_talk02 ()
-	Talk( 1, "°ºÀòÄÈÀÏÊ¦: ĞÂÑ§ÆÚ£¬ĞÂ¿ªÊ¼£¬Ñ§ÎŞÖ¹¾³~")
+	Talk( 1, "æ˜‚è‰å¨œè€å¸ˆ: æ–°å­¦æœŸï¼Œæ–°å¼€å§‹ï¼Œå­¦æ— æ­¢å¢ƒ~")
 	
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 1458)
@@ -11704,21 +11704,21 @@ function dina_talk02 ()
 	TriggerAction( 1, JumpPage, 2)
 	TriggerAction( 1, SetTestTime )
 	TriggerFailure( 1, JumpPage, 20)
-	Text( 1, "²Î¼ÓÈëÑ§¿¼ÊÔ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 1, "å‚åŠ å…¥å­¦è€ƒè¯•",MultiTrigger, GetMultiTrigger(), 1  )
 	
-	Talk( 2, "ÎÊÌâÒ»:¼ÙÆÚ»¶ÀÖÔÓÖ¾ÊÇ·ñ¿É½»Ò×?")
+	Talk( 2, "é—®é¢˜ä¸€:å‡æœŸæ¬¢ä¹æ‚å¿—æ˜¯å¦å¯äº¤æ˜“?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 3)
-	Text( 2, "¿É½»Ò×",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 2, "å¯äº¤æ˜“",MultiTrigger, GetMultiTrigger(), 1  )
 	
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 3)
-	Text( 2, "²»¿É½»Ò×",MultiTrigger, GetMultiTrigger(), 1 )
+	Text( 2, "ä¸å¯äº¤æ˜“",MultiTrigger, GetMultiTrigger(), 1 )
 
-	Talk( 3, "ÎÊÌâ¶ş:NPC¿ËÀ­À­´óÊ¦ÔÚÄÇ¸ö²¹¸øÕ¾?")
+	Talk( 3, "é—®é¢˜äºŒ:NPCå…‹æ‹‰æ‹‰å¤§å¸ˆåœ¨é‚£ä¸ªè¡¥ç»™ç«™?")
 
 	InitTrigger()
 	TriggerAction( 1, JumpPage, 4)
@@ -11730,43 +11730,43 @@ function dina_talk02 ()
 	TriggerAction( 1, JumpPage, 4)
 	Text( 3, "Icespire Haven",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 4, "ÎÊÌâÈı:À×±´ÓëÏîÁ´ÄÜ²»ÄÜÍ¬Ê±×°±¸?")
+	Talk( 4, "é—®é¢˜ä¸‰:é›·è´ä¸é¡¹é“¾èƒ½ä¸èƒ½åŒæ—¶è£…å¤‡?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 5)
-	Text( 4, "¿ÉÒÔ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 4, "å¯ä»¥",MultiTrigger, GetMultiTrigger(), 1  )
 	
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 5)
-	Text( 4, "²»¿ÉÒÔ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 4, "ä¸å¯ä»¥",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 5, "ÎÊÌâËÄ:»ÃÓ°Èı³ÇÃ¿Ìì¿ª·Å¼¸´Î?")
+	Talk( 5, "é—®é¢˜å››:å¹»å½±ä¸‰åŸæ¯å¤©å¼€æ”¾å‡ æ¬¡?")
 	
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 6)
-	Text( 5, "2´Î",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 5, "2æ¬¡",MultiTrigger, GetMultiTrigger(), 1  )
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 6)
-	Text( 5, "4´Î",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 5, "4æ¬¡",MultiTrigger, GetMultiTrigger(), 1  )
 	
-	Talk( 6, "ÎÊÌâÎå:Ê¥¹âÊ¯¿ÉÒÔÏâÇ¶ÔÚĞ¬×ÓÉÏÂğ?")
+	Talk( 6, "é—®é¢˜äº”:åœ£å…‰çŸ³å¯ä»¥é•¶åµŒåœ¨é‹å­ä¸Šå—?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 7)
-	Text( 6, "¿ÉÒÔ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 6, "å¯ä»¥",MultiTrigger, GetMultiTrigger(), 1  )
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 7)
-	Text( 6, "²»¿ÉÒÔ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 6, "ä¸å¯ä»¥",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 7, "ÎÊÌâÁù:100¼¶µÄÁÔÓ¥»¤ÎÀ½¢µÄº½ËÙÊÇ¶àÉÙ?")
+	Talk( 7, "é—®é¢˜å…­:100çº§çš„çŒé¹°æŠ¤å«èˆ°çš„èˆªé€Ÿæ˜¯å¤šå°‘?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
@@ -11778,31 +11778,31 @@ function dina_talk02 ()
 	TriggerAction( 1, JumpPage, 8)
 	Text( 7, "632",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 8, "ÎÊÌâÆß:º£µÁÍõµÄÖ°Òµ¼¼ÄÜÖĞÓĞ¼¸ÖÖ¼¼ÄÜÊÇĞèÒªÏûºÄµÀ¾ß²ÅÄÜÊ©Õ¹µÄ?")
+	Talk( 8, "é—®é¢˜ä¸ƒ:æµ·ç›—ç‹çš„èŒä¸šæŠ€èƒ½ä¸­æœ‰å‡ ç§æŠ€èƒ½æ˜¯éœ€è¦æ¶ˆè€—é“å…·æ‰èƒ½æ–½å±•çš„?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 9)
-	Text( 8, "3ÖÖ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 8, "3ç§",MultiTrigger, GetMultiTrigger(), 1  )
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 9)
-	Text( 8, "4ÖÖ",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 8, "4ç§",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 9, "ÎÊÌâ°Ë:±ùÀÇ±¤Ò»¹²ÓĞ¼¸Ö»±ùµñµÄÀÇ?")
+	Talk( 9, "é—®é¢˜å…«:å†°ç‹¼å ¡ä¸€å…±æœ‰å‡ åªå†°é›•çš„ç‹¼?")
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime1)
 	TriggerAction( 1, JumpPage, 12)
-	Text( 9, "9Ö»",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 9, "9åª",MultiTrigger, GetMultiTrigger(), 1  )
 
 	InitTrigger()
 	TriggerAction( 1, RenewTestTime2)
 	TriggerAction( 1, JumpPage, 12)
-	Text( 9, "10Ö»",MultiTrigger, GetMultiTrigger(), 1  )
+	Text( 9, "10åª",MultiTrigger, GetMultiTrigger(), 1  )
 
-	Talk( 12, "ÄãÈ·¶¨Äã¾ÍÕâÑù»Ø´ğÕâĞ©ÎÊÌâÂğ?")
+	Talk( 12, "ä½ ç¡®å®šä½ å°±è¿™æ ·å›ç­”è¿™äº›é—®é¢˜å—?")
 
 	TriggerAction( 1, SetRecord, 1461)
 	TriggerAction( 1, JumpPage, 13)
@@ -11810,10 +11810,10 @@ function dina_talk02 ()
 
 	Text( 12, "Let me think again", CloseTalk )
 	
-	Talk( 13, "»Ø´ğÍêÁË¾Í¿ÉÒÔÕÒÎÒ»¹ÈÎÎñÁËÅ¶,±ğÍüÁË.")
+	Talk( 13, "å›ç­”å®Œäº†å°±å¯ä»¥æ‰¾æˆ‘è¿˜ä»»åŠ¡äº†å“¦,åˆ«å¿˜äº†.")
 	Text( 13, "Ok", CloseTalk )
 
-	Talk( 20, "Ïë²Î¼ÓÈëÑ§¿¼ÊÔÂğ?ÄãÓĞÈëÑ§Ö¤ÊéÂğ?Ã»µÄ»°×Ô¼ºÈ¥ÕÒÀ×ÅµĞ£³¤°ìÒ»ÕÅ°É")
+	Talk( 20, "æƒ³å‚åŠ å…¥å­¦è€ƒè¯•å—?ä½ æœ‰å…¥å­¦è¯ä¹¦å—?æ²¡çš„è¯è‡ªå·±å»æ‰¾é›·è¯ºæ ¡é•¿åŠä¸€å¼ å§")
 
 	AddNpcMission ( 6132 )
 	AddNpcMission ( 6133 )
@@ -11826,33 +11826,33 @@ end
 -----------------------------------------------------------
 ----							--
 ----							--
---		±ù¼«[¿âÀ­ÍĞË¹1]			--
+--		å†°æ[åº“æ‹‰æ‰˜æ–¯1]			--
 --							--
 --		2646,671			--
 ----------------------------------------------------------
 function dina_talk03 ()
-	Talk( 1, "¿âÀ­ÍĞË¹:ÎûÎû,²Â²ÂÄÇ¸ö²ÅÊÇÕæÕıµÄÎÒ!²Â´íÁË¿ÉÊÇÒª±»ÎÒ¸Ï»Ø°×Òø³ÇµÄÅ¶.")
+	Talk( 1, "åº“æ‹‰æ‰˜æ–¯:å˜»å˜»,çŒœçŒœé‚£ä¸ªæ‰æ˜¯çœŸæ­£çš„æˆ‘!çŒœé”™äº†å¯æ˜¯è¦è¢«æˆ‘èµ¶å›ç™½é“¶åŸçš„å“¦.")
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 1464)
 	TriggerCondition( 1, NoRecord, 1465)
 	TriggerAction( 1, JumpPage, 2)
 	TriggerFailure( 1, JumpPage, 3)
-	Text( 1, "ÎÒÕÒÄãÓĞÊÂ",MultiTrigger, GetMultiTrigger(), 1)
+	Text( 1, "æˆ‘æ‰¾ä½ æœ‰äº‹",MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 2, "Ô­À´ÊÇÏëÕÒÕæÕıµÄ¿âÀ­ÍĞË¹°¡,ÄÇÄãÈÏÎªÎÒÊÇÕæÕıµÄ¿âÀ­ÍĞË¹Âğ?")
+	Talk( 2, "åŸæ¥æ˜¯æƒ³æ‰¾çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å•Š,é‚£ä½ è®¤ä¸ºæˆ‘æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å—?")
 	
 	InitTrigger()
 	TriggerCondition( 1, CheckRealNpc, 1)
 	TriggerAction( 1, SetRecord, 1465)
 	TriggerAction( 1, JumpPage, 4)
 	TriggerFailure( 1, GoTo, 2298, 2704, "garner")
-	Text( 2, "ÎÒ²ÂÄã¾ÍÊÇÕæÕıµÄ¿âÀ­ÍĞË¹",MultiTrigger, GetMultiTrigger(), 1  )	
+	Text( 2, "æˆ‘çŒœä½ å°±æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯",MultiTrigger, GetMultiTrigger(), 1  )	
 	Text( 2, "Let me think again", CloseTalk)
 
-	Talk( 3, "ÄãÊÇË­?ÎÒÓÖ²»ÈÏÊ¶Äã.")
+	Talk( 3, "ä½ æ˜¯è°?æˆ‘åˆä¸è®¤è¯†ä½ .")
 
-	Talk( 4, "°¥Ñ½,±»Äã×¥×¡ÁË,ºÃ°ÉºÃ°É,°Ñ°ºÀòÄÈµÄĞÅ¸øÎÒ°É")
+	Talk( 4, "å“å‘€,è¢«ä½ æŠ“ä½äº†,å¥½å§å¥½å§,æŠŠæ˜‚è‰å¨œçš„ä¿¡ç»™æˆ‘å§")
 
 	AddNpcMission ( 6137 )
 
@@ -11861,33 +11861,33 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ù¼«[¿âÀ­ÍĞË¹2]			--
+--		å†°æ[åº“æ‹‰æ‰˜æ–¯2]			--
 --							--
 --		2718,586			--
 ----------------------------------------------------------
 function dina_talk04 ()
-	Talk( 1, "¿âÀ­ÍĞË¹:ÎûÎû,²Â²ÂÄÇ¸ö²ÅÊÇÕæÕıµÄÎÒ!²Â´íÁË¿ÉÊÇÒª±»ÎÒ¸Ï»Ø°×Òø³ÇµÄÅ¶.")
+	Talk( 1, "åº“æ‹‰æ‰˜æ–¯:å˜»å˜»,çŒœçŒœé‚£ä¸ªæ‰æ˜¯çœŸæ­£çš„æˆ‘!çŒœé”™äº†å¯æ˜¯è¦è¢«æˆ‘èµ¶å›ç™½é“¶åŸçš„å“¦.")
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 1464)
 	TriggerCondition( 1, NoRecord, 1465)
 	TriggerAction( 1, JumpPage, 2)
 	TriggerFailure( 1, JumpPage, 3)
-	Text( 1, "ÎÒÕÒÄãÓĞÊÂ",MultiTrigger, GetMultiTrigger(), 1)
+	Text( 1, "æˆ‘æ‰¾ä½ æœ‰äº‹",MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 2, "Ô­À´ÊÇÏëÕÒÕæÕıµÄ¿âÀ­ÍĞË¹°¡,ÄÇÄãÈÏÎªÎÒÊÇÕæÕıµÄ¿âÀ­ÍĞË¹Âğ?")
+	Talk( 2, "åŸæ¥æ˜¯æƒ³æ‰¾çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å•Š,é‚£ä½ è®¤ä¸ºæˆ‘æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å—?")
 	
 	InitTrigger()
 	TriggerCondition( 1, CheckRealNpc, 2)
 	TriggerAction( 1, SetRecord, 1465)
 	TriggerAction( 1, JumpPage, 4)
 	TriggerFailure( 1, GoTo, 2298, 2704, "garner")
-	Text( 2, "ÎÒ²ÂÄã¾ÍÊÇÕæÕıµÄ¿âÀ­ÍĞË¹",MultiTrigger, GetMultiTrigger(), 1  )	
+	Text( 2, "æˆ‘çŒœä½ å°±æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯",MultiTrigger, GetMultiTrigger(), 1  )	
 	Text( 2, "Let me think again", CloseTalk)
 
-	Talk( 3, "ÄãÊÇË­?ÎÒÓÖ²»ÈÏÊ¶Äã.")
+	Talk( 3, "ä½ æ˜¯è°?æˆ‘åˆä¸è®¤è¯†ä½ .")
 
-	Talk( 4, "°¥Ñ½,±»Äã×¥×¡ÁË,ºÃ°ÉºÃ°É,°Ñ°ºÀòÄÈµÄĞÅ¸øÎÒ°É")
+	Talk( 4, "å“å‘€,è¢«ä½ æŠ“ä½äº†,å¥½å§å¥½å§,æŠŠæ˜‚è‰å¨œçš„ä¿¡ç»™æˆ‘å§")
 
 	AddNpcMission ( 6137 )
 
@@ -11896,33 +11896,33 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ù¼«[¿âÀ­ÍĞË¹3]			--
+--		å†°æ[åº“æ‹‰æ‰˜æ–¯3]			--
 --							--
 --		2714,699			--
 ----------------------------------------------------------
 function dina_talk05 ()
-	Talk( 1, "¿âÀ­ÍĞË¹:ÎûÎû,²Â²ÂÄÇ¸ö²ÅÊÇÕæÕıµÄÎÒ!²Â´íÁË¿ÉÊÇÒª±»ÎÒ¸Ï»Ø°×Òø³ÇµÄÅ¶.")
+	Talk( 1, "åº“æ‹‰æ‰˜æ–¯:å˜»å˜»,çŒœçŒœé‚£ä¸ªæ‰æ˜¯çœŸæ­£çš„æˆ‘!çŒœé”™äº†å¯æ˜¯è¦è¢«æˆ‘èµ¶å›ç™½é“¶åŸçš„å“¦.")
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 1464)
 	TriggerCondition( 1, NoRecord, 1465)
 	TriggerAction( 1, JumpPage, 2)
 	TriggerFailure( 1, JumpPage, 3)
-	Text( 1, "ÎÒÕÒÄãÓĞÊÂ",MultiTrigger, GetMultiTrigger(), 1)
+	Text( 1, "æˆ‘æ‰¾ä½ æœ‰äº‹",MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 2, "Ô­À´ÊÇÏëÕÒÕæÕıµÄ¿âÀ­ÍĞË¹°¡,ÄÇÄãÈÏÎªÎÒÊÇÕæÕıµÄ¿âÀ­ÍĞË¹Âğ?")
+	Talk( 2, "åŸæ¥æ˜¯æƒ³æ‰¾çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å•Š,é‚£ä½ è®¤ä¸ºæˆ‘æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å—?")
 	
 	InitTrigger()
 	TriggerCondition( 1, CheckRealNpc, 3)
 	TriggerAction( 1, SetRecord, 1465)
 	TriggerAction( 1, JumpPage, 4)
 	TriggerFailure( 1, GoTo, 2298, 2704, "garner")
-	Text( 2, "ÎÒ²ÂÄã¾ÍÊÇÕæÕıµÄ¿âÀ­ÍĞË¹",MultiTrigger, GetMultiTrigger(), 1  )	
+	Text( 2, "æˆ‘çŒœä½ å°±æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯",MultiTrigger, GetMultiTrigger(), 1  )	
 	Text( 2, "Let me think again", CloseTalk)
 
-	Talk( 3, "ÄãÊÇË­?ÎÒÓÖ²»ÈÏÊ¶Äã.")
+	Talk( 3, "ä½ æ˜¯è°?æˆ‘åˆä¸è®¤è¯†ä½ .")
 
-	Talk( 4, "°¥Ñ½,±»Äã×¥×¡ÁË,ºÃ°ÉºÃ°É,°Ñ°ºÀòÄÈµÄĞÅ¸øÎÒ°É")
+	Talk( 4, "å“å‘€,è¢«ä½ æŠ“ä½äº†,å¥½å§å¥½å§,æŠŠæ˜‚è‰å¨œçš„ä¿¡ç»™æˆ‘å§")
 
 	AddNpcMission ( 6137 )
 end
@@ -11930,38 +11930,38 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ù¼«[¿âÀ­ÍĞË¹4]			--
+--		å†°æ[åº“æ‹‰æ‰˜æ–¯4]			--
 --							--
 --		2609,607			--
 ----------------------------------------------------------
 function dina_talk06 ()
-	Talk( 1, "¿âÀ­ÍĞË¹:ÎûÎû,²Â²ÂÄÇ¸ö²ÅÊÇÕæÕıµÄÎÒ!²Â´íÁË¿ÉÊÇÒª±»ÎÒ¸Ï»Ø°×Òø³ÇµÄÅ¶.")
+	Talk( 1, "åº“æ‹‰æ‰˜æ–¯:å˜»å˜»,çŒœçŒœé‚£ä¸ªæ‰æ˜¯çœŸæ­£çš„æˆ‘!çŒœé”™äº†å¯æ˜¯è¦è¢«æˆ‘èµ¶å›ç™½é“¶åŸçš„å“¦.")
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission, 1464)
 	TriggerCondition( 1, NoRecord, 1465)
 	TriggerAction( 1, JumpPage, 2)
 	TriggerFailure( 1, JumpPage, 3)
-	Text( 1, "ÎÒÕÒÄãÓĞÊÂ",MultiTrigger, GetMultiTrigger(), 1)
+	Text( 1, "æˆ‘æ‰¾ä½ æœ‰äº‹",MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 2, "Ô­À´ÊÇÏëÕÒÕæÕıµÄ¿âÀ­ÍĞË¹°¡,ÄÇÄãÈÏÎªÎÒÊÇÕæÕıµÄ¿âÀ­ÍĞË¹Âğ?")
+	Talk( 2, "åŸæ¥æ˜¯æƒ³æ‰¾çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å•Š,é‚£ä½ è®¤ä¸ºæˆ‘æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯å—?")
 	
 	InitTrigger()
 	TriggerCondition( 1, CheckRealNpc, 0)
 	TriggerAction( 1, SetRecord, 1465)
 	TriggerAction( 1, JumpPage, 4)
 	TriggerFailure( 1, GoTo, 2298, 2704, "garner")
-	Text( 2, "ÎÒ²ÂÄã¾ÍÊÇÕæÕıµÄ¿âÀ­ÍĞË¹",MultiTrigger, GetMultiTrigger(), 1  )	
+	Text( 2, "æˆ‘çŒœä½ å°±æ˜¯çœŸæ­£çš„åº“æ‹‰æ‰˜æ–¯",MultiTrigger, GetMultiTrigger(), 1  )	
 	Text( 2, "Let me think again", CloseTalk)
 
-	Talk( 3, "ÄãÊÇË­?ÎÒÓÖ²»ÈÏÊ¶Äã.")
+	Talk( 3, "ä½ æ˜¯è°?æˆ‘åˆä¸è®¤è¯†ä½ .")
 
-	Talk( 4, "°¥Ñ½,±»Äã×¥×¡ÁË,ºÃ°ÉºÃ°É,°Ñ°ºÀòÄÈµÄĞÅ¸øÎÒ°É")
+	Talk( 4, "å“å‘€,è¢«ä½ æŠ“ä½äº†,å¥½å§å¥½å§,æŠŠæ˜‚è‰å¨œçš„ä¿¡ç»™æˆ‘å§")
 	AddNpcMission ( 6137 )
 
 end
 
------------------------¶ÁÊéÏµÍ³
+-----------------------è¯»ä¹¦ç³»ç»Ÿ
 function reading_talk01 ()
 	Talk( 1 , "Tester: I am the tester in Argent City. I will assist you when taking your tests. Put your Student card in your bag before starting the tests.")
 	
@@ -12024,7 +12024,7 @@ function reading_talk02 ()
 
 	Talk( 3, "Promotion Examination Officer: You must have one test paper and one answer sheet to get your report card.")
 
-	Talk( 4, "Promotion Examination Officer: You don¡¯t have a report card.")
+	Talk( 4, "Promotion Examination Officer: You donâ€™t have a report card.")
 
 	Talk( 5, "Promotion Examination Officer: Requirements for taking the Promotion Exam are strict. You must have one student card in your bag with full academic credits. Besides, you are not allowed to own any test papers, answer sheets or report cards.")
 
@@ -12038,19 +12038,19 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		É³á°³Ç[½ÌÌÃĞŞÅ®.Ã·À­´ï]			--
+--		æ²™å²šåŸ[æ•™å ‚ä¿®å¥³.æ¢…æ‹‰è¾¾]			--
 --							--
 --		82271,353453				--
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function el_talk09 ()
 	
-	Talk( 1, "Ã·À­´ï:Éñ°®ÊÀÈË,ÎÒÒÔÖ÷µÄÃûÒåÑûÇëÄãÈ¥Ê¥µØ." )
-	Text( 1, "¹ØÓÚ½ÌÌÃ", JumpPage, 17)	
+	Talk( 1, "æ¢…æ‹‰è¾¾:ç¥çˆ±ä¸–äºº,æˆ‘ä»¥ä¸»çš„åä¹‰é‚€è¯·ä½ å»åœ£åœ°." )
+	Text( 1, "å…³äºæ•™å ‚", JumpPage, 17)	
 
-	Talk( 17, "Ã·À­´ï:ÄãÒª×â½è½ÌÌÃÂğ£¿½ñÌìÕıºÃÓĞ´òÕÛ»î¶¯Å¶." )
+	Talk( 17, "æ¢…æ‹‰è¾¾:ä½ è¦ç§Ÿå€Ÿæ•™å ‚å—ï¼Ÿä»Šå¤©æ­£å¥½æœ‰æ‰“æŠ˜æ´»åŠ¨å“¦." )
 
-	Text( 17, "Õ÷ÓÃ½ÌÌÃ¼ò½é", JumpPage, 6)
+	Text( 17, "å¾ç”¨æ•™å ‚ç®€ä»‹", JumpPage, 6)
 	Text( 17, "Church bidding", ListAuction)
 	Text( 17, "Buy Church Visit Ticket", JumpPage,2 )
 	Text( 17, "Buy invitiations", JumpPage, 5)
@@ -12066,34 +12066,34 @@ function el_talk09 ()
 	TriggerAction(1, GiveItem, 3024, 1 , 4)
 	TriggerAction( 1, JumpPage, 3)
 	TriggerFailure( 1, JumpPage, 4 )
-	Talk(2, "Ã·À­´ï:ÉñÊ¥µäÑÅµÄ½ÌÌÃÊÇĞÒ¸£¿ªÊ¼µÄµØ·½,ÊÇ°®Çé×¯ÑÏµÄ¼ûÖ¤.Ã¿ÖÜÒ»Íí17:00~17:10»¶Ó­³ÖÆ±²Î¹Û,Ã¿ÕÅ²Î¹ÛÃÅÆ±Ö»Ğè5000ÓÎÏ·±Ò")
+	Talk(2, "æ¢…æ‹‰è¾¾:ç¥åœ£å…¸é›…çš„æ•™å ‚æ˜¯å¹¸ç¦å¼€å§‹çš„åœ°æ–¹,æ˜¯çˆ±æƒ…åº„ä¸¥çš„è§è¯.æ¯å‘¨ä¸€æ™š17:00~17:10æ¬¢è¿æŒç¥¨å‚è§‚,æ¯å¼ å‚è§‚é—¨ç¥¨åªéœ€5000æ¸¸æˆå¸")
 	Text( 2, "confirm buying",  MultiTrigger, GetMultiTrigger(), 1)
 
 	Talk(3, "Mulida: Welcome you to take a tour on time anytime")
-	Talk(4, "Ã·À­´ï:ÄúÉíÉÏËÆºõÃ»ÓĞ×ã¹»µÄ½ğ±Ò°¡!»òÕßÄúµÄ±³°üÒÑËø¶¨,Çë±£Ö¤±³°üÄÚÁôÓĞÒ»¸ö¿Õ¸ñ")
+	Talk(4, "æ¢…æ‹‰è¾¾:æ‚¨èº«ä¸Šä¼¼ä¹æ²¡æœ‰è¶³å¤Ÿçš„é‡‘å¸å•Š!æˆ–è€…æ‚¨çš„èƒŒåŒ…å·²é”å®š,è¯·ä¿è¯èƒŒåŒ…å†…ç•™æœ‰ä¸€ä¸ªç©ºæ ¼")
 	
-	Talk( 5, "Ã·À­´ï:ÓÃ½ÌÌÃÊ¹ÓÃÖ¤Êé¾Í¿ÉÒÔ¹ºÂò¶ÔÓ¦½ÌÌÃµÄÇë¼í,Ã¿10Ã¶Çë¼íÎª1×é,Ã¿×é5ÍòÓÎÏ·±Ò.ÑûÇëÄúµÄÅóÓÑ²Î¼Ó¾Û»á°É!" )
+	Talk( 5, "æ¢…æ‹‰è¾¾:ç”¨æ•™å ‚ä½¿ç”¨è¯ä¹¦å°±å¯ä»¥è´­ä¹°å¯¹åº”æ•™å ‚çš„è¯·æŸ¬,æ¯10æšè¯·æŸ¬ä¸º1ç»„,æ¯ç»„5ä¸‡æ¸¸æˆå¸.é‚€è¯·æ‚¨çš„æœ‹å‹å‚åŠ èšä¼šå§!" )
 	Text( 5, "confirm buying", ChangeItem, 1  )
 	
-	Talk( 6, "Ã·À­´ï:ÄãÏëÁË½âÄÇÒ»²¿·Ö?" )
-	Text( 6, "¹ØÓÚ²Î¹Û", JumpPage, 7)
-	Text( 6, "¹ØÓÚ½ÌÌÃ¾ºÅÄ", JumpPage, 8)
-	Text( 6, "¹ØÓÚ½ÌÌÃÊ¹ÓÃÈ¨", JumpPage, 9)
-	Text( 6, "¹ØÓÚ½ÌÌÃÊ¹ÓÃÖ¤Êé", JumpPage, 10)
+	Talk( 6, "æ¢…æ‹‰è¾¾:ä½ æƒ³äº†è§£é‚£ä¸€éƒ¨åˆ†?" )
+	Text( 6, "å…³äºå‚è§‚", JumpPage, 7)
+	Text( 6, "å…³äºæ•™å ‚ç«æ‹", JumpPage, 8)
+	Text( 6, "å…³äºæ•™å ‚ä½¿ç”¨æƒ", JumpPage, 9)
+	Text( 6, "å…³äºæ•™å ‚ä½¿ç”¨è¯ä¹¦", JumpPage, 10)
 
-	Talk( 7, "Ã·À­´ï:¹ºÂò²Î¹ÛÃÅÆ±µÄÅóÓÑÓÚÃ¿ÖÜÒ»Íí17:00~17:10²Î¹Û½ÌÌÃ.")
+	Talk( 7, "æ¢…æ‹‰è¾¾:è´­ä¹°å‚è§‚é—¨ç¥¨çš„æœ‹å‹äºæ¯å‘¨ä¸€æ™š17:00~17:10å‚è§‚æ•™å ‚.")
 	Text( 7, "Comfirm", CloseTalk)
 	Text( 7, "Return", JumpPage, 6)
 
-	Talk( 8, "Ã·À­´ï:¾ºÅÄÊ±¼ä:ÓÚÃ¿ÖÜÒ»ÍíÉÏ18:00~20:30Ö®¼äÔÚÎÒÕâÀï½øĞĞ½ÌÌÃ¾ºÅÄ.¾ºÅÄÌõ¼ş:Ğ¯´ø½ÌÌÃ¾º±ê¿¨1·İ.¾ºÅÄ³¡´Î:½ÌÌÃÃ¿ĞÇÆÚ³ö×âÁ½ÈÕ,¿É³Ğ°ìËÄ³¡µäÀñ.ĞÇÆÚÁùÁ½³¡,Àñ°İÌìÁ½³¡.Ã¿³¡2¸öĞ¡Ê±,³¡´ÎÓÉ¾ºÅÄÊ±¶Î¾ö¶¨.")
+	Talk( 8, "æ¢…æ‹‰è¾¾:ç«æ‹æ—¶é—´:äºæ¯å‘¨ä¸€æ™šä¸Š18:00~20:30ä¹‹é—´åœ¨æˆ‘è¿™é‡Œè¿›è¡Œæ•™å ‚ç«æ‹.ç«æ‹æ¡ä»¶:æºå¸¦æ•™å ‚ç«æ ‡å¡1ä»½.ç«æ‹åœºæ¬¡:æ•™å ‚æ¯æ˜ŸæœŸå‡ºç§Ÿä¸¤æ—¥,å¯æ‰¿åŠå››åœºå…¸ç¤¼.æ˜ŸæœŸå…­ä¸¤åœº,ç¤¼æ‹œå¤©ä¸¤åœº.æ¯åœº2ä¸ªå°æ—¶,åœºæ¬¡ç”±ç«æ‹æ—¶æ®µå†³å®š.")
 	Text( 8, "Comfirm", CloseTalk)
 	Text( 8, "Return", JumpPage, 6)
 
-	Talk( 9, "Ã·À­´ï:¹²·Ö4¸öÊ±¶Î¾ºÅÄ,¶ÔÓ¦Ê±¶ÎÄÚ³ö¼Û×î¸ßµÄÅóÓÑ½«»ñµÃ½ÌÌÃÊ¹ÓÃÈ¨,Îª¾º±ê³É¹¦Õß°ä·¢½ÌÌÃÊ¹ÓÃÖ¤Êé,»¹½«ÔùËÍ10Ã¶Çë¼í.")
+	Talk( 9, "æ¢…æ‹‰è¾¾:å…±åˆ†4ä¸ªæ—¶æ®µç«æ‹,å¯¹åº”æ—¶æ®µå†…å‡ºä»·æœ€é«˜çš„æœ‹å‹å°†è·å¾—æ•™å ‚ä½¿ç”¨æƒ,ä¸ºç«æ ‡æˆåŠŸè€…é¢å‘æ•™å ‚ä½¿ç”¨è¯ä¹¦,è¿˜å°†èµ é€10æšè¯·æŸ¬.")
 	Text( 9, "Comfirm", CloseTalk)
 	Text( 9, "Return", JumpPage, 6)
 
-	Talk( 10, "Ã·À­´ï:Ö¤Êé×÷ÓÃ:Æ¾¸ÃÖ¤Êé·½¿É¹ºÂòÇë¼í;µäÀñÊ±¶ÎÄÚË«»÷¸ÃÖ¤Êé½øÈë½ÌÌÃ.ÔÚ½ÌÌÃÊ¹ÓÃÖ¤ÊéÉÏ±êÊ¾µÄÊ±¼äºóÁ½Ğ¡Ê±,×Ô¶¯½«ËùÓĞÔÚ³¡ÈËÔ±´«ËÍ»ØÉ³á°³Ç.")
+	Talk( 10, "æ¢…æ‹‰è¾¾:è¯ä¹¦ä½œç”¨:å‡­è¯¥è¯ä¹¦æ–¹å¯è´­ä¹°è¯·æŸ¬;å…¸ç¤¼æ—¶æ®µå†…åŒå‡»è¯¥è¯ä¹¦è¿›å…¥æ•™å ‚.åœ¨æ•™å ‚ä½¿ç”¨è¯ä¹¦ä¸Šæ ‡ç¤ºçš„æ—¶é—´åä¸¤å°æ—¶,è‡ªåŠ¨å°†æ‰€æœ‰åœ¨åœºäººå‘˜ä¼ é€å›æ²™å²šåŸ.")
 	Text( 10, "Comfirm", CloseTalk)
 	Text( 10, "Return", JumpPage, 6)
 end 
@@ -12101,55 +12101,55 @@ end
 ----------------------------------------------------------
 --							--
 --							--
---		Ä§·½1²ã¶Ò»»Ô±[°®µÂ»ª]			--
+--		é­”æ–¹1å±‚å…‘æ¢å‘˜[çˆ±å¾·å]			--
 --							--
 --		26600,23000			--
 ----------------------------------------------------------
 function el_talk13 ()
-	Talk( 1, "°®µÂ»ª:Ç§ÄêµÄÀúÊ·±»ËêÔÂ³¾°£ËùÂñÔá,Ôø¾­ÍÅ½á¶ø¸»ÈÄµÄ¼ÓÄÉ´óÂ½ÒÑ²»¸´´æÔÚ.Ë­»¹¼ÇµÃ¿¨À­Å®ÉñÍòÄêÇ°ÎªËı°®ÈËËùÁôÏÂµÄµãµã±ùÀá!")
-	Text( 1, "¶Ò»»ÉñÆü±¦Ïä", JumpPage, 2)
+	Talk( 1, "çˆ±å¾·å:åƒå¹´çš„å†å²è¢«å²æœˆå°˜åŸƒæ‰€åŸ‹è‘¬,æ›¾ç»å›¢ç»“è€Œå¯Œé¥¶çš„åŠ çº³å¤§é™†å·²ä¸å¤å­˜åœ¨.è°è¿˜è®°å¾—å¡æ‹‰å¥³ç¥ä¸‡å¹´å‰ä¸ºå¥¹çˆ±äººæ‰€ç•™ä¸‹çš„ç‚¹ç‚¹å†°æ³ª!")
+	Text( 1, "å…‘æ¢ç¥æ³£å®ç®±", JumpPage, 2)
 	
-	Talk( 2, "°®µÂ»ª:Ç§Äê±ùÀáÊÇÊØÎÀ°®ÈËµÄ´ç´çÏàË¼,ÅóÓÑ!ÈçÈôÄãÓĞĞÄ¿úÌ½Å®Éñ·á¸»µÄ¾«ÉñÊÀ½ç,Çë´øÉÏ1¸öÇéÖ®éäºÍ1¸öÄÉ¿¨·ûÊ¯À´¶Ò»»ÕâÃÔÊ§µÄÉñÆü±¦²Ø°É!")	
+	Talk( 2, "çˆ±å¾·å:åƒå¹´å†°æ³ªæ˜¯å®ˆå«çˆ±äººçš„å¯¸å¯¸ç›¸æ€,æœ‹å‹!å¦‚è‹¥ä½ æœ‰å¿ƒçª¥æ¢å¥³ç¥ä¸°å¯Œçš„ç²¾ç¥ä¸–ç•Œ,è¯·å¸¦ä¸Š1ä¸ªæƒ…ä¹‹æ®‡å’Œ1ä¸ªçº³å¡ç¬¦çŸ³æ¥å…‘æ¢è¿™è¿·å¤±çš„ç¥æ³£å®è—å§!")	
 	InitTrigger()
-	TriggerCondition( 1, HasItem, 3827, 1)              -------------ÇéÖ®éä
-	TriggerCondition( 1, HasItem, 3457, 1)              --------------ÄÉ¿¨·ûÊ¯
+	TriggerCondition( 1, HasItem, 3827, 1)              -------------æƒ…ä¹‹æ®‡
+	TriggerCondition( 1, HasItem, 3457, 1)              --------------çº³å¡ç¬¦çŸ³
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerCondition(1, KitbagLock, 0 )
 	TriggerAction(1, TakeItem, 3827, 1)
 	TriggerAction(1, TakeItem, 3457, 1)
-	TriggerAction(1, GiveItem, 0145, 1, 4)              ----------ÉñÆü±¦Ïä
+	TriggerAction(1, GiveItem, 0145, 1, 4)              ----------ç¥æ³£å®ç®±
 	TriggerFailure(1, JumpPage, 3)
 	Text(2,"Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1) 	
 
-	Talk( 3, "ÅóÓÑ,ÉñÁé²»ÈİÙôäÂ,ÈçÈôÄãÉíÉÏ»¹Î´ÓĞÇéÖ®éäºÍÄÉ¿¨·ûÊ¯»òÊÇÄãµÄ±³°ü¸ñÒÑÂú,Çë°²¾²µÄÀë¿ª.")
+	Talk( 3, "æœ‹å‹,ç¥çµä¸å®¹äºµæ¸,å¦‚è‹¥ä½ èº«ä¸Šè¿˜æœªæœ‰æƒ…ä¹‹æ®‡å’Œçº³å¡ç¬¦çŸ³æˆ–æ˜¯ä½ çš„èƒŒåŒ…æ ¼å·²æ»¡,è¯·å®‰é™çš„ç¦»å¼€.")
 
 end
 
 ----------------------------------------------------------
 --							--
 --							--
---		Ä§·½2²ã¶Ò»»Ô±[µÂÂ³¿Ë]			--
+--		é­”æ–¹2å±‚å…‘æ¢å‘˜[å¾·é²å…‹]			--
 --							--
 --		26600,23000			--
 ----------------------------------------------------------
 function el_talk14 ()
-	Talk( 1, "µÂÂ³¿Ë:ºÙºÙ,½üÀ´Ì½Ñ°´óº£µÁÍõÂŞÉ­ÒÅÁô±¦²ØµÄÈËÇ÷Ö®ÈôğÍ,È´²»ÖªÄ§·½¶ş²ãÒş²Ø×ÅÒ»¸ö¾ªÌìµÄÃØÃÜ!ÕâÀïµÄ¾ŞÈËÊ×ÁìÉíÉÏÁ÷ÌÊ×ÅÄ¦¶û¿Ë×åÈËµÄÑªÒº,ÄÇĞ©Ò°ÂùµÄ¼Ò»ïÔÚ·ÖÁÑÍÁµØÊ±,²»Öª´ÓÍõ¹¬ÀïµÁÁË¶àÉÙÏ¡ÕäÒì±¦!")
+	Talk( 1, "å¾·é²å…‹:å˜¿å˜¿,è¿‘æ¥æ¢å¯»å¤§æµ·ç›—ç‹ç½—æ£®é—ç•™å®è—çš„äººè¶‹ä¹‹è‹¥é¹œ,å´ä¸çŸ¥é­”æ–¹äºŒå±‚éšè—ç€ä¸€ä¸ªæƒŠå¤©çš„ç§˜å¯†!è¿™é‡Œçš„å·¨äººé¦–é¢†èº«ä¸Šæµæ·Œç€æ‘©å°”å…‹æ—äººçš„è¡€æ¶²,é‚£äº›é‡è›®çš„å®¶ä¼™åœ¨åˆ†è£‚åœŸåœ°æ—¶,ä¸çŸ¥ä»ç‹å®«é‡Œç›—äº†å¤šå°‘ç¨€çå¼‚å®!")
 	
-	Text( 1, "¶Ò»»°ÔÍõ±¦Ïä", JumpPage, 2)
+	Text( 1, "å…‘æ¢éœ¸ç‹å®ç®±", JumpPage, 2)
 
-	Talk( 2, "µÂÂ³¿Ë:ÅóÓÑ,ÅóÓÑ!Ğ×ÃÍµÄÄ§¶û¿ËÈËÃ»°ÑÄãÏÅ»µ°É?Ê²Ã´?ÄãËµÄãÓĞĞÅĞÄ°ÑËûÉ±ËÀ?!ÕæÊÇÅå·şÅå·ş!ÎÒÃÃÃÃ×î½üÔÚÑĞÖÆÒ»±ú»ğÑæÉñÆ÷,¼±ĞèÕâÍ·¾ŞÈËÉíÉÏµÄ1¸ö¾ŞÈËÊ×ÁìÏîÁ´ºÍ1¸öÄÉ¿¨·ûÊ¯×öÔ­ÁÏ!Èç¹ûÄãÄÜ°ÑÕâÁ½Ñù¶«Î÷ÕÒÀ´,ÎÒ½«ÔùÓëÄã:ÎÒÃÃÃÃÇ×ÊÖ´¸Á¶µÄ°ÔÍõ±¦Ïä,ºÙºÙ,Àï±ßµÄ±¦±´¿ÉÊÇÃÃÃÃ±ÏÉúÊÕÂ¼µÄ¾«»ª!!")	
+	Talk( 2, "å¾·é²å…‹:æœ‹å‹,æœ‹å‹!å‡¶çŒ›çš„é­”å°”å…‹äººæ²¡æŠŠä½ å“åå§?ä»€ä¹ˆ?ä½ è¯´ä½ æœ‰ä¿¡å¿ƒæŠŠä»–æ€æ­»?!çœŸæ˜¯ä½©æœä½©æœ!æˆ‘å¦¹å¦¹æœ€è¿‘åœ¨ç ”åˆ¶ä¸€æŸ„ç«ç„°ç¥å™¨,æ€¥éœ€è¿™å¤´å·¨äººèº«ä¸Šçš„1ä¸ªå·¨äººé¦–é¢†é¡¹é“¾å’Œ1ä¸ªçº³å¡ç¬¦çŸ³åšåŸæ–™!å¦‚æœä½ èƒ½æŠŠè¿™ä¸¤æ ·ä¸œè¥¿æ‰¾æ¥,æˆ‘å°†èµ ä¸ä½ :æˆ‘å¦¹å¦¹äº²æ‰‹é”¤ç‚¼çš„éœ¸ç‹å®ç®±,å˜¿å˜¿,é‡Œè¾¹çš„å®è´å¯æ˜¯å¦¹å¦¹æ¯•ç”Ÿæ”¶å½•çš„ç²¾å!!")	
 	InitTrigger()
-	TriggerCondition( 1, HasItem, 3826, 1)             ------------¾ŞÈËÊ×ÁìÏîÁ´
-	TriggerCondition( 1, HasItem, 3457, 1)             ------------ÄÉ¿¨·ûÊ¯
+	TriggerCondition( 1, HasItem, 3826, 1)             ------------å·¨äººé¦–é¢†é¡¹é“¾
+	TriggerCondition( 1, HasItem, 3457, 1)             ------------çº³å¡ç¬¦çŸ³
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerCondition(1, KitbagLock, 0 )
 	TriggerAction(1, TakeItem, 3826, 1)
 	TriggerAction(1, TakeItem, 3457, 1)
-	TriggerAction(1, GiveItem, 0146, 1, 4)              ----------°ÔÍõ±¦Ïä
+	TriggerAction(1, GiveItem, 0146, 1, 4)              ----------éœ¸ç‹å®ç®±
 	TriggerFailure(1, JumpPage, 3)
 	Text(2,"Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1) 	
 
-	Talk( 3, "°¥Ñ½°¥Ñ½,Äã¾¹È»»¹Ã»ÊÕ¼¯µ½¾ŞÈËÊ×ÁìÏîÁ´ºÍÄÉ¿¨·ûÊ¯»òÊÇÄã±³°üÌ«ÂúÁË!ÄÇ¸Ï½ôÌÓ°É!!!Ä¦¶û¿Ë×å¾ŞÈË·¢Æğ»ğÀ´¿ÉÊÇÊ®·ÖĞ×º·à¸!")
+	Talk( 3, "å“å‘€å“å‘€,ä½ ç«Ÿç„¶è¿˜æ²¡æ”¶é›†åˆ°å·¨äººé¦–é¢†é¡¹é“¾å’Œçº³å¡ç¬¦çŸ³æˆ–æ˜¯ä½ èƒŒåŒ…å¤ªæ»¡äº†!é‚£èµ¶ç´§é€ƒå§!!!æ‘©å°”å…‹æ—å·¨äººå‘èµ·ç«æ¥å¯æ˜¯ååˆ†å‡¶æ‚å–”!")
 
 end
 
@@ -12157,12 +12157,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		°×Òø[Ä§·¨Ê¦ÏÄÌì]			--
+--		ç™½é“¶[é­”æ³•å¸ˆå¤å¤©]			--
 --							--
 --		2229,2782			--
 ----------------------------------------------------------
 function el_talk15 ()
-	Talk( 1, "Ä§·¨Ê¦ÏÄÌì: ÎÒµÄÅóÓÑÅáÃÎ±»Ä§ÍõÂå¿Ë²ĞÈÌµÄÉ±º¦ÁË¡£ÓÂ¸ÒµÄÕ½Ê¿,Èç¹ûÄãÄÜ¹»ÎªÎÒÕÒ»Ø´ú±íÎÒÅóÓÑÁé»êµÄÆß¸ö×ÖÄ¸P-E-I-M-E-N-G¡£ÎÒ½«»á°ÑÎÒÊÕ²Ø¶àÄêµÄÄ§·¨ºĞËÍ¸øÄã¡£")
+	Talk( 1, "é­”æ³•å¸ˆå¤å¤©: æˆ‘çš„æœ‹å‹è£´æ¢¦è¢«é­”ç‹æ´›å…‹æ®‹å¿çš„æ€å®³äº†ã€‚å‹‡æ•¢çš„æˆ˜å£«,å¦‚æœä½ èƒ½å¤Ÿä¸ºæˆ‘æ‰¾å›ä»£è¡¨æˆ‘æœ‹å‹çµé­‚çš„ä¸ƒä¸ªå­—æ¯P-E-I-M-E-N-Gã€‚æˆ‘å°†ä¼šæŠŠæˆ‘æ”¶è—å¤šå¹´çš„é­”æ³•ç›’é€ç»™ä½ ã€‚")
 
 	AddNpcMission ( 6139 )
 	AddNpcMission ( 6161 )
@@ -12174,24 +12174,24 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÓÄÉÊ¥ÁÖ[Âå¿Ë¼ÒµÄÊØÃÅÈË]			--
+--		åŠ çº³åœ£æ—[æ´›å…‹å®¶çš„å®ˆé—¨äºº]			--
 --							--
---		271£¬1775			--
+--		271ï¼Œ1775			--
 ----------------------------------------------------------
 function el_talk16 ()
 	
-	Talk( 1, "Âå¿Ë¼ÒµÄÊØÃÅÈË: ÎÒÊÇÂå¿Ë´óÈËµÄÖÒÊµ¼ÒÆÍ,ËäÈ»ËûºÜ²ĞÈÌ,µ«ÊÇÕâ²¢²»·Á°­ÎÒĞÀÉÍËûµÄÄÜÁ¦ºÍÉí²Ä.")
-	Text( 1, "ÎÒÒªÈ¥¼ÅÄ¯Ö®Ëş1²ã£¡", JumpPage, 2 )
+	Talk( 1, "æ´›å…‹å®¶çš„å®ˆé—¨äºº: æˆ‘æ˜¯æ´›å…‹å¤§äººçš„å¿ å®å®¶ä»†,è™½ç„¶ä»–å¾ˆæ®‹å¿,ä½†æ˜¯è¿™å¹¶ä¸å¦¨ç¢æˆ‘æ¬£èµä»–çš„èƒ½åŠ›å’Œèº«æ.")
+	Text( 1, "æˆ‘è¦å»å¯‚å¯ä¹‹å¡”1å±‚ï¼", JumpPage, 2 )
 
 	InitTrigger()
 	TriggerCondition( 1, HasMission,1213 )
 	TriggerAction( 1, GoTo, 352, 378, "lonetower")
 	TriggerFailure( 1, JumpPage, 3 )
-	Talk( 2, "Âå¿Ë¼ÒµÄÊØÃÅÈË:¼ÅÄ¯Ö®ËşÖ®ËùÒÔ¼ÅÄ¯ÊÇÒòÎªÃ»ÓĞ¼¸¸ö»îÈË" )
+	Talk( 2, "æ´›å…‹å®¶çš„å®ˆé—¨äºº:å¯‚å¯ä¹‹å¡”ä¹‹æ‰€ä»¥å¯‚å¯æ˜¯å› ä¸ºæ²¡æœ‰å‡ ä¸ªæ´»äºº" )
 	Text( 2, "Teleport",MultiTrigger, GetMultiTrigger(), 1 )
 
 
-	Talk( 3, "Âå¿Ë¼ÒµÄÊØÃÅÈË:ÅóÓÑÄã»¹Ã»½Ó ÊØÃÅÈËÍ¸Â¶µÄĞÅÏ¢ Õâ¸öÈÎÎñ°É?" )
+	Talk( 3, "æ´›å…‹å®¶çš„å®ˆé—¨äºº:æœ‹å‹ä½ è¿˜æ²¡æ¥ å®ˆé—¨äººé€éœ²çš„ä¿¡æ¯ è¿™ä¸ªä»»åŠ¡å§?" )
 	AddNpcMission ( 6140 )
 	
 end
@@ -12199,17 +12199,17 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş1²ã[Âå¿Ë¼ÒµÄÄĞÓ¶]			--
+--		å¯‚å¯ä¹‹å¡”1å±‚[æ´›å…‹å®¶çš„ç”·ä½£]			--
 --							--
 --		260,257			--
 ----------------------------------------------------------
 function el_talk17 ()
-	Talk( 1, " Âå¿Ë¼ÒµÄÄĞÓ¶: ÖÚËùÖÜÖª,Ò»Ä¿ÁËÈ»,ÎÒ±ÈÂå¿ËË§,ÎªÊ²Ã´ËûµÄÇéÈËÃÇ²»ÕâÑùÏë......")
-	Text( 1, "ÎÒÒªÈ¥Ê¥ÁÖ£¡", JumpPage, 2 )
+	Talk( 1, " æ´›å…‹å®¶çš„ç”·ä½£: ä¼—æ‰€å‘¨çŸ¥,ä¸€ç›®äº†ç„¶,æˆ‘æ¯”æ´›å…‹å¸…,ä¸ºä»€ä¹ˆä»–çš„æƒ…äººä»¬ä¸è¿™æ ·æƒ³......")
+	Text( 1, "æˆ‘è¦å»åœ£æ—ï¼", JumpPage, 2 )
 
 	InitTrigger()
 	TriggerAction( 1, GoTo, 275, 1775, "garner")
-	Talk( 2, "Âå¿Ë¼ÒµÄÄĞÓ¶:ÓĞ¿Õ³£À´Íæ,¹Â¶ÀµÄÊ±ºò¡¢¿ìÀÖµÄÊ±ºòºÍ²»ÖªµÀÊÇ·ñ¿ìÀÖµÄÊ±ºò..." )
+	Talk( 2, "æ´›å…‹å®¶çš„ç”·ä½£:æœ‰ç©ºå¸¸æ¥ç©,å­¤ç‹¬çš„æ—¶å€™ã€å¿«ä¹çš„æ—¶å€™å’Œä¸çŸ¥é“æ˜¯å¦å¿«ä¹çš„æ—¶å€™..." )
 	Text( 2, "Teleport",MultiTrigger, GetMultiTrigger(), 1 )
 
 	AddNpcMission ( 6141 )
@@ -12221,12 +12221,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş2²ã[Âå¿Ë¼ÒµÄÅ®Ó¶]			--
+--		å¯‚å¯ä¹‹å¡”2å±‚[æ´›å…‹å®¶çš„å¥³ä½£]			--
 --							--
---		151£¬134			--
+--		151ï¼Œ134			--
 ----------------------------------------------------------
 function el_talk18 ()
-	Talk( 1, "Âå¿Ë¼ÒµÄÅ®Ó¶: ×÷ÎªÒ»¸öÅ®Ó¶²»ÄÜ²»¹Ø×¢×Ô¼ºÖ÷ÈËµÄË½Éú»î,·ñÔòÈÕ×Ó»á¸ü¼ÓÎŞÁÄ.")
+	Talk( 1, "æ´›å…‹å®¶çš„å¥³ä½£: ä½œä¸ºä¸€ä¸ªå¥³ä½£ä¸èƒ½ä¸å…³æ³¨è‡ªå·±ä¸»äººçš„ç§ç”Ÿæ´»,å¦åˆ™æ—¥å­ä¼šæ›´åŠ æ— èŠ.")
 
 
 	AddNpcMission ( 6144 )
@@ -12238,12 +12238,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş3²ã[Âå¿Ë¼ÒµÄĞ¡ÃØ]			--
+--		å¯‚å¯ä¹‹å¡”3å±‚[æ´›å…‹å®¶çš„å°ç§˜]			--
 --							--
---		63£¬311			--
+--		63ï¼Œ311			--
 ----------------------------------------------------------
 function el_talk19 ()
-	Talk( 1, " Âå¿Ë¼ÒµÄĞ¡ÃØ: ÎÒÖªµÀÎÒÆ¯ÁÁ,²»Òª´¹ÏÑÎÒ.")
+	Talk( 1, " æ´›å…‹å®¶çš„å°ç§˜: æˆ‘çŸ¥é“æˆ‘æ¼‚äº®,ä¸è¦å‚æ¶æˆ‘.")
 
 
 	AddNpcMission ( 6147 )
@@ -12255,12 +12255,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş4²ã[Âå¿Ë¼ÒµÄÊØ»¤Õß]			--
+--		å¯‚å¯ä¹‹å¡”4å±‚[æ´›å…‹å®¶çš„å®ˆæŠ¤è€…]			--
 --							--
---		261£¬70			--
+--		261ï¼Œ70			--
 ----------------------------------------------------------
 function el_talk20 ()
-	Talk( 1, "Âå¿Ë¼ÒµÄÊØ»¤Õß: ÊØ»¤ÕßÊÇÓÃÀ´×ğ¾´µÄ.Âå¿ËÊ²Ã´Ê±ºò²ÅÄÜÃ÷°×Õâ¸öµÀÀíÄØ")
+	Talk( 1, "æ´›å…‹å®¶çš„å®ˆæŠ¤è€…: å®ˆæŠ¤è€…æ˜¯ç”¨æ¥å°Šæ•¬çš„.æ´›å…‹ä»€ä¹ˆæ—¶å€™æ‰èƒ½æ˜ç™½è¿™ä¸ªé“ç†å‘¢")
 
 
 	AddNpcMission ( 6150 )
@@ -12272,12 +12272,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş5²ã[Âå¿Ë¼ÒµÄ¹Ü¼Ò]			--
+--		å¯‚å¯ä¹‹å¡”5å±‚[æ´›å…‹å®¶çš„ç®¡å®¶]			--
 --							--
---		542£¬54			--
+--		542ï¼Œ54			--
 ----------------------------------------------------------
 function el_talk21 ()
-	Talk( 1, "Âå¿Ë¼ÒµÄ¹Ü¼Ò: ¹Ü¼Ò¹Ü¼Ò,Ö÷ÈË²»¹Ü¾ÍÊÇÎÒµÄ¼Ò.")
+	Talk( 1, "æ´›å…‹å®¶çš„ç®¡å®¶: ç®¡å®¶ç®¡å®¶,ä¸»äººä¸ç®¡å°±æ˜¯æˆ‘çš„å®¶.")
 
 
 	AddNpcMission ( 6153 )
@@ -12288,12 +12288,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		¼ÅÄ¯Ö®Ëş6²ã[Ä§ÍõÂå¿ËµÄÇéÈË]			--
+--		å¯‚å¯ä¹‹å¡”6å±‚[é­”ç‹æ´›å…‹çš„æƒ…äºº]			--
 --							--
---		541£¬268			--
+--		541ï¼Œ268			--
 ----------------------------------------------------------
 function el_talk22 ()
-	Talk( 1, "Ä§ÍõÂå¿ËµÄÇéÈË: ÎÒ¿ÉÄÜ²»ÊÇRock×îÃÀÀöµÄÇéÈË,µ«Ò»¶¨ÊÇ×î»¨ĞÄµÄÒ»¸ö.")
+	Talk( 1, "é­”ç‹æ´›å…‹çš„æƒ…äºº: æˆ‘å¯èƒ½ä¸æ˜¯Rockæœ€ç¾ä¸½çš„æƒ…äºº,ä½†ä¸€å®šæ˜¯æœ€èŠ±å¿ƒçš„ä¸€ä¸ª.")
 
 
 	AddNpcMission ( 6156 )
@@ -12305,12 +12305,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		µØÓü4²ã[Âå¿Ë¼ÒµÄÍú²Æ]			--
+--		åœ°ç‹±4å±‚[æ´›å…‹å®¶çš„æ—ºè´¢]			--
 --							--
 --		154,912			--
 ----------------------------------------------------------
 function el_talk23 ()
-	Talk( 1, "Âå¿Ë¼ÒµÄÍú²Æ: ÍôÍôÍôÍôÍôÍôÍô...ÄãÍô,ÎÒÍô,´ó¼ÒÍô!")
+	Talk( 1, "æ´›å…‹å®¶çš„æ—ºè´¢: æ±ªæ±ªæ±ªæ±ªæ±ªæ±ªæ±ª...ä½ æ±ª,æˆ‘æ±ª,å¤§å®¶æ±ª!")
 
 
 	AddNpcMission ( 6159 )
@@ -12321,12 +12321,12 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		Çïµº[Çïµºµ¼ÓÎĞ¡½ã]			--
+--		ç§‹å²›[ç§‹å²›å¯¼æ¸¸å°å§]			--
 --							--
 --		2423,3186			--
 ----------------------------------------------------------
 function el_talk24 ()
-	Talk( 1, "Çïµºµ¼ÓÎĞ¡½ã: ½ğÇï×éÍÅÓÎ!»¶Ó­À´µ½Çïµº,½ñÌìÊÇÎÒµÚÒ»´Îµ¼ÓÎ,×£Ô¸ÄãÔÚÕâÀï¶È¹ıÒ»¶ÎÎÂÜ°ÃÀºÃµÄÊ±¹â.Ğ»Ğ»!")
+	Talk( 1, "ç§‹å²›å¯¼æ¸¸å°å§: é‡‘ç§‹ç»„å›¢æ¸¸!æ¬¢è¿æ¥åˆ°ç§‹å²›,ä»Šå¤©æ˜¯æˆ‘ç¬¬ä¸€æ¬¡å¯¼æ¸¸,ç¥æ„¿ä½ åœ¨è¿™é‡Œåº¦è¿‡ä¸€æ®µæ¸©é¦¨ç¾å¥½çš„æ—¶å…‰.è°¢è°¢!")
 
 
 	AddNpcMission ( 6162 )
@@ -12339,38 +12339,38 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ[ÀñÆ·ÅÉËÍ×¨Ô±]			--
+--		å†°ç‹¼[ç¤¼å“æ´¾é€ä¸“å‘˜]			--
 --							--
 --		1307,500			--
 ----------------------------------------------------------
 function pre_talk()
-	Talk( 1, "ÄãºÃ,ÎÒÊÇÀñÆ·ÅÉËÍ×¨Ô±,×¨ÃÅ¸ºÔğÅÉËÍÀñÆ·¸ø´ó¼ÒµÄ,Ï£ÍûÄãÃÇÄÜÏ²»¶.")
+	Talk( 1, "ä½ å¥½,æˆ‘æ˜¯ç¤¼å“æ´¾é€ä¸“å‘˜,ä¸“é—¨è´Ÿè´£æ´¾é€ç¤¼å“ç»™å¤§å®¶çš„,å¸Œæœ›ä½ ä»¬èƒ½å–œæ¬¢.")
 	InitTrigger()
 	TriggerCondition( 1, HasNoItem,  1872 )
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerAction( 1, GiveItem, 1872, 1, 4)
 	TriggerFailure( 1, JumpPage, 2 )
-	Text( 1, "ÁìÈ¡¾«ÁéÓ²±Ò±¦Ïä", MultiTrigger, GetMultiTrigger(), 1) 
+	Text( 1, "é¢†å–ç²¾çµç¡¬å¸å®ç®±", MultiTrigger, GetMultiTrigger(), 1) 
 
 	InitTrigger()
 	TriggerCondition( 1, HasNoItem,  1570 )
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerAction( 1, GiveItem, 1570, 1, 4)
 	TriggerFailure( 1, JumpPage, 2 )
-	Text( 1, "ÁìÈ¡¾«Áé»ÔÓ¡±¦Ïä", MultiTrigger, GetMultiTrigger(), 1) 
+	Text( 1, "é¢†å–ç²¾çµè¾‰å°å®ç®±", MultiTrigger, GetMultiTrigger(), 1) 
 
 	InitTrigger()
 	TriggerCondition( 1, HasNoItem,  1571 )
 	TriggerCondition(1, HasLeaveBagGrid, 1)
 	TriggerAction( 1, GiveItem, 1571, 1, 4)
 	TriggerFailure( 1, JumpPage, 2 )
-	Text( 1, "ÁìÈ¡¾«ÁéÍõ»ÔÓ¡±¦Ïä", MultiTrigger, GetMultiTrigger(), 1) 
+	Text( 1, "é¢†å–ç²¾çµç‹è¾‰å°å®ç®±", MultiTrigger, GetMultiTrigger(), 1) 
 
-	Talk( 2, "Äã±³°üÄÚÒÑ¾­ÓĞ¸ÃÖÖÀàĞÍµÄ±¦ÏäÁË,²»ĞèÒªÔÙÁìÈ¡,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñÁË.")
+	Talk( 2, "ä½ èƒŒåŒ…å†…å·²ç»æœ‰è¯¥ç§ç±»å‹çš„å®ç®±äº†,ä¸éœ€è¦å†é¢†å–,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼äº†.")
 end
 
 -----------------------------------------------------------------------------
--- °×Òø³Ç-----ËÄËÒĞ¡¼âµ¶ºÅ¡¢Éºº÷ºÅ¡¢¾Ş¾¨ºÅ£¨ÅäºÏ³ÌĞòĞŞ¸ÄµÄ´¬²Õ·Ç·¨µÀ¾ßÎÊÌâ£©
+-- ç™½é“¶åŸ-----å››è‰˜å°å°–åˆ€å·ã€çŠç‘šå·ã€å·¨é²¸å·ï¼ˆé…åˆç¨‹åºä¿®æ”¹çš„èˆ¹èˆ±éæ³•é“å…·é—®é¢˜ï¼‰
 -----------------------------------------------------------------------------
 
 function k_talk001()
@@ -12383,14 +12383,14 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		ÏÄµº[Î÷ÃÅÇì]			--
+--		å¤å²›[è¥¿é—¨åº†]			--
 --							--
---		3734£¬2661			--
+--		3734ï¼Œ2661			--
 ----------------------------------------------------------
 function el_talk25 ()
-	Talk( 1, "Î÷ÃÅÇì: Î÷ÃÅÎÒÆäÊµÊÇ¸öÕı¾­ÈË,°®Ò»¸öÈËÓĞÊ²Ã´´í?Èç¹ûÓĞÀ´Éú,ÎÒÏ£ÍûÔÚËùÓĞÄĞÈËÖ®Ç°Óöµ½Ëı.")
+	Talk( 1, "è¥¿é—¨åº†: è¥¿é—¨æˆ‘å…¶å®æ˜¯ä¸ªæ­£ç»äºº,çˆ±ä¸€ä¸ªäººæœ‰ä»€ä¹ˆé”™?å¦‚æœæœ‰æ¥ç”Ÿ,æˆ‘å¸Œæœ›åœ¨æ‰€æœ‰ç”·äººä¹‹å‰é‡åˆ°å¥¹.")
 
----------------------Çïµº¿ª·¢
+---------------------ç§‹å²›å¼€å‘
 	AddNpcMission ( 6176 )
 	AddNpcMission ( 6178 )
 	AddNpcMission ( 6181 )
@@ -12401,43 +12401,43 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		ÏÄµº´«ËÍÊ¹¡¤°¬ÃÉ			--
+--		å¤å²›ä¼ é€ä½¿Â·è‰¾è’™			--
 --							--
---		3714£¬2664			--
+--		3714ï¼Œ2664			--
 ----------------------------------------------------------
 function el_talk26 ()
-	Talk( 1, " ÏÄµº´«ËÍÊ¹¡¤°¬ÃÉ: ÒòÎªÎÒ°®ÉÏÂÃĞĞ,ËùÒÔÎÒ×öÁË´«ËÍÊ¹,ËÍ±ğÈËÈ¥ÂÃĞĞ.")
-	Text( 1, "ÎÒÒªÈ¥Çïµº!", JumpPage, 2 )
+	Talk( 1, " å¤å²›ä¼ é€ä½¿Â·è‰¾è’™: å› ä¸ºæˆ‘çˆ±ä¸Šæ—…è¡Œ,æ‰€ä»¥æˆ‘åšäº†ä¼ é€ä½¿,é€åˆ«äººå»æ—…è¡Œ.")
+	Text( 1, "æˆ‘è¦å»ç§‹å²›!", JumpPage, 2 )
 
 	InitTrigger()
 	TriggerCondition( 1, HasMoney, 500 )
 	TriggerAction( 1, TakeMoney, 500 )
 	TriggerAction( 1, GoTo, 2414,3174, "darkblue")
 	TriggerFailure( 1, JumpPage, 3 )
-	Talk( 2, "ÏÄµº´«ËÍÊ¹¡¤°¬ÃÉ:Ê±¿ÌÏíÊÜÈËÉúµÄÃÀ¾°..." )
+	Talk( 2, "å¤å²›ä¼ é€ä½¿Â·è‰¾è’™:æ—¶åˆ»äº«å—äººç”Ÿçš„ç¾æ™¯..." )
 	Text( 2, "Teleport",MultiTrigger, GetMultiTrigger(), 1 )
 
-	Talk( 3, "ÏÄµº´«ËÍÊ¹¡¤°¬ÃÉ:ÅóÓÑ,ÄãºÃ´õÒ²´ø500¿é³öÃÅ°¡!·ñÔò±ğÈË»áÈÏÎªÄãÃ»Ãæ×Ó" )
+	Talk( 3, "å¤å²›ä¼ é€ä½¿Â·è‰¾è’™:æœ‹å‹,ä½ å¥½æ­¹ä¹Ÿå¸¦500å—å‡ºé—¨å•Š!å¦åˆ™åˆ«äººä¼šè®¤ä¸ºä½ æ²¡é¢å­" )
 end
 
 ----------------------------------------------------------
 
-	--Ê¥µ®´å[ì³Ğ»ÌØ]		
+	--åœ£è¯æ‘[æ–è°¢ç‰¹]		
 
 --		221150,278125				
 ----------------------------------------------------------
------------------------------------------------------------ÕâÀï¿ªÊ¼P»°ÁÄÌì
+-----------------------------------------------------------è¿™é‡Œå¼€å§‹Pè¯èŠå¤©
 function el_talk29 ()
 	
 	
-	Talk( 1, "ì³Ğ»ÌØ:Ê¥µ®¿ìÀÖ!»ªÀöÎÂÜ°µÄÊ¥µ®½ÚÔõÃ´¿ÉÒÔÃ»ÓĞÃÀÎ¶µÄÊ¥µ®ÑçÄØ?" )		
+	Talk( 1, "æ–è°¢ç‰¹:åœ£è¯å¿«ä¹!åä¸½æ¸©é¦¨çš„åœ£è¯èŠ‚æ€ä¹ˆå¯ä»¥æ²¡æœ‰ç¾å‘³çš„åœ£è¯å®´å‘¢?" )		
 
 	
 	Text(1, "Cooking delicious turkey meat", JumpPage, 2)
 	Text(1, "Cook Christmas Dinner", JumpPage, 5)
 	
 	
----------------------Åëµ÷ÃÀÎ¶µÄ»ğ¼¦Èâ
+---------------------çƒ¹è°ƒç¾å‘³çš„ç«é¸¡è‚‰
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2886, 10 )
 	TriggerCondition( 1, HasMoney, 10000 )
@@ -12448,16 +12448,16 @@ function el_talk29 ()
 	TriggerAction( 1, GiveItem, 2895, 1 , 4)
 	TriggerAction( 1, JumpPage, 3 )
 	TriggerFailure( 1, JumpPage, 4)
-	Talk( 2, "ì³Ğ»ÌØ:ÎÒĞèÒªÔ­²ÄÁÏ10¸ö»ğ¼¦Èâ,µ±È»Äã»¹ÒªÖ§¸¶¸øÎÒ10000º£µÁ±ÒµÄĞÁ¿à·Ñ")
+	Talk( 2, "æ–è°¢ç‰¹:æˆ‘éœ€è¦åŸææ–™10ä¸ªç«é¸¡è‚‰,å½“ç„¶ä½ è¿˜è¦æ”¯ä»˜ç»™æˆ‘10000æµ·ç›—å¸çš„è¾›è‹¦è´¹")
 	Text(2, "Confirm to cook",  MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk(3, "ì³Ğ»ÌØ:ÕâÊÇÎÒ¾«ĞÄÅëµ÷µÄÃÀÎ¶»ğ¼¦Èâ,¸Ï¿ì³¢³¢,Î¶µÀÔõÃ´Ñù?" )
+	Talk(3, "æ–è°¢ç‰¹:è¿™æ˜¯æˆ‘ç²¾å¿ƒçƒ¹è°ƒçš„ç¾å‘³ç«é¸¡è‚‰,èµ¶å¿«å°å°,å‘³é“æ€ä¹ˆæ ·?" )
 
-	Talk( 5, "ì³Ğ»ÌØ:×öÊ¥µ®´ó²Íà¶,Ã¿ÈËÖ»ÏŞÈı´ÎÅ¶!")
+	Talk( 5, "æ–è°¢ç‰¹:åšåœ£è¯å¤§é¤å–½,æ¯äººåªé™ä¸‰æ¬¡å“¦!")
 	Text(5, "The first Christmas Cooking Contest",  JumpPage, 6)
 	Text(5, "Second Set of Christmas Dinner",  JumpPage, 7)
 	Text(5, "Third time making Christmas Dinner", JumpPage, 8)
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, NoRecord, 815 )
 	TriggerCondition( 1, HasItem, 2895, 10 )
@@ -12477,7 +12477,7 @@ function el_talk29 ()
 
 	
 
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 815 )
 	TriggerCondition( 1, NoRecord, 816 )
@@ -12496,7 +12496,7 @@ function el_talk29 ()
 	Talk(7, "Making Christmas Dinner again? I required 10 slices of Tasty Turkey Meat and 1 Christmas Rose. Christmas Rose seems to be found in the Item Mall. Beside paying me 1000000G for the troublle, you can only make the Christmas Dinner 3 times.")
 	Text( 7, "Confirm to cook",  MultiTrigger, GetMultiTrigger(), 1)
 
-	---------------------Åëµ÷Ê¥µ®´ó²Í
+	---------------------çƒ¹è°ƒåœ£è¯å¤§é¤
 	InitTrigger()
 	TriggerCondition( 1, HasRecord, 816 )
 	TriggerCondition( 1, NoRecord, 817 )
@@ -12514,16 +12514,16 @@ function el_talk29 ()
 	TriggerFailure( 1, JumpPage,11 )
 	Talk(8, "Making Christmas Dinner again? I required 10 slices of Tasty Turkey Meat and 1 Christmas Rose. Christmas Rose seems to be found in the Item Mall. Besides paying me 10000G for the troublle, you can only make the Christmas Dinner 3 times.")
 	Text( 8, "Confirm to cook",  MultiTrigger, GetMultiTrigger(), 1)
-	Talk( 9, "ì³Ğ»ÌØ:ÄúÉíÉÏËÆºõÃ»ÓĞ×ã¹»ÓÃÀ´ÅëÖÆµÄÎïÆ·»ò½ğÇ®°¡!ÄúµÄ±³°üÖÁÉÙÒªÓĞÒ»¸ö¿Õ¸ñÅ¶.ÄãÈ·¶¨ÊÇµÚÒ»´Î×öÊ¥µ®´ó²ÍÂğ?Ö»ÄÜ×ö3´Î.")
-	Talk( 10, "ì³Ğ»ÌØ:ÄúÉíÉÏËÆºõÃ»ÓĞ×ã¹»ÓÃÀ´ÅëÖÆµÄÎïÆ·»ò½ğÇ®°¡!ÄúµÄ±³°üÖÁÉÙÒªÓĞÒ»¸ö¿Õ¸ñÅ¶.ÄãÈ·¶¨ÊÇµÚ¶ş´Î×öÊ¥µ®´ó²ÍÂğ?Ö»ÄÜ×ö3´ÎÅ¶.")
-	Talk( 11, "ì³Ğ»ÌØ:ÄúÉíÉÏËÆºõÃ»ÓĞ×ã¹»ÓÃÀ´ÅëÖÆµÄÎïÆ·»ò½ğÇ®°¡!ÄúµÄ±³°üÖÁÉÙÒªÓĞÒ»¸ö¿Õ¸ñÅ¶.ÄãÈ·¶¨ÊÇµÚÈı´Î×öÊ¥µ®´ó²ÍÂğ?Ö»ÄÜ×ö3´ÎÅ¶.")
-	Talk( 4, "ì³Ğ»ÌØ:ÄúÉíÉÏËÆºõÃ»ÓĞ×ã¹»ÓÃÀ´ÅëÖÆµÄÎïÆ·»ò½ğÇ®°¡!ÇëÈ·±£ÄúµÄ±³°üÎ´Ëø¶¨,²¢ÇÒÖÁÉÙÒªÓĞÒ»¸ö¿Õ¸ñÅ¶.")
-	Talk(12, "ì³Ğ»ÌØ:ÕâÊÇÎÒ¾«ĞÄÅëµ÷µÄÊ¥µ®´ó²Í,¸Ï¿ì³¢³¢,Î¶µÀÔõÃ´Ñù?" )
+	Talk( 9, "æ–è°¢ç‰¹:æ‚¨èº«ä¸Šä¼¼ä¹æ²¡æœ‰è¶³å¤Ÿç”¨æ¥çƒ¹åˆ¶çš„ç‰©å“æˆ–é‡‘é’±å•Š!æ‚¨çš„èƒŒåŒ…è‡³å°‘è¦æœ‰ä¸€ä¸ªç©ºæ ¼å“¦.ä½ ç¡®å®šæ˜¯ç¬¬ä¸€æ¬¡åšåœ£è¯å¤§é¤å—?åªèƒ½åš3æ¬¡.")
+	Talk( 10, "æ–è°¢ç‰¹:æ‚¨èº«ä¸Šä¼¼ä¹æ²¡æœ‰è¶³å¤Ÿç”¨æ¥çƒ¹åˆ¶çš„ç‰©å“æˆ–é‡‘é’±å•Š!æ‚¨çš„èƒŒåŒ…è‡³å°‘è¦æœ‰ä¸€ä¸ªç©ºæ ¼å“¦.ä½ ç¡®å®šæ˜¯ç¬¬äºŒæ¬¡åšåœ£è¯å¤§é¤å—?åªèƒ½åš3æ¬¡å“¦.")
+	Talk( 11, "æ–è°¢ç‰¹:æ‚¨èº«ä¸Šä¼¼ä¹æ²¡æœ‰è¶³å¤Ÿç”¨æ¥çƒ¹åˆ¶çš„ç‰©å“æˆ–é‡‘é’±å•Š!æ‚¨çš„èƒŒåŒ…è‡³å°‘è¦æœ‰ä¸€ä¸ªç©ºæ ¼å“¦.ä½ ç¡®å®šæ˜¯ç¬¬ä¸‰æ¬¡åšåœ£è¯å¤§é¤å—?åªèƒ½åš3æ¬¡å“¦.")
+	Talk( 4, "æ–è°¢ç‰¹:æ‚¨èº«ä¸Šä¼¼ä¹æ²¡æœ‰è¶³å¤Ÿç”¨æ¥çƒ¹åˆ¶çš„ç‰©å“æˆ–é‡‘é’±å•Š!è¯·ç¡®ä¿æ‚¨çš„èƒŒåŒ…æœªé”å®š,å¹¶ä¸”è‡³å°‘è¦æœ‰ä¸€ä¸ªç©ºæ ¼å“¦.")
+	Talk(12, "æ–è°¢ç‰¹:è¿™æ˜¯æˆ‘ç²¾å¿ƒçƒ¹è°ƒçš„åœ£è¯å¤§é¤,èµ¶å¿«å°å°,å‘³é“æ€ä¹ˆæ ·?" )
 	AddNpcMission ( 6191 )
 end 
 
 ------------------------------------------------------------
--- Ê¥µ®´å-----Ê¥µ®ÀÏÈËµÄÏ´ÒÂ»ú
+-- åœ£è¯æ‘-----åœ£è¯è€äººçš„æ´—è¡£æœº
 ------------------------------------------------------------
 function el_talk30()
 	
@@ -12612,7 +12612,7 @@ function el_talk30()
 	TriggerAction( 1, TakeItem, 3927, 1 )
 	TriggerAction( 1, RandFunction, GetFuncList(), GetNumFunc() )
 	TriggerFailure( 1, JumpPage, 2 )
-	Talk( 1, "Ê¥µ®¿ìÀÖ!ÕâÊÇÒ»Ì¨¹ÅÀÏµÄÇåÏ´»ú,ÔÚÕâÀï¿ÉÒÔÏ´µÓÄãµÄÒ»ÇĞ,ÄãĞèÒªÇåÏ´Ã´?Ã¿´Î200G." )
+	Talk( 1, "åœ£è¯å¿«ä¹!è¿™æ˜¯ä¸€å°å¤è€çš„æ¸…æ´—æœº,åœ¨è¿™é‡Œå¯ä»¥æ´—æ¶¤ä½ çš„ä¸€åˆ‡,ä½ éœ€è¦æ¸…æ´—ä¹ˆ?æ¯æ¬¡200G." )
 	Text( 1, "Cleanse Mud", MultiTrigger, GetMultiTrigger(), 1)
 	Text( 1, "Cleanse Christmas Box", JumpPage, 3)
 
@@ -12637,13 +12637,13 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ùÀÇ±¤[Ê¥µ®ÀÏÈËÂóÈğ]			--
+--		å†°ç‹¼å ¡[åœ£è¯è€äººéº¦ç‘]			--
 --							--
---		£¨1216£¬550£©			--
+--		ï¼ˆ1216ï¼Œ550ï¼‰			--
 ----------------------------------------------------------
 function el_talk27 ()
-	Talk( 1, "ÂóÈğ: Ê¥µ®¿ìÀÖ!Ô¸ÄãµÃµ½ÊÀÉÏ×îÕæÖ¿ÃÀºÃµÄ×£¸£.ÏëÒªÄÃµ½×îÓÕÈËµÄÊ¥µ®ÀñÎïÂğ?È¥ÉÌ³ÇÂòÒ»ÕÅÊ¥µ®»¤ËÍ×Ê¸ñÖ¤Äã¾Í¿ÉÒÔÔÚÎÒÕâÀï½ÓÈ¡»¤ËÍÊ¥µ®ÀÏÈËµÄÈÎÎñÁË.")
-	--------------»¤ËÍÊ¥µ®ÀÏÈË
+	Talk( 1, "éº¦ç‘: åœ£è¯å¿«ä¹!æ„¿ä½ å¾—åˆ°ä¸–ä¸Šæœ€çœŸæŒšç¾å¥½çš„ç¥ç¦.æƒ³è¦æ‹¿åˆ°æœ€è¯±äººçš„åœ£è¯ç¤¼ç‰©å—?å»å•†åŸä¹°ä¸€å¼ åœ£è¯æŠ¤é€èµ„æ ¼è¯ä½ å°±å¯ä»¥åœ¨æˆ‘è¿™é‡Œæ¥å–æŠ¤é€åœ£è¯è€äººçš„ä»»åŠ¡äº†.")
+	--------------æŠ¤é€åœ£è¯è€äºº
 	--AddNpcMission	(6185)
 end
 
@@ -12651,24 +12651,24 @@ end
 ---------------------------------------------------------
 --							--
 --							--
---		±ù¼«²¹¸øÕ¾[Ê¥µ®ÀÏÈË¿ËÈğË¹ÄªË¹]		--
+--		å†°æè¡¥ç»™ç«™[åœ£è¯è€äººå…‹ç‘æ–¯è«æ–¯]		--
 --							--
---		£¨2111£¬557£©			--
+--		ï¼ˆ2111ï¼Œ557ï¼‰			--
 ----------------------------------------------------------
 function el_talk28 ()
-	Talk( 1, "¿ËÈğË¹ÄªË¹: Ê¥µ®¿ìÀÖ!ÄãÌıËµ¹ıÊ¥µ®´åÂğ?ÄÇÊÇÒ»¸ö³äÂú¿ìÀÖµÄÌìÌÃ.")
-	--------------»¤ËÍÊ¥µ®ÀÏÈË
+	Talk( 1, "å…‹ç‘æ–¯è«æ–¯: åœ£è¯å¿«ä¹!ä½ å¬è¯´è¿‡åœ£è¯æ‘å—?é‚£æ˜¯ä¸€ä¸ªå……æ»¡å¿«ä¹çš„å¤©å ‚.")
+	--------------æŠ¤é€åœ£è¯è€äºº
 	--AddNpcMission	(6186)
 
 end
 
----------------------------------Ê¥µ®ÉÌÈËĞĞ»á»á³¤
+---------------------------------åœ£è¯å•†äººè¡Œä¼šä¼šé•¿
 function Xmas_talk01 ()
-	Talk( 1, "Ê¥µ®ÉÌÈËĞĞ»á»á³¤:Merry Christmas~ÎÒÎªÕâ¸öÃÀÀöµÄÊ¥µ®½Ú×¼±¸ÁËºÜ¶àµÄ»õÎïÅ¶,ÄãÓĞĞËÈ¤Ïë¿´Ò»ÏÂÂğ?")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯å•†äººè¡Œä¼šä¼šé•¿:Merry Christmas~æˆ‘ä¸ºè¿™ä¸ªç¾ä¸½çš„åœ£è¯èŠ‚å‡†å¤‡äº†å¾ˆå¤šçš„è´§ç‰©å“¦,ä½ æœ‰å…´è¶£æƒ³çœ‹ä¸€ä¸‹å—?")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 2, "Power of Frost", JumpPage , 3)
 	Text( 2, "Power of Thunder", JumpPage , 4)
 	Text( 2, "Power of Wind", JumpPage , 5)
@@ -12678,7 +12678,7 @@ function Xmas_talk01 ()
 	Text( 2, "Potion of Monkey", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
 	Text( 10, "Potion of Bull", JumpPage, 11)
 	Text( 10, "Potion of Soul", JumpPage, 12)
@@ -12688,13 +12688,13 @@ function Xmas_talk01 ()
 	Text( 10, "Voodoo Puppet", JumpPage, 16)
 	Text( 10, "Next Page", JumpPage , 17)
 
-	Talk( 17, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 17, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 17, "Go back a page", JumpPage , 10)
 	Text( 17, "Novice Self Destruct", JumpPage, 18)
 	Text( 17, "Fruit of Growth", JumpPage, 19)
-	Text( 17, "Ê¥µ®ÀÏÈËµÄÀ¡Ôù", JumpPage, 20)
+	Text( 17, "åœ£è¯è€äººçš„é¦ˆèµ ", JumpPage, 20)
 
-	Talk( 3, "¶Ò»»±ùÖ®Á¦µÄ»°×Ü¹²ĞèÒªÃæ¶î250WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢å†°ä¹‹åŠ›çš„è¯æ€»å…±éœ€è¦é¢é¢250Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 250 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12705,7 +12705,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 4, "¶Ò»»À×Ö®Á¦µÄ»°×Ü¹²ĞèÒªÃæ¶î250WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢é›·ä¹‹åŠ›çš„è¯æ€»å…±éœ€è¦é¢é¢250Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 250 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12716,7 +12716,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»·çÖ®Á¦µÄ»°×Ü¹²ĞèÒªÃæ¶î250WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢é£ä¹‹åŠ›çš„è¯æ€»å…±éœ€è¦é¢é¢250Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 250 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12727,7 +12727,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»Ñ×Ö®Á¦µÄ»°×Ü¹²ĞèÒªÃæ¶î250WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢ç‚ä¹‹åŠ›çš„è¯æ€»å…±éœ€è¦é¢é¢250Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 250 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12738,7 +12738,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»ĞÛÊ¨Ò©¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢é›„ç‹®è¯å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12749,7 +12749,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»Ó¥ÑÛÒ©¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢é¹°çœ¼è¯å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12760,7 +12760,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»ÁéºïÒ©¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢çµçŒ´è¯å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12771,7 +12771,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»ÂùÅ£Ò©¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢è›®ç‰›è¯å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12782,7 +12782,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»Ê¥ÁéÒ©¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢åœ£çµè¯å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12793,7 +12793,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»28¸ñ±³°üµÄ»°×Ü¹²ĞèÒªÃæ¶î1000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢28æ ¼èƒŒåŒ…çš„è¯æ€»å…±éœ€è¦é¢é¢1000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 1000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12804,7 +12804,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»Ä¦¶¹Ğ¡×ÓµÄ»°×Ü¹²ĞèÒªÃæ¶î1000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢æ‘©è±†å°å­çš„è¯æ€»å…±éœ€è¦é¢é¢1000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 1000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12815,7 +12815,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 15, "¶Ò»»×é¶Ó¾­Ñé¹ûµÄ»°×Ü¹²ĞèÒªÃæ¶î80WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 15, "å…‘æ¢ç»„é˜Ÿç»éªŒæœçš„è¯æ€»å…±éœ€è¦é¢é¢80Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 80 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12826,7 +12826,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 15, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 16, "¶Ò»»ÌæÉí±¦±¦µÄ»°×Ü¹²ĞèÒªÃæ¶î55WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 16, "å…‘æ¢æ›¿èº«å®å®çš„è¯æ€»å…±éœ€è¦é¢é¢55Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 55 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12837,7 +12837,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 16, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 18, "¶Ò»»³õ¼¶¾«Áé×Ô±¬µÄ»°×Ü¹²ĞèÒªÃæ¶î500WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 18, "å…‘æ¢åˆçº§ç²¾çµè‡ªçˆ†çš„è¯æ€»å…±éœ€è¦é¢é¢500Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 500 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12848,7 +12848,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 18, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 	
-	Talk( 19, "¶Ò»»¼ÓËÙ³É³¤¹ûµÄ»°×Ü¹²ĞèÒªÃæ¶î20WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 19, "å…‘æ¢åŠ é€Ÿæˆé•¿æœçš„è¯æ€»å…±éœ€è¦é¢é¢20Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 20 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12859,7 +12859,7 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 19, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 20, "¶Ò»»Ê¥µ®ÀÏÈËµÄÀ¡ÔùµÄ»°×Ü¹²ĞèÒªÃæ¶î2000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 20, "å…‘æ¢åœ£è¯è€äººçš„é¦ˆèµ çš„è¯æ€»å…±éœ€è¦é¢é¢2000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12870,38 +12870,38 @@ function Xmas_talk01 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 20, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 end
 
--------------------------------------------------------------------Ê¥µ®ÔÓ»õÉÌA
+-------------------------------------------------------------------åœ£è¯æ‚è´§å•†A
 function Xmas_talk02 ()
-	Talk( 1, "Ê¥µ®ÔÓ»õÉÌ:Ê¥µ®½Úµ½À­~ÎÒÎªÕâ¸öÎÂÜ°µÄÊ¥µ®×¼±¸ÁËºÜ¶à»õÎï,ÓĞĞËÈ¤¿´Ò»ÏÂÂğ?Äã¿Ï¶¨»áÏ²»¶µÄ!")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯æ‚è´§å•†:åœ£è¯èŠ‚åˆ°æ‹‰~æˆ‘ä¸ºè¿™ä¸ªæ¸©é¦¨çš„åœ£è¯å‡†å¤‡äº†å¾ˆå¤šè´§ç‰©,æœ‰å…´è¶£çœ‹ä¸€ä¸‹å—?ä½ è‚¯å®šä¼šå–œæ¬¢çš„!")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 2, "Gold Axe", JumpPage , 3)
 	Text( 2, "Gold Pickaxe", JumpPage , 4)
 	Text( 2, "Unique Necklace Voucher", JumpPage , 5)
 	Text( 2, "Unique Coral Voucher", JumpPage , 6)
 	Text( 2, "Lock of Mystic", JumpPage , 7)
 	Text( 2, "Super Rechargeable Battery", JumpPage , 8)
-	Text( 2, "ÆøÇòÓÎÏ·È¯", JumpPage , 9)
+	Text( 2, "æ°”çƒæ¸¸æˆåˆ¸", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
-	Text( 10, "ºÀ»ªÀñ»¨", JumpPage, 11)
-	Text( 10, "¾ÕĞÍÀñ»¨", JumpPage, 12)
-	Text( 10, "»¨Çò", JumpPage, 13)
+	Text( 10, "è±ªåç¤¼èŠ±", JumpPage, 11)
+	Text( 10, "èŠå‹ç¤¼èŠ±", JumpPage, 12)
+	Text( 10, "èŠ±çƒ", JumpPage, 13)
 	Text( 10, "Golden Apple", JumpPage, 14)
 	Text( 10, "Intelligence fruit", JumpPage, 15)
 	Text( 10, "Mystic Clover", JumpPage, 16)
-	Text( 10, "Ğ°¶ñÍÁÖøÇõ³¤ÕÙ»½È¯", JumpPage , 17)
+	Text( 10, "é‚ªæ¶åœŸè‘—é…‹é•¿å¬å”¤åˆ¸", JumpPage , 17)
 
-	Talk( 3, "¶Ò»»¸ß¼¶·¥Ä¾¸«µÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢é«˜çº§ä¼æœ¨æ–§çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12912,7 +12912,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 4, "¶Ò»»¸ß¼¶¿ó¸äµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢é«˜çº§çŸ¿é•çš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12923,7 +12923,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»¸ß¼¶ÏîÁ´¶Ò»»È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î1000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢é«˜çº§é¡¹é“¾å…‘æ¢åˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢1000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 1000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12934,7 +12934,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»¸ß¼¶±´¿Ç¶Ò»»È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î1000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢é«˜çº§è´å£³å…‘æ¢åˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢1000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 1000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12945,7 +12945,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»ÃÔÖ®ËøµÄ»°×Ü¹²ĞèÒªÃæ¶î15WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢è¿·ä¹‹é”çš„è¯æ€»å…±éœ€è¦é¢é¢15Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 15 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12956,7 +12956,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»¸ß¼¶³äµçµç³ØµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢é«˜çº§å……ç”µç”µæ± çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12967,7 +12967,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»ÆøÇòÓÎÏ·È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢æ°”çƒæ¸¸æˆåˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12978,7 +12978,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»ºÀ»ªÀñ»¨µÄ»°×Ü¹²ĞèÒªÃæ¶î9WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢è±ªåç¤¼èŠ±çš„è¯æ€»å…±éœ€è¦é¢é¢9Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 9 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -12989,7 +12989,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»¾ÕĞÍÀñ»¨µÄ»°×Ü¹²ĞèÒªÃæ¶î9WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢èŠå‹ç¤¼èŠ±çš„è¯æ€»å…±éœ€è¦é¢é¢9Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 9 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13000,7 +13000,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»»¨ÇòµÄ»°×Ü¹²ĞèÒªÃæ¶î15WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢èŠ±çƒçš„è¯æ€»å…±éœ€è¦é¢é¢15Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 15 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13011,7 +13011,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»½ğÆ»¹ûµÄ»°×Ü¹²ĞèÒªÃæ¶î50WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢é‡‘è‹¹æœçš„è¯æ€»å…±éœ€è¦é¢é¢50Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 50 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13022,7 +13022,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 15, "¶Ò»»ÖÇ»Û¹ûµÄ»°×Ü¹²ĞèÒªÃæ¶î20WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 15, "å…‘æ¢æ™ºæ…§æœçš„è¯æ€»å…±éœ€è¦é¢é¢20Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 20 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13033,7 +13033,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 15, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 16, "¶Ò»»ÉñËã²İµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 16, "å…‘æ¢ç¥ç®—è‰çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13044,7 +13044,7 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 16, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 17, "¶Ò»»Ğ°¶ñµÄÍÁÖøÇõ³¤ÕÙ»½È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î2000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 17, "å…‘æ¢é‚ªæ¶çš„åœŸè‘—é…‹é•¿å¬å”¤åˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢2000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13055,19 +13055,19 @@ function Xmas_talk02 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 17, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 	AddNpcMission ( 6197 )
 end
 
--------------------------------------------------------------------Ê¥µ®ÔÓ»õÉÌB
+-------------------------------------------------------------------åœ£è¯æ‚è´§å•†B
 function Xmas_talk03 ()
-	Talk( 1, "Ê¥µ®ÀñÆ·ÉÌ:Merry Christmas~ÎÒÎªÕâ¸öÃÀÀöµÄÊ¥µ®½Ú×¼±¸ÁËºÜ¶àµÄ»õÎïÅ¶,ÄãÓĞĞËÈ¤Ïë¿´Ò»ÏÂÂğ?")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯ç¤¼å“å•†:Merry Christmas~æˆ‘ä¸ºè¿™ä¸ªç¾ä¸½çš„åœ£è¯èŠ‚å‡†å¤‡äº†å¾ˆå¤šçš„è´§ç‰©å“¦,ä½ æœ‰å…´è¶£æƒ³çœ‹ä¸€ä¸‹å—?")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 2, "Pirate Captain 008 Summoning Scroll", JumpPage , 3)
 	Text( 2, "Lizardman Warrior Commander Summon Scroll", JumpPage , 4)
 	Text( 2, "Party EXP Fruit", JumpPage , 5)
@@ -13077,7 +13077,7 @@ function Xmas_talk03 ()
 	Text( 2, "Novice Monster Covenant", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
 	Text( 10, "Stone Catalyst", JumpPage, 11)
 	Text( 10, "Liquid Catalyst", JumpPage, 12)
@@ -13087,7 +13087,7 @@ function Xmas_talk03 ()
 	Text( 10, "Plant Catalyst", JumpPage, 16)
 	Text( 10, "Fur Catalyst", JumpPage , 17)
 
-	Talk( 3, "¶Ò»»º£µÁ´¬³¤ÁãÁã·¢ÕÙ»½È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î2000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢æµ·ç›—èˆ¹é•¿é›¶é›¶å‘å¬å”¤åˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢2000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13098,7 +13098,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 4, "¶Ò»»òáòæÕ½Ê¿Í³ÁìÕÙ»½È¯µÄ»°×Ü¹²ĞèÒªÃæ¶î2000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢èœ¥èœ´æˆ˜å£«ç»Ÿé¢†å¬å”¤åˆ¸çš„è¯æ€»å…±éœ€è¦é¢é¢2000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 2000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13109,7 +13109,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»×é¶Ó¾­Ñé¹ûµÄ»°×Ü¹²ĞèÒªÃæ¶î80WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢ç»„é˜Ÿç»éªŒæœçš„è¯æ€»å…±éœ€è¦é¢é¢80Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 80 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13120,7 +13120,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»ÌæÉí±¦±¦µÄ»°×Ü¹²ĞèÒªÃæ¶î55WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢æ›¿èº«å®å®çš„è¯æ€»å…±éœ€è¦é¢é¢55Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 55 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13131,7 +13131,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»¸ß¼¶¹ÖÎïÆõÔ¼µÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢é«˜çº§æ€ªç‰©å¥‘çº¦çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13142,7 +13142,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»ÖĞ¼¶¹ÖÎïÆõÔ¼µÄ»°×Ü¹²ĞèÒªÃæ¶î200WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢ä¸­çº§æ€ªç‰©å¥‘çº¦çš„è¯æ€»å…±éœ€è¦é¢é¢200Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 200 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13153,7 +13153,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»³õ¼¶¹ÖÎïÆõÔ¼µÄ»°×Ü¹²ĞèÒªÃæ¶î60WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢åˆçº§æ€ªç‰©å¥‘çº¦çš„è¯æ€»å…±éœ€è¦é¢é¢60Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 60 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13164,7 +13164,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»Ê¯²Ä´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢çŸ³æå‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13175,7 +13175,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»ÒºÌå´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢æ¶²ä½“å‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13186,7 +13186,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»Ê³²Ä´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢é£Ÿæå‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13197,7 +13197,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»ÌØÊâ´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢ç‰¹æ®Šå‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13208,7 +13208,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 15, "¶Ò»»¹ÇÍ·´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 15, "å…‘æ¢éª¨å¤´å‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13219,7 +13219,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 15, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 16, "¶Ò»»Ö²Îï´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 16, "å…‘æ¢æ¤ç‰©å‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13230,7 +13230,7 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 16, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 17, "¶Ò»»Ã«Æ¤´ß»¯¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 17, "å…‘æ¢æ¯›çš®å‚¬åŒ–å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13241,34 +13241,34 @@ function Xmas_talk03 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 17, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 end
--------------------------------------------------------------------Ê¥µ®ÉÌÈË¡¤ÎÒĞĞÎÒ¿á
+-------------------------------------------------------------------åœ£è¯å•†äººÂ·æˆ‘è¡Œæˆ‘é…·
 function Xmas_talk04 ()
-	Talk( 1, "Ê¥µ®ÉÌÈË¡¤ÎÒĞĞÎÒ¿á:À´À´À´,ÂòÁËÎÒµÄ¶«Î÷½ñÄêµÄÊ¥µ®½ÚÄã½«ÎŞ±ÈĞÒ¸£,²»ÒªÓÌÔ¥À²,À´¿´ÏÂ°É~")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯å•†äººÂ·æˆ‘è¡Œæˆ‘é…·:æ¥æ¥æ¥,ä¹°äº†æˆ‘çš„ä¸œè¥¿ä»Šå¹´çš„åœ£è¯èŠ‚ä½ å°†æ— æ¯”å¹¸ç¦,ä¸è¦çŠ¹è±«å•¦,æ¥çœ‹ä¸‹å§~")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
-	Text( 2, "Ê¥µ®ÇéÈËÑÌ»¨", JumpPage , 3)
-	Text( 2, "Ê¥µ®¿ñ»¶ÑÌ»¨", JumpPage , 4)
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
+	Text( 2, "åœ£è¯æƒ…äººçƒŸèŠ±", JumpPage , 3)
+	Text( 2, "åœ£è¯ç‹‚æ¬¢çƒŸèŠ±", JumpPage , 4)
 	Text( 2, "Heart Shape I", JumpPage , 5)
 	Text( 2, "Heart Shape LOVE", JumpPage , 6)
 	Text( 2, "Heart Shape U", JumpPage , 7)
-	Text( 2, "Heart Shape ÎÒ", JumpPage , 8)
-	Text( 2, "Heart Shape °®", JumpPage , 9)
+	Text( 2, "Heart Shape æˆ‘", JumpPage , 8)
+	Text( 2, "Heart Shape çˆ±", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
-	Text( 10, "Heart Shape Äã", JumpPage, 11)
+	Text( 10, "Heart Shape ä½ ", JumpPage, 11)
 	Text( 10, "Rose", JumpPage, 12)
 	Text( 10, "Devil Wings", JumpPage, 13)
 	Text( 10, "Honey Chocolate", JumpPage, 14)
 
-	Talk( 3, "¶Ò»»Ê¥µ®ÇéÈËÑÌ»¨µÄ»°×Ü¹²ĞèÒªÃæ¶î180WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢åœ£è¯æƒ…äººçƒŸèŠ±çš„è¯æ€»å…±éœ€è¦é¢é¢180Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 180 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13279,7 +13279,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 4, "¶Ò»»Ê¥µ®¿ñ»¶ÑÌ»¨µÄ»°×Ü¹²ĞèÒªÃæ¶î1000WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢åœ£è¯ç‹‚æ¬¢çƒŸèŠ±çš„è¯æ€»å…±éœ€è¦é¢é¢1000Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 1000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13290,7 +13290,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»ĞÄĞÍIµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢å¿ƒå‹Içš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13301,7 +13301,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»ĞÄĞÍLOVEµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢å¿ƒå‹LOVEçš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13312,7 +13312,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»ĞÄĞÍUµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢å¿ƒå‹Uçš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13323,7 +13323,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»ĞÄĞÍÎÒµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢å¿ƒå‹æˆ‘çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13334,7 +13334,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»ĞÄĞÍ°®µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢å¿ƒå‹çˆ±çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13345,7 +13345,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»ĞÄĞÍÄãµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢å¿ƒå‹ä½ çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13356,7 +13356,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»Ãµ¹å»¨µÄ»°×Ü¹²ĞèÒªÃæ¶î20WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢ç«ç‘°èŠ±çš„è¯æ€»å…±éœ€è¦é¢é¢20Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 20 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13367,7 +13367,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»ºÚÄ§³á°òµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢é»‘é­”ç¿…è†€çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13378,7 +13378,7 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»ÌğÃÛÇÉ¿ËÁ¦µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢ç”œèœœå·§å…‹åŠ›çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13389,36 +13389,36 @@ function Xmas_talk04 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 	AddNpcMission ( 6199 )
 end
 
--------------------------------------------------------------------Ê¥µ®ÉÌÈË¡¤ÎÒ¿áÎÒĞĞ
+-------------------------------------------------------------------åœ£è¯å•†äººÂ·æˆ‘é…·æˆ‘è¡Œ
 function Xmas_talk05 ()
-	Talk( 1, "Ê¥µ®ÉÌÈË¡¤ÎÒ¿áÎÒĞĞ:ÄãºÃÑ½,Ê¥µ®¿ìÀÖ!ÎÒºÜ¿áÊÇ°É,ÎÒµÄ¶«Î÷±ÈÎÒ¸ü¿á,À´¿´ÏÂ°É~")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯å•†äººÂ·æˆ‘é…·æˆ‘è¡Œ:ä½ å¥½å‘€,åœ£è¯å¿«ä¹!æˆ‘å¾ˆé…·æ˜¯å§,æˆ‘çš„ä¸œè¥¿æ¯”æˆ‘æ›´é…·,æ¥çœ‹ä¸‹å§~")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 2, "Vampiric Wings", JumpPage , 3)
 	Text( 2, "Elven Wings", JumpPage , 4)
 	Text( 2, "Dragon Wings", JumpPage , 5)
-	Text( 2, "<¼¼¡¤°×³Õ>¼¼ÄÜÊé", JumpPage , 6)
-	Text( 2, "<¼¼¡¤±ÉÊÓ>¼¼ÄÜÊé", JumpPage , 7)
-	Text( 2, "<¼¼¡¤´ó±ã>¼¼ÄÜÊé", JumpPage , 8)
-	Text( 2, "<¼¼¡¤½ğÇ®Óê>¼¼ÄÜÊé", JumpPage , 9)
+	Text( 2, "<æŠ€Â·ç™½ç—´>æŠ€èƒ½ä¹¦", JumpPage , 6)
+	Text( 2, "<æŠ€Â·é„™è§†>æŠ€èƒ½ä¹¦", JumpPage , 7)
+	Text( 2, "<æŠ€Â·å¤§ä¾¿>æŠ€èƒ½ä¹¦", JumpPage , 8)
+	Text( 2, "<æŠ€Â·é‡‘é’±é›¨>æŠ€èƒ½ä¹¦", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
-	Text( 10, "<¼¼¡¤ÄÚ¿ã>¼¼ÄÜÊé", JumpPage, 11)
-	Text( 10, "<¼¼¡¤Æ­×Ó>¼¼ÄÜÊé", JumpPage, 12)
-	Text( 10, "<¼¼¡¤Éµ×Ó>¼¼ÄÜÊé", JumpPage, 13)
-	Text( 10, "<¼¼¡¤ĞØÕÖ>¼¼ÄÜÊé", JumpPage, 14)
+	Text( 10, "<æŠ€Â·å†…è£¤>æŠ€èƒ½ä¹¦", JumpPage, 11)
+	Text( 10, "<æŠ€Â·éª—å­>æŠ€èƒ½ä¹¦", JumpPage, 12)
+	Text( 10, "<æŠ€Â·å‚»å­>æŠ€èƒ½ä¹¦", JumpPage, 13)
+	Text( 10, "<æŠ€Â·èƒ¸ç½©>æŠ€èƒ½ä¹¦", JumpPage, 14)
 
-	Talk( 3, "¶Ò»»Çàòğ³á°òµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢é’è ç¿…è†€çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13429,7 +13429,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 4, "¶Ò»»¾«ÁéÖ®ÒíµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢ç²¾çµä¹‹ç¿¼çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13440,7 +13440,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»ºìÁú³á°òµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢çº¢é¾™ç¿…è†€çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13451,7 +13451,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»<¼¼¡¤°×³Õ>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢<æŠ€Â·ç™½ç—´>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13462,7 +13462,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»<¼¼¡¤±ÉÊÓ>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢<æŠ€Â·é„™è§†>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13473,7 +13473,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»<¼¼¡¤´ó±ã>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢<æŠ€Â·å¤§ä¾¿>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13484,7 +13484,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»<¼¼¡¤½ğÇ®Óê>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢<æŠ€Â·é‡‘é’±é›¨>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13495,7 +13495,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»<¼¼¡¤ÄÚ¿ã>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢<æŠ€Â·å†…è£¤>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13506,7 +13506,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»<¼¼¡¤Æ­×Ó>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢<æŠ€Â·éª—å­>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13517,7 +13517,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»<¼¼¡¤Éµ×Ó>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢<æŠ€Â·å‚»å­>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13528,7 +13528,7 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»<¼¼¡¤ĞØÕÖ>¼¼ÄÜÊéµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢<æŠ€Â·èƒ¸ç½©>æŠ€èƒ½ä¹¦çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13539,18 +13539,18 @@ function Xmas_talk05 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 end
 
--------------------------------------------------------------------Ê¥µ®ÉÌÈË¡¤Ñ§Õß
+-------------------------------------------------------------------åœ£è¯å•†äººÂ·å­¦è€…
 function Xmas_talk06 ()
-	Talk( 1, "Ê¥µ®ÉÌÈË¡¤Ñ§Õß:Merry Christmas~ÎÒÎªÕâ¸öÃÀÀöµÄÊ¥µ®½Ú×¼±¸ÁËºÜ¶àµÄ»õÎïÅ¶,ÄãÓĞĞËÈ¤Ïë¿´Ò»ÏÂÂğ?")
-	Text( 1, "ÈÃÎÒ¿´¿´ÄãÕâÓĞÊ²Ã´ºÃ¶«Î÷°É." , JumpPage , 2 )
-	Text( 1, "ËãÁË£¬ÎÒÃ»¿Õ¿´", CloseTalk )
+	Talk( 1, "åœ£è¯å•†äººÂ·å­¦è€…:Merry Christmas~æˆ‘ä¸ºè¿™ä¸ªç¾ä¸½çš„åœ£è¯èŠ‚å‡†å¤‡äº†å¾ˆå¤šçš„è´§ç‰©å“¦,ä½ æœ‰å…´è¶£æƒ³çœ‹ä¸€ä¸‹å—?")
+	Text( 1, "è®©æˆ‘çœ‹çœ‹ä½ è¿™æœ‰ä»€ä¹ˆå¥½ä¸œè¥¿å§." , JumpPage , 2 )
+	Text( 1, "ç®—äº†ï¼Œæˆ‘æ²¡ç©ºçœ‹", CloseTalk )
 
-	Talk( 2, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 2, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 2, "Expert Voyager Study Book", JumpPage , 3)
 	Text( 2, "Expert SealMaster Study book", JumpPage , 4)
 	Text( 2, "Expert Cleric study book", JumpPage , 5)
@@ -13560,7 +13560,7 @@ function Xmas_talk06 ()
 	Text( 2, "Standard Voyager study book", JumpPage , 9)
 	Text( 2, "Next Page", JumpPage , 10)
 
-	Talk( 10, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 10, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 10, "Go back a page", JumpPage , 2)
 	Text( 10, "Standard SealMaster study book", JumpPage, 11)
 	Text( 10, "Standard Cleric study book", JumpPage, 12)
@@ -13570,7 +13570,7 @@ function Xmas_talk06 ()
 	Text( 10, "Intense Magic", JumpPage, 16)
 	Text( 10, "Next Page", JumpPage , 17)
 
-	Talk( 17, "ÎÒÕâÀïµÄ¹æ¾ØºÍ±ğµÄµØ·½¿É²»Ò»ÑùÅ¶,Ö»¿ÉÒÔÊ¹ÓÃÊ¥µ®Ó²±ÒÀ´¹ºÂò.")
+	Talk( 17, "æˆ‘è¿™é‡Œçš„è§„çŸ©å’Œåˆ«çš„åœ°æ–¹å¯ä¸ä¸€æ ·å“¦,åªå¯ä»¥ä½¿ç”¨åœ£è¯ç¡¬å¸æ¥è´­ä¹°.")
 	Text( 17, "Go back a page", JumpPage , 10)
 	Text( 17, "Sea Weed Killer", JumpPage, 18)
 	Text( 17, "Icy Crystal", JumpPage, 19)
@@ -13578,7 +13578,7 @@ function Xmas_talk06 ()
 	Text( 17, "Crystalline Blessing", JumpPage, 21)
 	Text( 17, "Magical Clover", JumpPage, 22)
 
-	Talk( 3, "¶Ò»»º½º£Ê¿¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 3, "å…‘æ¢èˆªæµ·å£«é«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13589,7 +13589,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 4, "¶Ò»»·âÓ¡Ê¦¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 4, "å…‘æ¢å°å°å¸ˆé«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13600,7 +13600,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 5, "¶Ò»»Ê¥Ö°Õß¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 5, "å…‘æ¢åœ£èŒè€…é«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13611,7 +13611,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 5, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 6, "¶Ò»»¾Ñ»÷ÊÖ¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 6, "å…‘æ¢ç‹™å‡»æ‰‹é«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13622,7 +13622,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 6, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 7, "¶Ò»»¾Ş½£Ê¿¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 7, "å…‘æ¢å·¨å‰‘å£«é«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13633,7 +13633,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 7, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 8, "¶Ò»»Ë«½£Ê¿¸ß¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î120WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 8, "å…‘æ¢åŒå‰‘å£«é«˜çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢120Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 120 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13644,7 +13644,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 8, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 9, "¶Ò»»º½º£Ê¿ÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 9, "å…‘æ¢èˆªæµ·å£«ä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13655,7 +13655,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 9, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 11, "¶Ò»»·âÓ¡Ê¦ÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 11, "å…‘æ¢å°å°å¸ˆä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13666,7 +13666,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 11, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 12, "¶Ò»»Ê¥Ö°ÕßÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 12, "å…‘æ¢åœ£èŒè€…ä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13677,7 +13677,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 12, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 13, "¶Ò»»¾Ñ»÷ÊÖÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 13, "å…‘æ¢ç‹™å‡»æ‰‹ä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13688,7 +13688,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 13, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 14, "¶Ò»»¾Ş½£Ê¿ÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 14, "å…‘æ¢å·¨å‰‘å£«ä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13699,7 +13699,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 14, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 15, "¶Ò»»Ë«½£Ê¿ÖĞ¼¶¶ÁÎïµÄ»°×Ü¹²ĞèÒªÃæ¶î100WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 15, "å…‘æ¢åŒå‰‘å£«ä¸­çº§è¯»ç‰©çš„è¯æ€»å…±éœ€è¦é¢é¢100Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 100 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13710,7 +13710,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 15, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 16, "¶Ò»»Ä§Á¦´ß»¯µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 16, "å…‘æ¢é­”åŠ›å‚¬åŒ–çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13721,7 +13721,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 16, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 18, "¶Ò»»º£²İÇå³ı¼ÁµÄ»°×Ü¹²ĞèÒªÃæ¶î25WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 18, "å…‘æ¢æµ·è‰æ¸…é™¤å‰‚çš„è¯æ€»å…±éœ€è¦é¢é¢25Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 25 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13732,7 +13732,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 18, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 19, "¶Ò»»º®±ùË®¾§µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 19, "å…‘æ¢å¯’å†°æ°´æ™¶çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13743,7 +13743,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 19, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 20, "¶Ò»»¶¯Á¦·«µÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 20, "å…‘æ¢åŠ¨åŠ›å¸†çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13754,7 +13754,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 20, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 21, "¶Ò»»±ùÁé»¤ÓÓµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 21, "å…‘æ¢å†°çµæŠ¤ä½‘çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13765,7 +13765,7 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 21, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 22, "¶Ò»»Ä§·¨²İµÄ»°×Ü¹²ĞèÒªÃæ¶î10WµÄÊ¥µ®Ó²±ÒÅ¶")
+	Talk( 22, "å…‘æ¢é­”æ³•è‰çš„è¯æ€»å…±éœ€è¦é¢é¢10Wçš„åœ£è¯ç¡¬å¸å“¦")
 	InitTrigger()
 	TriggerCondition( 1, HasXmasYB, 10 )
 	TriggerCondition( 1, HasLeaveBagGrid, 2 )
@@ -13776,21 +13776,21 @@ function Xmas_talk06 ()
 	TriggerFailure( 1, JumpPage, 26 )
 	Text( 22, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk( 25, "Ğ»Ğ»ÄãµÄ¹â¹Ë,×£ÄãÊ¥µ®Óä¿ì!")
+	Talk( 25, "è°¢è°¢ä½ çš„å…‰é¡¾,ç¥ä½ åœ£è¯æ„‰å¿«!")
 
-	Talk( 26, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄÊ¥µ®Ó²±ÒÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÃ»¿Õ¸ñ»ò±³°üÒÑËø.")
+	Talk( 26, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„åœ£è¯ç¡¬å¸å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…æ²¡ç©ºæ ¼æˆ–èƒŒåŒ…å·²é”.")
 end
 
-----------------------------------------------------Ê¥µ®´å¿Æ¶÷
+----------------------------------------------------åœ£è¯æ‘ç§‘æ©
 function Xmas_talk07 ()
-	Talk ( 1, "ÎÒÌÖÑáÕâÊ¥½àÑ©°×µÄ¶¬Ìì.ÅóÓÑ£¬ÎªÊ²Ã´²»Å×ÆúÕâĞ©ÎŞÁÄµÄÇì×£»î¶¯³öÈ¥É±Â¾Ò»·¬ÄØ?°×Òø,±ùÀÇºÍÉ³á°³ÇÍâÓĞĞí¶àµÄ»ğ¼¦,÷çÂ¹ºÍÑ©ÈË,È¥¸ÉµôËûÃÇ,È»ºó°ÑÖ¤¾İ´ø»ØÀ´£¬ÎÒ²»»á¿÷´ıÄãµÄ.")
---	Text ( 1, "ÎÒ´øÀ´ÁËÒ»°Ù¸ö»ğ¼¦µÄÓğÃ«", JumpPage, 2)
---	Text ( 1, "ÎÒ´øÀ´ÁËÒ»°Ù¸ö÷çÂ¹µÄ¼â½Ç", JumpPage, 3)
---	Text ( 1, "ÎÒ´øÀ´ÁËÒ»°Ù¸öÑ©ÈËµÄÑÛÇò", JumpPage, 4)
-	Text ( 1, "ÎÒÏëÈ¥Ê¥µ®¾º¼¼³¡", JumpPage, 5)
-	Text ( 1, "ÎªÊ²Ã´ÎÒÃÇÒªÉ±Â¾ÕâĞ©¿ÉÁ¯µÄ¹ÖÎïÄØ?", JumpPage, 10)
+	Talk ( 1, "æˆ‘è®¨åŒè¿™åœ£æ´é›ªç™½çš„å†¬å¤©.æœ‹å‹ï¼Œä¸ºä»€ä¹ˆä¸æŠ›å¼ƒè¿™äº›æ— èŠçš„åº†ç¥æ´»åŠ¨å‡ºå»æ€æˆ®ä¸€ç•ªå‘¢?ç™½é“¶,å†°ç‹¼å’Œæ²™å²šåŸå¤–æœ‰è®¸å¤šçš„ç«é¸¡,éº‹é¹¿å’Œé›ªäºº,å»å¹²æ‰ä»–ä»¬,ç„¶åæŠŠè¯æ®å¸¦å›æ¥ï¼Œæˆ‘ä¸ä¼šäºå¾…ä½ çš„.")
+--	Text ( 1, "æˆ‘å¸¦æ¥äº†ä¸€ç™¾ä¸ªç«é¸¡çš„ç¾½æ¯›", JumpPage, 2)
+--	Text ( 1, "æˆ‘å¸¦æ¥äº†ä¸€ç™¾ä¸ªéº‹é¹¿çš„å°–è§’", JumpPage, 3)
+--	Text ( 1, "æˆ‘å¸¦æ¥äº†ä¸€ç™¾ä¸ªé›ªäººçš„çœ¼çƒ", JumpPage, 4)
+	Text ( 1, "æˆ‘æƒ³å»åœ£è¯ç«æŠ€åœº", JumpPage, 5)
+	Text ( 1, "ä¸ºä»€ä¹ˆæˆ‘ä»¬è¦æ€æˆ®è¿™äº›å¯æ€œçš„æ€ªç‰©å‘¢?", JumpPage, 10)
 
---	Talk ( 2, "ÄãÈ·¶¨ÒªÓÃÕâÒ»°Ù¸ö»ğ¼¦µÄÓğÃ«¸úÎÒ»»Ò»¸öÊ¥µ®ÀñºĞÂğ?")
+--	Talk ( 2, "ä½ ç¡®å®šè¦ç”¨è¿™ä¸€ç™¾ä¸ªç«é¸¡çš„ç¾½æ¯›è·Ÿæˆ‘æ¢ä¸€ä¸ªåœ£è¯ç¤¼ç›’å—?")
 --	InitTrigger()
 --	TriggerCondition( 1, HasItem, 2879, 100 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -13802,7 +13802,7 @@ function Xmas_talk07 ()
 --	TriggerFailure( 1, JumpPage, 7 )
 --	Text ( 2, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 --
---	Talk ( 3, "ÄãÈ·¶¨ÒªÓÃÕâÒ»°Ù¸ö÷çÂ¹µÄ¼â½Ç¸úÎÒ»»Ò»¸öÊ¥µ®ÀñºĞÂğ?")
+--	Talk ( 3, "ä½ ç¡®å®šè¦ç”¨è¿™ä¸€ç™¾ä¸ªéº‹é¹¿çš„å°–è§’è·Ÿæˆ‘æ¢ä¸€ä¸ªåœ£è¯ç¤¼ç›’å—?")
 --	InitTrigger()
 --	TriggerCondition( 1, HasItem, 2881, 100 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -13814,7 +13814,7 @@ function Xmas_talk07 ()
 --	TriggerFailure( 1, JumpPage, 7 )
 --	Text ( 3, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 --
---	Talk ( 4, "ÄãÈ·¶¨ÒªÓÃÕâÒ»°Ù¸öÑ©ÈËµÄÑÛÇòÎÒ»»Ò»¸öÊ¥µ®ÀñºĞÂğ?")
+--	Talk ( 4, "ä½ ç¡®å®šè¦ç”¨è¿™ä¸€ç™¾ä¸ªé›ªäººçš„çœ¼çƒæˆ‘æ¢ä¸€ä¸ªåœ£è¯ç¤¼ç›’å—?")
 --	InitTrigger()
 --	TriggerCondition( 1, HasItem, 2880, 100 )
 --	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -13826,18 +13826,18 @@ function Xmas_talk07 ()
 --	TriggerFailure( 1, JumpPage, 7 )
 --	Text ( 4, "Confirm to exchange", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk ( 5, "ÎÒÃÇÒ»¹²ÓĞ5¸ö¾º¼¼³¡,ÄãÏëÈ¥ÄÄÒ»¸öÄØ?")
-	Text ( 5, "Ê¥µ®¾º¼¼³¡A", GoTosdBoss, 1 )
-	Text ( 5, "Ê¥µ®¾º¼¼³¡B", GoTosdBoss, 2 )
-	Text ( 5, "Ê¥µ®¾º¼¼³¡C", GoTosdBoss, 3 )
-	Text ( 5, "Ê¥µ®¾º¼¼³¡D", GoTosdBoss, 4 )
-	Text ( 5, "Ê¥µ®¾º¼¼³¡E", GoTosdBoss, 5 )
+	Talk ( 5, "æˆ‘ä»¬ä¸€å…±æœ‰5ä¸ªç«æŠ€åœº,ä½ æƒ³å»å“ªä¸€ä¸ªå‘¢?")
+	Text ( 5, "åœ£è¯ç«æŠ€åœºA", GoTosdBoss, 1 )
+	Text ( 5, "åœ£è¯ç«æŠ€åœºB", GoTosdBoss, 2 )
+	Text ( 5, "åœ£è¯ç«æŠ€åœºC", GoTosdBoss, 3 )
+	Text ( 5, "åœ£è¯ç«æŠ€åœºD", GoTosdBoss, 4 )
+	Text ( 5, "åœ£è¯ç«æŠ€åœºE", GoTosdBoss, 5 )
 
-	Talk ( 6, "×£ÄãÓĞ¸ö¿ìÀÖµÄÊ¥µ®")
+	Talk ( 6, "ç¥ä½ æœ‰ä¸ªå¿«ä¹çš„åœ£è¯")
 
-	Talk ( 7, "Äã±³°üÄÚºÃÏóÃ»ÓĞ×ã¹»µÄµÀ¾ßÅ¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÒÑËø»òÕß±³°üÄÚÃ»ÓĞ¿Õ¸ñ.")
+	Talk ( 7, "ä½ èƒŒåŒ…å†…å¥½è±¡æ²¡æœ‰è¶³å¤Ÿçš„é“å…·å“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…å·²é”æˆ–è€…èƒŒåŒ…å†…æ²¡æœ‰ç©ºæ ¼.")
 
-	Talk ( 10, "¸æËßÄã¸öÃØÃÜ,Èç¹ûÄãÃÇÄÜÉÏ½É×ã¹»ÊıÁ¿µÄ¹©Æ·¸øÎÒ,ÄÇÃ´ÎÒ¾ÍÄÜÔÚÊ¥µ®¾º¼¼³¡ÖĞÕÙ»½³ö¼«ÆäÇ¿´óµÄºÚ°µBOSS,²»¹ıÔõÃ´²ÅÄÜ»÷°ÜËüÃÇ¾ÍÊÇÄãÃÇ¸Ã¿¼ÂÇµÄÊÂÀ²!")
+	Talk ( 10, "å‘Šè¯‰ä½ ä¸ªç§˜å¯†,å¦‚æœä½ ä»¬èƒ½ä¸Šç¼´è¶³å¤Ÿæ•°é‡çš„ä¾›å“ç»™æˆ‘,é‚£ä¹ˆæˆ‘å°±èƒ½åœ¨åœ£è¯ç«æŠ€åœºä¸­å¬å”¤å‡ºæå…¶å¼ºå¤§çš„é»‘æš—BOSS,ä¸è¿‡æ€ä¹ˆæ‰èƒ½å‡»è´¥å®ƒä»¬å°±æ˜¯ä½ ä»¬è¯¥è€ƒè™‘çš„äº‹å•¦!")
 
 	AddNpcMission ( 6187 )
 	AddNpcMission ( 6188 )
@@ -13846,17 +13846,17 @@ function Xmas_talk07 ()
 	AddNpcMission ( 6204 )
 end
 
-----------------------------------------------------Ê¥µ®´åÊ¥µ®ÀÏÈË
+----------------------------------------------------åœ£è¯æ‘åœ£è¯è€äºº
 function Xmas_talk08 ()
-	Talk ( 1, "Ê¥µ®ÀÏÈË:ºÇºÇ~Ê¥µ®¿ìÀÖ~~ÎÒÕâÀï¿ÉÒÔÎª´ó¼Ò¶Ò»»Ê¥µ®´å×¨ÓÃµÄ¹ºÎïÓ²±Ò,Èç¹ûÄãÏëÔÚÕâ¸öÊ¥µ®´åÀïShoppingµÄ»°ÄÇ¾ÍÕÒÎÒºÃÁË.")
+	Talk ( 1, "åœ£è¯è€äºº:å‘µå‘µ~åœ£è¯å¿«ä¹~~æˆ‘è¿™é‡Œå¯ä»¥ä¸ºå¤§å®¶å…‘æ¢åœ£è¯æ‘ä¸“ç”¨çš„è´­ç‰©ç¡¬å¸,å¦‚æœä½ æƒ³åœ¨è¿™ä¸ªåœ£è¯æ‘é‡ŒShoppingçš„è¯é‚£å°±æ‰¾æˆ‘å¥½äº†.")
 
-	Text ( 1, "ÎÒÏë¶Ò»»Ê¥µ®ÍòÔªÓ²±Ò", JumpPage, 2)
-	Text ( 1, "ÎÒÏë¶Ò»»Ê¥µ®°ÙÍòÔªÓ²±Ò", JumpPage, 3)
-	Text ( 1, "ÎÒÏë°ÑÊ¥µ®ÍòÔªÓ²±Ò¶Ò»»»Øº£µÁ±Ò", JumpPage, 4)
-	Text ( 1, "ÎÒÏë°ÑÊ¥µ®°ÙÍòÔªÓ²±Ò¶Ò»»»Øº£µÁ±Ò", JumpPage, 5)
-	Text ( 1, "ÎÒÏë»Ø±ùÀÇ±¤", JumpPage, 6)
+	Text ( 1, "æˆ‘æƒ³å…‘æ¢åœ£è¯ä¸‡å…ƒç¡¬å¸", JumpPage, 2)
+	Text ( 1, "æˆ‘æƒ³å…‘æ¢åœ£è¯ç™¾ä¸‡å…ƒç¡¬å¸", JumpPage, 3)
+	Text ( 1, "æˆ‘æƒ³æŠŠåœ£è¯ä¸‡å…ƒç¡¬å¸å…‘æ¢å›æµ·ç›—å¸", JumpPage, 4)
+	Text ( 1, "æˆ‘æƒ³æŠŠåœ£è¯ç™¾ä¸‡å…ƒç¡¬å¸å…‘æ¢å›æµ·ç›—å¸", JumpPage, 5)
+	Text ( 1, "æˆ‘æƒ³å›å†°ç‹¼å ¡", JumpPage, 6)
 
-	Talk ( 2, "¶Ò»»Ò»¸öÊ¥µ®ÍòÔªÓ²±ÒĞèÒª10000µÄº£µÁ±Ò,ÄãÈ·ÈÏÒª¶Ò»»Âğ?")
+	Talk ( 2, "å…‘æ¢ä¸€ä¸ªåœ£è¯ä¸‡å…ƒç¡¬å¸éœ€è¦10000çš„æµ·ç›—å¸,ä½ ç¡®è®¤è¦å…‘æ¢å—?")
 	InitTrigger()
 	TriggerCondition( 1, HasMoney, 10000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -13867,7 +13867,7 @@ function Xmas_talk08 ()
 	TriggerFailure( 1, JumpPage, 10 )
 	Text ( 2, "Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk ( 3, "¶Ò»»Ò»¸öÊ¥µ®°ÙÍòÔªÓ²±ÒĞèÒª100WµÄº£µÁ±Ò,ÄãÈ·ÈÏÒª¶Ò»»Âğ?")
+	Talk ( 3, "å…‘æ¢ä¸€ä¸ªåœ£è¯ç™¾ä¸‡å…ƒç¡¬å¸éœ€è¦100Wçš„æµ·ç›—å¸,ä½ ç¡®è®¤è¦å…‘æ¢å—?")
 	InitTrigger()
 	TriggerCondition( 1, HasMoney, 1000000 )
 	TriggerCondition( 1, HasLeaveBagGrid, 1 )
@@ -13878,7 +13878,7 @@ function Xmas_talk08 ()
 	TriggerFailure( 1, JumpPage, 10 )
 	Text ( 3, "Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk ( 4, "ÄãÈ·¶¨Òª°ÑÊ¥µ®ÍòÔªÓ²±Ò»»³É10000º£µÁ±ÒÂğ?")
+	Talk ( 4, "ä½ ç¡®å®šè¦æŠŠåœ£è¯ä¸‡å…ƒç¡¬å¸æ¢æˆ10000æµ·ç›—å¸å—?")
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2962, 1)
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -13887,7 +13887,7 @@ function Xmas_talk08 ()
 	TriggerFailure( 1, JumpPage, 11 )
 	Text ( 4, "Confirm to redeem", MultiTrigger, GetMultiTrigger(), 1)
 
-	Talk ( 5, "ÄãÈ·¶¨Òª°ÑÊ¥µ®°ÙÍòÔªÓ²±Ò»»³É100Wº£µÁ±ÒÂğ?")
+	Talk ( 5, "ä½ ç¡®å®šè¦æŠŠåœ£è¯ç™¾ä¸‡å…ƒç¡¬å¸æ¢æˆ100Wæµ·ç›—å¸å—?")
 	InitTrigger()
 	TriggerCondition( 1, HasItem, 2963, 1)
 	TriggerCondition( 1, KitbagLock, 0 )
@@ -13898,21 +13898,21 @@ function Xmas_talk08 ()
 
 	InitTrigger()
 	TriggerAction( 1, GoTo, 1318,510, "darkblue")
-	Talk( 6, "ÄãÈ·¶¨ÒªÀë¿ªÕâÀï»Øµ½±ùÀÇ±¤Âğ?")
+	Talk( 6, "ä½ ç¡®å®šè¦ç¦»å¼€è¿™é‡Œå›åˆ°å†°ç‹¼å ¡å—?")
 	Text( 6, "Teleport",MultiTrigger, GetMultiTrigger(), 1 )
 
-	Talk ( 9, "×£ÄãÓĞ¸ö¿ìÀÖµÄÊ¥µ®½Ú~")
-	Talk ( 10, "ÄãµÄÇ®²»¹»Å¶,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÒÑËø¶¨»òÕßÃ»ÓĞ×ã¹»µÄ¿Õ¸ñ.")
-	Talk ( 11, "ÄãÃ»ÓĞ´ËµÀ¾ß,Ò²ÓĞ¿ÉÄÜÄãµÄ±³°üÒÑËø¶¨.")
+	Talk ( 9, "ç¥ä½ æœ‰ä¸ªå¿«ä¹çš„åœ£è¯èŠ‚~")
+	Talk ( 10, "ä½ çš„é’±ä¸å¤Ÿå“¦,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…å·²é”å®šæˆ–è€…æ²¡æœ‰è¶³å¤Ÿçš„ç©ºæ ¼.")
+	Talk ( 11, "ä½ æ²¡æœ‰æ­¤é“å…·,ä¹Ÿæœ‰å¯èƒ½ä½ çš„èƒŒåŒ…å·²é”å®š.")
 	AddNpcMission ( 6201 )
 	AddNpcMission ( 6202 )
 end
 
------------------------------------------±ùÀÇ±¤Ê¥µ®´å´«ËÍÊ¹
+-----------------------------------------å†°ç‹¼å ¡åœ£è¯æ‘ä¼ é€ä½¿
 function movexmas_talk()
-	Talk ( 1, "Ê¥µ®´å´«ËÍÊ¹:Merry Christmas~ÏëÈ¥Ê¥µ®´åÂğ£¿ÏëÈ¥Äã¾ÍËµ°¡,Äã²»ËµÎÒÔõÃ´ÖªµÀÄØ?²»¿ÉÄÜËµÄã²»ÏëÈ¥ÎÒÆ«Æ«ËÍÄãÈ¥,Ò²²»¿ÉÄÜÄãÏëÈ¥ÎÒÆ«Æ«²»ËÍÄãµÄ!")
-	Text ( 1, "ÎÒÏëÈ¥Ê¥µ®´å", JumpPage, 2)
-	Text ( 1, "ÕâÈËºÃÂŞàÂ,ÎÒ»¹ÊÇ×ßÁË", CloseTalk)
+	Talk ( 1, "åœ£è¯æ‘ä¼ é€ä½¿:Merry Christmas~æƒ³å»åœ£è¯æ‘å—ï¼Ÿæƒ³å»ä½ å°±è¯´å•Š,ä½ ä¸è¯´æˆ‘æ€ä¹ˆçŸ¥é“å‘¢?ä¸å¯èƒ½è¯´ä½ ä¸æƒ³å»æˆ‘ååé€ä½ å»,ä¹Ÿä¸å¯èƒ½ä½ æƒ³å»æˆ‘ååä¸é€ä½ çš„!")
+	Text ( 1, "æˆ‘æƒ³å»åœ£è¯æ‘", JumpPage, 2)
+	Text ( 1, "è¿™äººå¥½ç½—å—¦,æˆ‘è¿˜æ˜¯èµ°äº†", CloseTalk)
 
 
 	InitTrigger()
@@ -13922,10 +13922,10 @@ function movexmas_talk()
 	TriggerAction( 2, TakeMoney, 500 )
 	TriggerAction( 2, GoTo, 144,136, "07xmas")
 	TriggerFailure( 2, JumpPage, 3 )
-	Talk( 2, "ÃÀÀöµÄÊ¥µ®´åÏÖÔÚÕıÔÚ¿ª·ÅÆÚ¼ä,Ö»ÒªÖ§¸¶ÇøÇø500º£µÁ±ÒÎÒ¾Í¿ÉÒÔËÍÄã¹ıÈ¥,Èç¹ûÄãÊÇ10¼¶ÒÔÏÂµÄĞÂÊÖµÄ»°ÎÒ¿ÉÒÔÃâ·ÑÎªÄã·şÎñÅ¶.")
+	Talk( 2, "ç¾ä¸½çš„åœ£è¯æ‘ç°åœ¨æ­£åœ¨å¼€æ”¾æœŸé—´,åªè¦æ”¯ä»˜åŒºåŒº500æµ·ç›—å¸æˆ‘å°±å¯ä»¥é€ä½ è¿‡å»,å¦‚æœä½ æ˜¯10çº§ä»¥ä¸‹çš„æ–°æ‰‹çš„è¯æˆ‘å¯ä»¥å…è´¹ä¸ºä½ æœåŠ¡å“¦.")
 	Text( 2, "Teleport",MultiTrigger, GetMultiTrigger(), 2 )
 
-	Talk( 3, "Ê¥µ®´å´«ËÍÊ¹:Ã»Ç®Âğ?ÄÇºÜ±§Ç¸²»ÄÜÎªÄã·şÎñÁËÅ¶.")
+	Talk( 3, "åœ£è¯æ‘ä¼ é€ä½¿:æ²¡é’±å—?é‚£å¾ˆæŠ±æ­‰ä¸èƒ½ä¸ºä½ æœåŠ¡äº†å“¦.")
 	AddNpcMission ( 6190 )
 	AddNpcMission ( 6192 )
 	AddNpcMission ( 6194 )
@@ -13934,419 +13934,419 @@ function movexmas_talk()
 	AddNpcMission ( 6200 )
 end
 
----------------------------------------Ê¥µ®¾º¼¼³¡´«ËÍÊ¹
+---------------------------------------åœ£è¯ç«æŠ€åœºä¼ é€ä½¿
 function movexmas_talk01 ()
-	Talk ( 1, "Ê¥µ®¿ìÀÖ~ÄãÏë»Øµ½Ê¥µ®´åÂğ?²»ÔÙ¶àÍæ»áÁËÂğ?ÄÇºÃ,ÎÒÕâÀïµÄ·şÎñ¿ÉÊÇÈ«Ãâ·ÑµÄÅ¶!")
-	Text ( 1, "ÎÒÏë»ØÊ¥µ®´å", JumpPage, 2)
+	Talk ( 1, "åœ£è¯å¿«ä¹~ä½ æƒ³å›åˆ°åœ£è¯æ‘å—?ä¸å†å¤šç©ä¼šäº†å—?é‚£å¥½,æˆ‘è¿™é‡Œçš„æœåŠ¡å¯æ˜¯å…¨å…è´¹çš„å“¦!")
+	Text ( 1, "æˆ‘æƒ³å›åœ£è¯æ‘", JumpPage, 2)
 
 
 	InitTrigger()
 	TriggerAction( 1, GoTo, 144,136, "07xmas")
-	Talk( 2, "×¼±¸ºÃÁËÂğ?.")
+	Talk( 2, "å‡†å¤‡å¥½äº†å—?.")
 	Text( 2, "Teleport",MultiTrigger, GetMultiTrigger(), 1 )
 end
 
--------------------------------------ÒÔÏÂÎªÍÁÖø¿ñ»¶Õß--------bragi
+-------------------------------------ä»¥ä¸‹ä¸ºåœŸè‘—ç‹‚æ¬¢è€…--------bragi
 function Xmas_talk09 ()
-	Talk ( 1, "Ê¥µ®óô»ğÔÚ»¶¿ìµÄÌø¶¯×Å~")
+	Talk ( 1, "åœ£è¯ç¯ç«åœ¨æ¬¢å¿«çš„è·³åŠ¨ç€~")
 	AddNpcMission ( 6203 )
 end
 
 function Xmas_talk10 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:ÎªÁËÕâÃÀÀö»¶ÀÖµÄ½ÚÈÕ,À´ºÍÎÒÃÇÒ»ÆğÎ§×Åóô»ğÌøÎè°É!")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:ä¸ºäº†è¿™ç¾ä¸½æ¬¢ä¹çš„èŠ‚æ—¥,æ¥å’Œæˆ‘ä»¬ä¸€èµ·å›´ç€ç¯ç«è·³èˆå§!")
 end
 
 function Xmas_talk11 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:Ñ©»¨...Îèµ¸...óô»ğ...»ğ¼¦...Ñ©ÈË...Ê¥µ®Ê÷...ÀñÎï...»¹ÓĞ±ÈÕâ¸üÍêÃÀµÄÊ¥µ®½ÚÂğ?")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:é›ªèŠ±...èˆè¹ˆ...ç¯ç«...ç«é¸¡...é›ªäºº...åœ£è¯æ ‘...ç¤¼ç‰©...è¿˜æœ‰æ¯”è¿™æ›´å®Œç¾çš„åœ£è¯èŠ‚å—?")
 end
 
 function Xmas_talk12 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:»¹ÊÇÎ§×Åóô»ğ±È½ÏÅ¯ºÍ°¡!ÅóÓÑ£¬Òª²»ÒªÀ´Ò»Æğ¿¾»á»ğ,Ìø¸öÎèÄØ?")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:è¿˜æ˜¯å›´ç€ç¯ç«æ¯”è¾ƒæš–å’Œå•Š!æœ‹å‹ï¼Œè¦ä¸è¦æ¥ä¸€èµ·çƒ¤ä¼šç«,è·³ä¸ªèˆå‘¢?")
 end
 
 function Xmas_talk13 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:ÎÒ»¹ÊÇ¾õµÃÎÒµÄÎè×Ë²ÅÊÇ×î°ôµÄ£¬Äã²»ÕâÑùÈÏÎªÂğ?")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:æˆ‘è¿˜æ˜¯è§‰å¾—æˆ‘çš„èˆå§¿æ‰æ˜¯æœ€æ£’çš„ï¼Œä½ ä¸è¿™æ ·è®¤ä¸ºå—?")
 end
 
 function Xmas_talk14 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:½ñÌìµÄÍí²ÍÊÇÊ²Ã´ÄØ?»áÓĞÏãÅçÅçµÄ»ğ¼¦Âğ?ºÃÏëÄîÂèÂèµÄÊÖÒÕ°¡.")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:ä»Šå¤©çš„æ™šé¤æ˜¯ä»€ä¹ˆå‘¢?ä¼šæœ‰é¦™å–·å–·çš„ç«é¸¡å—?å¥½æƒ³å¿µå¦ˆå¦ˆçš„æ‰‹è‰ºå•Š.")
 end
 
 function Xmas_talk15 ()
-	Talk ( 1, "ÍÁÖø¿ñ»¶Õß:ËäÈ»²»Ì«Ï²»¶Õâº®ÀäµÄÌìÆø,²»¹ıÊ¥µ®½ÚµÄ·ÕÎ§ÕæºÃ°¡!ºÃ¿ªĞÄ°¡!")
+	Talk ( 1, "åœŸè‘—ç‹‚æ¬¢è€…:è™½ç„¶ä¸å¤ªå–œæ¬¢è¿™å¯’å†·çš„å¤©æ°”,ä¸è¿‡åœ£è¯èŠ‚çš„æ°›å›´çœŸå¥½å•Š!å¥½å¼€å¿ƒå•Š!")
 end
 
--------------------------------------ÒÔÏÂÎªĞ¡¶¯ÎïÈº------bragi
+-------------------------------------ä»¥ä¸‹ä¸ºå°åŠ¨ç‰©ç¾¤------bragi
 function Xmas_talk16 ()
-	Talk ( 1, "Ğ¡Â¹°ß±È:Ã»À´¹ıÊ¥µ®´åÃ´?ÄãÕæÂäÎé,¸æËßÄã¹ş,Ê¥µ®´åÖĞ¼äÓĞ¿ÃºÜ´óµÄÊ¥µ®Ê÷,´«Ëµ¶ÔÕâÊ¥µ®Ê÷ĞíÔ¸ÊÇºÜÁéÑéµÄ.¿ìÈ¥ÊÔÊÔ°É~~~!¹ş¹ş,×£ÄãÊ¥µ®¿ìÀÖ!")
+	Talk ( 1, "å°é¹¿æ–‘æ¯”:æ²¡æ¥è¿‡åœ£è¯æ‘ä¹ˆ?ä½ çœŸè½ä¼,å‘Šè¯‰ä½ å“ˆ,åœ£è¯æ‘ä¸­é—´æœ‰æ£µå¾ˆå¤§çš„åœ£è¯æ ‘,ä¼ è¯´å¯¹è¿™åœ£è¯æ ‘è®¸æ„¿æ˜¯å¾ˆçµéªŒçš„.å¿«å»è¯•è¯•å§~~~!å“ˆå“ˆ,ç¥ä½ åœ£è¯å¿«ä¹!")
 end
 
 function Xmas_talk17 ()
-	Talk ( 1, "±ùÁúÈø·ÆÀ­:±ğ¼·ÎÒ°¡!Ğ¡ĞÄÎÒ·¢»ğ×áÄãÃÇÅ¶!")
+	Talk ( 1, "å†°é¾™è¨è²æ‹‰:åˆ«æŒ¤æˆ‘å•Š!å°å¿ƒæˆ‘å‘ç«æä½ ä»¬å“¦!")
 end
 
 function Xmas_talk18 ()
-	Talk ( 1, "Ğ¡¼ªÃ×:Î¹Î¹,±ğµ²×¡ÎÒÂï,ÎÒÒ²ÏëÒªÒ»·İÀñÎï!¾ÍÒ»·İ,¿ÉÒÔÂğ?")
+	Talk ( 1, "å°å‰ç±³:å–‚å–‚,åˆ«æŒ¡ä½æˆ‘å˜›,æˆ‘ä¹Ÿæƒ³è¦ä¸€ä»½ç¤¼ç‰©!å°±ä¸€ä»½,å¯ä»¥å—?")
 end
 
 function Xmas_talk19 ()
-	Talk ( 1, "¿ìÀÖµÄÑ©ÍŞÍŞ:²¨¶ûÏÈÉú!ÄãµÄ¿Ú´üÀï¶¼×°ÁËĞ©Ê²Ã´°¡?ÓĞÌğÌğµÄÌÇ¹ûÂğ?ÓĞÆ¯ÁÁµÄÍæ¾ßÂğ?")
+	Talk ( 1, "å¿«ä¹çš„é›ªå¨ƒå¨ƒ:æ³¢å°”å…ˆç”Ÿ!ä½ çš„å£è¢‹é‡Œéƒ½è£…äº†äº›ä»€ä¹ˆå•Š?æœ‰ç”œç”œçš„ç³–æœå—?æœ‰æ¼‚äº®çš„ç©å…·å—?")
 end
 
 function Xmas_talk20 ()
-	Talk ( 1, "Ğ¡Ã¨ĞÁË¿:¶£¶£µ±,¶£¶£µ±,Áå¶ùÏì¶£µ±~~~!¹ş¹ş.½ñÄêÒ»¶¨ÊÇ¸ö¿ìÀÖµÄÊ¥µ®½Ú,¸æËßÄã¸öÃØÃÜÅ¶.¾İËµÊ¥µ®½Úµ±ÌìÎçÒ¹12µãµÄÊ±ºò,ÉñÃØµÄÄæ×ªÊ¥µ®´åÈë¿Ú»á³öÏÖÔÚ´åÀï.±ğÍüÁËÈ¥¿´¿´Å¶~~¼ÇµÃ¶à´©µã.")
+	Talk ( 1, "å°çŒ«è¾›ä¸:å®å®å½“,å®å®å½“,é“ƒå„¿å“å®å½“~~~!å“ˆå“ˆ.ä»Šå¹´ä¸€å®šæ˜¯ä¸ªå¿«ä¹çš„åœ£è¯èŠ‚,å‘Šè¯‰ä½ ä¸ªç§˜å¯†å“¦.æ®è¯´åœ£è¯èŠ‚å½“å¤©åˆå¤œ12ç‚¹çš„æ—¶å€™,ç¥ç§˜çš„é€†è½¬åœ£è¯æ‘å…¥å£ä¼šå‡ºç°åœ¨æ‘é‡Œ.åˆ«å¿˜äº†å»çœ‹çœ‹å“¦~~è®°å¾—å¤šç©¿ç‚¹.")
 end
 
 function Xmas_talk21 ()
-	Talk ( 1, "·ÉĞÜÃ¨ÅÉ´ï:ÓĞÇÉ¿ËÁ¦Î¶µÀµÄÖñËñÂğ?¸øÎÒÒ»Ğ©!!")
+	Talk ( 1, "é£ç†ŠçŒ«æ´¾è¾¾:æœ‰å·§å…‹åŠ›å‘³é“çš„ç«¹ç¬‹å—?ç»™æˆ‘ä¸€äº›!!")
 end
 
 function Xmas_talk22 ()
-	Talk ( 1, "Ğ¡Â·Ò×Ë¿:Ê¥µ®½Ú¿©!!ÄãÃÇ¿´,ÕâÊÇÎÒÂèÂè°ïÎÒĞÂÂòµÄº£¾üÃ±×Ó,ºÜÆ¯ÁÁ°É!")
+	Talk ( 1, "å°è·¯æ˜“ä¸:åœ£è¯èŠ‚å’¯!!ä½ ä»¬çœ‹,è¿™æ˜¯æˆ‘å¦ˆå¦ˆå¸®æˆ‘æ–°ä¹°çš„æµ·å†›å¸½å­,å¾ˆæ¼‚äº®å§!")
 end
 
 function Xmas_talk23 ()
-	Talk ( 1, "²¨¶ûÏÈÉú:ºÃµÄºÃµÄº¢×ÓÃÇ,ÎÒÕâ×¼±¸ÁËºÜ¶àÀñÎï,Ã¿¸öÈË¶¼»áÓĞµÄ,²»Òª¼·Å¶!")
+	Talk ( 1, "æ³¢å°”å…ˆç”Ÿ:å¥½çš„å¥½çš„å­©å­ä»¬,æˆ‘è¿™å‡†å¤‡äº†å¾ˆå¤šç¤¼ç‰©,æ¯ä¸ªäººéƒ½ä¼šæœ‰çš„,ä¸è¦æŒ¤å“¦!")
 end
 
 function Xmas_talk24 ()
-	Talk ( 1, "Ğ¡ÌÀÄ·:ÓĞË­Ô¸ÒâºÍÎÒÒ»ÆğÈ¥´òÑ©ÕÌµÄÂğ?²»¹ıÏÈËµºÃ,ÎÒÒª×ö½«¾ü!!!ÖÕÓĞÒ»ÌìÎÒ»á³¬¹ı¿Æ¶÷µÄ,´ø×Å»ğ¼¦ÓğÃ«È¥ÕÒËûÖ¤Ã÷ÎÒµÄÊµÁ¦,¾ÍÊÇÔÚÊ¥µ®´åÖĞÏÂ·½ÅçÈªÉÏÃæµÄÄÇ¸ö¼Ò»ï.")
+	Talk ( 1, "å°æ±¤å§†:æœ‰è°æ„¿æ„å’Œæˆ‘ä¸€èµ·å»æ‰“é›ªä»—çš„å—?ä¸è¿‡å…ˆè¯´å¥½,æˆ‘è¦åšå°†å†›!!!ç»ˆæœ‰ä¸€å¤©æˆ‘ä¼šè¶…è¿‡ç§‘æ©çš„,å¸¦ç€ç«é¸¡ç¾½æ¯›å»æ‰¾ä»–è¯æ˜æˆ‘çš„å®åŠ›,å°±æ˜¯åœ¨åœ£è¯æ‘ä¸­ä¸‹æ–¹å–·æ³‰ä¸Šé¢çš„é‚£ä¸ªå®¶ä¼™.")
 	AddNpcMission ( 6205 )
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[´ô´ôµÄ´ô´ô]			--
+--		åœ£è¯å²›[å‘†å‘†çš„å‘†å‘†]			--
 --							--
 --		3901, 4301			--
 ----------------------------------------------------------
 function peter_talk01 ()
-	Talk( 1, "´ô´ôµÄ´ô´ô: ±ğ¿´ÎÒ½Ğ´ô´ô£¬ÆäÊµÎÒÒ»µãÒ²²»´ô£¬ÎÒµÄÖÇÉÌ¿ÉÊÇ¸ß´ï180Å¶£¡")
+	Talk( 1, "å‘†å‘†çš„å‘†å‘†: åˆ«çœ‹æˆ‘å«å‘†å‘†ï¼Œå…¶å®æˆ‘ä¸€ç‚¹ä¹Ÿä¸å‘†ï¼Œæˆ‘çš„æ™ºå•†å¯æ˜¯é«˜è¾¾180å“¦ï¼")
 
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÓÎ¿Í¡¤ÒÁÂê]			--
+--		åœ£è¯å²›[æ¸¸å®¢Â·ä¼Šç›]			--
 --							--
 --		10802, 5602             		--
 ----------------------------------------------------------
 function peter_talk02 ()
-	Talk( 1, "ÓÎ¿Í¡¤ÒÁÂê:¹ı½ÚµÄÊ±ºò,·ÅÏÂËùÓĞµÄ·×ÈÅ,À´ÕâÀïºÍ´ó¼ÒÒ»Æğ¹ıÊ¥µ®,ÊÇÎÒÒ»ÄêÖĞ×îÇáËÉµÄÊÂ,Ğê,²»Òª¸æËß±ğÈËÎÒÊÇË­,Ò»»áÎÒ»¹ÒªÈ¥°ç³ÉÊ¥µ®ÀÏÈË·¢½±Æ·ÄØ,µ½Ê±ºò¿´ÄãÄÜ²»ÄÜÈÏ³öÎÒÀ´,¹ş¹ş¹ş¡£")
+	Talk( 1, "æ¸¸å®¢Â·ä¼Šç›:è¿‡èŠ‚çš„æ—¶å€™,æ”¾ä¸‹æ‰€æœ‰çš„çº·æ‰°,æ¥è¿™é‡Œå’Œå¤§å®¶ä¸€èµ·è¿‡åœ£è¯,æ˜¯æˆ‘ä¸€å¹´ä¸­æœ€è½»æ¾çš„äº‹,å˜˜,ä¸è¦å‘Šè¯‰åˆ«äººæˆ‘æ˜¯è°,ä¸€ä¼šæˆ‘è¿˜è¦å»æ‰®æˆåœ£è¯è€äººå‘å¥–å“å‘¢,åˆ°æ—¶å€™çœ‹ä½ èƒ½ä¸èƒ½è®¤å‡ºæˆ‘æ¥,å“ˆå“ˆå“ˆã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Î÷ÁÖµÄ°Ö°Ö]		--
+--		åœ£è¯å²›[è¥¿æ—çš„çˆ¸çˆ¸]		--
 --							--
 --		11803, 6103			        --
 ----------------------------------------------------------
 function peter_talk03 ()
-	Talk( 1, "Î÷ÁÖµÄ°Ö°Ö:¸æËßÄãµÄ°Ö°Ö,¾ÍËµÎÒËµµÄ,Ê¥µ®½Ú¸Ã¸øº¢×ÓÃÇÁã»¨Ç®,ÒòÎªÄã×ÜÂò²»È«ËùÓĞËûÃÇ°®³ÔµÄÌÇ¹û,µ±È»,»¹ÓĞÒ»¾ä,¿´ºÃ×Ô¼ºµÄº¢×Ó,ÇÆ,ÎÒµÄÎ÷ÁÖ¾Í¸ú¶ªÁË¡£")
+	Talk( 1, "è¥¿æ—çš„çˆ¸çˆ¸:å‘Šè¯‰ä½ çš„çˆ¸çˆ¸,å°±è¯´æˆ‘è¯´çš„,åœ£è¯èŠ‚è¯¥ç»™å­©å­ä»¬é›¶èŠ±é’±,å› ä¸ºä½ æ€»ä¹°ä¸å…¨æ‰€æœ‰ä»–ä»¬çˆ±åƒçš„ç³–æœ,å½“ç„¶,è¿˜æœ‰ä¸€å¥,çœ‹å¥½è‡ªå·±çš„å­©å­,ç§,æˆ‘çš„è¥¿æ—å°±è·Ÿä¸¢äº†ã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÓÎ¿Í¡¤ÎÂÅ¬]			--
+--		åœ£è¯å²›[æ¸¸å®¢Â·æ¸©åŠª]			--
 --							--
 --		5904, 4704			--
 ----------------------------------------------------------
 function peter_talk04 ()
-	Talk( 1, "ÓÎ¿Í¡¤ÎÂÅ¬: àË!Ê¥µ®¿ìÀÖ,ÄãÒ»¶¨ºÍÎÒÒ»ÑùÊÇÀ´ÕâÀï¹ıÊ¥µ®µÄ°É?¹ş¹ş,¿ìÈ¥ÕÒÊ¥µ®ÉÌÈË,ËûÃÇÓĞºÃ¶àºÜìÅµÄ¶«Î÷ÄØ!")
+	Talk( 1, "æ¸¸å®¢Â·æ¸©åŠª: å—¨!åœ£è¯å¿«ä¹,ä½ ä¸€å®šå’Œæˆ‘ä¸€æ ·æ˜¯æ¥è¿™é‡Œè¿‡åœ£è¯çš„å§?å“ˆå“ˆ,å¿«å»æ‰¾åœ£è¯å•†äºº,ä»–ä»¬æœ‰å¥½å¤šå¾ˆç‚«çš„ä¸œè¥¿å‘¢!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¹ş¸ù´óÊå]			--
+--		åœ£è¯å²›[å“ˆæ ¹å¤§å”]			--
 --							--
---		3001 £¬11701			--
+--		3001 ï¼Œ11701			--
 ----------------------------------------------------------
 function peter_talk05 ()
-	Talk( 1, "¹ş¸ù´óÊå: ¹ş¹ş!¹ş¹ş!Ê¥µ®½Ú°¡¡£¹ş¹ş,ÎÒÒ»¿ªĞÄ¾ÍÖ»»á`¹ş¹ş`¹ş¹ş¹ş¡£")
+	Talk( 1, "å“ˆæ ¹å¤§å”: å“ˆå“ˆ!å“ˆå“ˆ!åœ£è¯èŠ‚å•Šã€‚å“ˆå“ˆ,æˆ‘ä¸€å¼€å¿ƒå°±åªä¼š`å“ˆå“ˆ`å“ˆå“ˆå“ˆã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Îû¹şĞ¡×Ó]			--
+--		åœ£è¯å²›[å˜»å“ˆå°å­]			--
 --							--
 --		7031, 4902			--
 ----------------------------------------------------------
 function peter_talk06 ()
-	Talk( 1, "Îû¹şĞ¡×Ó: come on!Ê¥µ®Äã¸ÃÔõÃ´ìÅ?´÷ÆğÄ«¾µÀ´×°¿á?²»²»²»,ÈÃÎÒ¸æËßÄã,´©Ò»Ì×Ê¥µ®ÀÏÈËµÄÒÂ·ş²Å¿á¡£")
+	Talk( 1, "å˜»å“ˆå°å­: come on!åœ£è¯ä½ è¯¥æ€ä¹ˆç‚«?æˆ´èµ·å¢¨é•œæ¥è£…é…·?ä¸ä¸ä¸,è®©æˆ‘å‘Šè¯‰ä½ ,ç©¿ä¸€å¥—åœ£è¯è€äººçš„è¡£æœæ‰é…·ã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¿¨ÀûÃ×´¬³¤]			--
+--		åœ£è¯å²›[å¡åˆ©ç±³èˆ¹é•¿]			--
 --							--
 --		3101, 11901			--
 ----------------------------------------------------------
 function peter_talk07 ()
-	Talk( 1, "¿¨ÀûÃ×´¬³¤: Äã»³ÒÉº£ÉÏµÄº¢×ÓÃÇÊÕ²»µ½Ê¥µ®ÀñÎï?·ÅĞÄ,Ê¥µ®ÀÏÈË»áÈÃº¢×Ó¶¼ÂúÒâµÄ!")
+	Talk( 1, "å¡åˆ©ç±³èˆ¹é•¿: ä½ æ€€ç–‘æµ·ä¸Šçš„å­©å­ä»¬æ”¶ä¸åˆ°åœ£è¯ç¤¼ç‰©?æ”¾å¿ƒ,åœ£è¯è€äººä¼šè®©å­©å­éƒ½æ»¡æ„çš„!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[´¬Ô±°¬Äá]			--
+--		åœ£è¯å²›[èˆ¹å‘˜è‰¾å°¼]			--
 --							--
 --		4401, 8401			--
 ----------------------------------------------------------
 function peter_talk08 ()
-	Talk( 1, "´¬Ô±°¬Äá: ´¬³¤ÕæÊÇ´ó·¢´È±¯ÁË,ÍùÄêµÄÊ¥µ®½ÚÎÒÖ»ÄÜÆ¯°¡Æ¯°¡,Õâ´ÎÖÕÓÚ´øÎÒÀ´ÕâÀï²Î¼ÓÊ¥µ®¾Û»áÁË!Ì«¸ßĞËÁË¡£")
+	Talk( 1, "èˆ¹å‘˜è‰¾å°¼: èˆ¹é•¿çœŸæ˜¯å¤§å‘æ…ˆæ‚²äº†,å¾€å¹´çš„åœ£è¯èŠ‚æˆ‘åªèƒ½æ¼‚å•Šæ¼‚å•Š,è¿™æ¬¡ç»ˆäºå¸¦æˆ‘æ¥è¿™é‡Œå‚åŠ åœ£è¯èšä¼šäº†!å¤ªé«˜å…´äº†ã€‚")
 end
 
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÉÏÎ¾¿¨Àï]			--
+--		åœ£è¯å²›[ä¸Šå°‰å¡é‡Œ]			--
 --							--
 --		25801, 23101			--
 ----------------------------------------------------------
 function peter_talk09 ()
-	Talk( 1, "ÉÏÎ¾¿¨Àï: ÕâÀïµÄ½ÚÈÕÆø·Õ»áÈÃÄãÍü¼ÇÁË¶¬ÌìµÄ´æÔÚ,ÕæÏëºÍº¢×ÓÃÇÒ»ÆğÍæ°¡,¿ÉÊÇÉíÎª¾üÈË,ÎÒÓĞ×Ô¼ºµÄÖ°Ôğ,×£ÄãÍæµÃ¿ªĞÄ!")
+	Talk( 1, "ä¸Šå°‰å¡é‡Œ: è¿™é‡Œçš„èŠ‚æ—¥æ°”æ°›ä¼šè®©ä½ å¿˜è®°äº†å†¬å¤©çš„å­˜åœ¨,çœŸæƒ³å’Œå­©å­ä»¬ä¸€èµ·ç©å•Š,å¯æ˜¯èº«ä¸ºå†›äºº,æˆ‘æœ‰è‡ªå·±çš„èŒè´£,ç¥ä½ ç©å¾—å¼€å¿ƒ!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[º£¾üÊ¿±ø]			--
+--		åœ£è¯å²›[æµ·å†›å£«å…µ]			--
 --							--
 --		19401, 3901			--
 ----------------------------------------------------------
 function peter_talk10 ()
-	Talk( 1, "º£¾üÊ¿±ø: ÎÒ¸Ò±£Ö¤,´ó¼ÒÔÚÕâÀï¶¼¿ÉÒÔ¾¡ÇéµÄÏíÊÜÊ¥µ®µÄ¿ìÀÖ,¾ø¶Ô²»»áÓĞ²»¿ªĞÄµÄÊÂ·¢Éú,ÄãÎÊÎªÊ²Ã´?Ã»¿´¼ûÎÒÊÖÀïµÄ¾¯¹÷Ã´!")
+	Talk( 1, "æµ·å†›å£«å…µ: æˆ‘æ•¢ä¿è¯,å¤§å®¶åœ¨è¿™é‡Œéƒ½å¯ä»¥å°½æƒ…çš„äº«å—åœ£è¯çš„å¿«ä¹,ç»å¯¹ä¸ä¼šæœ‰ä¸å¼€å¿ƒçš„äº‹å‘ç”Ÿ,ä½ é—®ä¸ºä»€ä¹ˆ?æ²¡çœ‹è§æˆ‘æ‰‹é‡Œçš„è­¦æ£ä¹ˆ!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÓÎ¿Í¡¤ÂŞÁÕË¹]			--
+--		åœ£è¯å²›[æ¸¸å®¢Â·ç½—ç³æ–¯]			--
 --							--
 --		7301, 23601			        --
 ----------------------------------------------------------
 function peter_talk11 ()
-	Talk( 1, "ÓÎ¿Í¡¤ÂŞÁÕË¹: ÎÒÏ²»¶Ê¥µ®½Ú,ÎÒÏ²»¶ÔÚÕâÀïÍæ,ºÃ¶à¿É°®µÄ¶«¶«à¸,ÄãÏëÂòÒ»¼şÊ¥µ®ÀñÎïËÍ¸øÎÒÃ´?")
+	Talk( 1, "æ¸¸å®¢Â·ç½—ç³æ–¯: æˆ‘å–œæ¬¢åœ£è¯èŠ‚,æˆ‘å–œæ¬¢åœ¨è¿™é‡Œç©,å¥½å¤šå¯çˆ±çš„ä¸œä¸œå–”,ä½ æƒ³ä¹°ä¸€ä»¶åœ£è¯ç¤¼ç‰©é€ç»™æˆ‘ä¹ˆ?")
 end
 
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡Ì¯··ÖìµÏ]			--
+--		åœ£è¯å²›[å°æ‘Šè´©æœ±è¿ª]			--
 --							--
 --		13901, 6101			--
 ----------------------------------------------------------
 function peter_talk12 ()
-	Talk( 1, "Ğ¡Ì¯··ÖìµÏ: Èç¹ûÓÎÍæÄÜ¹»×¬µ½Ç®,ÎÒÒ²²»ÓÃ°ÚÌ¯ÁË,ºÇºÇ,µ«ÊÇÎÒ°Ú¿´µ½¹Ë¿ÍÂòµ½³ÆĞÄµÄ¶«Î÷Ê±¿ªĞÄµÄÑù×Ó,ÎÒ¾Í¾õµÃÖµ¡£")
+	Talk( 1, "å°æ‘Šè´©æœ±è¿ª: å¦‚æœæ¸¸ç©èƒ½å¤Ÿèµšåˆ°é’±,æˆ‘ä¹Ÿä¸ç”¨æ‘†æ‘Šäº†,å‘µå‘µ,ä½†æ˜¯æˆ‘æ‘†çœ‹åˆ°é¡¾å®¢ä¹°åˆ°ç§°å¿ƒçš„ä¸œè¥¿æ—¶å¼€å¿ƒçš„æ ·å­,æˆ‘å°±è§‰å¾—å€¼ã€‚")
 end
 
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡Ì¯··ÇĞ¶û]			--
+--		åœ£è¯å²›[å°æ‘Šè´©åˆ‡å°”]			--
 --							--
 --		3301, 21601			        --
 ----------------------------------------------------------
 function peter_talk13 ()
-	Talk( 1, "Ğ¡Ì¯··ÇĞ¶û:ÄãÈ¥¹ıÕæ°®µºÃ´?Èç¹ûÄãÃ»È¥¹ı,ÄÇÒ»¶¨ÒªÂòÂòÕâ¸ö¼ÍÄîÆ·,ÄãËµÄãÈ¥¹ıÁË?ÄÇ¾Í¸ü¸ÃÂòÕâ¸ö×öÊ¥µ®¼ÍÄîÆ·ÁË°¡!")
+	Talk( 1, "å°æ‘Šè´©åˆ‡å°”:ä½ å»è¿‡çœŸçˆ±å²›ä¹ˆ?å¦‚æœä½ æ²¡å»è¿‡,é‚£ä¸€å®šè¦ä¹°ä¹°è¿™ä¸ªçºªå¿µå“,ä½ è¯´ä½ å»è¿‡äº†?é‚£å°±æ›´è¯¥ä¹°è¿™ä¸ªåšåœ£è¯çºªå¿µå“äº†å•Š!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µºĞ¡Ì¯··ÂŞÃÅ			--
+--		åœ£è¯å²›å°æ‘Šè´©ç½—é—¨			--
 --							--
 --		8701, 20401			         --
 ----------------------------------------------------------
 function peter_talk14 ()
-	Talk( 1, "Ê¥µ®µºĞ¡Ì¯··ÂŞÃÅ: ¶¬ÌìµÄÊ±ºò,Ö»ÓĞ½ÚÈÕÀñÆ·ÊÇËùÓĞÈË¿Ï»¨Ç®µÄ¡£")
+	Talk( 1, "åœ£è¯å²›å°æ‘Šè´©ç½—é—¨: å†¬å¤©çš„æ—¶å€™,åªæœ‰èŠ‚æ—¥ç¤¼å“æ˜¯æ‰€æœ‰äººè‚¯èŠ±é’±çš„ã€‚")
 end
  
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µºĞ¡Ì¯··Ò®ÑÇ			--
+--		åœ£è¯å²›å°æ‘Šè´©è€¶äºš			--
 --							--
 --		25501, 12401    			--
 ----------------------------------------------------------
 function peter_talk15 ()
-	Talk( 1, "Ê¥µ®µºĞ¡Ì¯··Ò®ÑÇ: àË!Ê¥µ®¿ìÀÖ!ÇÆÎÒ´©µÄÕâÉíÒÂ·şºÃ¿´Ã´?")
+	Talk( 1, "åœ£è¯å²›å°æ‘Šè´©è€¶äºš: å—¨!åœ£è¯å¿«ä¹!ç§æˆ‘ç©¿çš„è¿™èº«è¡£æœå¥½çœ‹ä¹ˆ?")
 end
 
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[óô»ğÀÏÈË]			--
+--		åœ£è¯å²›[ç¯ç«è€äºº]			--
 --							--
 --		24801, 9801			        --
 ----------------------------------------------------------
 function peter_talk16 ()
-	Talk( 1, "óô»ğÀÏÈË: ¿´ÄÇºìºìµÄ»ğÑæ°É,Õû¸öÊ¥µ®µÄÒ¹¿Õ½«±»ËüÕÕÁÁ,Ã¿µ±ÕâÊ±ºòÎÒ¾ÍÏëÆğÁËÄêÇáÊ±Î§×Åóô»ğÌøÎèµÄÇé¾°¡£ÒªÕäÏ§ÏÖÔÚ°¡¡£")
+	Talk( 1, "ç¯ç«è€äºº: çœ‹é‚£çº¢çº¢çš„ç«ç„°å§,æ•´ä¸ªåœ£è¯çš„å¤œç©ºå°†è¢«å®ƒç…§äº®,æ¯å½“è¿™æ—¶å€™æˆ‘å°±æƒ³èµ·äº†å¹´è½»æ—¶å›´ç€ç¯ç«è·³èˆçš„æƒ…æ™¯ã€‚è¦çæƒœç°åœ¨å•Šã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[°×ºú×ÓÂ³ÌØ]			--
+--		åœ£è¯å²›[ç™½èƒ¡å­é²ç‰¹]			--
 --							--
 --		13001,23601			--
 ----------------------------------------------------------
 function peter_talk17 ()
-	Talk( 1, "°×ºú×ÓÂ³ÌØ:Äã¾õµÃÎÒÓĞ¶à´ó?ÔÚÊ¥µ®ÀÏÈËÃæÇ°ÎÒÃÇ¶¼ÊÇº¢×ÓÂï,ÎÒ¿ÉÕæÊÇº¢×ÓÅ¶,²»ĞÅÎÒÃÇÀ´´òÑ©ÕÌ¡£")
+	Talk( 1, "ç™½èƒ¡å­é²ç‰¹:ä½ è§‰å¾—æˆ‘æœ‰å¤šå¤§?åœ¨åœ£è¯è€äººé¢å‰æˆ‘ä»¬éƒ½æ˜¯å­©å­å˜›,æˆ‘å¯çœŸæ˜¯å­©å­å“¦,ä¸ä¿¡æˆ‘ä»¬æ¥æ‰“é›ªä»—ã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÀÏÌ«Ì«¿ËÀ­]			--
+--		åœ£è¯å²›[è€å¤ªå¤ªå…‹æ‹‰]			--
 --							--
 --		23901, 22701	         		--
 ----------------------------------------------------------
 function peter_talk18 ()
-	Talk( 1, "ÀÏÌ«Ì«¿ËÀ­: àË!àË!¸Ã»ı¼«µÄ°ïÖúÀ´¹ıÊ¥µ®½ÚµÄÈËÃÇ°¡!ÎÒ¿ÉÊÇ¸öÈÈĞÄ³¦,ÄÄÀïµÄÂ·ÄãÒªÊÇ²»ÖªµÀ¾ÍÕÒÎÒ!")
+	Talk( 1, "è€å¤ªå¤ªå…‹æ‹‰: å—¨!å—¨!è¯¥ç§¯æçš„å¸®åŠ©æ¥è¿‡åœ£è¯èŠ‚çš„äººä»¬å•Š!æˆ‘å¯æ˜¯ä¸ªçƒ­å¿ƒè‚ ,å“ªé‡Œçš„è·¯ä½ è¦æ˜¯ä¸çŸ¥é“å°±æ‰¾æˆ‘!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ºìºú×ÓÀ×¶Ù]			--
+--		åœ£è¯å²›[çº¢èƒ¡å­é›·é¡¿]			--
 --							--
 --		24601, 19701			--
 ----------------------------------------------------------
 function peter_talk19 ()
-	Talk( 1, "ºìºú×ÓÀ×¶Ù: ßÀ?ÄãÒªºÍÎÒËµ»°?ßí,ÎÒºÜ¾ÃÃ»ºÍÈË½»Ì¸ÁË,ÉÏ´ÎºÍÈËËµ»°ÊÇÊ²Ã´Ê±ºò?¡­¡­ßí?ÄãÊÇË­?ÄãÒªºÍÎÒËµ»°?¡­ßÀ¡­ÎÒÏëÎÊÄãÊ²Ã´À´×Å¡­")
+	Talk( 1, "çº¢èƒ¡å­é›·é¡¿: å‘ƒ?ä½ è¦å’Œæˆ‘è¯´è¯?å””,æˆ‘å¾ˆä¹…æ²¡å’Œäººäº¤è°ˆäº†,ä¸Šæ¬¡å’Œäººè¯´è¯æ˜¯ä»€ä¹ˆæ—¶å€™?â€¦â€¦å””?ä½ æ˜¯è°?ä½ è¦å’Œæˆ‘è¯´è¯?â€¦å‘ƒâ€¦æˆ‘æƒ³é—®ä½ ä»€ä¹ˆæ¥ç€â€¦")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡Ì¯··ÓÈ¿¨µ¤]			--
+--		åœ£è¯å²›[å°æ‘Šè´©å°¤å¡ä¸¹]			--
 --							--
 --		23201, 20001			--
 ----------------------------------------------------------
 function peter_talk20 ()
-	Talk( 1, "Ğ¡Ì¯··ÓÈ¿¨µ¤: HOoooo,Ê¥µ®½Ú¿ìÀÖ!¿´ÄãÕâÃ´Ï²»¶Ê¥µ®½Ú,ÎªÊ²Ã´²»ÄÃ¸öÆøÇòÄØ?ÌıËµÊ¥µ®ÀÏÈËÏÈ¸øÄÃÆøÇòµÄº¢×Ó·¢ÀñÎïÅ¶!")
+	Talk( 1, "å°æ‘Šè´©å°¤å¡ä¸¹: HOoooo,åœ£è¯èŠ‚å¿«ä¹!çœ‹ä½ è¿™ä¹ˆå–œæ¬¢åœ£è¯èŠ‚,ä¸ºä»€ä¹ˆä¸æ‹¿ä¸ªæ°”çƒå‘¢?å¬è¯´åœ£è¯è€äººå…ˆç»™æ‹¿æ°”çƒçš„å­©å­å‘ç¤¼ç‰©å“¦!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡ÌÔÆøÎ÷ÁÖ]			--
+--		åœ£è¯å²›[å°æ·˜æ°”è¥¿æ—]			--
 --							--
 --		22801, 5401			--
 ----------------------------------------------------------
 function peter_talk21 ()
-	Talk( 1, "Ğ¡ÌÔÆøÎ÷ÁÖ:ÎØ¡­ÎÒÒª°Ö°Ö¡­ÎÒÁìµ½ÁËÊ¥µ®ÀÏÈËµÄµ°¸â,¿ÉÊÇÈ´ÕÒ²»µ½°Ö°ÖÁË¡­")
+	Talk( 1, "å°æ·˜æ°”è¥¿æ—:å‘œâ€¦æˆ‘è¦çˆ¸çˆ¸â€¦æˆ‘é¢†åˆ°äº†åœ£è¯è€äººçš„è›‹ç³•,å¯æ˜¯å´æ‰¾ä¸åˆ°çˆ¸çˆ¸äº†â€¦")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¶ÌÎ²°Í¿¨Ë¹]			--
+--		åœ£è¯å²›[çŸ­å°¾å·´å¡æ–¯]			--
 --							--
 --		25601, 4301			--
 ----------------------------------------------------------
 function peter_talk22 ()
-	Talk( 1, "¶ÌÎ²°Í¿¨Ë¹:ÒÔÇ°Ê¥µ®½Ú¾ÍÊÇÊÕÀñÎï,Õâ»ØÎÒÒª×Ô¼ºÈ¥ÕÒÀñÎï,Ê¥µ®ÀÏÈËËÍµÄÀñÎï×ÜÊÇºÍ°Ö°ÖÇ°Á½ÌìÍµÍµÂò»Ø¼ÒµÄÒ»Ñù,ÎÒ¶¼ÖªµÀ,À÷º¦°É?")
+	Talk( 1, "çŸ­å°¾å·´å¡æ–¯:ä»¥å‰åœ£è¯èŠ‚å°±æ˜¯æ”¶ç¤¼ç‰©,è¿™å›æˆ‘è¦è‡ªå·±å»æ‰¾ç¤¼ç‰©,åœ£è¯è€äººé€çš„ç¤¼ç‰©æ€»æ˜¯å’Œçˆ¸çˆ¸å‰ä¸¤å¤©å·å·ä¹°å›å®¶çš„ä¸€æ ·,æˆ‘éƒ½çŸ¥é“,å‰å®³å§?")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡Å®º¢Î÷¶ûÎÄ]			--
+--		åœ£è¯å²›[å°å¥³å­©è¥¿å°”æ–‡]			--
 --							--
 --		21501, 4101			--
 ----------------------------------------------------------
 function peter_talk23 ()
-	Talk( 1, "Ğ¡Å®º¢Î÷¶ûÎÄ:Ó´~~Ê¥µ®¿ìÀÖ!Ò»Æğ¿ªĞÄµÄ¹ı½Ú°É!Ê²Ã´?ÄãÃ»ÑÌ»¨?ºÙºÙ,¸æËßÄãÅ¶,¿ÉÒÔÈ¥Ê¥µ®´åÖĞÑëÏÂ·½µÄÊĞ³¡È¥¹ºÂò~~~»¹ÓĞºÜ¶àÆäËû´òÕÛÉÌÆ·.¼ÇµÃÈ¥¿´¿´Å¶.")
+	Talk( 1, "å°å¥³å­©è¥¿å°”æ–‡:å“Ÿ~~åœ£è¯å¿«ä¹!ä¸€èµ·å¼€å¿ƒçš„è¿‡èŠ‚å§!ä»€ä¹ˆ?ä½ æ²¡çƒŸèŠ±?å˜¿å˜¿,å‘Šè¯‰ä½ å“¦,å¯ä»¥å»åœ£è¯æ‘ä¸­å¤®ä¸‹æ–¹çš„å¸‚åœºå»è´­ä¹°~~~è¿˜æœ‰å¾ˆå¤šå…¶ä»–æ‰“æŠ˜å•†å“.è®°å¾—å»çœ‹çœ‹å“¦.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Å·Ã×]			--
+--		åœ£è¯å²›[æ¬§ç±³]			--
 --							--
 --		20601, 7601			--
 ----------------------------------------------------------
 function peter_talk24 ()
-	Talk( 1, "Å·Ã×:ÔÚ¹ÅÀÏµÄ¶«·½ÓĞÒ»¾äÃûÑÔ,ÊéÖĞ×ÔÓĞ»Æ½ğÎİ,ÊéÖĞ×ÔÓĞÑÕÈçÓñ.¿ìµãÈ¥Ñ§¸ö¶ÁÊé¼¼ÄÜÊÔÊÔ°É!")
+	Talk( 1, "æ¬§ç±³:åœ¨å¤è€çš„ä¸œæ–¹æœ‰ä¸€å¥åè¨€,ä¹¦ä¸­è‡ªæœ‰é»„é‡‘å±‹,ä¹¦ä¸­è‡ªæœ‰é¢œå¦‚ç‰.å¿«ç‚¹å»å­¦ä¸ªè¯»ä¹¦æŠ€èƒ½è¯•è¯•å§!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[×ôÄ·]			--
+--		åœ£è¯å²›[ä½å§†]			--
 --							--
 --		19401, 23501			--
 ----------------------------------------------------------
 function peter_talk25 ()
-	Talk( 1, "×ôÄ·: ¸æËßÄã¸öÃØÃÜ,¿ìÈ¥ÄÇ±ß,¶Ô,Ò»¶ÑÆøÇòµÄµØ·½,ÄÇ±ßÓĞºÜ¶àºÃ¶«Î÷ÂôÄØ!")
+	Talk( 1, "ä½å§†: å‘Šè¯‰ä½ ä¸ªç§˜å¯†,å¿«å»é‚£è¾¹,å¯¹,ä¸€å †æ°”çƒçš„åœ°æ–¹,é‚£è¾¹æœ‰å¾ˆå¤šå¥½ä¸œè¥¿å–å‘¢!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Âí¿Ë]			--
+--		åœ£è¯å²›[é©¬å…‹]			--
 --							--
 --		19401, 20101			--
 ----------------------------------------------------------
 function peter_talk26 ()
-	Talk( 1, "Âí¿Ë:¿´¼ûÓÎ¿ÍÎÒ¾Í»áÖ÷¶¯¶ÔËûÃÇËµ~àË~~ÎÒÊÇÂí¿Ë~¡£")
+	Talk( 1, "é©¬å…‹:çœ‹è§æ¸¸å®¢æˆ‘å°±ä¼šä¸»åŠ¨å¯¹ä»–ä»¬è¯´~å—¨~~æˆ‘æ˜¯é©¬å…‹~ã€‚")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÁÖ¿Ë]			        --
+--		åœ£è¯å²›[æ—å…‹]			        --
 --							--
 --		17301, 23501		         	--
 ----------------------------------------------------------
 function peter_talk27 ()
-	Talk( 1, "ÁÖ¿Ë: ÓĞÈËËµÎÒ²»¸Ã´Ó³ø·¿ÀïÅÜ³öÀ´¡­ÎÒÏëÕâÊÇÊ¥µ®ÀÏÈËµÄµã×Ó,¿´×Å´ó¼ÒÔÚÎÒÖÜÎ§Ğ¦µÄ¶Ç×ÓÍ´,ÎÒÒ²Ğ¦µÄÖ±²»ÆğÑüÁË,Ê¥µ®¿ìÀÖ!¼Ç×¡°¡,½ñÄêµÄÊ¥µ®,Äã¿´¼û¹ı°«¶¬¹ÏÁÖ¿ËÔÚ½ÖÉÏ!")
+	Talk( 1, "æ—å…‹: æœ‰äººè¯´æˆ‘ä¸è¯¥ä»å¨æˆ¿é‡Œè·‘å‡ºæ¥â€¦æˆ‘æƒ³è¿™æ˜¯åœ£è¯è€äººçš„ç‚¹å­,çœ‹ç€å¤§å®¶åœ¨æˆ‘å‘¨å›´ç¬‘çš„è‚šå­ç—›,æˆ‘ä¹Ÿç¬‘çš„ç›´ä¸èµ·è…°äº†,åœ£è¯å¿«ä¹!è®°ä½å•Š,ä»Šå¹´çš„åœ£è¯,ä½ çœ‹è§è¿‡çŸ®å†¬ç“œæ—å…‹åœ¨è¡—ä¸Š!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÎÄÄÈ]			--
+--		åœ£è¯å²›[æ–‡å¨œ]			--
 --							--
 --		15701, 23401			--
 ----------------------------------------------------------
 function peter_talk28 ()
-	Talk( 1, "ÎÄÄÈ: ÎÒ³¤µÄ°«Ã´?ÎÒÊÇÊ¥µ®ÀÏÈË×îºÃµÄÖúÊÖÄØ!")
+	Talk( 1, "æ–‡å¨œ: æˆ‘é•¿çš„çŸ®ä¹ˆ?æˆ‘æ˜¯åœ£è¯è€äººæœ€å¥½çš„åŠ©æ‰‹å‘¢!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ê¥µ®Ñ©ÈËÀ×¸ñÁÖ]			--
+--		åœ£è¯å²›[åœ£è¯é›ªäººé›·æ ¼æ—]			--
 --							--
 --		15101, 25901			        --
 ----------------------------------------------------------
 function peter_talk29 ()
-	Talk( 1, "Ê¥µ®Ñ©ÈËÀ×¸ñÁÖ: ÎÒ²»¸ÃËµ»°,µ«ÊÇ,»¹ÊÇ×£ÄãÊ¥µ®¿ìÀÖ!")
+	Talk( 1, "åœ£è¯é›ªäººé›·æ ¼æ—: æˆ‘ä¸è¯¥è¯´è¯,ä½†æ˜¯,è¿˜æ˜¯ç¥ä½ åœ£è¯å¿«ä¹!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ê¥µ®Ñ©ÈË¿¨¸ñÁÖ]			--
+--		åœ£è¯å²›[åœ£è¯é›ªäººå¡æ ¼æ—]			--
 --						 	--
 --		6601, 8301			        --
 ----------------------------------------------------------
 function peter_talk30 ()
-	Talk( 1, "Ê¥µ®Ñ©ÈË¿¨¸ñÁÖ: HELLO!!Ê¥µ®¿ìÀÖ,ÄãÖªµÀÔø¾­ÓĞ¸ö´¬³¤±»Ê¯Í·¸ú×ÙµÄ¹ÊÊÂÃ´?¹ş¹ş,»¹Ã»Ìı¹ı°¡?ÄÇ½ñÍíÄã¿ÉÒª×¥×ÅÊ¥µ®ÀÏÈË¸øÄã½²,ÍíÉÏÄã»áĞ¦ĞÑµÄ!!")
+	Talk( 1, "åœ£è¯é›ªäººå¡æ ¼æ—: HELLO!!åœ£è¯å¿«ä¹,ä½ çŸ¥é“æ›¾ç»æœ‰ä¸ªèˆ¹é•¿è¢«çŸ³å¤´è·Ÿè¸ªçš„æ•…äº‹ä¹ˆ?å“ˆå“ˆ,è¿˜æ²¡å¬è¿‡å•Š?é‚£ä»Šæ™šä½ å¯è¦æŠ“ç€åœ£è¯è€äººç»™ä½ è®²,æ™šä¸Šä½ ä¼šç¬‘é†’çš„!!")
 end
 
 
@@ -14355,245 +14355,245 @@ end
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ê¥µ®´åÖ¸µ¼Ô±]		--
+--		åœ£è¯å²›[åœ£è¯æ‘æŒ‡å¯¼å‘˜]		--
 --						 	--
 --		                         	        --
 ----------------------------------------------------------
 function Xmas_talk25 ()
-	Talk( 1, "Ê¥µ®¿ìÀÖ!»¶Ó­À´µ½ÃÀÀöµÄÊ¥µ®´å,ÎÒ¿ÉÊÇÕâÀïµÄÍòÊÂÍ¨,ÓĞÊ²Ã´²»ÖªµÀµÄ¾¡¹ÜÎÊÎÒ°É")
-	Text( 1, "Ê¥µ®´åµÄ»î¶¯",JumpPage, 2  )
-	Text( 1, "Ê¥µ®´å¿ÉÒÔÂòµ½Ê²Ã´",JumpPage, 3  )
-	Text( 1, "Ê¥µ®¾º¼¼³¡",JumpPage, 4 )
+	Talk( 1, "åœ£è¯å¿«ä¹!æ¬¢è¿æ¥åˆ°ç¾ä¸½çš„åœ£è¯æ‘,æˆ‘å¯æ˜¯è¿™é‡Œçš„ä¸‡äº‹é€š,æœ‰ä»€ä¹ˆä¸çŸ¥é“çš„å°½ç®¡é—®æˆ‘å§")
+	Text( 1, "åœ£è¯æ‘çš„æ´»åŠ¨",JumpPage, 2  )
+	Text( 1, "åœ£è¯æ‘å¯ä»¥ä¹°åˆ°ä»€ä¹ˆ",JumpPage, 3  )
+	Text( 1, "åœ£è¯ç«æŠ€åœº",JumpPage, 4 )
 
-	Talk( 2, "ÄãµÄÊ¥µ®ÀñºĞÔàÁËÂğ?ÕÒÇåÏ´»ú(83,39)°É......ÄãÏë³Ô»ğ¼¦´ó²ÍÂğ?ÕÒì³Ğ»ÌØ(220,40)°É......ÄãÏëµã²¥×£¸£Âğ?ÇëÕÒÊ¥µ®Ê÷(144,158)°É......¶¼ÁË½âÁËÂğ?¿ìµã·µ»Ø°É....")
+	Talk( 2, "ä½ çš„åœ£è¯ç¤¼ç›’è„äº†å—?æ‰¾æ¸…æ´—æœº(83,39)å§......ä½ æƒ³åƒç«é¸¡å¤§é¤å—?æ‰¾æ–è°¢ç‰¹(220,40)å§......ä½ æƒ³ç‚¹æ’­ç¥ç¦å—?è¯·æ‰¾åœ£è¯æ ‘(144,158)å§......éƒ½äº†è§£äº†å—?å¿«ç‚¹è¿”å›å§....")
 	Text( 2, "Return",JumpPage, 1  )
 
-	Talk( 3, "Äã¿ÉÒÔµ½(132,246)¸½½ü,ÄÇÀïÓĞÒ»¸öºÜ´óµÄ¼¯ÊĞ,¿ÉÒÔÂòµ½ºÜ¶à´«ËµÖĞµÄ¶«¶«Å¶¡£²»¹ıÄãÏÈÒªµ½Ê¥µ®ÀÏÈË(146,171)°Ñº£µÁ±Ò»»³ÉÊ¥µ®Ó²±Ò£¬ÎÒÃÇµÄÓªÒµÔ±¿ÉÊÇ²»ÄÜÖ±½ÓÊÕÇ®µÄ¡­¡­¿ìÈ¥ÇÀ¹º°É")
+	Talk( 3, "ä½ å¯ä»¥åˆ°(132,246)é™„è¿‘,é‚£é‡Œæœ‰ä¸€ä¸ªå¾ˆå¤§çš„é›†å¸‚,å¯ä»¥ä¹°åˆ°å¾ˆå¤šä¼ è¯´ä¸­çš„ä¸œä¸œå“¦ã€‚ä¸è¿‡ä½ å…ˆè¦åˆ°åœ£è¯è€äºº(146,171)æŠŠæµ·ç›—å¸æ¢æˆåœ£è¯ç¡¬å¸ï¼Œæˆ‘ä»¬çš„è¥ä¸šå‘˜å¯æ˜¯ä¸èƒ½ç›´æ¥æ”¶é’±çš„â€¦â€¦å¿«å»æŠ¢è´­å§")
 	Text( 3, "Return",JumpPage, 1  )
 
-	Talk( 4, "¾İËµÊ¥µ®¾º¼¼³¡ÀïÓĞ¼«Æä¿Ö²ÀµÄBOSS,²»¹ıºÃÏó»¹Ã»ÓĞ×ã¹»µÄ¹©Æ·À´ÕÙ»½ËüÃÇ,Äã¿ÉÒÔµ½(146,252)ÕÒ¿Æ¶÷ÎÊÎÊ!")
+	Talk( 4, "æ®è¯´åœ£è¯ç«æŠ€åœºé‡Œæœ‰æå…¶ææ€–çš„BOSS,ä¸è¿‡å¥½è±¡è¿˜æ²¡æœ‰è¶³å¤Ÿçš„ä¾›å“æ¥å¬å”¤å®ƒä»¬,ä½ å¯ä»¥åˆ°(146,252)æ‰¾ç§‘æ©é—®é—®!")
 	Text( 4, "Return",JumpPage, 1  )
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ğ¡ÀÖÄá]			--
+--		åœ£è¯å²›[å°ä¹å°¼]			--
 --						 	--
 --		9801, 23501			        --
 ----------------------------------------------------------
 function peter_talk31 ()
-	Talk( 1, "Ğ¡ÀÖÄá:ÄãÓĞÏë¹ıÍíÉÏÔÚÊ¥µ®ÀÏÈËËÍÀñÎïµÄÊ±ºò°ÑËû×¥×¡ÑøÔÚ¼ÒÀïÃ´?ÎÒ¾ÍÊÔ¹ı,¿ÉÏ§Ê§°ÜÁË,²»¹ı½ñÍíÎÒÏëµÄ°ì·¨¾ø¶ÔÄÜ×¥×¡Ëû,ÏëÖªµÀÊ²Ã´°ì·¨?µ½ÁËÃ÷Ìì²ÅÄÜ¸æËßÄã! ")
+	Talk( 1, "å°ä¹å°¼:ä½ æœ‰æƒ³è¿‡æ™šä¸Šåœ¨åœ£è¯è€äººé€ç¤¼ç‰©çš„æ—¶å€™æŠŠä»–æŠ“ä½å…»åœ¨å®¶é‡Œä¹ˆ?æˆ‘å°±è¯•è¿‡,å¯æƒœå¤±è´¥äº†,ä¸è¿‡ä»Šæ™šæˆ‘æƒ³çš„åŠæ³•ç»å¯¹èƒ½æŠ“ä½ä»–,æƒ³çŸ¥é“ä»€ä¹ˆåŠæ³•?åˆ°äº†æ˜å¤©æ‰èƒ½å‘Šè¯‰ä½ ! ")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÄÃÌúĞ¡×Ó]			--
+--		åœ£è¯å²›[æ‹¿é“å°å­]			--
 --						 	--
 --		14501, 26802			        --
 ----------------------------------------------------------
 function peter_talk32 ()
-	Talk( 1, "ÄÃÌúĞ¡×Ó:Å¶ºğ~Ê¥µ®ÀÏÈË¸øÎÒ´øÀ´ÁËÒ»´óÍ°ÎÒ×î°®µÄÄÃÌú,Õû¸ö¶¬ÌìÎÒ¶¼ÊÇ×îĞÒ¸£µÄÀ²!Ê¥µ®½ÚÍòËê~")
+	Talk( 1, "æ‹¿é“å°å­:å“¦å¼~åœ£è¯è€äººç»™æˆ‘å¸¦æ¥äº†ä¸€å¤§æ¡¶æˆ‘æœ€çˆ±çš„æ‹¿é“,æ•´ä¸ªå†¬å¤©æˆ‘éƒ½æ˜¯æœ€å¹¸ç¦çš„å•¦!åœ£è¯èŠ‚ä¸‡å²~")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[±¿µ°Ô¼º²]			--
+--		åœ£è¯å²›[ç¬¨è›‹çº¦ç¿°]			--
 --						 	--
 --		18101, 23903			        --
 ----------------------------------------------------------
 function peter_talk33 ()
-	Talk( 1, "±¿µ°Ô¼º²:àË~Ê¥µ®¿ìÀÖ~±ğÈË¶¼½ĞÎÒÔ¼º²,Äã¿ÉÄÜÒ²ÖªµÀÎÒµÄÍâºÅ,µ«ÊÇÎÒ²»±¿µÄ,ÎÒ¶¼ÖªµÀĞ¡ÀÖÄá½ñÍíÓĞ°ì·¨×¥×¡Ê¥µ®ÀÏÈËµÄÊÂÄØ!")
+	Talk( 1, "ç¬¨è›‹çº¦ç¿°:å—¨~åœ£è¯å¿«ä¹~åˆ«äººéƒ½å«æˆ‘çº¦ç¿°,ä½ å¯èƒ½ä¹ŸçŸ¥é“æˆ‘çš„å¤–å·,ä½†æ˜¯æˆ‘ä¸ç¬¨çš„,æˆ‘éƒ½çŸ¥é“å°ä¹å°¼ä»Šæ™šæœ‰åŠæ³•æŠ“ä½åœ£è¯è€äººçš„äº‹å‘¢!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ËµĞ¦»°µÄ÷çÂ¹]			--
+--		åœ£è¯å²›[è¯´ç¬‘è¯çš„éº‹é¹¿]			--
 --						 	--
 --		22201, 22804			        --
 ----------------------------------------------------------
 function peter_talk34 ()
-	Talk( 1, "ËµĞ¦»°µÄ÷çÂ¹:ÄãÌıËµÁËÂğ?ÎÒÓĞÒ»¸öÍ¬°é,ËüÊ®·ÖÉÃ³¤±¼ÅÜ,ÓĞÒ»´ÎËüÔ½ÅÜÔ½¿ì,½á¹û¾Í±ä³ÉÁË¸ßËÙ¹«Â·!")
+	Talk( 1, "è¯´ç¬‘è¯çš„éº‹é¹¿:ä½ å¬è¯´äº†å—?æˆ‘æœ‰ä¸€ä¸ªåŒä¼´,å®ƒååˆ†æ“…é•¿å¥”è·‘,æœ‰ä¸€æ¬¡å®ƒè¶Šè·‘è¶Šå¿«,ç»“æœå°±å˜æˆäº†é«˜é€Ÿå…¬è·¯!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[Ã×ÆæÑÇÍâÆÅ]			--
+--		åœ£è¯å²›[ç±³å¥‡äºšå¤–å©†]			--
 --						 	--
 --		24801, 8105			        --
 ----------------------------------------------------------
 function peter_talk35 ()
-	Talk( 1, "Ã×ÆæÑÇÍâÆÅ:Ê¥µ®½ÚµÄÍíÉÏ,Äã¿ÉÒ»¶¨Òª¼ÇµÃ°ÑÍà×Ó¹ÒÔÚÊ¥µ®Ê÷ÉÏÅ¶,Ê¥µ®ÀÏÈË»á¸øÄãËÍÀ´ÀñÎïµÄ.")
+	Talk( 1, "ç±³å¥‡äºšå¤–å©†:åœ£è¯èŠ‚çš„æ™šä¸Š,ä½ å¯ä¸€å®šè¦è®°å¾—æŠŠè¢œå­æŒ‚åœ¨åœ£è¯æ ‘ä¸Šå“¦,åœ£è¯è€äººä¼šç»™ä½ é€æ¥ç¤¼ç‰©çš„.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÒÁÂ³É­½ÌÊ¿]			--
+--		åœ£è¯å²›[ä¼Šé²æ£®æ•™å£«]			--
 --						 	--
 --		5501, 19506			        --
 ----------------------------------------------------------
 function peter_talk36 ()
-	Talk( 1, "ÒÁÂ³É­½ÌÊ¿:ÓĞÒ»¸öÕæĞÄÅóÓÑ¾Í×ã¹»ÁË,ÓĞÊ®¸öÕæÕıµÄÅóÓÑ,Äã¾ÍÌìÏÂÎŞµĞ.Ò®ËÖ±£ÓÓÄã,ÎÒµÄÅóÓÑ.")
+	Talk( 1, "ä¼Šé²æ£®æ•™å£«:æœ‰ä¸€ä¸ªçœŸå¿ƒæœ‹å‹å°±è¶³å¤Ÿäº†,æœ‰åä¸ªçœŸæ­£çš„æœ‹å‹,ä½ å°±å¤©ä¸‹æ— æ•Œ.è€¶é…¥ä¿ä½‘ä½ ,æˆ‘çš„æœ‹å‹.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¿¨Â³]			--
+--		åœ£è¯å²›[å¡é²]			--
 --						 	--
 --		11301, 23907			        --
 ----------------------------------------------------------
 function peter_talk37 ()
-	Talk( 1, "¿¨Â³: Ã¿ÌìÍíÉÏ±ğ±§×ÅµçÊÓÏûÄ¥Ê±¼äÀ²~½ñÍí»»µã»¨Ñù,ºÍÅóÓÑÃÇÒ»Æğ¾Û»á°É!Ò»¸öÈËµÄÊ¥µ®½Ú×ÜÊÇÄÖ²»ÆğÀ´,ÎÒ¾ÍÔÚ³¢ÊÔ×Å¸Ä±äÄØ.")
+	Talk( 1, "å¡é²: æ¯å¤©æ™šä¸Šåˆ«æŠ±ç€ç”µè§†æ¶ˆç£¨æ—¶é—´å•¦~ä»Šæ™šæ¢ç‚¹èŠ±æ ·,å’Œæœ‹å‹ä»¬ä¸€èµ·èšä¼šå§!ä¸€ä¸ªäººçš„åœ£è¯èŠ‚æ€»æ˜¯é—¹ä¸èµ·æ¥,æˆ‘å°±åœ¨å°è¯•ç€æ”¹å˜å‘¢.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[²¼Ææ]			--
+--		åœ£è¯å²›[å¸ƒå¥‡]			--
 --						 	--
 --		26301, 17308			        --
 ----------------------------------------------------------
 function peter_talk38 ()
-	Talk( 1, "²¼Ææ: ÄãÖªµÀÂğ?¾İËµÓĞÒ»ÖÖ½Ğ×öÍòÄÜ±¦Ê¯µÄ¶«Î÷,¾İËµ¿ÉÒÔÈÃÊ¹ÓÃÕß±äµÄ¸üÇ¿´ó,¾ßÌåµÄÇé¿öÄã¿ÉÒÔÕÒ±ùÀÇµÄÂóÈğÎÊÏÂ!")
+	Talk( 1, "å¸ƒå¥‡: ä½ çŸ¥é“å—?æ®è¯´æœ‰ä¸€ç§å«åšä¸‡èƒ½å®çŸ³çš„ä¸œè¥¿,æ®è¯´å¯ä»¥è®©ä½¿ç”¨è€…å˜çš„æ›´å¼ºå¤§,å…·ä½“çš„æƒ…å†µä½ å¯ä»¥æ‰¾å†°ç‹¼çš„éº¦ç‘é—®ä¸‹!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÀïÄÉ¶à]			--
+--		åœ£è¯å²›[é‡Œçº³å¤š]			--
 --						 	--
 --		17401, 6009			        --
 ----------------------------------------------------------
 function peter_talk39 ()
-	Talk( 1, "ÀïÄÉ¶à:¿´×ÅÈËÃÇ¶¼ÔÚµã²¥×£¸£,ÎÒÒ²ºÜÏëµã²¥Ò»¾äĞÄÀï»°£ºÎÒÒª¼Ó¹«×Ê!ÎÒÒª´øĞ½·Å¼Ù!ÎÒÒªÄÃ½±½ğ!¡­»¹ÓĞ,±ğÈÃÀÏ°åÖªµÀÊÇÎÒËµµÄ.")
+	Talk( 1, "é‡Œçº³å¤š:çœ‹ç€äººä»¬éƒ½åœ¨ç‚¹æ’­ç¥ç¦,æˆ‘ä¹Ÿå¾ˆæƒ³ç‚¹æ’­ä¸€å¥å¿ƒé‡Œè¯ï¼šæˆ‘è¦åŠ å…¬èµ„!æˆ‘è¦å¸¦è–ªæ”¾å‡!æˆ‘è¦æ‹¿å¥–é‡‘!â€¦è¿˜æœ‰,åˆ«è®©è€æ¿çŸ¥é“æ˜¯æˆ‘è¯´çš„.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¿ËÀ³¶û]			--
+--		åœ£è¯å²›[å…‹è±å°”]			--
 --						 	--
 --		3401, 20011			        --
 ----------------------------------------------------------
 function peter_talk40 ()
-	Talk( 1, "¿ËÀ³¶û: ½ÚÈÕËäÈ»¿ìÀÖ~µ«ÊÇÒ²Òª×¢Òâ°²È«Å¶!ÎÒ¿É²»ÏëÒ»´óÔç¾ÍÔÚÒ½ÔºÀï¿´µ½ÓĞ²¡ÈËÔÚ! ")
+	Talk( 1, "å…‹è±å°”: èŠ‚æ—¥è™½ç„¶å¿«ä¹~ä½†æ˜¯ä¹Ÿè¦æ³¨æ„å®‰å…¨å“¦!æˆ‘å¯ä¸æƒ³ä¸€å¤§æ—©å°±åœ¨åŒ»é™¢é‡Œçœ‹åˆ°æœ‰ç—…äººåœ¨! ")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[µÏ¿ÉË¹]			--
+--		åœ£è¯å²›[è¿ªå¯æ–¯]			--
 --						 	--
 --		7401, 20511			        --
 ----------------------------------------------------------
 function peter_talk41 ()
-	Talk( 1, "µÏ¿ÉË¹:ºÃ¶àµÄÑ©°¡,ÄÑµÀÕâÃ´´óµÄµØ·½¶¼ÒªÎÒÀ´É¨Âğ?ÎÒÏ£ÍûÕâ¸öÊ¥µ®½ÚÎÒÄÜµÃµ½µÄÀñÎïÊÇÒ»Ì¨³ıÑ©»ú!")
+	Talk( 1, "è¿ªå¯æ–¯:å¥½å¤šçš„é›ªå•Š,éš¾é“è¿™ä¹ˆå¤§çš„åœ°æ–¹éƒ½è¦æˆ‘æ¥æ‰«å—?æˆ‘å¸Œæœ›è¿™ä¸ªåœ£è¯èŠ‚æˆ‘èƒ½å¾—åˆ°çš„ç¤¼ç‰©æ˜¯ä¸€å°é™¤é›ªæœº!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÆÕÂŞ]			--
+--		åœ£è¯å²›[æ™®ç½—]			--
 --						 	--
 --		20901, 21912			        --
 ----------------------------------------------------------
 function peter_talk42 ()
-	Talk( 1, "ÆÕÂŞ: ´Óº£ÉÏÎŞ¾¡µÄÆ¯²´µ½ÏÖÔÚÕ¾ÔÚÄãµÄÃæÇ°,ÎÒ¶®µÃÁËÉú»îÒªÕäÏ§ÏÖÔÚ,ÄÜÕ¾ÔÚÂ½µØÉÏ¹ıÊ¥µ®½Ú,ÊµÔÚÊÇ¼şÖµµÃÇì×£µÄÊÂ,ÎÒ»á¶ÔÃ¿¸öÈË´óÉùµÄ×£¸£!ÏíÊÜÏÖÔÚµÄÉú»î°É!Ê¥µ®¿ìÀÖ!")
+	Talk( 1, "æ™®ç½—: ä»æµ·ä¸Šæ— å°½çš„æ¼‚æ³Šåˆ°ç°åœ¨ç«™åœ¨ä½ çš„é¢å‰,æˆ‘æ‡‚å¾—äº†ç”Ÿæ´»è¦çæƒœç°åœ¨,èƒ½ç«™åœ¨é™†åœ°ä¸Šè¿‡åœ£è¯èŠ‚,å®åœ¨æ˜¯ä»¶å€¼å¾—åº†ç¥çš„äº‹,æˆ‘ä¼šå¯¹æ¯ä¸ªäººå¤§å£°çš„ç¥ç¦!äº«å—ç°åœ¨çš„ç”Ÿæ´»å§!åœ£è¯å¿«ä¹!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÎÂÄáÀö]			--
+--		åœ£è¯å²›[æ¸©å°¼ä¸½]			--
 --						 	--
 --		26401, 13813			        --
 ----------------------------------------------------------
 function peter_talk43 ()
-	Talk( 1, "ÎÂÄáÀö: ÎÒÒ»Ö±Ïëµ±Ò»Ãûº½º£¼Ò!ÎÒÒªÈÃÎÒµÄ´¬¿ªµÄ±ÈÊ¥µ®ÀÏÈË·ÉÆğÀ´»¹Òª¿ì!½«À´Ê¥µ®ÀÏÈË»¹Òª°İÍĞÎÒ°ïËûÔËËÍÀñÎïÄØ.")
+	Talk( 1, "æ¸©å°¼ä¸½: æˆ‘ä¸€ç›´æƒ³å½“ä¸€åèˆªæµ·å®¶!æˆ‘è¦è®©æˆ‘çš„èˆ¹å¼€çš„æ¯”åœ£è¯è€äººé£èµ·æ¥è¿˜è¦å¿«!å°†æ¥åœ£è¯è€äººè¿˜è¦æ‹œæ‰˜æˆ‘å¸®ä»–è¿é€ç¤¼ç‰©å‘¢.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[¼Ó·Æ]			--
+--		åœ£è¯å²›[åŠ è²]			--
 --						 	--
 --		24801, 8114			        --
 ----------------------------------------------------------
 function peter_talk44 ()
-	Talk( 1, "¼Ó·Æ: ÖªµÀÊ¥µ®½Ú¸ÃÔõÃ´¹ıÂğ?ÎÒ¾õµÃ×øÔÚÈíÈíµÄÉ³·¢ÉÏ,¿´µçÊÓ,³ÔÒâ´óÀûÇ§²ãÃæ²ÅÊÇ×î°ôµÄ!")
+	Talk( 1, "åŠ è²: çŸ¥é“åœ£è¯èŠ‚è¯¥æ€ä¹ˆè¿‡å—?æˆ‘è§‰å¾—ååœ¨è½¯è½¯çš„æ²™å‘ä¸Š,çœ‹ç”µè§†,åƒæ„å¤§åˆ©åƒå±‚é¢æ‰æ˜¯æœ€æ£’çš„!")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[ÎÊÌâĞ¡¶à¶à]			--
+--		åœ£è¯å²›[é—®é¢˜å°å¤šå¤š]			--
 --						 	--
 --		26101, 8915			        --
 ----------------------------------------------------------
 function peter_talk45 ()
-	Talk( 1, "ÎÊÌâĞ¡¶à¶à: ÎÒ´ÓÄÄÀïÀ´µÄ?¶¬ÌìµÄÃµ¹å»¨ÔõÃ´À´µÄ?Ğ¡Ñ©ÈËºÍĞ¡÷çÂ¹³èÎïÊÇÔõÃ´À´µÄ?ßí,ÕâĞ©ÎÒ¶¼ÖªµÀ,ÎÒÖ»ÊÇÏëÌıÌıÄãÖª²»ÖªµÀ.")
+	Talk( 1, "é—®é¢˜å°å¤šå¤š: æˆ‘ä»å“ªé‡Œæ¥çš„?å†¬å¤©çš„ç«ç‘°èŠ±æ€ä¹ˆæ¥çš„?å°é›ªäººå’Œå°éº‹é¹¿å® ç‰©æ˜¯æ€ä¹ˆæ¥çš„?å””,è¿™äº›æˆ‘éƒ½çŸ¥é“,æˆ‘åªæ˜¯æƒ³å¬å¬ä½ çŸ¥ä¸çŸ¥é“.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[°ÂË¹¿¨]			--
+--		åœ£è¯å²›[å¥¥æ–¯å¡]			--
 --						 	--
 --		19301, 4016			        --
 ----------------------------------------------------------
 function peter_talk46 ()
-	Talk( 1, "°ÂË¹¿¨: Ê¥µ®½Úµ½ÁË,¾ÍËãÊÇ×÷Îª×îÎ°´óµÄÃ°ÏÕ¼ÒµÄÎÒÒ²Ó¦¸ÃÍ£ÏÂÀ´ºÍº¢×ÓÃÇ´ò´òÑ©ÕÌ,ºÃºÃÏíÊÜÒ»ÏÂÃÀÎ¶µÄ»ğ¼¦ÁË°É.")
+	Talk( 1, "å¥¥æ–¯å¡: åœ£è¯èŠ‚åˆ°äº†,å°±ç®—æ˜¯ä½œä¸ºæœ€ä¼Ÿå¤§çš„å†’é™©å®¶çš„æˆ‘ä¹Ÿåº”è¯¥åœä¸‹æ¥å’Œå­©å­ä»¬æ‰“æ‰“é›ªä»—,å¥½å¥½äº«å—ä¸€ä¸‹ç¾å‘³çš„ç«é¸¡äº†å§.")
 end
 
 --------------------------------------------------------
 --							--
 --							--
---		Ê¥µ®µº[²ÊÒÃ]			--
+--		åœ£è¯å²›[å½©é¢]			--
 --						 	--
 --		19101, 8417			        --
 ----------------------------------------------------------
 function peter_talk47 ()
-	Talk( 1, "²ÊÒÃ: Õâ¾ÍÊÇÊ¥µ®½ÚÂğ?ÎÒ»¹ÊÇµÚÒ»´Î¹ıÕâ¸ö½ÚÈÕÄØ~²»¹ıÄÇ¸öÊ¥µ®ÀÏÈËÅÖºõºõµÄÕæ¿É°®,»¹ÓĞÄÇ¿Ã´ó´óµÄÊ¥µ®Ê÷Ò²ºÃÆ¯ÁÁÅ¶,ÄãÈ¥¿´ÁËÂğ?")
+	Talk( 1, "å½©é¢: è¿™å°±æ˜¯åœ£è¯èŠ‚å—?æˆ‘è¿˜æ˜¯ç¬¬ä¸€æ¬¡è¿‡è¿™ä¸ªèŠ‚æ—¥å‘¢~ä¸è¿‡é‚£ä¸ªåœ£è¯è€äººèƒ–ä¹ä¹çš„çœŸå¯çˆ±,è¿˜æœ‰é‚£æ£µå¤§å¤§çš„åœ£è¯æ ‘ä¹Ÿå¥½æ¼‚äº®å“¦,ä½ å»çœ‹äº†å—?")
 end
 
---[[ Script para NPC de Aumento de N¨ªvel em Tales of Pirates ]]
+--[[ Script para NPC de Aumento de NÃ­vel em Tales of Pirates ]]
 
--- Este script permite que um jogador abaixo do N¨ªvel 100 escolha entre ir para o N¨ªvel 55 ou N¨ªvel 100.
--- ¨¦ necess¨¢rio adaptar os valores de EXP_TO_LEVEL_55 e EXP_TO_LEVEL_100 de acordo com a sua vers?o do servidor.
+-- Este script permite que um jogador abaixo do NÃ­vel 100 escolha entre ir para o NÃ­vel 55 ou NÃ­vel 100.
+-- Ã© necessÃ¡rio adaptar os valores de EXP_TO_LEVEL_55 e EXP_TO_LEVEL_100 de acordo com a sua vers?o do servidor.
 
--- Defina os valores de experi¨ºncia necess¨¢rios para atingir os n¨ªveis desejados.
--- Estes s?o valores PLACEHOLDER. Voc¨º DEVE substitu¨ª-los pelos valores corretos do seu servidor.
-local EXP_TO_LEVEL_55 = 19674240  -- Exemplo: Experi¨ºncia total necess¨¢ria para o N¨ªvel 55
-local EXP_TO_LEVEL_100 = 4176709541 -- Exemplo: Experi¨ºncia total necess¨¢ria para o N¨ªvel 100
+-- Defina os valores de experiÃªncia necessÃ¡rios para atingir os nÃ­veis desejados.
+-- Estes s?o valores PLACEHOLDER. VocÃª DEVE substituÃ­-los pelos valores corretos do seu servidor.
+local EXP_TO_LEVEL_55 = 19674240  -- Exemplo: ExperiÃªncia total necessÃ¡ria para o NÃ­vel 55
+local EXP_TO_LEVEL_100 = 4176709541 -- Exemplo: ExperiÃªncia total necessÃ¡ria para o NÃ­vel 100
 -- Fun??o principal do NPC
 function lvl_func()
 	
-    -- Verifica o n¨ªvel atual do jogador
-	Talk(1, "Ol¨¢, aventureiro! Deseja acelerar sua jornada e atingir um novo patamar de poder?")
+    -- Verifica o nÃ­vel atual do jogador
+	Talk(1, "OlÃ¡, aventureiro! Deseja acelerar sua jornada e atingir um novo patamar de poder?")
     InitTrigger()
-    Text(1, "Sim! Leve-me para o N¨ªvel 55!", JumpPage, 2) -- Op??o: Ir para N¨ªvel 55
-	Text(1, "Sim! Leve-me para o N¨ªvel 100!", JumpPage, 3) -- Op??o: Ir para N¨ªvel 100
-    Text(1, "N?o, obrigado. Prefiro evoluir no meu pr¨®prio ritmo.", CloseTalk) -- Op??o: Cancelar
+    Text(1, "Sim! Leve-me para o NÃ­vel 55!", JumpPage, 2) -- Op??o: Ir para NÃ­vel 55
+	Text(1, "Sim! Leve-me para o NÃ­vel 100!", JumpPage, 3) -- Op??o: Ir para NÃ­vel 100
+    Text(1, "N?o, obrigado. Prefiro evoluir no meu prÃ³prio ritmo.", CloseTalk) -- Op??o: Cancelar
 	
-	-- P¨¢gina 2: Confirmar N¨ªvel 55
-    Talk(2, "Voc¨º tem certeza que deseja ir para o N¨ªvel 55? Esta a??o ¨¦ irrevers¨ªvel.")
+	-- PÃ¡gina 2: Confirmar NÃ­vel 55
+    Talk(2, "VocÃª tem certeza que deseja ir para o NÃ­vel 55? Esta a??o Ã© irreversÃ­vel.")
     InitTrigger()	
-    TriggerCondition(1, LvCheck, "<", 100) -- Condi??o: Jogador j¨¢ ¨¦ N¨ªvel 100 ou superior
+    TriggerCondition(1, LvCheck, "<", 100) -- Condi??o: Jogador jÃ¡ Ã© NÃ­vel 100 ou superior
 	TriggerAction(1, AddExp, EXP_TO_LEVEL_55, 1)
 	Text(2, "Confirmar", MultiTrigger, GetMultiTrigger(), 1)
 	Text(2, "Cancelar", CloseTalk)
 	
-	-- P¨¢gina 3: Confirmar N¨ªvel 100
-    Talk(3, "Voc¨º tem certeza que deseja ir para o N¨ªvel 100? Esta a??o ¨¦ irrevers¨ªvel.")
+	-- PÃ¡gina 3: Confirmar NÃ­vel 100
+    Talk(3, "VocÃª tem certeza que deseja ir para o NÃ­vel 100? Esta a??o Ã© irreversÃ­vel.")
     InitTrigger()	
-    TriggerCondition(1, LvCheck, "<", 100) -- Condi??o: Jogador j¨¢ ¨¦ N¨ªvel 100 ou superior
-	TriggerAction( AddExp, EXP_TO_LEVEL_100, 1) 
+    TriggerCondition(1, LvCheck, "<", 100) -- Condi??o: Jogador jÃ¡ Ã© NÃ­vel 100 ou superior
+	TriggerAction(1, AddExp, EXP_TO_LEVEL_100, 1) 
 	Text(3, "Confirmar", MultiTrigger, GetMultiTrigger(), 1)
 	Text(3, "Cancelar", CloseTalk)
 	
