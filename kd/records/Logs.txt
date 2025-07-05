@@ -1,0 +1,21 @@
+return {
+-- Table: {1}
+{
+	["eastgoaf"]={2},
+	["jialebi"]={3},
+	["garner2"]={4},
+	["overall"]={5},
+},
+-- Table: {2}
+{
+},
+-- Table: {3}
+{
+},
+-- Table: {4}
+{
+},
+-- Table: {5}
+{
+},
+}

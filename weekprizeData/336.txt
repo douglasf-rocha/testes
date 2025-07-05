@@ -1,0 +1,7 @@
+return {
+-- Table: {1}
+{
+	["Week"]=6,
+	["Registered"]=1,
+},
+}

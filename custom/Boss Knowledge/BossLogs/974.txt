@@ -1,0 +1,7 @@
+return {
+-- Table: {1}
+{
+	["RecordRespawn"]=0,
+	["LastKilled"]=0,
+},
+}

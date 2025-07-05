@@ -4,7 +4,6 @@ ext.files =
 {
 	-- util / helper / initial files / handler
 	'vars.lua',
-	'look.lua',
 	'chathandler.lua',
 	'util.lua',
 	'createitem.lua',
@@ -15,9 +14,9 @@ ext.files =
 	'helper.lua',
 	'itempre.lua',
 	'extNpc.lua',
-	'MapTiming.lua',
-	--'StateHandler.lua',
-
+	'StateHandler.lua',
+	'Lv65Sword.lua',	
+	'StarterQuest.lua',	
 	-- fixes
 	'npcexploit.lua',
 	'IGS.lua',	
@@ -26,32 +25,26 @@ ext.files =
 	'fairy.lua',
 	'pet.lua',
 	'gem.lua',
-	'ca.lua',
 	--'combine.lua',
 	'strengthen.lua',
 	'skill.lua',
 	'socket.lua',
 	'exp.lua',
+--	'MonsterDrops.lua',
 	'itemupgrade.lua',
 --	'follower.lua',
 	'equips.lua',
-	'StarterQuest.lua',	
-	'kd/init.lua',	
 	--Class Skills
-
-
---	'Treasure_Hunt.lua',
---	'FortuneTree.lua',
-	 -- '/classes/Champion.lua',
-	 -- '/classes/Cleric.lua',
-	 -- '/classes/Crusader.lua',
-	 -- '/classes/Explorer.lua',
-	 -- '/classes/Herbalist.lua',
-	 -- '/classes/Hunter.lua',
-	 -- '/classes/SealMaster.lua',
-	 -- '/classes/SharpShooter.lua',
-	 -- '/classes/Swordsman.lua',
-	 -- '/classes/Voyager.lua',
+	'/classes/Champion.lua',
+	'/classes/Cleric.lua',
+	'/classes/Crusader.lua',
+	'/classes/Explorer.lua',
+	'/classes/Herbalist.lua',
+	'/classes/Hunter.lua',
+	'/classes/SealMaster.lua',
+	'/classes/SharpShooter.lua',
+	'/classes/Swordsman.lua',
+	'/classes/Voyager.lua',
 
 	-- items
 	'itemuse.lua',
@@ -66,16 +59,14 @@ ext.files =
 	-- pve / pvp
 	'pve.lua',
 	'make.lua',
-
+	'Treasure_Hunt.lua',
+	'FortuneTree.lua',
 	
 	-- guild
 	'guildvars.lua',
 	'guildAttr.lua',
 	'guildQuest.lua',
 	'guildHouse.lua',
-	
-	
-	'/custom/index.lua',
 }
 
 ext.unpack = function()

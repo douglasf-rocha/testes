@@ -1,0 +1,2 @@
+print('Loading MonsterDrops.lua')
+
